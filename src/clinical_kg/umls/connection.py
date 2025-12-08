@@ -1,6 +1,6 @@
 # connection.py
 import mysql.connector
-from config import DBConfig
+from ..config import DBConfig
 
 def create_connection(cfg: DBConfig):
     return mysql.connector.connect(

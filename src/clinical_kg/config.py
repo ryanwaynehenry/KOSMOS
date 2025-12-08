@@ -1,5 +1,9 @@
 from dataclasses import dataclass
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from a .env file if present.
+load_dotenv()
 
 @dataclass
 class DBConfig:
