@@ -1,0 +1,46 @@
+@prefix ex: <http://example.org/clinical#> .
+@prefix loinc: <http://loinc.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rxnorm: <http://rxnorm.info/id/> .
+@prefix snomed: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:condition_angina a ex:Condition ;
+    ex:hasCode snomed:194828000 ;
+    ex:hasEncounter ex:encounter_2023_09_07 ;
+    ex:hasSubject ex:patient_Aisha .
+
+ex:medication_atorvastatin a ex:MedicationStatement ;
+    ex:hasCode rxnorm:617310 ;
+    ex:hasDosageText "20 mg once daily" ;
+    ex:hasEncounter ex:encounter_2023_09_07 ;
+    ex:hasStatus "active" ;
+    ex:hasSubject ex:patient_Aisha .
+
+ex:observation_bp a ex:Observation ;
+    ex:hasCode loinc:MTHU056212 ;
+    ex:hasEffectiveDateTime "2023-09-07T09:35:00"^^xsd:dateTime ;
+    ex:hasEncounter ex:encounter_2023_09_07 ;
+    ex:hasSubject ex:patient_Aisha ;
+    ex:hasValueQuantity ex:bp_value .
+
+ex:bp_value ex:hasUnit "mm[Hg]" ;
+    ex:hasValue "135/85" .
+
+loinc:MTHU056212 rdfs:label "Blood pressure panel with all children optional" .
+
+rxnorm:617310 rdfs:label "atorvastatin 20 MG Oral Tablet" .
+
+snomed:194828000 rdfs:label "Angina pectoris" .
+
+ex:encounter_2023_09_07 a ex:Encounter ;
+    ex:hasEffectiveDateTime "2023-09-07T09:30:00"^^xsd:dateTime ;
+    ex:hasSubject ex:patient_Aisha .
+
+ex:patient_Aisha a ex:Patient ;
+    ex:hasBirthDate "1960-05-10"^^xsd:date ;
+    ex:hasFamilyName "Patel" ;
+    ex:hasGender "female" ;
+    ex:hasGivenName "Aisha" ;
+    ex:hasIdentifier "PAT-12345" .
+

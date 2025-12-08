@@ -1,0 +1,51 @@
+clinical-kg/
+├── README.md
+├── pyproject.toml        # or setup.cfg / setup.py
+├── requirements.txt
+├── .env.example          # DB connection vars, etc.
+├── data/
+│   ├── raw/              # raw transcripts, sample encounters
+│   ├── interim/          # preprocessed JSON, mention tables
+│   └── processed/        # final graphs, JSON exports
+├── models/               # (optional) saved NLP models, vectorizers
+├── notebooks/            # exploratory work, one-off analyses
+├── src/
+│   └── clinical_kg/
+│       ├── __init__.py
+│       ├── config.py
+│       ├── cli.py        # command line entry points
+│       ├── pipeline.py   # high level orchestration
+│       ├── data_models.py
+│       ├── nlp/
+│       │   ├── __init__.py
+│       │   ├── preprocessing.py
+│       │   ├── ner.py
+│       │   ├── coref.py
+│       │   └── relations.py
+│       ├── umls/
+│       │   ├── __init__.py
+│       │   ├── connection.py
+│       │   └── lookup.py
+│       ├── mapping/
+│       │   ├── __init__.py
+│       │   └── rules.py
+│       ├── instances/
+│       │   ├── __init__.py
+│       │   ├── clustering.py
+│       │   └── builder.py
+│       ├── kg/
+│       │   ├── __init__.py
+│       │   ├── schema.py
+│       │   ├── builder.py
+│       │   ├── relations.py
+│       │   ├── validators.py
+│       │   └── export.py
+│       └── soap/
+│           ├── __init__.py
+│           └── generator.py
+└── tests/
+    ├── test_nlp.py
+    ├── test_umls.py
+    ├── test_instances.py
+    ├── test_kg_builder.py
+    └── test_pipeline.py
