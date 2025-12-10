@@ -41,6 +41,7 @@ Follow these steps internally, but only output the final JSON:
     - mention_id
     - turn_id
     - text
+    - type
 
 3. Ignore non-clinical entities (pure greetings/small talk).
 
@@ -51,8 +52,8 @@ Follow these steps internally, but only output the final JSON:
     "entity_type": "<category>",
     "turn_ids": ["t1", "t3"],
     "mentions": [
-      {"mention_id": "m0001", "turn_id": "t1", "text": "..."},
-      {"mention_id": "m0002", "turn_id": "t3", "text": "..."}
+      {"mention_id": "m0001", "turn_id": "t1", "text": "...", "type": "..."},
+      {"mention_id": "m0002", "turn_id": "t3", "text": "...", "type": "..."}
     ]
   },
   ...
