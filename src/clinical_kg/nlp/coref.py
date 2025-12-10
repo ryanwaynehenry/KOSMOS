@@ -1,35 +1,100 @@
 """
-Coreference assignment for mentions.
-
-Currently uses simple heuristics (same lowercase text and type) to cluster
-mentions. Replace with a more sophisticated coref model when available.
+Grouping via LLM (replaces previous coref logic).
 """
 
-from collections import defaultdict
-from typing import List
+import json
+from typing import List, Optional
 
+from clinical_kg.config import PipelineConfig, load_config
 from clinical_kg.data_models import Mention, Turn
+from clinical_kg.nlp.llm_client import call_llm_for_extraction
 
-_CLUSTER_ID_TEMPLATE = "c{index:04d}"
+
+GROUPING_PROMPT = """You are a clinical entity normalization assistant.
+
+Your input will be:
+1. A transcript of a clinician–patient conversation split into turns.
+2. A JSON list of cleaned span-level mentions (already filtered to clinical content).
+
+Each mention has:
+- mention_id
+- turn_id
+- text
+- type (coarse clinical label)
+
+Your task is to group mentions that refer to the same entity and produce a list of entity objects.
+
+Follow these steps internally, but only output the final JSON:
+
+1. Group mentions into entities:
+- Mentions that refer to the same condition, symptom, problem, diagnosis,
+  medication, test, or other clinical item should belong to the same entity.
+- Include pronouns and short references when the referent is clear
+  (e.g., “it”, “this medication”, “that problem”, “your blood pressure”).
+- Distinguish different entities even if they share similar words.
+
+2. For each entity, create:
+- canonical_name: a concise, human-readable name
+- entity_type: a coarse category based on the types of its mentions
+- turn_ids: list of turn_id values where this entity is mentioned
+- mentions: a list of the individual references:
+    - mention_id
+    - turn_id
+    - text
+
+3. Ignore non-clinical entities (pure greetings/small talk).
+
+4. Output STRICT JSON ONLY:
+[
+  {
+    "canonical_name": "...",
+    "entity_type": "<category>",
+    "turn_ids": ["t1", "t3"],
+    "mentions": [
+      {"mention_id": "m0001", "turn_id": "t1", "text": "..."},
+      {"mention_id": "m0002", "turn_id": "t3", "text": "..."}
+    ]
+  },
+  ...
+]
+
+Return only the JSON list."""
 
 
-def add_coref_clusters(mentions: List[Mention], turns: List[Turn]) -> List[Mention]:
+def add_coref_clusters(
+    mentions: List[Mention],
+    turns: List[Turn],
+    cfg: Optional[PipelineConfig] = None,
+    use_llm_refinement: bool = True,
+) -> List[Mention]:
     """
-    Assign coref_cluster_id to mentions that refer to the same entity.
+    Entry point for grouping. Calls an LLM with the grouping prompt.
+    Currently returns mentions unchanged; consume grouping output separately if needed.
     """
-    # Group by (type, normalized text)
-    buckets = defaultdict(list)
-    for mention in mentions:
-        key = (mention.type.upper(), mention.text.lower())
-        buckets[key].append(mention)
+    if not use_llm_refinement:
+        return mentions
 
-    clustered: List[Mention] = []
-    cluster_counter = 1
-    for mentions_in_bucket in buckets.values():
-        cluster_id = _CLUSTER_ID_TEMPLATE.format(index=cluster_counter)
-        cluster_counter += 1
-        for m in mentions_in_bucket:
-            m.coref_cluster_id = cluster_id
-            clustered.append(m)
+    cfg = cfg or load_config()
+    turn_texts = [f"{t.turn_id} ({t.speaker}): {t.text}" for t in turns]
+    mention_payload = [
+        {"mention_id": m.mention_id, "turn_id": m.turn_id, "text": m.text, "type": m.type}
+        for m in mentions
+    ]
 
-    return clustered
+    messages = [
+        {"role": "system", "content": GROUPING_PROMPT},
+        {
+            "role": "user",
+            "content": "Turns:\n"
+            + "\n".join(turn_texts)
+            + "\n\nMentions (JSON):\n"
+            + json.dumps(mention_payload, ensure_ascii=False, indent=2),
+        },
+    ]
+
+    try:
+        mentions = call_llm_for_extraction(messages, cfg)
+    except Exception:
+        pass
+
+    return mentions

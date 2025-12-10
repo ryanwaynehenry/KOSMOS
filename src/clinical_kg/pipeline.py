@@ -7,14 +7,40 @@ import os
 from pathlib import Path
 from typing import List, Tuple
 
+from clinical_kg.config import PipelineConfig, load_config
 from clinical_kg.data_models import Mention, Turn
-from clinical_kg.nlp import coref, ner, preprocessing, relations
+from clinical_kg.nlp.coref import add_coref_clusters
+from clinical_kg.nlp.ner import extract_mentions
+from clinical_kg.nlp.preprocessing import load_and_segment
+from clinical_kg.nlp.relations import attach_attributes
 
 
-def _maybe_save(obj, path: Path) -> None:
-    os.makedirs(path.parent, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=2)
+def process_transcript_to_mentions(
+    transcript_path: str,
+    encounter_id: str,
+    save_intermediate: bool = False,
+    use_llm_for_ner: bool = True,
+    use_llm_for_coref: bool = True,
+) -> Tuple[List[Turn], List[Mention]]:
+    """
+    End to end transcript processing for one encounter, up to mention-level output.
+    """
+    _ = load_config()  # Ensure env is loaded; config values used by downstream calls
+
+    turns = load_and_segment(transcript_path, encounter_id)
+    mentions = extract_mentions(turns, use_llm_refinement=use_llm_for_ner)
+    candidates = add_coref_clusters(mentions, turns, use_llm_refinement=use_llm_for_coref)
+    # mentions = attach_attributes(mentions)
+
+    if save_intermediate:
+        interim_dir = Path("data") / "interim"
+        interim_dir.mkdir(parents=True, exist_ok=True)
+        with open(interim_dir / f"{encounter_id}_turns.json", "w", encoding="utf-8") as f:
+            json.dump([t.__dict__ for t in turns], f, ensure_ascii=False, indent=2)
+        with open(interim_dir / f"{encounter_id}_mentions.json", "w", encoding="utf-8") as f:
+            json.dump([c for c in candidates], f, ensure_ascii=False, indent=2)
+
+    return turns, candidates
 
 
 def _default_encounter_id(transcript_path: str) -> str:
@@ -36,80 +62,24 @@ def _default_encounter_id(transcript_path: str) -> str:
     return stem
 
 
-def process_transcript_to_mentions(
-    transcript_path: str,
-    encounter_id: str | None = None,
-    save_intermediate: bool = False,
-) -> Tuple[List[Turn], List[Mention], str]:
-    """
-    End to end transcript processing for one encounter, up to mention-level
-    output. Returns turns, mentions, and the resolved encounter_id.
-
-    Steps:
-      1. Load and segment transcript into Turns.
-      2. Run NER to get Mentions.
-      3. Run coref to assign coref_cluster_id.
-      4. Attach local attributes (dose, unit, negation, temporality).
-    """
-    transcript_path = str(transcript_path)
-    resolved_encounter = encounter_id or _default_encounter_id(transcript_path)
-
-    turns = preprocessing.load_and_segment(transcript_path, resolved_encounter)
-    mentions = ner.extract_mentions(turns)
-    mentions = coref.add_coref_clusters(mentions, turns)
-    mentions = relations.attach_attributes(mentions)
-
-    if save_intermediate:
-        interim_dir = Path("data") / "interim"
-        _maybe_save(
-            [
-                {
-                    "encounter_id": t.encounter_id,
-                    "turn_id": t.turn_id,
-                    "speaker": t.speaker,
-                    "text": t.text,
-                    "start_time": t.start_time,
-                    "end_time": t.end_time,
-                }
-                for t in turns
-            ],
-            interim_dir / f"{resolved_encounter}_turns.json",
-        )
-        _maybe_save(
-            [
-                {
-                    "mention_id": m.mention_id,
-                    "encounter_id": m.encounter_id,
-                    "turn_id": m.turn_id,
-                    "start_char": m.start_char,
-                    "end_char": m.end_char,
-                    "text": m.text,
-                    "type": m.type,
-                    "confidence": m.confidence,
-                    "coref_cluster_id": m.coref_cluster_id,
-                    "attributes": m.attributes,
-                }
-                for m in mentions
-            ],
-            interim_dir / f"{resolved_encounter}_mentions.json",
-        )
-
-    return turns, mentions, resolved_encounter
-
-
 def save_processed_transcript(
     transcript_path: str,
     encounter_id: str | None = None,
     save_intermediate: bool = False,
+    use_llm_for_ner: bool = True,
+    use_llm_for_coref: bool = True,
 ) -> Path:
     """
     Process a transcript and write the consolidated JSON to
     data/interim/<source-stem>.json. Returns the output path.
     """
-    turns, mentions, resolved_encounter = process_transcript_to_mentions(
+    resolved_encounter = encounter_id or _default_encounter_id(transcript_path)
+    turns, candidates = process_transcript_to_mentions(
         transcript_path=transcript_path,
-        encounter_id=encounter_id,
+        encounter_id=resolved_encounter,
         save_intermediate=save_intermediate,
+        use_llm_for_ner=use_llm_for_ner,
+        use_llm_for_coref=use_llm_for_coref,
     )
 
     transcript_stem = Path(transcript_path).stem
@@ -129,18 +99,7 @@ def save_processed_transcript(
             for t in turns
         ],
         "mentions": [
-            {
-                "mention_id": m.mention_id,
-                "turn_id": m.turn_id,
-                "start_char": m.start_char,
-                "end_char": m.end_char,
-                "text": m.text,
-                "type": m.type,
-                "confidence": m.confidence,
-                "coref_cluster_id": m.coref_cluster_id,
-                "attributes": m.attributes,
-            }
-            for m in mentions
+            c for c in candidates
         ],
     }
     with open(output_path, "w", encoding="utf-8") as f:
