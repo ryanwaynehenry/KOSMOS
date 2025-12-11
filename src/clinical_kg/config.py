@@ -41,7 +41,7 @@ def load_config() -> PipelineConfig:
             "LAB_TEST": ["LOINC"],
             "UNIT": ["UCUM"],
         },
-        score_threshold=float(os.getenv("SCORE_THRESHOLD", "0.7")),
+        score_threshold=float(os.getenv("SCORE_THRESHOLD", "0.1")),
         base_ner_model_name=os.getenv("BASE_NER_MODEL_NAME", "en_core_sci_lg"),
         llm_model_name=os.getenv("LLM_MODEL_NAME", "gpt-4o"),
         llm_temperature=float(os.getenv("LLM_TEMPERATURE", "0.1")),

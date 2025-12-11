@@ -34,14 +34,15 @@ Follow these steps internally, but only output the final JSON:
 - Distinguish different entities even if they share similar words.
 
 2. For each entity, create:
-- canonical_name: a concise, human-readable name
-- entity_type: a coarse category based on the types of its mentions
-- turn_ids: list of turn_id values where this entity is mentioned
+- canonical_name: a concise, human-readable name optimized for clinical terminologies (SNOMED CT/RxNorm/LOINC). Prefer standard clinical phrasing over colloquial or subjective wording (e.g., use “depressive disorder” instead of “feeling down”; “shortness of breath” instead of “winded”; “blood pressure” instead of “my pressure”; “lisinopril” instead of “BP pill”). For non-clinical items like names or professions, use the clearest literal noun phrase (e.g., “librarian”) even if it will not be in a terminology.
+- entity_type: a coarse category based on the types of its mentions.
+- turn_ids: list of turn_id values where this entity is mentioned.
 - mentions: a list of the individual references:
     - mention_id
     - turn_id
     - text
     - type
+
 
 3. Ignore non-clinical entities (pure greetings/small talk).
 

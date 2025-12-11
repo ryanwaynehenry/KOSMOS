@@ -8,10 +8,11 @@ thresholds from `PipelineConfig`.
 """
 
 import difflib
-from typing import List, Optional
+from typing import Dict, List, Optional
 
-from ..config import PipelineConfig
+from ..config import PipelineConfig, load_config
 from ..data_models import Mention, OntologyCode
+from ..mapping.rules import TYPE_TO_ONTOLOGY
 from .connection import create_connection
 
 # Map friendly ontology names to the SAB values used in UMLS MRCONSO
@@ -70,6 +71,7 @@ def _lookup_in_mrconso(
     """
     cursor.execute(exact_query, (sab, term, max_candidates))
     rows = cursor.fetchall()
+    print(f"UMLS lookup rows for source={source} term={term!r} (exact/like): {rows}")
 
     if not rows:
         like_query = """
@@ -192,3 +194,60 @@ def lookup_concepts_for_mention(
         conn.close()
 
     return results
+
+
+def align_entities_with_ontology(
+    entities: List[Dict],
+    cfg: Optional[PipelineConfig] = None,
+    max_candidates: int = 50,
+) -> List[Dict]:
+    """
+    Align grouped entities with ontologies based on their entity_type.
+
+    Updates canonical_name to the preferred term when an ontology match is found
+    and adds an 'ontology' field with match details and the searched_term.
+    """
+    cfg = cfg or load_config()
+    aligned: List[Dict] = []
+
+    conn = None
+    cursor = None
+    try:
+        conn = create_connection(cfg.db)
+        cursor = conn.cursor()
+
+        for entity in entities:
+            etype = str(entity.get("entity_type", "")).upper()
+            target_source = TYPE_TO_ONTOLOGY.get(etype)
+            ontology = None
+            canonical = entity.get("canonical_name") or ""
+
+            if target_source:
+                if target_source.upper() == "UCUM":
+                    code = _lookup_ucum(canonical)
+                else:
+                    threshold = _source_threshold(target_source, cfg.score_threshold)
+                    code = _lookup_in_mrconso(
+                        cursor,
+                        source=target_source,
+                        mention_text=canonical,
+                        score_threshold=threshold,
+                        max_candidates=max_candidates,
+                    )
+                if code:
+                    ontology = {
+                        "source": code.source,
+                        "source_code": code.source_code,
+                        "preferred_term": code.preferred_term,
+                        "cui": code.cui,
+                        "score": code.score,
+                        "searched_term": canonical,
+                    }
+                    entity = {**entity, "canonical_name": code.preferred_term}
+            entity["ontology"] = ontology
+            aligned.append(entity)
+    finally:
+        if conn:
+            conn.close()
+
+    return aligned
