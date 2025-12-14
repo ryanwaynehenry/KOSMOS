@@ -25,6 +25,37 @@ _SAB_MAP = {
 }
 
 
+def _normalized_type_key(raw_type, preferences: dict) -> Optional[str]:
+    """
+    Resolve a mention type to one of the configured ontology preference keys.
+    Falls back to OTHER when the supplied type is missing or unknown.
+    """
+    if not preferences:
+        return None
+
+    # Skip ontology search for local person entities
+    skip_types = {"PERSON_PATIENT", "PERSON_CLINICIAN", "DOSE_AMOUNT", "FREQUENCY", "OBS_VALUE"}
+    
+    if raw_type is None:
+        return "OTHER" if "OTHER" in preferences else None
+
+    type_key = raw_type.upper() if isinstance(raw_type, str) else str(raw_type).upper()
+    if type_key in skip_types:
+        return None
+
+    if type_key not in preferences and "OTHER" in preferences:
+        return "OTHER"
+    return type_key
+
+
+def source_to_sab(source: str) -> Optional[str]:
+    """
+    Map a friendly source name (e.g., SNOMEDCT) to its UMLS SAB code.
+    Returns None when the source is unknown.
+    """
+    return _SAB_MAP.get(source.upper())
+
+
 def _score_name(query: str, candidate: str, tty: Optional[str]) -> float:
     """
     Compute a similarity score between the query and candidate name, with a
@@ -51,8 +82,10 @@ def _lookup_in_mrconso(
 ) -> Optional[OntologyCode]:
     """
     Query MRCONSO for a given source (SAB) and pick the best matching concept.
+    This function performs only the initial exact-match search; more flexible
+    matching should be handled upstream (e.g., embedding-based lookup).
     """
-    sab = _SAB_MAP.get(source.upper())
+    sab = source_to_sab(source)
     if not sab:
         return None
 
@@ -61,7 +94,7 @@ def _lookup_in_mrconso(
         return None
 
     exact_query = """
-        SELECT CUI, CODE, STR, TTY
+        SELECT CUI, STR, TTY
         FROM MRCONSO
         WHERE SAB = %s
           AND LAT = 'ENG'
@@ -71,40 +104,24 @@ def _lookup_in_mrconso(
     """
     cursor.execute(exact_query, (sab, term, max_candidates))
     rows = cursor.fetchall()
-    print(f"UMLS lookup rows for source={source} term={term!r} (exact/like): {rows}")
-
-    if not rows:
-        like_query = """
-            SELECT CUI, CODE, STR, TTY
-            FROM MRCONSO
-            WHERE SAB = %s
-              AND LAT = 'ENG'
-              AND SUPPRESS = 'N'
-              AND STR LIKE %s
-            LIMIT %s
-        """
-        pattern = f"%{term}%"
-        cursor.execute(like_query, (sab, pattern, max_candidates))
-        rows = cursor.fetchall()
 
     best_row = None
     best_score = -1.0
-    for cui, code, name, tty in rows:
+    for cui, name, tty in rows:
         if not isinstance(name, str):
             continue
         score = _score_name(term, name, tty)
         if score > best_score:
             best_score = score
-            best_row = (cui, code, name)
+            best_row = (cui, name)
 
     if best_row is None or best_score < score_threshold:
         return None
 
-    cui, code, name = best_row
+    cui, name = best_row
     return OntologyCode(
         cui=str(cui),
         source=source.upper(),
-        source_code=str(code),
         preferred_term=str(name),
         score=best_score,
     )
@@ -144,7 +161,6 @@ def _lookup_ucum(unit_text: str) -> Optional[OntologyCode]:
     return OntologyCode(
         cui="",
         source="UCUM",
-        source_code=str(code),
         preferred_term=str(code),
         score=1.0,
     )
@@ -163,7 +179,8 @@ def lookup_concepts_for_mention(
     pyucum; others query the UMLS MRCONSO table in MySQL.
     """
     results: List[OntologyCode] = []
-    prefs = cfg.ontology_preferences.get(mention.type.upper()) if mention.type else None
+    type_key = _normalized_type_key(mention.type if mention else None, cfg.ontology_preferences)
+    prefs = cfg.ontology_preferences.get(type_key) if type_key else None
     if not prefs:
         return results
 
@@ -194,6 +211,20 @@ def lookup_concepts_for_mention(
         conn.close()
 
     return results
+
+
+def best_concept_for_mention(
+    mention: Mention,
+    cfg: PipelineConfig,
+    max_candidates: int = 100,
+) -> Optional[OntologyCode]:
+    """
+    Convenience wrapper to fetch the highest-scoring initial match (or None).
+    """
+    codes = lookup_concepts_for_mention(mention, cfg, max_candidates=max_candidates)
+    if not codes:
+        return None
+    return max(codes, key=lambda c: c.score)
 
 
 def align_entities_with_ontology(
@@ -237,7 +268,6 @@ def align_entities_with_ontology(
                 if code:
                     ontology = {
                         "source": code.source,
-                        "source_code": code.source_code,
                         "preferred_term": code.preferred_term,
                         "cui": code.cui,
                         "score": code.score,

@@ -31,7 +31,7 @@ def main(path: str) -> None:
         ont = ent.get("ontology")
         print(
             f"- {ent.get('canonical_name')!r} ({ent.get('entity_type')}): "
-            f"{ont.get('source')}:{ont.get('source_code')} [{ont.get('preferred_term')}]"
+            f"{ont.get('source')} [{ont.get('preferred_term')}]"
             if ont
             else f"- {ent.get('canonical_name')!r} ({ent.get('entity_type')}): no match"
         )

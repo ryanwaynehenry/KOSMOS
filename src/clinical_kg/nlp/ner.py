@@ -119,10 +119,10 @@ def refine_mentions_with_llm(
 
         3. Add the type of entity being mentioned:
 
-        For each mention, assign a "type" value using the following categories. Use the context to determine what the type is.
+        For each mention, assign a "type" value using the following categories. Use the context to determine what the type is. Only use one of the types provided below.
 
         - PROBLEM: Any clinical issue affecting the patient, including diseases, diagnoses, chronic conditions, acute problems, symptoms, signs, and complaints.
-            Examples: “type 2 diabetes”, “chest pain”, “shortness of breath”, “high blood pressure”.
+            Examples: “type 2 diabetes”, “chest pain”, “shortness of breath”, "allergic to peanuts", “high blood pressure”.
 
         - MEDICATION: Any drug or therapeutic product, including brand and generic names, combinations, and formulations.
             Examples: “lisinopril”, “metformin”, “ibuprofen”, “aspirin 81 mg”.
@@ -140,7 +140,11 @@ def refine_mentions_with_llm(
             Examples: “once daily”, “twice a day”, “every 8 hours”, “three times a week”, “as needed”.
 
         - PERSON_PATIENT: References to the patient as a person or their key demographic descriptors when clinically relevant.
-            Examples: “the patient”, “she”, “he”, “this 45-year-old woman”, “your son”.
+            Examples: “Jane Doe”, “she”, “he”, “this 45-year-old woman”, “your son”.
+        
+        ` PERSON_CLINICIAN: References to the clinician (doctor/provider) involved in the encounter, including their name, title, role on the care team, and specialty when it is tied to that clinician mention.
+            Include: the doctor as a person, clinician roles (attending, resident, fellow), and specialty descriptors attached to them (for example “cardiologist” meaning the doctor).
+            Examples: “Dr. Smith”, “Doctor Patel”, “my cardiologist”, “your primary care doctor”, “the attending”, “the resident”, “the fellow”, “Dr. Lee from orthopedics”, “the ER doctor”, “your surgeon”, “my
 
         - OBS_VALUE: The observed or measured result of a test or sign. This is the value, not the test name, and can be numeric or qualitative.
             Examples: “7.2”, “one forty over ninety”, “98.6”, “elevated”, “normal”, “very low”.

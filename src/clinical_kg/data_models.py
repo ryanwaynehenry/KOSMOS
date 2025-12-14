@@ -34,6 +34,7 @@ class MentionType(str, Enum):
     DOSE_AMOUNT = "DOSE_AMOUNT"
     FREQUENCY = "FREQUENCY"
     PERSON_PATIENT = "PERSON_PATIENT"
+    PERSON_CLINICIAN = "PERSON_CLINICIAN"
     OBS_VALUE = "OBS_VALUE"
     ACTIVITY = "ACTIVITY"
     OTHER = "OTHER"
@@ -69,7 +70,6 @@ class TranscriptMetadata:
 class OntologyCode:
     cui: str
     source: str  # SNOMEDCT, RXNORM, etc.
-    source_code: str
     preferred_term: str
     score: float
 

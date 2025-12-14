@@ -24,6 +24,8 @@ class PipelineConfig:
     llm_model_name: str
     llm_temperature: float
     max_llm_tokens: int | None = None
+    faiss_index_path: str | None = None
+    faiss_mapping_path: str | None = None
 
 
 def load_config() -> PipelineConfig:
@@ -40,10 +42,14 @@ def load_config() -> PipelineConfig:
             "MEDICATION": ["RXNORM"],
             "LAB_TEST": ["LOINC"],
             "UNIT": ["UCUM"],
+            "ACTIVITY": ["SNOMEDCT"],
+            "OTHER": ["SNOMEDCT"],
         },
         score_threshold=float(os.getenv("SCORE_THRESHOLD", "0.1")),
         base_ner_model_name=os.getenv("BASE_NER_MODEL_NAME", "en_core_sci_lg"),
         llm_model_name=os.getenv("LLM_MODEL_NAME", "gpt-4o"),
         llm_temperature=float(os.getenv("LLM_TEMPERATURE", "0.1")),
         max_llm_tokens=int(os.getenv("MAX_LLM_TOKENS")) if os.getenv("MAX_LLM_TOKENS") else None,
+        faiss_index_path=os.getenv("UMLS_FAISS_INDEX_PATH", "UMLS_sapbert.faiss"),
+        faiss_mapping_path=os.getenv("UMLS_FAISS_MAPPING_PATH", "UMLS_sapbert_mapping.json"),
     )

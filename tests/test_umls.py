@@ -71,8 +71,8 @@ class FakeConnection:
 def test_lookup_in_mrconso_picks_best_match():
     rows = {
         ("SNOMEDCT_US", "type 2 diabetes"): [
-            ("CUI1", "44054006", "Type 2 diabetes mellitus", "PT"),
-            ("CUI2", "999999", "Type 1 diabetes mellitus", "PT"),
+            ("CUI1", "Type 2 diabetes mellitus", "PT"),
+            ("CUI2", "Type 1 diabetes mellitus", "PT"),
         ],
     }
     cursor = FakeCursor(rows)
@@ -84,14 +84,13 @@ def test_lookup_in_mrconso_picks_best_match():
     )
     assert result is not None
     assert result.source == "SNOMEDCT"
-    assert result.source_code == "44054006"
     assert result.preferred_term == "Type 2 diabetes mellitus"
     assert result.score >= 0.6
 
 
 def test_lookup_in_mrconso_respects_threshold():
     rows = {
-        ("RXNORM", "lipnsprl"): [("CUI3", "12345", "lisinopril", "PT")],
+        ("RXNORM", "lipnsprl"): [("CUI3", "lisinopril", "PT")],
     }
     cursor = FakeCursor(rows)
     # Set a high threshold so the fuzzy match fails
@@ -123,20 +122,19 @@ def test_lookup_ucum_with_stub(monkeypatch):
     result = _lookup_ucum("mg/dL")
     assert result is not None
     assert result.source == "UCUM"
-    assert result.source_code == "mg/dL"
     assert result.preferred_term == "mg/dL"
 
 
 def test_lookup_concepts_for_mention_respects_preferences(monkeypatch):
     rows = {
         ("SNOMEDCT_US", "type 2 diabetes"): [
-            ("CUI1", "44054006", "Type 2 diabetes mellitus", "PT"),
+            ("CUI1", "Type 2 diabetes mellitus", "PT"),
         ],
         ("RXNORM", "lisinopril"): [
-            ("CUI2", "29046", "Lisinopril", "PT"),
+            ("CUI2", "Lisinopril", "PT"),
         ],
         ("LNC", "hemoglobin"): [
-            ("CUI3", "718-7", "Hemoglobin [Mass/volume] in Blood", "PT"),
+            ("CUI3", "Hemoglobin [Mass/volume] in Blood", "PT"),
         ],
     }
     fake_conn = FakeConnection(rows)
@@ -153,18 +151,18 @@ def test_lookup_concepts_for_mention_respects_preferences(monkeypatch):
     )
 
     problem_codes = lookup_concepts_for_mention(
-        Mention("m1", "e1", "t1", 0, 0, "type 2 diabetes", "PROBLEM"), cfg
+        Mention("m1", "t1", "type 2 diabetes", "PROBLEM"), cfg
     )
     med_codes = lookup_concepts_for_mention(
-        Mention("m2", "e1", "t1", 0, 0, "lisinopril", "MEDICATION"), cfg
+        Mention("m2", "t1", "lisinopril", "MEDICATION"), cfg
     )
     lab_codes = lookup_concepts_for_mention(
-        Mention("m3", "e1", "t1", 0, 0, "hemoglobin", "LAB_TEST"), cfg
+        Mention("m3", "t1", "hemoglobin", "LAB_TEST"), cfg
     )
 
-    assert problem_codes and problem_codes[0].source_code == "44054006"
-    assert med_codes and med_codes[0].source_code == "29046"
-    assert lab_codes and lab_codes[0].source_code == "718-7"
+    assert problem_codes and problem_codes[0].preferred_term == "Type 2 diabetes mellitus"
+    assert med_codes and med_codes[0].preferred_term == "Lisinopril"
+    assert lab_codes and lab_codes[0].preferred_term == "Hemoglobin [Mass/volume] in Blood"
 
 
 def test_lookup_concepts_for_mention_ucum_only(monkeypatch):
@@ -215,3 +213,6 @@ def test_ontology_preferences_include_required_vocabularies():
 
     assert "UNIT" in prefs, "UNIT ontology preferences are missing"
     assert prefs["UNIT"] == ["UCUM"], "UNIT ontology should use UCUM"
+
+    assert "ACTIVITY" in prefs, "ACTIVITY ontology preferences are missing"
+    assert prefs["ACTIVITY"] == ["SNOMEDCT"], "ACTIVITY ontology should use SNOMEDCT"

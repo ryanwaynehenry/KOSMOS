@@ -36,7 +36,7 @@ def main(term: str, entity_type: str) -> None:
         else:
             print(
                 f"- {ent.get('canonical_name')!r} ({ent.get('entity_type')}): "
-                f"{ont.get('source')}:{ont.get('source_code')} "
+                f"{ont.get('source')} "
                 f"[preferred_term={ont.get('preferred_term')}, cui={ont.get('cui')}, score={ont.get('score')}, searched_term={ont.get('searched_term')}]"
             )
 

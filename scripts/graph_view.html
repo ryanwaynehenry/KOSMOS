@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>KG Relationship Viewer</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Inter", system-ui, -apple-system, sans-serif;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+    #sidebar {
+      width: 320px;
+      background: var(--panel);
+      border-right: 1px solid #1f2937;
+      padding: 16px;
+      box-sizing: border-box;
+      overflow-y: auto;
+    }
+    #graph {
+      flex: 1;
+      position: relative;
+    }
+    h2 {
+      margin: 0 0 12px 0;
+      font-size: 16px;
+      letter-spacing: 0.02em;
+      color: var(--accent);
+    }
+    label {
+      display: block;
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 12px;
+      margin-bottom: 4px;
+    }
+    input, textarea, button {
+      width: 100%;
+      border: 1px solid #1f2937;
+      border-radius: 6px;
+      padding: 8px;
+      background: #0b1220;
+      color: var(--text);
+      box-sizing: border-box;
+      font-size: 13px;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+    button {
+      cursor: pointer;
+      background: linear-gradient(90deg, #38bdf8, #6366f1);
+      border: none;
+      color: #0b1220;
+      font-weight: 600;
+      margin-top: 12px;
+    }
+    button:active {
+      transform: translateY(1px);
+    }
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 6px;
+      background: #0b1220;
+      border-radius: 6px;
+      border: 1px solid #1f2937;
+      font-size: 12px;
+    }
+    .swatch {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+    }
+    #modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+    }
+    #modal .content {
+      width: 520px;
+      max-height: 80vh;
+      overflow-y: auto;
+      background: #0b1220;
+      border: 1px solid #1f2937;
+      border-radius: 10px;
+      padding: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+    #modal pre {
+      background: #0f172a;
+      padding: 8px;
+      border-radius: 6px;
+      overflow-x: auto;
+      border: 1px solid #1f2937;
+    }
+    .pill {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #1f2937;
+      color: var(--muted);
+      font-size: 12px;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div id="sidebar">
+    <h2>KG Relationship Viewer</h2>
+    <label>Load file_with_relationships.json</label>
+    <input type="file" id="fileInput" accept=".json" />
+    <label>Or path/URL</label>
+    <input type="text" id="pathInput" placeholder="data/interim/file_with_relationships.json" />
+    <button id="loadBtn">Load Graph</button>
+
+    <label>Filter nodes (IDs or canonical names, comma/newline separated)</label>
+    <textarea id="filterInput" placeholder="2348_1_n0001, 2348_1_n0003"></textarea>
+    <button id="applyFilter">Apply Filter</button>
+    <button id="clearFilter" style="background:#1f2937;color:var(--text);border:1px solid #334155;">Clear Filter</button>
+
+    <div class="legend" id="legend"></div>
+  </div>
+  <div id="graph"></div>
+
+  <div id="modal">
+    <div class="content">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+        <h3 id="modalTitle" style="margin:0;font-size:16px;color:var(--accent);"></h3>
+        <button id="closeModal" style="width:auto;padding:6px 10px;background:#1f2937;color:var(--text);border:1px solid #334155;">Close</button>
+      </div>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script>
+    const classColors = {
+      Person: "#38bdf8",
+      Condition: "#f97316",
+      MedicationStatement: "#22c55e",
+      LabTest: "#f43f5e",
+      Observation: "#a855f7",
+      Activity: "#14b8a6",
+      Default: "#94a3b8",
+    };
+
+    const svg = d3.select("#graph").append("svg").attr("width", "100%").attr("height", "100%");
+    const defs = svg.append("defs");
+    defs.append("marker")
+      .attr("id", "arrow")
+      .attr("viewBox", "0 -5 10 10")
+      .attr("refX", 18)
+      .attr("refY", 0)
+      .attr("markerWidth", 12)
+      .attr("markerHeight", 12)
+      .attr("orient", "auto")
+      .append("path")
+      .attr("d", "M0,-5L10,0L0,5")
+      .attr("fill", "#e2e8f0");
+
+    const rootG = svg.append("g");
+
+    svg.call(
+      d3.zoom()
+        .scaleExtent([0.3, 3])
+        .on("zoom", (event) => {
+          rootG.attr("transform", event.transform);
+        })
+    );
+
+    let simulation, nodes = [], links = [], positionsKey = "kg_positions_default";
+    let filterIds = new Set();
+
+    function colorFor(cls) {
+      return classColors[cls] || classColors.Default;
+    }
+
+    function normalizeId(id) {
+      return (id || "").trim().toLowerCase();
+    }
+
+    function loadPositions() {
+      try {
+        const raw = localStorage.getItem(positionsKey);
+        return raw ? JSON.parse(raw) : {};
+      } catch (e) { return {}; }
+    }
+
+    function savePositions(simNodes) {
+      const stored = {};
+      simNodes.forEach(n => {
+        stored[n.id] = { x: n.x, y: n.y, fx: n.fx, fy: n.fy };
+      });
+      localStorage.setItem(positionsKey, JSON.stringify(stored));
+    }
+
+    function applyFilterAndRender() {
+      let filteredNodes = nodes;
+      if (filterIds.size > 0) {
+        filteredNodes = nodes.filter(n => filterIds.has(normalizeId(n.id)) || filterIds.has(normalizeId(n.canonical_name)));
+      }
+      const nodeIdSet = new Set(filteredNodes.map(n => n.id));
+      const filteredLinks = links.filter(l => nodeIdSet.has(l.source.id || l.source) && nodeIdSet.has(l.target.id || l.target));
+      render(filteredNodes, filteredLinks);
+    }
+
+    function render(renderNodes, renderLinks) {
+      rootG.selectAll("*").remove();
+      const gLinks = rootG.append("g").attr("stroke", "#475569").attr("stroke-width", 1.5);
+      const gNodes = rootG.append("g");
+      const gLabels = rootG.append("g").attr("font-size", 11).attr("fill", "#cbd5e1");
+      const gEdgeLabels = rootG.append("g").attr("font-size", 10).attr("fill", "#94a3b8");
+
+      const posMap = loadPositions();
+      renderNodes.forEach(n => {
+        if (posMap[n.id]) {
+          n.x = posMap[n.id].x;
+          n.y = posMap[n.id].y;
+          n.fx = posMap[n.id].fx;
+          n.fy = posMap[n.id].fy;
+        }
+      });
+
+      simulation = d3.forceSimulation(renderNodes)
+        .force("link", d3.forceLink(renderLinks).id(d => d.id).distance(120).strength(0.4))
+        .force("charge", d3.forceManyBody().strength(-300))
+        .force("center", d3.forceCenter(window.innerWidth / 2, window.innerHeight / 2))
+        .on("tick", ticked)
+        .on("end", () => savePositions(renderNodes));
+
+      const link = gLinks.selectAll("line")
+        .data(renderLinks)
+        .join("line")
+        .attr("marker-end", "url(#arrow)");
+
+      const edgeLabel = gEdgeLabels.selectAll("text")
+        .data(renderLinks)
+        .join("text")
+        .attr("text-anchor", "middle")
+        .text(d => d.relation || "");
+
+      const node = gNodes.selectAll("circle")
+        .data(renderNodes)
+        .join("circle")
+        .attr("r", 16)
+        .attr("fill", d => colorFor(d.class))
+        .attr("stroke", "#0f172a")
+        .attr("stroke-width", 1.5)
+        .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended))
+        .on("dblclick", (_, d) => openModal(d));
+
+      const label = gLabels.selectAll("text")
+        .data(renderNodes)
+        .join("text")
+        .attr("text-anchor", "middle")
+        .attr("dy", 26)
+        .text(d => d.canonical_name || d.id);
+
+      function ticked() {
+        link
+          .attr("x1", d => d.source.x)
+          .attr("y1", d => d.source.y)
+          .attr("x2", d => d.target.x)
+          .attr("y2", d => d.target.y);
+
+        edgeLabel
+          .attr("x", d => (d.source.x + d.target.x) / 2)
+          .attr("y", d => (d.source.y + d.target.y) / 2);
+
+        node.attr("cx", d => d.x).attr("cy", d => d.y);
+        label.attr("x", d => d.x).attr("y", d => d.y);
+      }
+
+      function dragstarted(event, d) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+      }
+
+      function dragged(event, d) {
+        d.fx = event.x;
+        d.fy = event.y;
+      }
+
+      function dragended(event, d) {
+        if (!event.active) simulation.alphaTarget(0);
+        d.fx = event.x;
+        d.fy = event.y;
+        savePositions(renderNodes);
+      }
+    }
+
+    function openModal(node) {
+      const body = document.getElementById("modalBody");
+      const ontology = node.ontology ? JSON.stringify(node.ontology, null, 2) : "None";
+      const attrs = node.attributes ? JSON.stringify(node.attributes, null, 2) : "{}";
+      const details = `
+        <div style="margin-bottom:8px;">
+          <span class="pill">${node.class || node.entity_type || "Unknown"}</span>
+          <span class="pill">ID: ${node.id}</span>
+        </div>
+        <div style="margin-bottom:8px;"><strong>Canonical:</strong> ${node.canonical_name || ""}</div>
+        <div style="margin-bottom:8px;"><strong>Ontology:</strong></div>
+        <pre>${ontology}</pre>
+        <div style="margin-top:8px;"><strong>Attributes:</strong></div>
+        <pre>${attrs}</pre>
+      `;
+      document.getElementById("modalTitle").textContent = node.canonical_name || node.id;
+      body.innerHTML = details;
+      document.getElementById("modal").style.display = "flex";
+    }
+
+    document.getElementById("closeModal").onclick = () => {
+      document.getElementById("modal").style.display = "none";
+    };
+    document.getElementById("modal").onclick = (e) => {
+      if (e.target.id === "modal") document.getElementById("modal").style.display = "none";
+    };
+
+    function buildLegend() {
+      const legend = document.getElementById("legend");
+      legend.innerHTML = "";
+      Object.entries(classColors).forEach(([cls, color]) => {
+        if (cls === "Default") return;
+        const item = document.createElement("div");
+        item.className = "legend-item";
+        item.innerHTML = `<span class="swatch" style="background:${color}"></span>${cls}`;
+        legend.appendChild(item);
+      });
+    }
+
+    function parseRelations(payload) {
+      const rels = payload.relationship_candidates || [];
+      const byId = {};
+      (payload.nodes || []).forEach(n => { if (n.id) byId[n.id] = n; });
+
+      const edges = [];
+      rels.forEach(r => {
+        const meta = r.llm_relation || {};
+        if (!meta.relation || meta.relation === "no_relation") return;
+        let sourceId = r.source_node_id;
+        let targetId = r.target_node_id;
+        const dir = (meta.direction || "").split("->").map(s => s.trim());
+        if (dir.length === 2) {
+          sourceId = dir[0] === "source" ? r.source_node_id : r.target_node_id;
+          targetId = dir[1] === "target" ? r.target_node_id : r.source_node_id;
+        }
+        if (!byId[sourceId] || !byId[targetId]) return;
+        edges.push({
+          source: sourceId,
+          target: targetId,
+          relation: meta.relation,
+          explanation: meta.explanation,
+          evidence_turn_ids: meta.evidence_turn_ids,
+        });
+      });
+      return edges;
+    }
+
+    function loadFromPayload(payload) {
+      positionsKey = "kg_positions_" + (payload.encounter_id || "default");
+      nodes = payload.nodes || [];
+      links = parseRelations(payload);
+      applyFilterAndRender();
+    }
+
+    document.getElementById("applyFilter").onclick = () => {
+      const raw = document.getElementById("filterInput").value;
+      filterIds = new Set(
+        raw.split(/[\s,]+/)
+          .map(v => v.trim())
+          .filter(Boolean)
+          .map(normalizeId)
+      );
+      applyFilterAndRender();
+    };
+    document.getElementById("clearFilter").onclick = () => {
+      document.getElementById("filterInput").value = "";
+      filterIds = new Set();
+      applyFilterAndRender();
+    };
+
+    document.getElementById("loadBtn").onclick = async () => {
+      const file = document.getElementById("fileInput").files[0];
+      if (file) {
+        const text = await file.text();
+        const payload = JSON.parse(text);
+        loadFromPayload(payload);
+        return;
+      }
+      const path = document.getElementById("pathInput").value || "data/interim/file_with_relationships.json";
+      const resp = await fetch(path);
+      const payload = await resp.json();
+      loadFromPayload(payload);
+    };
+
+    buildLegend();
+  </script>
+</body>
+</html>

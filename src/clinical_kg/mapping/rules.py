@@ -10,6 +10,7 @@ TYPE_TO_ONTOLOGY = {
     "LAB_TEST": "LOINC",
     "UNIT": "UCUM",
     "ACTIVITY": "SNOMEDCT",   # newly enabled
+    "OTHER": "SNOMEDCT",
 
     # Modifiers/values that are properties by default
     "DOSE_AMOUNT": None,      # numeric; tied to MEDICATION + UNIT
@@ -18,6 +19,6 @@ TYPE_TO_ONTOLOGY = {
 
     # Local entities or miscellaneous
     "PERSON_PATIENT": None,   # local Patient node, not a UMLS lookup
-    "OTHER": None,
+    
 }
 

@@ -44,7 +44,8 @@ def load_umls_terms_from_mysql(limit: int = None) -> List[Tuple[str, str, str]]:
     sql = """
     SELECT CUI, STR, SAB
     FROM MRCONSO
-    WHERE LAT = 'ENG'AND SAB = 'RXNORM'
+    WHERE LAT = 'ENG'
+      AND SAB IN ('SNOMEDCT_US', 'RXNORM', 'LNC')
       AND SUPPRESS = 'N'
     """
     if limit is not None:
@@ -81,6 +82,7 @@ def build_and_save_faiss_index(
     index_path: str,
     mapping_path: str,
     batch_size: int = 1024,
+    shard_size: int = 2_000_000,
 ) -> None:
     """
     Build and save a FAISS index over UMLS term embeddings.
@@ -101,54 +103,56 @@ def build_and_save_faiss_index(
               - "terms"   : list of term strings (STR)
               - "sources" : list of SAB values (ontology/vocabulary)
     """
-    # Unpack the triples into separate parallel arrays
-    cuis = [cui for (cui, _, _) in umls_records]
-    terms = [term for (_, term, _) in umls_records]
-    sources = [sab for (_, _, sab) in umls_records]
+    print(f"Loaded {len(umls_records)} UMLS terms (CUI, STR, SAB).")
 
-    print(f"Loaded {len(terms)} UMLS terms (CUI, STR, SAB).")
-
-    # Embed with SapBERT
     embedder = SapBERTEmbedder()
-    batches = []
-    for start in tqdm(range(0, len(terms), batch_size), desc="Embedding terms"):
-        batch_terms = terms[start : start + batch_size]
-        batch_emb = embedder.encode(batch_terms, batch_size=batch_size)
-        batches.append(batch_emb)
-    embeddings = np.vstack(batches)  # shape (N, d)
 
-    dim = embeddings.shape[1]
-    print(f"Embedding dimension: {dim}")
+    # Process in shards to avoid excessive memory usage; embed and save each shard independently
+    for shard_start in range(0, len(umls_records), shard_size):
+        shard_end = min(shard_start + shard_size, len(umls_records))
+        shard = umls_records[shard_start:shard_end]
+        cuis = [cui for (cui, _, _) in shard]
+        terms = [term for (_, term, _) in shard]
+        sources = [sab for (_, _, sab) in shard]
 
-    # Build FAISS index for inner product (cosine similarity on normalized vectors)
-    index = faiss.IndexFlatIP(dim)
-    index.add(embeddings.astype(np.float32))
-    print(f"Index now contains {index.ntotal} vectors.")
+        batches = []
+        for start in tqdm(range(0, len(terms), batch_size), desc=f"Embedding terms {shard_start}-{shard_end}"):
+            batch_terms = terms[start : start + batch_size]
+            batch_emb = embedder.encode(batch_terms, batch_size=batch_size)
+            batches.append(batch_emb)
+        embeddings = np.vstack(batches)  # shape (shard_N, d)
 
-    # Save FAISS index
-    faiss.write_index(index, index_path)
-    print(f"Saved FAISS index to {index_path}")
+        dim = embeddings.shape[1]
+        index = faiss.IndexFlatIP(dim)
+        index.add(embeddings.astype(np.float32))
 
-    # Save mapping: each row index -> (cui, term, source/ontology)
-    mapping = {
-        "cuis": cuis,
-        "terms": terms,
-        "sources": sources,  # SAB values (ontologies / vocabularies)
-    }
-    with open(mapping_path, "w", encoding="utf-8") as f:
-        json.dump(mapping, f, ensure_ascii=False)
+        shard_suffix = f"_part{shard_start // shard_size:03d}"
+        shard_index_path = index_path.replace(".faiss", f"{shard_suffix}.faiss")
+        shard_mapping_path = mapping_path.replace(".json", f"{shard_suffix}.json")
 
-    print(f"Saved mapping to {mapping_path}")
+        faiss.write_index(index, shard_index_path)
+        print(f"Saved FAISS index shard to {shard_index_path} ({index.ntotal} vectors).")
+
+        mapping = {
+            "cuis": cuis,
+            "terms": terms,
+            "sources": sources,
+        }
+        with open(shard_mapping_path, "w", encoding="utf-8") as f:
+            json.dump(mapping, f, ensure_ascii=False)
+        print(f"Saved mapping shard to {shard_mapping_path}")
 
 
 if __name__ == "__main__":
-    # 1. Load UMLS terms (CUI, STR, SAB) from MRCONSO
+    # Choose which source to embed: "UCUM" uses pyucum; others use MRCONSO.
+    TARGET_SAB = "UMLS"  # change to "UCUM" to embed UCUM units via pyucum
+
     umls_records = load_umls_terms_from_mysql(limit=None)  # set a limit for testing
 
     # 2. Build and save FAISS index + mapping
     build_and_save_faiss_index(
         umls_records=umls_records,
-        index_path="umls_sapbert.faiss",
-        mapping_path="umls_sapbert_mapping.json",
-        batch_size=512,
+        index_path=f"{TARGET_SAB}_sapbert.faiss",
+        mapping_path=f"{TARGET_SAB}_sapbert_mapping.json",
+        batch_size=256,
     )
