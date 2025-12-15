@@ -29,3 +29,6 @@ dist/
 # MyPy and cache
 .mypy_cache/
 .pytest_cache/
+
+# FAISS
+*faiss
