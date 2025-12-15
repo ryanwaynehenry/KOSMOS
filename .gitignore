@@ -32,3 +32,4 @@ dist/
 
 # FAISS
 *faiss
+UMLS_sapbert_mapping.json
