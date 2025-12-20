@@ -75,7 +75,7 @@ def _resolve_pronouns_with_llm(transcript_text: str, cfg: Optional[PipelineConfi
         {"role": "user", "content": transcript_text},
     ]
     try:
-        output = call_llm_for_extraction(messages, cfg)
+        output = call_llm_for_extraction(messages, cfg, label="preprocess_llm")
         if isinstance(output, dict) and "rewritten_transcript" in output:
             return str(output["rewritten_transcript"])
     except Exception:

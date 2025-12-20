@@ -76,18 +76,11 @@ def refine_mentions_with_llm(
     """
     cfg = cfg or load_config()
 
-    # Build a single prompt covering all turns for simplicity
-    turn_texts = [
-        f"{t.turn_id} ({t.speaker}): {t.text}"
-        for t in turns
-    ]
-    mention_payload = [
-        {
-            "turn_id": m.turn_id,
-            "text": m.text,
-        }
-        for m in base_mentions
-    ]
+    def _chunk(seq: List[Any], size: int = 50):
+        for i in range(0, len(seq), size):
+            yield seq[i : i + size]
+
+    turn_texts = [f"{t.turn_id} ({t.speaker}): {t.text}" for t in turns]
 
     system_prompt = (
         """You are a clinical information extraction assistant.
@@ -105,7 +98,7 @@ def refine_mentions_with_llm(
         - Conditions, diagnoses, diseases, problems, symptoms, signs, complaints.
         - Procedures, interventions, surgeries.
         - Lab tests, imaging studies, vital signs, and other tests.
-        - Test results, numeric or qualitative observation values.
+        - Test results, numeric or qualitative observation values (include normal/negative findings when stated).
         - Medications, doses, frequencies, routes, units, and related prescribing details.
         - Allergies, risk factors, and relevant social or lifestyle factors that affect care.
         - Patient descriptors (age, sex, pregnancy status) and clinician roles.
@@ -116,6 +109,7 @@ def refine_mentions_with_llm(
             unless they appear as part of a medically meaningful phrase such as
             “changes in vision” or “change in blood pressure”.
         - Fragments that look like truncations or obvious parsing errors.
+        Do NOT exclude mentions solely because they repeat earlier mentions; keep all clinically meaningful repeats so downstream clustering can see every turn they appear in.
 
         3. Add the type of entity being mentioned:
 
@@ -129,6 +123,9 @@ def refine_mentions_with_llm(
 
         - LAB_TEST: Any test, measurement, or clinical investigation (labs, imaging, vital sign types). This is the name of what is measured, not the result.
             Examples: “hemoglobin A1c”, “CBC”, “MRI of the knee”, “blood pressure”, “heart rate”.
+
+        - PROCEDURE: Therapeutic or diagnostic interventions performed on or for the patient, including surgeries, injections, procedures, rehabilitative therapies, and psychotherapy/behavioral treatments.
+            Examples: “psychotherapy”, “CBT session”, “physical therapy”, “knee replacement”, “colonoscopy”, “appendectomy”, “lumbar epidural injection”, "MMRI vaccine".
 
         - UNIT: Units of measurement used with lab values, doses, or vital signs.
             Examples: “mg”, “mg/dL”, “mmHg”, “bpm”, “degrees Celsius”.
@@ -158,26 +155,138 @@ def refine_mentions_with_llm(
         4. Do NOT merge mentions in this phase. Each mention should still correspond
         to a single turn.
 
-        5. Output STRICT, machine-parsable JSON ONLY:
-        A JSON list of mention objects in the same schema as the input:
-        [
-            {
-            "turn_id": "...",
-            "text": "...",
-            "type": "<one of the allowed types>",
-            },
+        5. Output STRICT, machine-parsable JSON ONLY with two top-level keys:
+        {
+          "kept": [
+            {"turn_id": "...", "text": "...", "type": "<one of the allowed types>"},
             ...
+          ],
+          "excluded": [
+            {"turn_id": "...", "text": "...", "reason": "..."},
+            ...
+          ]
+        }
+
+        - List every input mention either in kept or excluded.
+        - For excluded items, include a brief reason.
+        Return only the JSON."""
+
+    )
+
+    refined: List[Mention] = []
+    counter = 1
+    seen = set()
+
+    for batch in _chunk(base_mentions, 50):
+        mention_payload = [
+            {
+                "turn_id": m.turn_id,
+                "text": m.text,
+            }
+            for m in batch
         ]
 
-        Do not include any explanations or comments.
-        Return only the JSON list."""
+        user_prompt = (
+            "Turns:\n" + "\n".join(turn_texts) + "\n\n"
+            "Existing mentions (JSON):\n" + json_dumps(mention_payload) +
+            "\nReturn refined mentions as pure JSON."
+        )
 
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ]
+
+        try:
+            llm_output = call_llm_for_extraction(messages, cfg, label="ner_refine_mentions_llm")
+        except Exception:
+            llm_output = None
+
+        kept_items: List[Dict[str, Any]] = []
+        if isinstance(llm_output, dict):
+            kept_items = llm_output.get("kept") or []
+        elif isinstance(llm_output, list):
+            kept_items = llm_output  # backward compatibility if model still returns list
+
+        if not kept_items:
+            # Fallback: keep batch as-is
+            for m in batch:
+                key = (m.turn_id, m.text, str(m.type))
+                if key in seen:
+                    continue
+                seen.add(key)
+                mention_id = f"m{counter:04d}"
+                counter += 1
+                refined.append(Mention(mention_id=mention_id, turn_id=str(m.turn_id), text=str(m.text), type=m.type))
+            continue
+
+        for item in kept_items:
+            if not isinstance(item, dict):
+                continue
+            turn_id = item.get("turn_id")
+            text = item.get("text")
+            mtype = item.get("type")
+
+            if turn_id is None or text is None or mtype is None:
+                continue
+
+            key = (turn_id, text, str(mtype))
+            if key in seen:
+                continue
+            seen.add(key)
+
+            mention_id = f"m{counter:04d}"
+            counter += 1
+
+            refined.append(
+                Mention(
+                    mention_id=mention_id,
+                    turn_id=str(turn_id),
+                    text=str(text),
+                    type=str(mtype),
+                )
+            )
+
+    return refined
+
+
+def extract_mentions_llm(
+    turns: List[Turn],
+    cfg: Optional[PipelineConfig] = None,
+) -> List[Mention]:
+    """
+    Use an LLM to directly extract mentions from turns.
+    Returns the same format as the spaCy-based extractor (mention_id, turn_id, text, optional type).
+    """
+    cfg = cfg or load_config()
+
+    turn_texts = [f"{t.turn_id} ({t.speaker}): {t.text}" for t in turns]
+    system_prompt = (
+        """You are a clinical mention extractor.
+
+Extract ALL clinically relevant mention spans from the transcript turns, including:
+- patient and clinician references (names, roles, pronouns)
+- conditions, symptoms, complaints
+- medications (drug names), doses, frequencies, routes, units
+- tests and measurements (labs, imaging, vitals), observed values
+- activities/behaviors (smoking, drinking, exercise, jobs) and related quantities
+- any other clinically relevant spans
+Do NOT merge or group; keep one entry per span and per turn. A turn may contain multiple mentions.
+
+            Output STRICT JSON list where each item has:
+            - turn_id: the turn containing the text span
+            - text: the exact mention text
+
+            Format:
+            [
+            {"turn_id": "t0001", "text": "..."},
+            {"turn_id": "t0002", "text": "..."},
+            ...
+            ]
+            Return only the JSON list."""
     )
-    user_prompt = (
-        "Turns:\n" + "\n".join(turn_texts) + "\n\n"
-        "Existing mentions (JSON):\n" + json_dumps(mention_payload) +
-        "\nReturn refined mentions as pure JSON."
-    )
+
+    user_prompt = "Transcript turns:\n" + "\n".join(turn_texts) + "\nReturn the JSON list."
 
     messages = [
         {"role": "system", "content": system_prompt},
@@ -185,46 +294,32 @@ def refine_mentions_with_llm(
     ]
 
     try:
-        llm_output = call_llm_for_extraction(messages, cfg)
+        llm_output = call_llm_for_extraction(messages, cfg, label="ner_extract_mentions_llm")
     except Exception:
-        # Fallback to base mentions on any LLM failure
-        return base_mentions
+        return []
 
-    refined: List[Mention] = []
+    mentions: List[Mention] = []
+    if not isinstance(llm_output, list):
+        return mentions
+
     counter = 1
     seen = set()
-
-    if not isinstance(llm_output, list):
-        return base_mentions
-
     for item in llm_output:
         if not isinstance(item, dict):
             continue
         turn_id = item.get("turn_id")
         text = item.get("text")
-        mtype = item.get("type")
-
-        if turn_id is None or text is None or mtype is None:
+        if turn_id is None or text is None:
             continue
-
-        key = (turn_id, text, str(mtype))
+        key = (turn_id, text)
         if key in seen:
             continue
         seen.add(key)
-
         mention_id = f"m{counter:04d}"
         counter += 1
+        mentions.append(Mention(mention_id=mention_id, turn_id=str(turn_id), text=str(text), type=None))
 
-        refined.append(
-            Mention(
-                mention_id=mention_id,
-                turn_id=str(turn_id),
-                text=str(text),
-                type=str(mtype),
-            )
-        )
-
-    return refined
+    return mentions
 
 
 def json_dumps(obj: Any) -> str:
@@ -238,12 +333,17 @@ def extract_mentions(
     turns: List[Turn],
     cfg: Optional[PipelineConfig] = None,
     use_llm_refinement: bool = True,
+    use_llm_direct: bool = True,
 ) -> List[Mention]:
     """
     High level function to extract mentions from turns.
     """
     cfg = cfg or load_config()
-    base_mentions = extract_mentions_base(turns, cfg)
+    if use_llm_direct:
+        base_mentions = extract_mentions_llm(turns, cfg)
+        # fallback to base if LLM fails
+    else:
+        base_mentions = extract_mentions_base(turns, cfg)
     if not use_llm_refinement:
         return base_mentions
     return refine_mentions_with_llm(turns, base_mentions, cfg)

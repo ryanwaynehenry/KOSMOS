@@ -157,6 +157,11 @@ ATTRIBUTE_SPECS: Dict[str, AttributeSpec] = {
         definition="Trajectory or progression of the condition.",
         examples=["getting worse", "stable", "improving"],
     ),
+    "reaction": AttributeSpec(
+        name="reaction",
+        definition="Observed reaction or manifestation when the condition is an allergy or adverse response.",
+        examples=["rash", "hives", "anaphylaxis", "nausea"],
+    ),
     "duration": AttributeSpec(
         name="duration",
         definition="How long the condition has been present or lasting.",
@@ -295,6 +300,57 @@ ATTRIBUTE_SPECS: Dict[str, AttributeSpec] = {
         definition="When the activity or behavior stopped or was quit.",
         examples=["quit 5 years ago", "stopped last month", "ended recently"],
     ),
+    # Procedure
+    "procedure_type": AttributeSpec(
+        name="procedure_type",
+        definition="What procedure or intervention was performed or planned.",
+        examples=["appendectomy", "colonoscopy", "psychotherapy session", "physical therapy"],
+    ),
+    "procedure_status": AttributeSpec(
+        name="procedure_status",
+        definition="State of the procedure.",
+        examples=["planned", "in progress", "completed", "canceled"],
+    ),
+    "procedure_intent": AttributeSpec(
+        name="procedure_intent",
+        definition="Clinical reason or goal of the procedure.",
+        examples=["diagnostic", "therapeutic", "screening", "pain relief"],
+    ),
+    "procedure_body_site": AttributeSpec(
+        name="procedure_body_site",
+        definition="Anatomical site targeted by the procedure, if applicable.",
+        examples=["knee", "colon", "lumbar spine"],
+    ),
+    "procedure_approach": AttributeSpec(
+        name="procedure_approach",
+        definition="Approach or modality used.",
+        examples=["laparoscopic", "open", "endoscopic", "cognitive behavioral therapy"],
+    ),
+    "procedure_performer": AttributeSpec(
+        name="procedure_performer",
+        definition="Who performed the procedure (role/title) if stated.",
+        examples=["surgeon", "therapist", "psychiatrist", "primary care doctor"],
+    ),
+    "procedure_location": AttributeSpec(
+        name="procedure_location",
+        definition="Location or care setting of the procedure.",
+        examples=["outpatient clinic", "operating room", "physical therapy clinic"],
+    ),
+    "procedure_date": AttributeSpec(
+        name="procedure_date",
+        definition="When the procedure occurred or is scheduled.",
+        examples=["today", "last week", "scheduled for next month", "in 2019"],
+    ),
+    "procedure_duration": AttributeSpec(
+        name="procedure_duration",
+        definition="How long the procedure session or course lasted.",
+        examples=["30 minutes", "2 hours", "6-week course"],
+    ),
+    "procedure_outcome": AttributeSpec(
+        name="procedure_outcome",
+        definition="Result or immediate outcome of the procedure when stated.",
+        examples=["no complications", "improved pain", "tolerated well"],
+    ),
 }
 
 
@@ -331,6 +387,7 @@ CONDITION_ATTRS = [
     "negation",
     "body_site",
     "course",
+    "reaction",
     "duration",
     "notes",
 ]
@@ -376,6 +433,26 @@ LAB_TEST_SCHEMA = NodeSchema(
     shacl_shape=_shape_from_options("LabTest", "LabTest", LAB_TEST_ATTRS),
 )
 
+PROCEDURE_ATTRS = [
+    "procedure_type",
+    "procedure_status",
+    "procedure_intent",
+    "procedure_body_site",
+    "procedure_approach",
+    "procedure_performer",
+    "procedure_location",
+    "procedure_date",
+    "procedure_duration",
+    "procedure_outcome",
+    "notes",
+]
+PROCEDURE_SCHEMA = NodeSchema(
+    class_name="Procedure",
+    attribute_options=PROCEDURE_ATTRS,
+    attribute_definitions=_attribute_def_map(PROCEDURE_ATTRS),
+    shacl_shape=_shape_from_options("Procedure", "Procedure", PROCEDURE_ATTRS),
+)
+
 ACTIVITY_ATTRS = [
     "activity_type",
     "activity_frequency",
@@ -416,6 +493,7 @@ ENTITY_TYPE_TO_SCHEMA: Dict[str, NodeSchema] = {
     "ACTIVITY": ACTIVITY_SCHEMA,
     "MEDICATION": MEDICATION_SCHEMA,
     "LAB_TEST": LAB_TEST_SCHEMA,
+    "PROCEDURE": PROCEDURE_SCHEMA,
     "OBS_VALUE": OBSERVATION_SCHEMA,
     "OTHER": OBSERVATION_SCHEMA,
     "UNIT": OBSERVATION_SCHEMA,
@@ -429,6 +507,7 @@ ALL_SHACL_SHAPES: List[ShaclShape] = [
     CONDITION_SCHEMA.shacl_shape,
     MEDICATION_SCHEMA.shacl_shape,
     LAB_TEST_SCHEMA.shacl_shape,
+    PROCEDURE_SCHEMA.shacl_shape,
     ACTIVITY_SCHEMA.shacl_shape,
     OBSERVATION_SCHEMA.shacl_shape,
 ]

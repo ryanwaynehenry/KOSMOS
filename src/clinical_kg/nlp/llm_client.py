@@ -4,6 +4,7 @@ Thin wrapper around LiteLLM for structured extraction calls.
 
 import json
 import os
+import time
 from typing import Any, Dict, List, Optional
 
 import litellm
@@ -34,6 +35,7 @@ def _ensure_api_key(cfg: PipelineConfig) -> None:
 def call_llm_for_extraction(
     messages: List[Dict[str, str]],
     cfg: Optional[PipelineConfig] = None,
+    label: Optional[str] = None,
 ) -> Dict[str, Any]:
     """
     Call the configured LLM using LiteLLM for a structured extraction task.
@@ -42,6 +44,7 @@ def call_llm_for_extraction(
       - messages: list of chat messages, each like
         {"role": "system"|"user"|"assistant", "content": "..."}.
       - cfg: optional PipelineConfig. If None, load_config() will be called.
+      - label: optional human-readable label for timing/diagnostics.
 
     Behavior:
       - Uses cfg.llm_model_name as the model name passed to LiteLLM.
@@ -61,7 +64,11 @@ def call_llm_for_extraction(
     if getattr(cfg, "max_llm_tokens", None) is not None:
         kwargs["max_tokens"] = cfg.max_llm_tokens
 
+    start = time.time()
     response = litellm.completion(**kwargs)
+    elapsed = time.time() - start
+    tag = label or "llm_extraction"
+    print(f"[llm] {tag} took {elapsed:.2f}s")
     if not getattr(response, "choices", None):
         raise RuntimeError("LLM response contained no choices")
 

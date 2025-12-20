@@ -24,17 +24,18 @@ Each mention has:
 
 Your task is to group mentions that refer to the same entity and produce a list of entity objects.
 
-Follow these steps internally, but only output the final JSON:
-
-1. Group mentions into entities:
-- Mentions that refer to the same condition, symptom, problem, diagnosis,
-  medication, test, or other clinical item should belong to the same entity.
-- Include pronouns and short references when the referent is clear
-  (e.g., “it”, “this medication”, “that problem”, “your blood pressure”).
+Rules:
+- Do NOT group people with non-people. The patient entity should only contain person references and demographic descriptors about the patient (age, sex, pregnancy status). The clinician entity should only contain clinician references/roles. Do not merge the patient with symptoms, medications, allergies, or the clinician.
+- Preserve test and measurement entities. If a test like “blood pressure” is mentioned and a value “120 over 80” appears, they belong to the same test entity (multiple mentions for the same test). Keep both the test name and its value mentions.
+- Prefer granular symptom/finding grouping. Only group mentions that refer to the same clinical concept; avoid creating umbrella entities like “<condition> symptoms” unless that umbrella concept is explicitly stated in the transcript.
+- Separate distinct symptoms/findings even when they plausibly share a cause. Create one entity per distinct symptom/finding, and let downstream relationship steps connect them if appropriate.
+- If a diagnosis/disorder name is explicitly stated, create a separate diagnosis entity for that term, and keep symptom/finding entities separate.
+- Keep qualifiers (severity, onset, course/progression, negation, “improving/worsening”, etc.) attached to the specific entity they describe; do not use qualifiers as a reason to merge different symptoms into one entity.
+- Keep all clinically meaningful mentions; do not drop mentions just because they repeat earlier ones.
 - Distinguish different entities even if they share similar words.
 
-2. For each entity, create:
-- canonical_name: a concise, human-readable name optimized for clinical terminologies (SNOMED CT/RxNorm/LOINC). Prefer standard clinical phrasing over colloquial or subjective wording (e.g., use “depressive disorder” instead of “feeling down”; “shortness of breath” instead of “winded”; “blood pressure” instead of “my pressure”; “lisinopril” instead of “BP pill”). For non-clinical items like names or professions, use the clearest literal noun phrase (e.g., “librarian”) even if it will not be in a terminology.
+For each entity, create:
+- canonical_name: a concise, human-readable name optimized for clinical terminologies (SNOMED CT/RxNorm/LOINC). Prefer standard clinical phrasing over colloquial wording.
 - entity_type: a coarse category based on the types of its mentions.
 - turn_ids: list of turn_id values where this entity is mentioned.
 - mentions: a list of the individual references:
@@ -43,10 +44,9 @@ Follow these steps internally, but only output the final JSON:
     - text
     - type
 
+Ignore non-clinical entities (pure greetings/small talk).
 
-3. Ignore non-clinical entities (pure greetings/small talk).
-
-4. Output STRICT JSON ONLY:
+Output STRICT JSON ONLY:
 [
   {
     "canonical_name": "...",
@@ -95,7 +95,7 @@ def add_coref_clusters(
     ]
 
     try:
-        mentions = call_llm_for_extraction(messages, cfg)
+        mentions = call_llm_for_extraction(messages, cfg, label="coref_grouping")
     except Exception:
         pass
 

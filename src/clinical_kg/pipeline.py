@@ -10,6 +10,7 @@ from typing import List, Tuple
 from clinical_kg.config import PipelineConfig, load_config
 from clinical_kg.data_models import Mention, OntologyCode, Turn
 from clinical_kg.kg.builder import build_nodes
+from clinical_kg.kg.relations import build_relationship_candidates
 from clinical_kg.kg.schema import shacl_turtle
 from clinical_kg.nlp.coref import add_coref_clusters
 from clinical_kg.nlp.ner import extract_mentions
@@ -210,7 +211,7 @@ def process_transcript_to_mentions(
     save_intermediate: bool = False,
     use_llm_for_ner: bool = True,
     use_llm_for_coref: bool = True,
-) -> Tuple[List[Turn], List, List[dict]]:
+) -> Tuple[List[Turn], List, List[dict], List[dict]]:
     """
     End to end transcript processing for one encounter, up to mention-level output
     with ontology alignment (database first, FAISS fallback) and KG node creation.
@@ -225,7 +226,8 @@ def process_transcript_to_mentions(
     # Attempt ontology alignment: exact lookup first, FAISS embedding fallback
     faiss_searcher = _load_faiss_searcher(cfg)
     concepts = _attach_ontology(candidates, cfg, searcher=faiss_searcher)
-    nodes = build_nodes(concepts, encounter_id=encounter_id)
+    nodes = build_nodes(concepts, encounter_id=encounter_id, turns=turns, use_llm=use_llm_for_coref, batch_size=5)
+    relationships = build_relationship_candidates(turns=turns, nodes=nodes, cfg=cfg, batch_size=20)
 
     if save_intermediate:
         interim_dir = Path("data") / "interim"
@@ -237,7 +239,7 @@ def process_transcript_to_mentions(
         with open(interim_dir / f"{encounter_id}_nodes.json", "w", encoding="utf-8") as f:
             json.dump(nodes, f, ensure_ascii=False, indent=2)
 
-    return turns, candidates, nodes
+    return turns, concepts, nodes, relationships
 
 
 def _default_encounter_id(transcript_path: str) -> str:
@@ -271,7 +273,7 @@ def save_processed_transcript(
     to data/interim/<source-stem>.json. Returns the output path.
     """
     resolved_encounter = encounter_id or _default_encounter_id(transcript_path)
-    turns, candidates, nodes = process_transcript_to_mentions(
+    turns, concepts, nodes, relationships = process_transcript_to_mentions(
         transcript_path=transcript_path,
         encounter_id=resolved_encounter,
         save_intermediate=save_intermediate,
@@ -290,15 +292,14 @@ def save_processed_transcript(
                 "turn_id": t.turn_id,
                 "speaker": t.speaker,
                 "text": t.text,
-                "start_time": t.start_time,
-                "end_time": t.end_time,
             }
             for t in turns
         ],
         "mentions": [
-            c for c in candidates
+            c for c in concepts
         ],
         "nodes": nodes,
+        "relationship_candidates": relationships,
         "shacl_shapes_ttl": shacl_turtle(),
     }
     with open(output_path, "w", encoding="utf-8") as f:
