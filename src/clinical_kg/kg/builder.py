@@ -25,7 +25,7 @@ You will receive a JSON array of concepts. Each concept has:
 
 Task:
 For each concept, use ONLY the provided context (mention_context and context_turns) to infer node attributes.
-- Fill attributes that are explicitly supported by attribute_options, guided by attribute_definitions.
+- Fill attributes that are supported by attribute_options, guided by attribute_definitions.
 - If information is absent, leave the attribute out (do not invent or guess).
 - You may refine canonical_name if the transcript clearly suggests a better clinical name; otherwise keep it.
 - Keep entity_type unless the transcript clearly indicates a better choice.

@@ -16,6 +16,7 @@ TYPE_TO_ONTOLOGY = {
     "DOSE_AMOUNT": None,      # numeric; tied to MEDICATION + UNIT
     "FREQUENCY": None,        # text; could later map to SNOMED regimen codes
     "OBS_VALUE": None,        # numeric/text; could later distinguish interpretation codes
+    "TIME": None,
 
     # Local entities or miscellaneous
     "PERSON_PATIENT": None,   # local Patient node, not a UMLS lookup

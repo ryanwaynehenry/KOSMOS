@@ -6,6 +6,7 @@ pronoun-resolution pass via LLM.
 """
 
 import json
+import re
 from dataclasses import asdict
 from pathlib import Path
 from typing import List, Optional
@@ -112,28 +113,60 @@ def load_and_segment(transcript_path: str, encounter_id: str, cfg: Optional[Pipe
     rewritten = _resolve_pronouns_with_llm(raw_content, cfg)
 
     turns: List[Turn] = []
-    for idx, line in enumerate(rewritten.splitlines()):
-        raw = line.strip()
-        if not raw:
-            continue
-        if ":" in raw:
-            speaker_part, text_part = raw.split(":", 1)
-            speaker = speaker_part.strip()
-            text = text_part.strip()
-        else:
-            speaker = "UNKNOWN"
-            text = raw
-        turn_id = _TURN_ID_TEMPLATE.format(index=idx + 1)
+    current_speaker: Optional[str] = None
+    current_chunks: List[str] = []
+
+    def _flush_turn():
+        if current_speaker is None:
+            return
+        text = " ".join(chunk for chunk in current_chunks if chunk)
+        if not text:
+            return
+        turn_id = _TURN_ID_TEMPLATE.format(index=len(turns) + 1)
         turns.append(
             Turn(
                 encounter_id=encounter_id,
                 turn_id=turn_id,
-                speaker=speaker,
+                speaker=current_speaker,
                 text=text,
                 start_time=None,
                 end_time=None,
             )
         )
+
+    # Restrict speaker prefixes to short tokens (e.g., D, P, Dr) to avoid matching phrases like
+    # "Assessment and Plan:" as a new speaker.
+    speaker_pattern = re.compile(r"^(?P<speaker>[A-Za-z]{1,5})\.?\s*:\s*(?P<text>.*)$")
+
+    for line in rewritten.splitlines():
+        raw = line.strip()
+        if not raw:
+            continue
+
+        match = speaker_pattern.match(raw)
+        if match:
+            speaker_candidate = match.group("speaker").strip()
+            text_part = match.group("text").strip()
+
+            if speaker_candidate == current_speaker or current_speaker is None:
+                # Continuation of the same speaker
+                current_speaker = speaker_candidate
+                current_chunks.append(text_part)
+            else:
+                # New speaker starts; flush the previous turn first
+                _flush_turn()
+                current_speaker = speaker_candidate
+                current_chunks = [text_part]
+        else:
+            # Continuation text without explicit speaker; attach to current speaker if any
+            if current_speaker is None:
+                # No active speaker; skip or treat as UNKNOWN
+                current_speaker = "UNKNOWN"
+                current_chunks = [raw]
+            else:
+                current_chunks.append(raw)
+
+    _flush_turn()
     return turns
 
 

@@ -167,6 +167,26 @@ ATTRIBUTE_SPECS: Dict[str, AttributeSpec] = {
         definition="How long the condition has been present or lasting.",
         examples=["past month", "ten years", "past few weeks"],
     ),
+    "impact": AttributeSpec(
+        name="impact",
+    definition=(
+        "Functional or clinical effect the condition has on the person, including limits on activities, "
+        "work/school or daily living, quality of life, sleep, and downstream effects like worsening other "
+        "conditions or triggering complications."
+    ),
+    examples=[
+        "can't walk up stairs without stopping",
+        "missed work for two days",
+        "stops me from exercising",
+        "wakes me up at night",
+        "hard to concentrate at work",
+        "needs help with bathing and dressing",
+        "worsens my asthma",
+        "triggers migraines",
+        "makes my blood sugar harder to control",
+        "causes me to avoid driving",
+    ],
+),
     # Medication
     "dose_value": AttributeSpec(
         name="dose_value",
@@ -300,6 +320,57 @@ ATTRIBUTE_SPECS: Dict[str, AttributeSpec] = {
         definition="When the activity or behavior stopped or was quit.",
         examples=["quit 5 years ago", "stopped last month", "ended recently"],
     ),
+    # Time
+    "time_text": AttributeSpec(
+        name="time_text",
+        definition="Verbatim timing expression as stated in the transcript.",
+        examples=["today", "yesterday", "next week", "in 2 weeks", "for 3 months", "last visit", "post-op"],
+    ),
+    "time_kind": AttributeSpec(
+        name="time_kind",
+        definition="Coarse type of timing expression.",
+        examples=["date", "time_of_day", "duration", "relative", "range", "visit_reference"],
+    ),
+    "time_normalized": AttributeSpec(
+        name="time_normalized",
+        definition="Normalized representation when possible (ISO-like text or a structured shorthand). Leave blank if not possible.",
+        examples=["2025-12-21", "2025-01", "PT2W", "P3M", "TODAY", "NEXT_WEEK"],
+    ),
+    "time_granularity": AttributeSpec(
+        name="time_granularity",
+        definition="Precision level of the time expression when stated or inferable from the phrasing alone.",
+        examples=["year", "month", "day", "hour", "minute"],
+    ),
+    "time_value": AttributeSpec(
+        name="time_value",
+        definition="Numeric component for durations or quantities of time when explicitly stated.",
+        examples=["2", "3", "10"],
+    ),
+    "time_unit": AttributeSpec(
+        name="time_unit",
+        definition="Unit for durations when explicitly stated.",
+        examples=["days", "weeks", "months", "years", "hours", "minutes"],
+    ),
+    "time_start": AttributeSpec(
+        name="time_start",
+        definition="Start of a time range when explicitly stated.",
+        examples=["January 2024", "2025-03-01", "last Monday"],
+    ),
+    "time_end": AttributeSpec(
+        name="time_end",
+        definition="End of a time range when explicitly stated.",
+        examples=["March 2024", "2025-03-15", "next Friday"],
+    ),
+    "time_anchor": AttributeSpec(
+        name="time_anchor",
+        definition="What the time expression is anchoring to in the clinical narrative, when explicitly indicated.",
+        examples=["onset", "resolution", "follow_up", "appointment", "procedure_date", "referral", "med_start", "med_stop"],
+    ),
+    "time_reference": AttributeSpec(
+        name="time_reference",
+        definition="Reference point used by a relative expression when explicitly stated.",
+        examples=["last visit", "previous appointment", "since surgery", "after the procedure"],
+    ),
     # Procedure
     "procedure_type": AttributeSpec(
         name="procedure_type",
@@ -389,6 +460,7 @@ CONDITION_ATTRS = [
     "course",
     "reaction",
     "duration",
+    "impact",
     "notes",
 ]
 CONDITION_SCHEMA = NodeSchema(
@@ -431,6 +503,26 @@ LAB_TEST_SCHEMA = NodeSchema(
     attribute_options=LAB_TEST_ATTRS,
     attribute_definitions=_attribute_def_map(LAB_TEST_ATTRS),
     shacl_shape=_shape_from_options("LabTest", "LabTest", LAB_TEST_ATTRS),
+)
+
+TIME_ATTRS = [
+    "time_text",
+    "time_kind",
+    "time_normalized",
+    "time_granularity",
+    "time_value",
+    "time_unit",
+    "time_start",
+    "time_end",
+    "time_anchor",
+    "time_reference",
+    "notes",
+]
+TIME_SCHEMA = NodeSchema(
+    class_name="Time",
+    attribute_options=TIME_ATTRS,
+    attribute_definitions=_attribute_def_map(TIME_ATTRS),
+    shacl_shape=_shape_from_options("Time", "Time", TIME_ATTRS),
 )
 
 PROCEDURE_ATTRS = [
@@ -485,7 +577,6 @@ OBSERVATION_SCHEMA = NodeSchema(
     shacl_shape=_shape_from_options("Observation", "Observation", OBSERVATION_ATTRS),
 )
 
-
 ENTITY_TYPE_TO_SCHEMA: Dict[str, NodeSchema] = {
     "PERSON_PATIENT": PERSON_SCHEMA,
     "PERSON_CLINICIAN": PERSON_SCHEMA,
@@ -494,6 +585,7 @@ ENTITY_TYPE_TO_SCHEMA: Dict[str, NodeSchema] = {
     "MEDICATION": MEDICATION_SCHEMA,
     "LAB_TEST": LAB_TEST_SCHEMA,
     "PROCEDURE": PROCEDURE_SCHEMA,
+    "TIME": TIME_SCHEMA,
     "OBS_VALUE": OBSERVATION_SCHEMA,
     "OTHER": OBSERVATION_SCHEMA,
     "UNIT": OBSERVATION_SCHEMA,
@@ -508,6 +600,7 @@ ALL_SHACL_SHAPES: List[ShaclShape] = [
     MEDICATION_SCHEMA.shacl_shape,
     LAB_TEST_SCHEMA.shacl_shape,
     PROCEDURE_SCHEMA.shacl_shape,
+    TIME_SCHEMA.shacl_shape,
     ACTIVITY_SCHEMA.shacl_shape,
     OBSERVATION_SCHEMA.shacl_shape,
 ]
