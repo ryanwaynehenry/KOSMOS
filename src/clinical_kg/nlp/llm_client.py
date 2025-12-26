@@ -64,6 +64,7 @@ def call_llm_for_extraction(
     if getattr(cfg, "max_llm_tokens", None) is not None:
         kwargs["max_tokens"] = cfg.max_llm_tokens
 
+    litellm._turn_on_debug()
     start = time.time()
     response = litellm.completion(**kwargs)
     elapsed = time.time() - start
@@ -97,4 +98,8 @@ def call_llm_for_extraction(
     try:
         return json.loads(cleaned)
     except json.JSONDecodeError as exc:
-        raise ValueError(f"Failed to parse LLM JSON content: {cleaned}") from exc
+        # Allow control characters in case the model emits unescaped newlines/tabs inside strings.
+        try:
+            return json.loads(cleaned, strict=False)
+        except json.JSONDecodeError:
+            raise ValueError(f"Failed to parse LLM JSON content: {cleaned}") from exc

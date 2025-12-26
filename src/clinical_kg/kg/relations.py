@@ -18,13 +18,13 @@ RELATION_OPTIONS = [
     {"name": "has_condition", "description": "Person(patient) -> Condition: Patient is documented as having the condition.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["Condition"], "target_entity_types": ["PROBLEM"]},
     {"name": "has_symptom", "description": "Person(patient) -> Condition: Patient reports a symptom/complaint.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["Condition"], "target_entity_types": ["PROBLEM"]},
     {"name": "has_diagnosis", "description": "Person(patient) -> Condition: Clinician-assigned diagnosis for the patient.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["Condition"], "target_entity_types": ["PROBLEM"]},
-    {"name": "denies_condition", "description": "Person(patient) -> Condition: Patient explicitly denies having the condition/symptom.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["Condition"], "target_entity_types": ["PROBLEM"]},
+    {"name": "denies_condition", "description": "Person(patient) -> Condition: Patient denies having the condition/symptom.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["Condition"], "target_entity_types": ["PROBLEM"]},
     {"name": "has_observation", "description": "Person (patient or clinician) -> Observation: A qualitative finding or non-lab observation is associated with the patient.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT", "PERSON_CLINICIAN"], "target_classes": ["Observation"], "target_entity_types": ["OBS_VALUE", "OTHER", "UNIT"]},
-    {"name": "denies_observation", "description": "Person (patient or clinician) -> Observation: Explicit denial of an observation.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT", "PERSON_CLINICIAN"], "target_classes": ["Observation"], "target_entity_types": ["OBS_VALUE", "OTHER", "UNIT"]},
+    {"name": "denies_observation", "description": "Person (patient or clinician) -> Observation: Denial of an observation.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT", "PERSON_CLINICIAN"], "target_classes": ["Observation"], "target_entity_types": ["OBS_VALUE", "OTHER", "UNIT"]},
     {"name": "has_lab_test", "description": "Person(patient) -> LabTest: A lab or measurement is associated with the patient.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["LabTest"], "target_entity_types": ["LAB_TEST"]},
     {"name": "has_medication", "description": "Person(patient) -> Medication: Patient is taking/was prescribed the medication statement.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["MedicationStatement"], "target_entity_types": ["MEDICATION"]},
     {"name": "has_activity", "description": "Person(patient) -> Activity: Patient performs or has performed a behavior/activity.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["Activity"], "target_entity_types": ["ACTIVITY"]},
-    {"name": "denies_activity", "description": "Person(patient) -> Activity: Patient explicitly denies an activity/behavior.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["Activity"], "target_entity_types": ["ACTIVITY"]},
+    {"name": "denies_activity", "description": "Person(patient) -> Activity: Patient denies an activity/behavior.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["Activity"], "target_entity_types": ["ACTIVITY"]},
     {"name": "has_procedure", "description": "Person(patient) -> Procedure: Patient underwent, is undergoing, or is scheduled for the procedure/intervention.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["Procedure"], "target_entity_types": ["PROCEDURE"]},
     {"name": "has_provider", "description": "Person(patient) -> Person(clinician): Links the patient to their clinician/provider of care.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["Person"], "target_entity_types": ["PERSON_CLINICIAN"]},
     {"name": "evaluated_by", "description": "Person(patient) -> Person(clinician): Clinician evaluated the patient in this context.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["Person"], "target_entity_types": ["PERSON_CLINICIAN"]},
@@ -63,18 +63,72 @@ You are an expert clinical relationship extractor. Given entity pairs and the su
 turns, assign at most one relation per pair.
 
 Use ONLY the relations provided in relation_options. Each option includes the allowed source/target
-classes and entity_types; you MUST obey those constraints. If the entities do not match the allowed
-source/target classes/entity_types (for the direction you are asserting), respond with "no_relation".
+classes and entity_types. You MUST obey those constraints. If the entities do not match the allowed
+source/target classes/entity_types for the direction you are asserting, respond with "no_relation".
 
-Clinician-attribution guardrails:
-- Only assign clinician -> condition relations (diagnosed/has_diagnosis/evaluated_by) when the clinician in this transcript explicitly performs the diagnosis/assessment now (e.g., "I diagnose", "I'm assessing", "today I'm diagnosing you with", "I evaluated X"). Do NOT infer that the current clinician diagnosed a condition just because the patient reports a past diagnosis or history.
-- For historical conditions reported by the patient (e.g., "I was diagnosed with hypothyroidism years ago"), link as patient -> condition (has_condition) and optionally documented_by/reported_by if appropriate, but do NOT assign diagnosed/has_diagnosis to the current clinician unless explicitly stated in this encounter.
-- If there is ambiguity about who diagnosed/ordered/recommended, prefer "no_relation" over guessing.
-- For clinician + observation pairs, consider has_observation (clinician source) or documented_by with target->source direction when the clinician explicitly notes/documents the observation.
-- For condition nodes labeled like "family history of <condition>", you may link patient -> condition with has_condition but note the family-history context in the explanation.
+Evidence standard
+- Choose relations that are supported by the transcript, including information that is strongly implied
+  by normal clinical conversation structure (for example, structured screening questions).
+- Do not invent new facts. If the transcript does not support a link, output "no_relation".
+- If there is ambiguity about who did something or whether something is present, prefer "no_relation".
 
-Direction is relative to the provided source/target nodes ("source->target" or "target->source").
-Default to "source->target" unless the evidence clearly supports the reverse orientation.
+Conversational inference rules (allowed)
+1) Structured screening or checklist questions
+- When a speaker asks a grouped, closed screening question that lists multiple symptoms or options,
+  and the respondent answers in a way that clearly indicates a complete response (for example, they
+  affirm only a subset, or they reject the set except for named positives), you may treat the
+  non-endorsed options as negated.
+- Apply this only when the response is clearly complete and not hedged.
+- Do NOT apply this when the respondent appears unsure, gives a partial answer, changes the topic,
+  or says they cannot recall.
+- If your relation_options include a negation relation (for example denies_symptom, no_symptom,
+  negative_for, absent), use it for the non-endorsed options.
+- If your relation_options do not include a negation relation, do not force a positive link. Output
+  "no_relation" for those non-endorsed pairs.
+
+2) Direct yes/no answers
+- If a question is clearly yes/no and the respondent clearly answers yes, you may treat the entity as
+  present. If they clearly answer no, you may treat it as absent and use a negation relation when
+  available.
+
+3) Topic scoping
+- If the clinician explicitly scopes a question to a specific timeframe (today, recently, since last visit),
+  keep relations within that scope when possible. If timeframe is unclear, do not add one.
+
+Clinician-attribution guardrails
+- Only assign clinician -> condition relations like diagnosed, has_diagnosis, evaluated_by when the
+  clinician is performing that assessment in this encounter (for example they state belief, assessment,
+  diagnosis, or evaluation as their current conclusion).
+- For historical conditions reported as prior diagnoses or long-standing history, link as patient -> condition
+  using has_condition (or the closest allowed option) and optionally use reported_by or documented_by if
+  your relation_options allow it. Do not attribute the diagnosis to the current clinician unless the
+  transcript supports that.
+- If it is unclear whether a clinician is diagnosing versus recounting prior history or chart history, avoid
+  clinician -> condition diagnosis relations.
+
+Clinician and observation pairs
+- For clinician + observation pairs, consider has_observation with clinician as source when the clinician
+  explicitly notes the observation during the encounter, or use documented_by with target->source
+  direction when that is the correct option in relation_options.
+
+Family history phrasing
+- If a condition is mentioned in a family-history context, do not treat it as the patient having the
+  condition unless the transcript supports that. Use a family-history relation if relation_options provides
+  one. Otherwise prefer "no_relation" unless your schema explicitly encodes family-history conditions as
+  patient conditions.
+
+Speaker mapping
+- speaker "D" or text starting with "D:" is the clinician speaking.
+- speaker "P" or text starting with "P:" is the patient speaking.
+Use the speaker to attribute clinician or patient actions even when their name is not repeated.
+
+Direction
+- Direction is relative to the provided source/target nodes ("source->target" or "target->source").
+- Default to "source->target" unless the evidence clearly supports the reverse orientation.
+
+Direction requirement (hard constraint)
+- If a relation option matches only when direction is reversed (for example documented_by or reported_by),
+  you MUST set direction to "target->source" rather than using "no_relation".
 
 If there is no clinically meaningful relation supported by the evidence, output "no_relation".
 
@@ -82,7 +136,7 @@ Return a JSON array where each object has:
 - pair_id
 - relation (one of relation_options or "no_relation")
 - direction ("source->target" or "target->source")
-- explanation (brief rationale)
+- explanation (brief rationale, note when you used a screening inference)
 - evidence_turn_ids (list of turn_ids that support the choice)
 """
 
@@ -273,13 +327,14 @@ def _node_context(
     node: Dict[str, Any],
     turn_index_by_id: Dict[str, int],
     turns_by_index: Dict[int, Dict[str, Any]],
+    include_turn_contexts: bool = True,
 ) -> Dict[str, Any]:
     schema = schema_for_entity_type(node.get("entity_type"))
     attr_defs = {
         name: {"definition": spec.definition, "examples": spec.examples}
         for name, spec in schema.attribute_definitions.items()
     }
-    return {
+    context = {
         "node_id": node.get("id"),
         "canonical_name": node.get("canonical_name"),
         "class": node.get("class"),
@@ -288,8 +343,12 @@ def _node_context(
         "attribute_options": schema.attribute_options,
         "attribute_definitions": attr_defs,
         "mentions": node.get("mentions", []),
-        "mention_turn_contexts": _mention_turn_contexts(node, turn_index_by_id, turns_by_index),
     }
+    if include_turn_contexts:
+        context["mention_turn_contexts"] = _mention_turn_contexts(
+            node, turn_index_by_id, turns_by_index
+        )
+    return context
 
 
 def _pair_context(
@@ -304,14 +363,46 @@ def _pair_context(
         "pair_id": pair["pair_id"],
         "cooccurrence_count": pair["cooccurrence_count"],
         "min_turn_distance": pair["min_turn_distance"],
-        "source": _node_context(src, turn_index_by_id, turns_by_index),
-        "target": _node_context(tgt, turn_index_by_id, turns_by_index),
+        "source": _node_context(src, turn_index_by_id, turns_by_index, include_turn_contexts=False),
+        "target": _node_context(tgt, turn_index_by_id, turns_by_index, include_turn_contexts=False),
     }
 
 
 def _batch(items: List[Any], size: int) -> Iterable[List[Any]]:
     for i in range(0, len(items), size):
         yield items[i : i + size]
+
+
+def _batch_turn_contexts(
+    batch_pairs: List[Dict[str, Any]],
+    nodes_by_id: Dict[str, Dict[str, Any]],
+    turn_index_by_id: Dict[str, int],
+    turns_by_index: Dict[int, Dict[str, Any]],
+) -> List[Dict[str, Any]]:
+    turn_indices: set = set()
+    max_idx = len(turns_by_index) - 1
+    for pair in batch_pairs:
+        for node_id in (pair.get("source_node_id"), pair.get("target_node_id")):
+            node = nodes_by_id.get(node_id or "")
+            if not node:
+                continue
+            for idx in _node_turn_indices(node, turn_index_by_id):
+                turn_indices.add(idx)
+                if idx - 1 >= 0:
+                    turn_indices.add(idx - 1)
+                if idx + 1 <= max_idx:
+                    turn_indices.add(idx + 1)
+    contexts: List[Dict[str, Any]] = []
+    for idx in sorted(turn_indices):
+        turn = _turn_at(turns_by_index, idx) or {}
+        contexts.append(
+            {
+                "turn_id": turn.get("turn_id"),
+                "speaker": turn.get("speaker"),
+                "text": turn.get("text"),
+            }
+        )
+    return contexts
 
 
 def _extract_results(raw: Any) -> List[Dict[str, Any]]:
@@ -341,16 +432,18 @@ def _llm_label_pairs(
 
     total_batches = math.ceil(len(pairs) / batch_size) if pairs else 0
     for batch_idx, batch in enumerate(_batch(pairs, batch_size), start=1):
+        turn_contexts = _batch_turn_contexts(batch, nodes_by_id, turn_index_by_id, turns_by_index)
         batch_payload = {
             "instructions": (
                 "Select at most one relation per pair from relation_options. "
                 "Only choose a relation if the source/target classes and entity_types satisfy the allowed "
                 "constraints in relation_options. "
-                "Only assign clinician -> condition relations (diagnosed/has_diagnosis/evaluated_by) when the clinician explicitly diagnoses/assesses in this encounter; do not infer past diagnoses from patient history. "
+                "Only assign clinician -> condition relations (diagnosed/has_diagnosis/evaluated_by) when the clinician diagnoses/assesses/suggests in this encounter; do not infer past diagnoses from patient history. "
                 "Otherwise use 'no_relation'. "
                 "Return a JSON array with pair_id, relation, direction, explanation, evidence_turn_ids."
             ),
             "relation_options": RELATION_OPTIONS,
+            "turn_contexts": turn_contexts,
             "pairs": [
                 _pair_context(p, nodes_by_id, turn_index_by_id, turns_by_index) for p in batch
             ],

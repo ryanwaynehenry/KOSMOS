@@ -31,6 +31,7 @@ For each concept, use ONLY the provided context (mention_context and context_tur
 - Keep entity_type unless the transcript clearly indicates a better choice.
 - Never merge or split concepts; return one output object per input concept in the SAME ORDER.
 - Do not carry information across concepts; treat each concept independently.
+- For medication entity_types: You must include the medication_status attribute. Use the context to determine if the patient "used to take" the medicine, "is currently taking" the medicine, "is being prescribed" the medicine or "none" of those.
 
 Output STRICT JSON ONLY:
 [

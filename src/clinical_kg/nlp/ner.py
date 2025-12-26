@@ -41,6 +41,24 @@ def extract_mentions_base(
     mentions: List[Mention] = []
     counter = 1
 
+    # Pre-seed patient and clinician mentions (one each) before running base model.
+    if turns:
+        patient_mention = Mention(
+            mention_id=f"m{counter:04d}",
+            turn_id=turns[0].turn_id,
+            text="patient",
+            type=MentionType.PERSON_PATIENT.value if hasattr(MentionType, "PERSON_PATIENT") else None,
+        )
+        counter += 1
+        clinician_mention = Mention(
+            mention_id=f"m{counter:04d}",
+            turn_id=turns[0].turn_id,
+            text="clinician",
+            type=MentionType.PERSON_CLINICIAN.value if hasattr(MentionType, "PERSON_CLINICIAN") else None,
+        )
+        counter += 1
+        mentions.extend([patient_mention, clinician_mention])
+
     for turn in turns:
         doc = model(turn.text)
         for ent in doc.ents:
@@ -309,7 +327,7 @@ def extract_mentions_llm(
     current_words = 0
     for tt in turn_texts:
         wc = word_count(tt)
-        if current and current_words + wc > 500:
+        if current and current_words + wc > 300:
             batches.append(current)
             current = [tt]
             current_words = wc
@@ -465,6 +483,25 @@ def extract_mentions_llm(
     seen = set()
     mentions: List[Mention] = []
 
+    # Pre-seed patient and clinician mentions (one each) before batching.
+    if turns:
+        patient_mention = Mention(
+            mention_id=f"m{counter:04d}",
+            turn_id=turns[0].turn_id,
+            text="patient",
+            type=MentionType.PERSON_PATIENT.value if hasattr(MentionType, "PERSON_PATIENT") else None,
+        )
+        counter += 1
+        clinician_mention = Mention(
+            mention_id=f"m{counter:04d}",
+            turn_id=turns[0].turn_id,
+            text="clinician",
+            type=MentionType.PERSON_CLINICIAN.value if hasattr(MentionType, "PERSON_CLINICIAN") else None,
+        )
+        counter += 1
+        mentions.extend([patient_mention, clinician_mention])
+        seen.update({(patient_mention.turn_id, patient_mention.text), (clinician_mention.turn_id, clinician_mention.text)})
+
     for idx, batch in enumerate(batches, start=1):
         user_prompt = "Transcript turns:\n" + "\n".join(batch) + "\nReturn the JSON list."
         messages = [
@@ -515,6 +552,7 @@ def extract_mentions(
     High level function to extract mentions from turns.
     """
     cfg = cfg or load_config()
+    # Seed patient/clinician mentions will be added inside extraction functions.
     if use_llm_direct:
         base_mentions = extract_mentions_llm(turns, cfg)
         # fallback to base if LLM fails

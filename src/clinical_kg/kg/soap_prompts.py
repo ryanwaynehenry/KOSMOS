@@ -34,6 +34,7 @@ Subjective Subsections and content rules
 
 2) History Of Presenting Illness
 - Chronological narrative of onset, duration, progression, severity, associated symptoms, aggravating or relieving factors, and relevant negatives.
+- Begin by describing the patient's demographic characteristics (i.e. 36-year old male construction worker presents...)
 - No inferred causes or interpretations.
 
 3) Past Medical History
@@ -50,10 +51,11 @@ Subjective Subsections and content rules
 - Report "None reported." only when explicitly stated.
 
 7) Social History
-- Occupation, living situation, substance use, support system, lifestyle factors explicitly mentioned.
+- Occupation, hobbies, living situation, substance use, support system, lifestyle factors explicitly mentioned.
 
 8) Medication List
 - Medication name, dose, frequency, route, purpose, and adherence comments only if stated.
+- Do not include the medicines that are going to be prescribed in this list
 
 9) Immunization History
 - Vaccines and status and or dates if stated.
@@ -375,14 +377,70 @@ Objective Subsections and content rules
 2) Physical Exam
 - Observed findings organized by system.
 - Clearly distinguish normal vs abnormal findings as documented.
-- Common exam systems include:
-  - Constitutional
-  - Head and Neck
-  - Cardiovascular
-  - Respiratory
-  - Abdominal
-  - Neurological
-- Include only systems supported by the graph. If none are supported, use the required placeholder text.
+- One item per system in the Physical Exam section where:
+  - "label" is the exact system name
+  - "text" is 1 to 2 concise sentences
+  - "node_ids" and "relationship_ids" include only the evidence that directly supports the text
+- Evidence grounding:
+  - Only include findings supported by nodes and relationships in the graph.
+  - If a finding is only patient-reported (not clinician-observed), explicitly label it as patient-reported in the text.
+- Ordering within a system:
+  - If both abnormal and normal findings exist, list abnormal first, then normal.
+- Do not use acronyms. Write out full terms.
+
+Physical Exam required systems
+Generate each required system exactly once, in this order. If no evidence exists for a required system, include it with exactly one placeholder text as described below.
+- Constitutional
+  - General appearance, distress level, alertness, cooperativeness, observed affect.
+- Head and Neck
+  - Head and neck inspection or palpation findings such as swelling, tenderness, masses, redness.
+- Cardiovascular
+  - Rhythm and heart sounds, murmur presence or absence when documented.
+- Respiratory
+  - Air entry and breath sounds, wheezing presence or absence when documented.
+- Abdomen
+  - Abdominal palpation findings, tenderness, rebound, guarding, and bowel sounds when documented under this label.
+- Neurological
+  - Orientation, cognitive screening statements, memory findings, focal deficits if explicitly documented.
+
+Physical Exam optional systems
+Include an optional system only if there is relevant data in the graph for that system, or if the encounter explicitly states that system was "Not taken." or "None reported."
+When included, optional systems must follow the required systems and use the exact system names below.
+- Eyes
+  - Pupillary response and other eye findings explicitly described.
+- Ears, Nose, Mouth, and Throat
+  - Findings for ears, nose, oral cavity, pharynx, or throat when documented.
+- Gastrointestinal
+  - Gastrointestinal exam findings documented under this label.
+- Musculoskeletal
+  - Joints, range of motion, gait, tenderness, strength, or other musculoskeletal findings.
+- Skin
+  - Rashes, lesions, erythema, scaling, signs of infection, distribution if stated.
+- Psychiatric
+  - Mood, affect, behavior findings explicitly documented as exam observations.
+- Endocrine
+  - Endocrine-related physical findings explicitly examined and stated.
+- Hematologic/Lymphatic
+  - Lymph node findings, bruising, bleeding signs, or similar.
+- Breasts
+  - Breast exam findings only if explicitly assessed and documented.
+
+Physical Exam placeholder rules
+- For required systems, if no supporting evidence exists, the item must still be present and its "text" must be exactly one of:
+  - "Not taken." when explicitly stated as not assessed
+  - "None reported." when explicitly stated as none
+  - "No data available." when the graph contains no relevant nodes
+  In these placeholder cases, "node_ids" and "relationship_ids" must be empty arrays.
+- For optional systems:
+  - If included with placeholder text, apply the same placeholder rules and empty arrays.
+  - If there is no evidence and no explicit statement, omit the optional system entirely.
+
+Allowed Physical Exam example phrasing patterns (non-exhaustive, no acronyms)
+- "Alert and oriented, appears comfortable."
+- "Regular rhythm with normal first and second heart sounds, no murmurs."
+- "Good air entry bilaterally, no wheezing or abnormal breath sounds."
+- "Abdomen soft and non-tender, bowel sounds normal."
+- "Erythematous rash with scaling noted."
 
 3) Diagnostic Tests
 - Tests performed with available results.
@@ -519,17 +577,18 @@ ASSESSMENT_SYSTEM_PROMPT = """
 Instructions for Generating the Assessment Section of a SOAP Note from a Transcript-Derived Knowledge Graph
 
 You are generating ONLY the Assessment section using only nodes and relationships from a knowledge graph constructed strictly from what was said or explicitly observed during the encounter.
-The clinician’s internal reasoning, unstated intentions, diagnostic inference, or assumptions are not available and must not be inferred or added.
 
 Global Constraints
-- Do not attribute thoughts, beliefs, intentions, or reasoning to the clinician.
-- Do not introduce interpretations, likelihoods, differential diagnoses, causes, or inferred conditions.
+- Do not attribute thoughts, beliefs, intentions, or unstated reasoning to the clinician.
+- Do not introduce new symptoms, history, exam findings, test results, medications, exposures, timelines, or demographics that are not present in the graph.
+- You MAY synthesize a clinician-style assessment statement (working impression and differential) as long as it is grounded in documented evidence from the graph.
+- Use neutral, clinical language. When presenting a working impression or differential, use appropriately hedged language such as "likely", "suggestive of", or "consistent with".
+- Do not provide probability estimates, etiologies, or mechanistic explanations unless explicitly stated in the encounter.
 - Every statement must be directly traceable to:
   - Patient speech
   - Clinician speech
   - Explicitly documented observations
   - Explicitly documented interventions
-- Use neutral, clinical language grounded in recorded evidence.
 - Use only the provided nodes and relationships. Do not invent facts.
 - Each item must contain 1 to 2 concise sentences.
 - Each item must include only node_ids and relationship_ids that directly support the text.
@@ -538,21 +597,29 @@ Global Constraints
 
 Mandatory Assessment Subsections
 Generate every subsection exactly once, in the order shown.
-If no supporting evidence exists, the subsection must still be present and its text must be exactly one of:
+If no supporting evidence exists for a subsection, it must still be present and its text must be exactly one of:
 - "Not taken." when the encounter explicitly states it was not assessed
 - "None reported." when explicitly stated as none
 - "No data available." when the graph contains no relevant nodes
 Do not omit subsections.
 
 Assessment Subsections and content rules
-1) Assessment Summary
-- Summary limited to restating explicitly documented symptoms, observations, and explicitly stated clinician assessments.
-- Do not add diagnostic reasoning or probability language.
+1) Assessment
+- Write a cohesive assessment narrative, not a list.
+- Prefer a single integrated "problem representation" that combines the most relevant evidence:
+  - patient context if available (age, sex, pertinent history)
+  - key symptoms and their course or triggers
+  - key objective findings or test results when available
+  - a working impression (most likely condition) using hedged language
+  - optionally 1 to 2 differential diagnoses when supported by evidence
+- Avoid itemized symptom repetition. Do not restate every symptom or every vital sign.
+- If multiple unrelated problems are clearly present, output multiple items labeled "Problem 1", "Problem 2", etc. Each problem item must still be 1 to 2 sentences.
 
 2) Diagnosis
 - Include only diagnoses explicitly stated in the graph.
-- Do not add, upgrade, or infer diagnoses.
+- Do not add, upgrade, or infer diagnoses in this subsection.
 - If multiple explicit diagnoses exist, output multiple items labeled "Diagnosis 1", "Diagnosis 2", etc.
+- If no explicit diagnosis exists, use the required placeholder text.
 
 Output Format (Strict)
 - Output strict JSON only.
@@ -571,35 +638,13 @@ Formatting rules
 - Do not add any headings, bullets, or prose outside JSON.
 - Do not omit any assessment subsection.
 - For placeholder items, node_ids and relationship_ids must be empty arrays.
+- In the Assessment subsection, do not use bullet characters or line breaks inside "text". Write a single paragraph per item.
 
-Example Assessment Output
-{
-  "assessment": [
-    {
-      "section": "Assessment Summary",
-      "items": [
-        {
-          "label": null,
-          "text": "Acute diarrhea with abdominal cramping after recent camping exposure, with mild dehydration on exam.",
-          "node_ids": ["2421_3_n0001", "2421_3_n0002", "2421_3_n0014", "2421_3_n0055"],
-          "relationship_ids": ["pr2421_3_r0045"]
-        }
-      ]
-    },
-    {
-      "section": "Diagnosis",
-      "items": [
-        {
-          "label": "Diagnosis 1",
-          "text": "Acute infectious gastroenteritis with mild dehydration.",
-          "node_ids": ["2421_3_n0070", "2421_3_n0071"],
-          "relationship_ids": ["pr2421_3_r0046"]
-        }
-      ]
-    }
-  ]
-}
+Example style targets for Assessment text (structure only)
+- Combine the key clinical picture into one sentence, then state a working impression with brief justification.
+- If included, add a brief differential clause using hedged language and evidence.
 """
+
 
 
 PLAN_SYSTEM_PROMPT = """

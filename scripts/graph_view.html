@@ -134,14 +134,14 @@
     <h2>KG Relationship Viewer</h2>
     <label>Load file_with_relationships.json</label>
     <input type="file" id="fileInput" accept=".json" />
-    <label>Or path/URL</label>
-    <input type="text" id="pathInput" placeholder="data/interim/file_with_relationships.json" />
     <button id="loadBtn">Load Graph</button>
 
     <label>Filter nodes (IDs or canonical names, comma/newline separated)</label>
     <textarea id="filterInput" placeholder="2348_1_n0001, 2348_1_n0003"></textarea>
     <button id="applyFilter">Apply Filter</button>
     <button id="clearFilter" style="background:#1f2937;color:var(--text);border:1px solid #334155;">Clear Filter</button>
+    <button id="resetLayout" style="background:#1f2937;color:var(--text);border:1px solid #334155;">Reset Layout</button>
+
 
     <div class="legend" id="legend"></div>
   </div>
@@ -158,272 +158,384 @@
   </div>
 
   <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script>
-    const classColors = {
-      Person: "#38bdf8",
-      Condition: "#f97316",
-      MedicationStatement: "#22c55e",
-      LabTest: "#f43f5e",
-      Observation: "#a855f7",
-      Activity: "#14b8a6",
-      Procedure: "#facc15",
-      Default: "#94a3b8",
-    };
+<script>
+  const classColors = {
+    Person: "#38bdf8",
+    Condition: "#f97316",
+    MedicationStatement: "#22c55e",
+    LabTest: "#f43f5e",
+    Observation: "#a855f7",
+    Activity: "#14b8a6",
+    Procedure: "#facc15",
+    Default: "#94a3b8",
+  };
 
-    const svg = d3.select("#graph").append("svg").attr("width", "100%").attr("height", "100%");
-    const defs = svg.append("defs");
-    defs.append("marker")
-      .attr("id", "arrow")
-      .attr("viewBox", "0 -5 10 10")
-      .attr("refX", 18)
-      .attr("refY", 0)
-      .attr("markerWidth", 12)
-      .attr("markerHeight", 12)
-      .attr("orient", "auto")
-      .append("path")
-      .attr("d", "M0,-5L10,0L0,5")
-      .attr("fill", "#e2e8f0");
+  const graphEl = document.getElementById("graph");
+  const svg = d3.select("#graph").append("svg").attr("width", "100%").attr("height", "100%");
+  const defs = svg.append("defs");
+  defs.append("marker")
+    .attr("id", "arrow")
+    .attr("viewBox", "0 -5 10 10")
+    .attr("refX", 18)
+    .attr("refY", 0)
+    .attr("markerWidth", 12)
+    .attr("markerHeight", 12)
+    .attr("orient", "auto")
+    .append("path")
+    .attr("d", "M0,-5L10,0L0,5")
+    .attr("fill", "#e2e8f0");
 
-    const rootG = svg.append("g");
+  const rootG = svg.append("g");
 
-    svg.call(
-      d3.zoom()
-        .scaleExtent([0.3, 3])
-        .on("zoom", (event) => {
-          rootG.attr("transform", event.transform);
-        })
-    );
+  const zoomBehavior = d3.zoom()
+    .scaleExtent([0.15, 6])
+    .on("zoom", (event) => {
+      rootG.attr("transform", event.transform);
+    });
 
-    let simulation, nodes = [], links = [], positionsKey = "kg_positions_default";
-    let filterIds = new Set();
+  svg.call(zoomBehavior);
+  svg.on("dblclick.zoom", null);
 
-    function colorFor(cls) {
-      return classColors[cls] || classColors.Default;
+  function zoomToFit(simNodes, padding = 60) {
+    const { w, h } = getGraphSize();
+    if (!simNodes || simNodes.length === 0) return;
+
+    const xs = simNodes.map(n => n.x).filter(v => Number.isFinite(v));
+    const ys = simNodes.map(n => n.y).filter(v => Number.isFinite(v));
+    if (xs.length === 0 || ys.length === 0) return;
+
+    const minX = Math.min(...xs), maxX = Math.max(...xs);
+    const minY = Math.min(...ys), maxY = Math.max(...ys);
+
+    const boxW = Math.max(1, (maxX - minX) + padding * 2);
+    const boxH = Math.max(1, (maxY - minY) + padding * 2);
+
+    const scale = Math.min(w / boxW, h / boxH);
+    const tx = (w / 2) - scale * ((minX + maxX) / 2);
+    const ty = (h / 2) - scale * ((minY + maxY) / 2);
+
+    const t = d3.zoomIdentity.translate(tx, ty).scale(scale);
+
+    svg.transition()
+      .duration(450)
+      .call(zoomBehavior.transform, t);
+  }
+
+  let simulation, nodes = [], links = [], positionsKey = "kg_positions_default";
+  let filterIds = new Set();
+
+  function colorFor(cls) {
+    return classColors[cls] || classColors.Default;
+  }
+
+  function normalizeId(id) {
+    return (id || "").trim().toLowerCase();
+  }
+
+  function getGraphSize() {
+    const rect = graphEl.getBoundingClientRect();
+    const w = Math.max(200, rect.width);
+    const h = Math.max(200, rect.height);
+    return { w, h };
+  }
+
+  function loadPositions() {
+    try {
+      const raw = localStorage.getItem(positionsKey);
+      return raw ? JSON.parse(raw) : {};
+    } catch (e) {
+      return {};
     }
+  }
 
-    function normalizeId(id) {
-      return (id || "").trim().toLowerCase();
-    }
-
-    function loadPositions() {
-      try {
-        const raw = localStorage.getItem(positionsKey);
-        return raw ? JSON.parse(raw) : {};
-      } catch (e) { return {}; }
-    }
-
-    function savePositions(simNodes) {
-      const stored = {};
-      simNodes.forEach(n => {
-        stored[n.id] = { x: n.x, y: n.y, fx: n.fx, fy: n.fy };
-      });
-      localStorage.setItem(positionsKey, JSON.stringify(stored));
-    }
-
-    function applyFilterAndRender() {
-      let filteredNodes = nodes;
-      if (filterIds.size > 0) {
-        filteredNodes = nodes.filter(n => filterIds.has(normalizeId(n.id)) || filterIds.has(normalizeId(n.canonical_name)));
+  function savePositions(simNodes) {
+    const stored = {};
+    simNodes.forEach(n => {
+      stored[n.id] = { x: n.x, y: n.y };
+      if (n.fx != null && n.fy != null) {
+        stored[n.id].fx = n.fx;
+        stored[n.id].fy = n.fy;
       }
-      const nodeIdSet = new Set(filteredNodes.map(n => n.id));
-      const filteredLinks = links.filter(l => nodeIdSet.has(l.source.id || l.source) && nodeIdSet.has(l.target.id || l.target));
-      render(filteredNodes, filteredLinks);
-    }
+    });
+    localStorage.setItem(positionsKey, JSON.stringify(stored));
+  }
 
-    function render(renderNodes, renderLinks) {
-      rootG.selectAll("*").remove();
-      const gLinks = rootG.append("g").attr("stroke", "#475569").attr("stroke-width", 1.5);
-      const gNodes = rootG.append("g");
-      const gLabels = rootG.append("g").attr("font-size", 11).attr("fill", "#cbd5e1");
-      const gEdgeLabels = rootG.append("g").attr("font-size", 10).attr("fill", "#94a3b8");
+  function clearSavedPositions() {
+    localStorage.removeItem(positionsKey);
+  }
 
-      const posMap = loadPositions();
-      renderNodes.forEach(n => {
-        if (posMap[n.id]) {
-          n.x = posMap[n.id].x;
-          n.y = posMap[n.id].y;
-          n.fx = posMap[n.id].fx;
-          n.fy = posMap[n.id].fy;
-        }
-      });
-
-      simulation = d3.forceSimulation(renderNodes)
-        .force("link", d3.forceLink(renderLinks).id(d => d.id).distance(120).strength(0.4))
-        .force("charge", d3.forceManyBody().strength(-300))
-        .force("center", d3.forceCenter(window.innerWidth / 2, window.innerHeight / 2))
-        .on("tick", ticked)
-        .on("end", () => savePositions(renderNodes));
-
-      const link = gLinks.selectAll("line")
-        .data(renderLinks)
-        .join("line")
-        .attr("marker-end", "url(#arrow)");
-
-      const edgeLabel = gEdgeLabels.selectAll("text")
-        .data(renderLinks)
-        .join("text")
-        .attr("text-anchor", "middle")
-        .text(d => d.relation || "");
-
-      const node = gNodes.selectAll("circle")
-        .data(renderNodes)
-        .join("circle")
-        .attr("r", 16)
-        .attr("fill", d => colorFor(d.class))
-        .attr("stroke", "#0f172a")
-        .attr("stroke-width", 1.5)
-        .call(d3.drag()
-          .on("start", dragstarted)
-          .on("drag", dragged)
-          .on("end", dragended))
-        .on("dblclick", (_, d) => openModal(d));
-
-      const label = gLabels.selectAll("text")
-        .data(renderNodes)
-        .join("text")
-        .attr("text-anchor", "middle")
-        .attr("dy", 26)
-        .text(d => d.canonical_name || d.id);
-
-      function ticked() {
-        link
-          .attr("x1", d => d.source.x)
-          .attr("y1", d => d.source.y)
-          .attr("x2", d => d.target.x)
-          .attr("y2", d => d.target.y);
-
-        edgeLabel
-          .attr("x", d => (d.source.x + d.target.x) / 2)
-          .attr("y", d => (d.source.y + d.target.y) / 2);
-
-        node.attr("cx", d => d.x).attr("cy", d => d.y);
-        label.attr("x", d => d.x).attr("y", d => d.y);
-      }
-
-      function dragstarted(event, d) {
-        if (!event.active) simulation.alphaTarget(0.3).restart();
-        d.fx = d.x;
-        d.fy = d.y;
-      }
-
-      function dragged(event, d) {
-        d.fx = event.x;
-        d.fy = event.y;
-      }
-
-      function dragended(event, d) {
-        if (!event.active) simulation.alphaTarget(0);
-        d.fx = event.x;
-        d.fy = event.y;
-        savePositions(renderNodes);
-      }
-    }
-
-    function openModal(node) {
-      const body = document.getElementById("modalBody");
-      const ontology = node.ontology ? JSON.stringify(node.ontology, null, 2) : "None";
-      const attrs = node.attributes ? JSON.stringify(node.attributes, null, 2) : "{}";
-      const details = `
-        <div style="margin-bottom:8px;">
-          <span class="pill">${node.class || node.entity_type || "Unknown"}</span>
-          <span class="pill">ID: ${node.id}</span>
-        </div>
-        <div style="margin-bottom:8px;"><strong>Canonical:</strong> ${node.canonical_name || ""}</div>
-        <div style="margin-bottom:8px;"><strong>Ontology:</strong></div>
-        <pre>${ontology}</pre>
-        <div style="margin-top:8px;"><strong>Attributes:</strong></div>
-        <pre>${attrs}</pre>
-      `;
-      document.getElementById("modalTitle").textContent = node.canonical_name || node.id;
-      body.innerHTML = details;
-      document.getElementById("modal").style.display = "flex";
-    }
-
-    document.getElementById("closeModal").onclick = () => {
-      document.getElementById("modal").style.display = "none";
-    };
-    document.getElementById("modal").onclick = (e) => {
-      if (e.target.id === "modal") document.getElementById("modal").style.display = "none";
-    };
-
-    function buildLegend() {
-      const legend = document.getElementById("legend");
-      legend.innerHTML = "";
-      Object.entries(classColors).forEach(([cls, color]) => {
-        if (cls === "Default") return;
-        const item = document.createElement("div");
-        item.className = "legend-item";
-        item.innerHTML = `<span class="swatch" style="background:${color}"></span>${cls}`;
-        legend.appendChild(item);
-      });
-    }
-
-    function parseRelations(payload) {
-      const rels = payload.relationship_candidates || [];
-      const byId = {};
-      (payload.nodes || []).forEach(n => { if (n.id) byId[n.id] = n; });
-
-      const edges = [];
-      rels.forEach(r => {
-        const meta = r.llm_relation || {};
-        if (!meta.relation || meta.relation === "no_relation") return;
-        let sourceId = r.source_node_id;
-        let targetId = r.target_node_id;
-        const dir = (meta.direction || "").split("->").map(s => s.trim());
-        if (dir.length === 2) {
-          sourceId = dir[0] === "source" ? r.source_node_id : r.target_node_id;
-          targetId = dir[1] === "target" ? r.target_node_id : r.source_node_id;
-        }
-        if (!byId[sourceId] || !byId[targetId]) return;
-        edges.push({
-          source: sourceId,
-          target: targetId,
-          relation: meta.relation,
-          explanation: meta.explanation,
-          evidence_turn_ids: meta.evidence_turn_ids,
-        });
-      });
-      return edges;
-    }
-
-    function loadFromPayload(payload) {
-      positionsKey = "kg_positions_" + (payload.encounter_id || "default");
-      nodes = payload.nodes || [];
-      links = parseRelations(payload);
-      applyFilterAndRender();
-    }
-
-    document.getElementById("applyFilter").onclick = () => {
-      const raw = document.getElementById("filterInput").value;
-      filterIds = new Set(
-        raw.split(/[\s,]+/)
-          .map(v => v.trim())
-          .filter(Boolean)
-          .map(normalizeId)
+  function applyFilterAndRender() {
+    let filteredNodes = nodes;
+    if (filterIds.size > 0) {
+      filteredNodes = nodes.filter(n =>
+        filterIds.has(normalizeId(n.id)) ||
+        filterIds.has(normalizeId(n.canonical_name))
       );
-      applyFilterAndRender();
-    };
-    document.getElementById("clearFilter").onclick = () => {
-      document.getElementById("filterInput").value = "";
-      filterIds = new Set();
-      applyFilterAndRender();
-    };
+    }
+    const nodeIdSet = new Set(filteredNodes.map(n => n.id));
+    const filteredLinks = links.filter(l =>
+      nodeIdSet.has(l.source.id || l.source) &&
+      nodeIdSet.has(l.target.id || l.target)
+    );
+    render(filteredNodes, filteredLinks);
+  }
 
-    document.getElementById("loadBtn").onclick = async () => {
-      const file = document.getElementById("fileInput").files[0];
-      if (file) {
-        const text = await file.text();
-        const payload = JSON.parse(text);
-        loadFromPayload(payload);
-        return;
+  function render(renderNodes, renderLinks) {
+    rootG.selectAll("*").remove();
+
+    const gLinks = rootG.append("g").attr("stroke", "#475569").attr("stroke-width", 1.5);
+    const gNodes = rootG.append("g");
+    const gLabels = rootG.append("g").attr("font-size", 11).attr("fill", "#cbd5e1");
+    const gEdgeLabels = rootG.append("g").attr("font-size", 10).attr("fill", "#94a3b8");
+
+    const posMap = loadPositions();
+    renderNodes.forEach(n => {
+      const saved = posMap[n.id];
+      if (saved) {
+        n.x = saved.x;
+        n.y = saved.y;
+        if (saved.fx != null && saved.fy != null) {
+          n.fx = saved.fx;
+          n.fy = saved.fy;
+        } else {
+          n.fx = null;
+          n.fy = null;
+        }
+      } else {
+        n.fx = null;
+        n.fy = null;
       }
-      const path = document.getElementById("pathInput").value || "data/interim/file_with_relationships.json";
-      const resp = await fetch(path);
-      const payload = await resp.json();
-      loadFromPayload(payload);
-    };
+    });
 
-    buildLegend();
-  </script>
+    const { w, h } = getGraphSize();
+
+    const degree = new Map();
+    renderLinks.forEach(l => {
+      const s = (l.source && l.source.id) ? l.source.id : l.source;
+      const t = (l.target && l.target.id) ? l.target.id : l.target;
+      degree.set(s, (degree.get(s) || 0) + 1);
+      degree.set(t, (degree.get(t) || 0) + 1);
+    });
+
+    simulation = d3.forceSimulation(renderNodes)
+      .force("link", d3.forceLink(renderLinks).id(d => d.id).distance(150).strength(0.75))
+      .force("charge", d3.forceManyBody().strength(-260).distanceMax(700))
+      .force("collide", d3.forceCollide(26).strength(0.85))
+      .force("center", d3.forceCenter(w / 2, h / 2))
+      .force("x", d3.forceX(w / 2).strength(0.03))
+      .force("y", d3.forceY(h / 2).strength(0.03))
+      .alpha(1)
+      .alphaDecay(0.03)
+      .on("tick", ticked)
+      .on("end", () => {
+        savePositions(renderNodes);
+        zoomToFit(renderNodes);
+      });
+
+
+
+
+    const link = gLinks.selectAll("line")
+      .data(renderLinks)
+      .join("line")
+      .attr("marker-end", "url(#arrow)");
+
+    const edgeLabel = gEdgeLabels.selectAll("text")
+      .data(renderLinks)
+      .join("text")
+      .attr("text-anchor", "middle")
+      .text(d => d.relation || "");
+
+    const node = gNodes.selectAll("circle")
+      .data(renderNodes)
+      .join("circle")
+      .attr("r", 16)
+      .attr("fill", d => colorFor(d.class))
+      .attr("stroke", "#0f172a")
+      .attr("stroke-width", 1.5)
+      .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended))
+      .on("dblclick", (_, d) => openModal(d));
+
+    const label = gLabels.selectAll("text")
+      .data(renderNodes)
+      .join("text")
+      .attr("text-anchor", "middle")
+      .attr("dy", 26)
+      .text(d => d.canonical_name || d.id);
+
+    function ticked() {
+      // for (const n of renderNodes) {
+      //   n.x = Math.max(60, Math.min(w - 30, n.x));
+      //   n.y = Math.max(60, Math.min(h - 30, n.y));
+      // }
+      link
+        .attr("x1", d => d.source.x)
+        .attr("y1", d => d.source.y)
+        .attr("x2", d => d.target.x)
+        .attr("y2", d => d.target.y);
+
+      edgeLabel
+        .attr("x", d => (d.source.x + d.target.x) / 2)
+        .attr("y", d => (d.source.y + d.target.y) / 2);
+
+      node.attr("cx", d => d.x).attr("cy", d => d.y);
+      label.attr("x", d => d.x).attr("y", d => d.y);
+    }
+
+    function dragstarted(event, d) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
+    }
+
+    function dragged(event, d) {
+      d.fx = event.x;
+      d.fy = event.y;
+    }
+
+    function dragended(event, d) {
+      if (!event.active) simulation.alphaTarget(0);
+
+      // Always pin where the user drops it
+      d.fx = event.x;
+      d.fy = event.y;
+
+      savePositions(renderNodes);
+    }
+
+    function handleResize() {
+      const { w: nw, h: nh } = getGraphSize();
+      simulation
+        .force("center", d3.forceCenter(nw / 2, nh / 2))
+        .force("x", d3.forceX(nw / 2).strength(0.06))
+        .force("y", d3.forceY(nh / 2).strength(0.06));
+      simulation.alpha(0.6).restart();
+    }
+
+    window.removeEventListener("resize", handleResize);
+    window.addEventListener("resize", handleResize);
+  }
+
+  function openModal(node) {
+    const body = document.getElementById("modalBody");
+    const ontology = node.ontology ? JSON.stringify(node.ontology, null, 2) : "None";
+    const attrs = node.attributes ? JSON.stringify(node.attributes, null, 2) : "{}";
+    const details = `
+      <div style="margin-bottom:8px;">
+        <span class="pill">${node.class || node.entity_type || "Unknown"}</span>
+        <span class="pill">ID: ${node.id}</span>
+      </div>
+      <div style="margin-bottom:8px;"><strong>Canonical:</strong> ${node.canonical_name || ""}</div>
+      <div style="margin-bottom:8px;"><strong>Ontology:</strong></div>
+      <pre>${ontology}</pre>
+      <div style="margin-top:8px;"><strong>Attributes:</strong></div>
+      <pre>${attrs}</pre>
+    `;
+    document.getElementById("modalTitle").textContent = node.canonical_name || node.id;
+    body.innerHTML = details;
+    document.getElementById("modal").style.display = "flex";
+  }
+
+  document.getElementById("closeModal").onclick = () => {
+    document.getElementById("modal").style.display = "none";
+  };
+  document.getElementById("modal").onclick = (e) => {
+    if (e.target.id === "modal") document.getElementById("modal").style.display = "none";
+  };
+
+  function buildLegend() {
+    const legend = document.getElementById("legend");
+    legend.innerHTML = "";
+    Object.entries(classColors).forEach(([cls, color]) => {
+      if (cls === "Default") return;
+      const item = document.createElement("div");
+      item.className = "legend-item";
+      item.innerHTML = `<span class="swatch" style="background:${color}"></span>${cls}`;
+      legend.appendChild(item);
+    });
+  }
+
+  function parseRelations(payload) {
+    const rels = payload.relationship_candidates || [];
+    const byId = {};
+    (payload.nodes || []).forEach(n => { if (n.id) byId[n.id] = n; });
+
+    const edges = [];
+    rels.forEach(r => {
+      const meta = r.llm_relation || {};
+      if (!meta.relation || meta.relation === "no_relation") return;
+
+      let sourceId = r.source_node_id;
+      let targetId = r.target_node_id;
+
+      const dir = (meta.direction || "").split("->").map(s => s.trim());
+      if (dir.length === 2) {
+        sourceId = dir[0] === "source" ? r.source_node_id : r.target_node_id;
+        targetId = dir[1] === "target" ? r.target_node_id : r.source_node_id;
+      }
+
+      if (!byId[sourceId] || !byId[targetId]) return;
+
+      edges.push({
+        source: sourceId,
+        target: targetId,
+        relation: meta.relation,
+        explanation: meta.explanation,
+        evidence_turn_ids: meta.evidence_turn_ids,
+      });
+    });
+    return edges;
+  }
+
+  function loadFromPayload(payload) {
+    positionsKey = "kg_positions_" + (payload.encounter_id || "default");
+    nodes = payload.nodes || [];
+    links = parseRelations(payload);
+    applyFilterAndRender();
+  }
+
+  document.getElementById("applyFilter").onclick = () => {
+    const raw = document.getElementById("filterInput").value;
+    filterIds = new Set(
+      raw.split(/[\s,]+/)
+        .map(v => v.trim())
+        .filter(Boolean)
+        .map(normalizeId)
+    );
+    applyFilterAndRender();
+  };
+
+  document.getElementById("clearFilter").onclick = () => {
+    document.getElementById("filterInput").value = "";
+    filterIds = new Set();
+    applyFilterAndRender();
+  };
+
+  document.getElementById("resetLayout").onclick = () => {
+    clearSavedPositions();
+    (nodes || []).forEach(n => { n.fx = null; n.fy = null; });
+    applyFilterAndRender();
+  };
+
+  document.getElementById("loadBtn").onclick = async () => {
+    const file = document.getElementById("fileInput").files[0];
+    if (file) {
+      const text = await file.text();
+      const payload = JSON.parse(text);
+      loadFromPayload(payload);
+      return;
+    }
+    const path = document.getElementById("pathInput").value || "data/interim/file_with_relationships.json";
+    const resp = await fetch(path);
+    const payload = await resp.json();
+    loadFromPayload(payload);
+  };
+
+  buildLegend();
+</script>
+
 </body>
 </html>

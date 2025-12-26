@@ -136,6 +136,46 @@ def _format_soap_text(soap: Dict[str, Any]) -> str:
     """
     Convert the structured SOAP JSON into a plain-text document with section headings.
     """
+    def format_items(subsection: str, items: List[Dict[str, Any]]) -> List[str]:
+        lines: List[str] = []
+        if subsection in {"Medication List", "Plan Items"}:
+            for idx, item in enumerate(items, start=1):
+                text = (item.get("text") or "").strip()
+                label = (item.get("label") or "").strip()
+                content = text or label or "(none)"
+                lines.append(f"{idx}. {content}")
+            return lines
+
+        if subsection == "Vital Signs":
+            for item in items:
+                label = (item.get("label") or "").strip()
+                text = (item.get("text") or "").strip()
+                if label and text:
+                    lines.append(f"{label} {text}")
+                elif text:
+                    lines.append(text)
+                elif label:
+                    lines.append(label)
+            return lines
+
+        if subsection in {"Review of Systems", "Physical Exam", "Diagnostic Tests"}:
+            for item in items:
+                label = (item.get("label") or "").strip()
+                text = (item.get("text") or "").strip()
+                if label and text:
+                    lines.append(f"{label}: {text}")
+                elif text:
+                    lines.append(text)
+                elif label:
+                    lines.append(label)
+            return lines
+
+        for item in items:
+            text = (item.get("text") or "").strip()
+            label = (item.get("label") or "").strip()
+            lines.append(text or label or "(none)")
+        return lines
+
     sections: List[Tuple[str, List[Dict[str, Any]]]] = [
         ("Subjective", soap.get("subjective", [])),
         ("Objective", soap.get("objective", [])),
@@ -144,26 +184,23 @@ def _format_soap_text(soap: Dict[str, Any]) -> str:
     ]
     lines: List[str] = []
     for title, section_items in sections:
-        lines.append(f"{title}:")
+        lines.append(title)
+        lines.append("")
         if not section_items:
-            lines.append("  (none)")
+            lines.append("No data available.")
+            lines.append("")
         else:
             for section in section_items:
                 section_name = section.get("section") or "(unspecified section)"
-                lines.append(f"  {section_name}:")
+                lines.append(section_name)
                 items = section.get("items") or []
-                if not items:
-                    lines.append("    - (none)")
+                formatted_items = format_items(section_name, items)
+                if not formatted_items:
+                    lines.append("No data available.")
                 else:
-                    for item in items:
-                        label = item.get("label")
-                        text = item.get("text", "")
-                        if label:
-                            lines.append(f"    - {label}: {text}")
-                        else:
-                            lines.append(f"    - {text}")
-        lines.append("")  # blank line between sections
-    return "\n".join(lines).strip() + "\n"
+                    lines.extend(formatted_items)
+                lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
 
 
 def main() -> None:
@@ -173,19 +210,26 @@ def main() -> None:
     parser.add_argument("--output-txt", type=Path, help="Where to write the SOAP note text with section headings.")
     args = parser.parse_args()
 
-    data = json.loads(args.input.read_text())
+    data = json.loads(args.input.read_text(encoding="utf-8"))
     nodes = data.get("nodes", [])
     relationships = data.get("relationship_candidates", [])
 
     soap = generate_soap_note(nodes=nodes, relationship_candidates=relationships)
 
     if args.output_json:
-        args.output_json.write_text(json.dumps(soap, indent=2, ensure_ascii=False))
+        args.output_json.write_text(
+            json.dumps(soap, indent=2, ensure_ascii=False),
+            encoding="utf-8"
+        )
     if args.output_txt:
-        args.output_txt.write_text(_format_soap_text(soap))
+        args.output_txt.write_text(
+            _format_soap_text(soap),
+            encoding="utf-8"
+        )
 
     if not args.output_json and not args.output_txt:
         print(json.dumps(soap, indent=2, ensure_ascii=False))
+
 
 
 if __name__ == "__main__":

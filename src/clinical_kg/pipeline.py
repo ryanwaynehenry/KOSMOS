@@ -5,7 +5,7 @@ Transcript-only processing pipeline orchestration.
 import json
 import os
 from pathlib import Path
-from typing import List, Tuple
+from typing import List, Optional, Tuple
 
 from clinical_kg.config import PipelineConfig, load_config
 from clinical_kg.data_models import Mention, OntologyCode, Turn
@@ -14,7 +14,7 @@ from clinical_kg.kg.relations import build_relationship_candidates
 from clinical_kg.kg.schema import shacl_turtle
 from clinical_kg.nlp.coref import add_coref_clusters
 from clinical_kg.nlp.ner import extract_mentions
-from clinical_kg.nlp.preprocessing import load_and_segment
+from clinical_kg.nlp.preprocessing import load_and_segment, segment_transcript_text
 from clinical_kg.nlp.relations import attach_attributes
 from clinical_kg.umls.lookup import best_concept_for_mention, source_to_sab
 
@@ -206,19 +206,28 @@ def _attach_ontology(
 
 
 def process_transcript_to_mentions(
-    transcript_path: str,
+    transcript_path: Optional[str],
     encounter_id: str,
     save_intermediate: bool = False,
     use_llm_for_ner: bool = True,
     use_llm_for_coref: bool = True,
+    transcript_text: Optional[str] = None,
 ) -> Tuple[List[Turn], List, List[dict], List[dict]]:
     """
     End to end transcript processing for one encounter, up to mention-level output
     with ontology alignment (database first, FAISS fallback) and KG node creation.
+
+    transcript_path or transcript_text must be provided.
     """
     cfg = load_config()  # Ensure env is loaded; config values used by downstream calls
+    if transcript_text is None and transcript_path is None:
+        raise ValueError("Either transcript_path or transcript_text must be provided.")
 
-    turns = load_and_segment(transcript_path, encounter_id)
+    turns = (
+        load_and_segment(transcript_path, encounter_id)
+        if transcript_text is None
+        else segment_transcript_text(transcript_text, encounter_id, cfg)
+    )
     mentions = extract_mentions(turns, use_llm_refinement=use_llm_for_ner)
     candidates = add_coref_clusters(mentions, turns, use_llm_refinement=use_llm_for_coref)
     # mentions = attach_attributes(mentions)
@@ -251,6 +260,8 @@ def _default_encounter_id(transcript_path: str) -> str:
       session_123.txt -> 123
       anything_else -> filename stem
     """
+    if not transcript_path:
+        return "encounter"
     stem = Path(transcript_path).stem
     lower = stem.lower()
     if "session_" in lower:
@@ -262,27 +273,36 @@ def _default_encounter_id(transcript_path: str) -> str:
 
 
 def save_processed_transcript(
-    transcript_path: str,
+    transcript_path: Optional[str],
     encounter_id: str | None = None,
     save_intermediate: bool = False,
     use_llm_for_ner: bool = True,
     use_llm_for_coref: bool = True,
+    transcript_text: Optional[str] = None,
+    output_stem: Optional[str] = None,
 ) -> Path:
     """
     Process a transcript and write the consolidated JSON (turns, mentions, nodes)
     to data/interim/<source-stem>.json. Returns the output path.
+
+    If transcript_text is provided, transcript_path can be None and output_stem is used
+    for naming (defaults to encounter_id).
     """
-    resolved_encounter = encounter_id or _default_encounter_id(transcript_path)
+    resolved_encounter = encounter_id or _default_encounter_id(transcript_path or "")
     turns, concepts, nodes, relationships = process_transcript_to_mentions(
         transcript_path=transcript_path,
         encounter_id=resolved_encounter,
         save_intermediate=save_intermediate,
         use_llm_for_ner=use_llm_for_ner,
         use_llm_for_coref=use_llm_for_coref,
+        transcript_text=transcript_text,
     )
 
-    transcript_stem = Path(transcript_path).stem
-    output_path = Path("data") / "interim" / f"{transcript_stem}.json"
+    stem = (
+        output_stem
+        or (Path(transcript_path).stem if transcript_path else resolved_encounter)
+    )
+    output_path = Path("data") / "interim" / f"{stem}.json"
     os.makedirs(output_path.parent, exist_ok=True)
 
     payload = {

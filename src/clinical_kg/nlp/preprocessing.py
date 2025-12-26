@@ -9,7 +9,7 @@ import json
 import re
 from dataclasses import asdict
 from pathlib import Path
-from typing import List, Optional
+from typing import Dict, List, Optional
 
 from clinical_kg.config import PipelineConfig, load_config
 from clinical_kg.data_models import Turn
@@ -18,35 +18,91 @@ from clinical_kg.nlp.llm_client import call_llm_for_extraction
 _TURN_ID_TEMPLATE = "t{index:04d}"
 
 
-def _resolve_pronouns_with_llm(transcript_text: str, cfg: Optional[PipelineConfig] = None) -> str:
+def _chunk_transcript_to_turn_dicts(transcript_text: str) -> List[Dict[str, str]]:
     """
-    Required: use LLM to replace pronouns with explicit noun phrases while
-    preserving line structure and speaker prefixes.
+    Normalize the transcript into a list of turn dicts (speaker/text) while preserving
+    contiguous speaker runs. This is used before sending structured content to the LLM.
+    """
+    turns: List[Dict[str, str]] = []
+    speaker_pattern = re.compile(r"^(?P<speaker>[A-Za-z]{1,5})\.?\s*:\s*(?P<text>.*)$")
+
+    current_speaker: Optional[str] = None
+    current_chunks: List[str] = []
+
+    def _flush_turn():
+        if current_speaker is None:
+            return
+        text = " ".join(chunk for chunk in current_chunks if chunk)
+        if not text:
+            return
+        turns.append({"speaker": current_speaker, "text": text})
+
+    for line in transcript_text.splitlines():
+        raw = line.strip()
+        if not raw:
+            continue
+
+        match = speaker_pattern.match(raw)
+        if match:
+            speaker_candidate = match.group("speaker").strip()
+            text_part = match.group("text").strip()
+
+            if speaker_candidate == current_speaker or current_speaker is None:
+                current_speaker = speaker_candidate
+                current_chunks.append(text_part)
+            else:
+                _flush_turn()
+                current_speaker = speaker_candidate
+                current_chunks = [text_part]
+        else:
+            if current_speaker is None:
+                current_speaker = "UNKNOWN"
+                current_chunks = [raw]
+            else:
+                current_chunks.append(raw)
+
+    _flush_turn()
+    return turns
+
+
+def _resolve_pronouns_with_llm(turns: List[Dict[str, str]], cfg: Optional[PipelineConfig] = None) -> List[Dict[str, str]]:
+    """
+    Required: use LLM to replace pronouns with explicit noun phrases while preserving
+    structure and speaker prefixes. Expects and returns a list of turn dicts.
     """
     cfg = cfg or load_config()
+    payload = {"turns": turns}
     messages = [
         {
             "role": "system",
             "content": (
-                "You will receive a clinical conversation transcript between a doctor and a patient.\n\n"
-                "Your goal is to rewrite the transcript by replacing pronouns with the explicit nouns or "
+                "You will receive a clinical conversation transcript between a doctor and a patient as JSON.\n\n"
+                "Input format:\n"
+                "{ \"turns\": [ { \"speaker\": \"D\", \"text\": \"How are you feeling?\" }, ... ] }\n\n"
+                "Your goal is to rewrite ONLY the 'text' fields by replacing pronouns with the explicit nouns or "
                 "noun phrases they refer to, whenever the referent is reasonably clear from context.\n"
                 "You MUST do this for BOTH:\n"
                 "  (a) pronouns that refer to the doctor or patient, and\n"
                 "  (b) pronouns that refer to clinical concepts (conditions, medications, tests, results, plans, etc.).\n\n"
-                "1) Preserve the structure:\n"
-                "   - Keep all line breaks exactly as in the input.\n"
-                "   - Keep the speaker prefixes exactly as in the input (for example, 'P:' or 'D:').\n"
-                "   - Do not reorder, add, or remove turns.\n\n"
+                "Structural requirements:\n"
+                "  - Keep the same number of turns, in the same order.\n"
+                "  - Do not change the 'speaker' values.\n"
+                "  - Do not add or remove keys.\n\n"
                 "2) Replace pronouns referring to people (doctor or patient):\n"
                 "   - Replace personal pronouns such as 'I', 'me', 'my', 'mine', 'you', 'your', 'he', 'she', "
                 "     'him', 'her', 'we', 'us', 'our', 'they', 'them' when they clearly refer to the doctor "
                 "     or the patient.\n"
-                "   - Use the full name or role based on the transcript, for example: 'Sophia Brown', "
-                "     'Sophia Brown's', 'Dr. Rafael Gomez', 'Dr. Rafael Gomez's'.\n"
-                "   - Example: 'P: Yes, that's me.' -> 'P: Yes, that's Sophia Brown.'\n"
+                "   - Detect the patient name and doctor name if they appear anywhere in the transcript (even once) "
+                "     and use those names consistently for every pronoun reference to that person across all turns.\n"
+                "   - Use the full name or role when it is explicitly provided (for example: 'Sophia Brown', "
+                "     'Sophia Brown's', 'Dr. Rafael Gomez', 'Dr. Rafael Gomez's').\n"
+                "   - If a name is not provided, DO NOT invent one. Use 'the patient' / 'the doctor' instead.\n"
+                "   - Example: 'P: Yes, that's me.' -> 'P: Yes, that's Sophia Brown.' (when name given)\n"
+                "   - Example: 'P: Yes, that's me.' -> 'P: Yes, that's the patient.' (when name not given)\n"
                 "   - Example: 'D: How are you feeling today?' -> "
-                "              'D: How is Sophia Brown feeling today?'\n\n"
+                "              'D: How is Sophia Brown feeling today?' (when patient name given)\n"
+                "   - Example: 'D: How are you feeling today?' -> "
+                "              'D: How is the patient feeling today?' (when patient name not given)\n\n"
                 "3) Replace pronouns referring to clinical concepts:\n"
                 "   - For pronouns such as 'it', 'this', 'that', 'they', 'them', 'these', 'those' that refer "
                 "     to specific clinical entities, replace the pronoun with an explicit phrase.\n"
@@ -67,21 +123,79 @@ def _resolve_pronouns_with_llm(transcript_text: str, cfg: Optional[PipelineConfi
                 "   - Do not add new sentences or commentary.\n"
                 "   - Only modify the text as needed to expand pronouns into explicit noun phrases.\n\n"
                 "Output format:\n"
-                "Return STRICT JSON with a single key 'rewritten_transcript' whose value is the full rewritten "
-                "transcript as a single string, including all line breaks.\n"
+                "Return STRICT JSON with a single key 'turns' holding the modified turns list.\n"
                 "Example:\n"
-                "{ \"rewritten_transcript\": \"D: ...\\nP: ...\\n...\" }"
+                "{ \"turns\": [ { \"speaker\": \"D\", \"text\": \"How is Sophia Brown feeling today?\" }, ... ] }"
             ),
         },
-        {"role": "user", "content": transcript_text},
+        {"role": "user", "content": json.dumps(payload, ensure_ascii=False, indent=2)},
     ]
     try:
         output = call_llm_for_extraction(messages, cfg, label="preprocess_llm")
-        if isinstance(output, dict) and "rewritten_transcript" in output:
-            return str(output["rewritten_transcript"])
-    except Exception:
-        pass
-    return transcript_text
+        if isinstance(output, dict):
+            if isinstance(output.get("turns"), list):
+                rewritten_turns: List[Dict[str, str]] = []
+                returned_turns = output["turns"]
+                for idx, turn in enumerate(returned_turns):
+                    base = turns[idx] if idx < len(turns) else {}
+                    speaker = (turn.get("speaker") if isinstance(turn, dict) else None) or base.get("speaker") or ""
+                    text = (turn.get("text") if isinstance(turn, dict) else None) or base.get("text") or ""
+                    rewritten_turns.append({"speaker": str(speaker), "text": str(text)})
+                if len(rewritten_turns) == len(turns):
+                    return rewritten_turns
+            if isinstance(output.get("rewritten_transcript"), str):
+                return _chunk_transcript_to_turn_dicts(output["rewritten_transcript"])
+    except Exception as exc:
+        print(f"[preprocess] pronoun rewrite failed; using original turns: {exc}")
+    return turns
+
+
+def _normalize_speaker_tokens(transcript_text: str) -> str:
+    """
+    Normalize bracketed speaker tags to the expected colon format (D:/P:).
+    """
+    normalized = re.sub(r"(?mi)^\s*\[doctor\]\s*", "D: ", transcript_text)
+    normalized = re.sub(r"(?mi)^\s*\[patient\]\s*", "P: ", normalized)
+    return normalized
+
+
+def _segment_transcript_text(
+    transcript_text: str, encounter_id: str, cfg: Optional[PipelineConfig] = None
+) -> List[Turn]:
+    """
+    Shared segmentation logic for both on-disk and in-memory transcripts.
+    """
+    normalized_text = _normalize_speaker_tokens(transcript_text)
+    base_turns = _chunk_transcript_to_turn_dicts(normalized_text)
+    rewritten_turns = _resolve_pronouns_with_llm(base_turns, cfg)
+    turns_for_segment = rewritten_turns if rewritten_turns else base_turns
+    turns: List[Turn] = []
+    for turn_dict in turns_for_segment:
+        speaker = turn_dict.get("speaker") or "UNKNOWN"
+        text = (turn_dict.get("text") or "").strip()
+        if not text:
+            continue
+        turn_id = _TURN_ID_TEMPLATE.format(index=len(turns) + 1)
+        turns.append(
+            Turn(
+                encounter_id=encounter_id,
+                turn_id=turn_id,
+                speaker=speaker,
+                text=text,
+                start_time=None,
+                end_time=None,
+            )
+        )
+    return turns
+
+
+def segment_transcript_text(
+    transcript_text: str, encounter_id: str, cfg: Optional[PipelineConfig] = None
+) -> List[Turn]:
+    """
+    Segment an in-memory transcript string into Turns (same behavior as load_and_segment).
+    """
+    return _segment_transcript_text(transcript_text, encounter_id, cfg)
 
 
 def load_and_segment(transcript_path: str, encounter_id: str, cfg: Optional[PipelineConfig] = None) -> List[Turn]:
@@ -110,64 +224,7 @@ def load_and_segment(transcript_path: str, encounter_id: str, cfg: Optional[Pipe
         raise FileNotFoundError(f"Transcript not found: {transcript_path}")
 
     raw_content = path.read_text(encoding="utf-8")
-    rewritten = _resolve_pronouns_with_llm(raw_content, cfg)
-
-    turns: List[Turn] = []
-    current_speaker: Optional[str] = None
-    current_chunks: List[str] = []
-
-    def _flush_turn():
-        if current_speaker is None:
-            return
-        text = " ".join(chunk for chunk in current_chunks if chunk)
-        if not text:
-            return
-        turn_id = _TURN_ID_TEMPLATE.format(index=len(turns) + 1)
-        turns.append(
-            Turn(
-                encounter_id=encounter_id,
-                turn_id=turn_id,
-                speaker=current_speaker,
-                text=text,
-                start_time=None,
-                end_time=None,
-            )
-        )
-
-    # Restrict speaker prefixes to short tokens (e.g., D, P, Dr) to avoid matching phrases like
-    # "Assessment and Plan:" as a new speaker.
-    speaker_pattern = re.compile(r"^(?P<speaker>[A-Za-z]{1,5})\.?\s*:\s*(?P<text>.*)$")
-
-    for line in rewritten.splitlines():
-        raw = line.strip()
-        if not raw:
-            continue
-
-        match = speaker_pattern.match(raw)
-        if match:
-            speaker_candidate = match.group("speaker").strip()
-            text_part = match.group("text").strip()
-
-            if speaker_candidate == current_speaker or current_speaker is None:
-                # Continuation of the same speaker
-                current_speaker = speaker_candidate
-                current_chunks.append(text_part)
-            else:
-                # New speaker starts; flush the previous turn first
-                _flush_turn()
-                current_speaker = speaker_candidate
-                current_chunks = [text_part]
-        else:
-            # Continuation text without explicit speaker; attach to current speaker if any
-            if current_speaker is None:
-                # No active speaker; skip or treat as UNKNOWN
-                current_speaker = "UNKNOWN"
-                current_chunks = [raw]
-            else:
-                current_chunks.append(raw)
-
-    _flush_turn()
-    return turns
+    return _segment_transcript_text(raw_content, encounter_id, cfg)
 
 
 def save_turns_to_json(turns: List[Turn], output_path: str) -> None:

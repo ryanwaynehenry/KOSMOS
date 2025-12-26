@@ -116,6 +116,16 @@ ATTRIBUTE_SPECS: Dict[str, AttributeSpec] = {
         definition="Relationship status or key family link if explicitly mentioned.",
         examples=["divorced", "mother of two"],
     ),
+    "patient_agreement": AttributeSpec(
+        name="patient_agreement",
+        definition="Summary of the patient's expressed willingness or unwillingness to follow the care plan or specific instructions.",
+        examples=[
+            "agrees with the recommended medical treatment plan",
+            "will call in 2 days with weight update",
+            "will follow up in 2 weeks or sooner if symptoms worsen",
+            "declines to start the new medication",
+        ],
+    ),
     "notes": AttributeSpec(
         name="notes",
         definition="Other brief person-relevant details not captured by other fields.",
@@ -227,6 +237,15 @@ ATTRIBUTE_SPECS: Dict[str, AttributeSpec] = {
         name="indication",
         definition="Reason or condition the medication treats.",
         examples=["for hypothyroidism", "for depression"],
+    ),
+    "medication_status": AttributeSpec(
+        name="medication_status",
+        definition="Whether the patient used to take, is currently taking, or is about to start taking the medication (prescribed/planned).",
+        examples=[
+            "used to take",
+            "currently taking",
+            "about to start",
+        ],
     ),
     # Lab/Observation/Activity
     "result_value": AttributeSpec(
@@ -377,6 +396,18 @@ ATTRIBUTE_SPECS: Dict[str, AttributeSpec] = {
         definition="What procedure or intervention was performed or planned.",
         examples=["appendectomy", "colonoscopy", "psychotherapy session", "physical therapy"],
     ),
+    "procedure_subject": AttributeSpec(
+    name="procedure_subject",
+    definition=(
+        "Who the procedure or intervention was performed on or is planned for. "
+        "Use this to explicitly state the recipient of the procedure when it is not the patient, "
+        "or when multiple people are discussed."
+    ),
+    examples=[
+        "the patient",
+        "the patient's mother",
+    ],
+),
     "procedure_status": AttributeSpec(
         name="procedure_status",
         definition="State of the procedure.",
@@ -441,6 +472,7 @@ PERSON_ATTRS = [
     "hobbies",
     "location",
     "relationship",
+    "patient_agreement",
     "notes",
 ]
 PERSON_SCHEMA = NodeSchema(
@@ -480,6 +512,7 @@ MEDICATION_ATTRS = [
     "start_date",
     "end_date",
     "indication",
+    "medication_status",
     "notes",
 ]
 MEDICATION_SCHEMA = NodeSchema(
@@ -527,6 +560,7 @@ TIME_SCHEMA = NodeSchema(
 
 PROCEDURE_ATTRS = [
     "procedure_type",
+    "procedure_subject",
     "procedure_status",
     "procedure_intent",
     "procedure_body_site",
