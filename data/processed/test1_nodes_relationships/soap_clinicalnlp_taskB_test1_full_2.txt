@@ -1,0 +1,29 @@
+HISTORY OF PRESENT ILLNESS  
+Albert is a 62-year-old male presenting today for an emergency room follow-up visit. [n0002][n0007][pn0002_n0007]  
+He reports he went to the emergency room after feeling “kinda woozy” over the weekend and being concerned. [n0008][n0010][pn0002_n0008][pn0002_n0010]  
+He reports he has not been staying on top of his blood sugar readings. [n0009][pn0002_n0009]  
+He reports that over the last week, while his mother was hospitalized after a fall and hip replacement, he was grabbing meals at the cafeteria and picking up fast food and was not monitoring what he was eating. [n0012][n0013][n0014][n0015][n0016][pn0002_n0015][pn0002_n0016]  
+He reports he has been following his diet pretty closely during the week but is less consistent on weekends when seeing people or having people over. [n0017][n0020][pn0002_n0017][pn0002_n0020]  
+He reports he is currently taking immunotherapy/immunosuppression medications and is diligent about following doctor’s orders. [n0021][n0022][n0057][pn0002_n0021][pn0002_n0022]  
+He has a history of depression for about a year and a half that is stable, and he prefers to shy away from therapy and continue meditation for a couple more months. [n0004][n0025][n0026][n0052][pn0002_n0004][pn0002_n0026]  
+On review of systems, he denies symptoms including chest pain, shortness of breath, lightheadedness, and dizziness. [n0027][n0028][n0029][n0030][n0031][n0032][pn0002_n0027][pn0002_n0029][pn0002_n0030][pn0002_n0031][pn0002_n0032]  
+
+PHYSICAL EXAM  
+Vital signs are normal, with blood pressure and heart rate “right where they should be,” and pulse oximetry is normal. [n0034][n0035][n0036][n0037][pn0002_n0034][pn0002_n0035][pn0002_n0036][pn0002_n0037]  
+On exam, he appears in no distress and no carotid bruits are appreciated. [n0033][n0038][n0039][pn0002_n0033][pn0002_n0039]  
+Cardiac exam reveals a slight 2/6 systolic ejection murmur that has been heard in the past. [n0040][n0041][n0033][pn0002_n0040][pn0002_n0041]  
+Lungs are clear on respiratory exam. [n0042][pn0002_n0042]  
+There is 1+ lower extremity edema. [n0043][pn0002_n0043]  
+
+RESULTS  
+Blood glucose measured today is 162. [n0044][pn0002_n0044]  
+Hemoglobin A1c is 8 and interpreted as a little high. [n0046][pn0002_n0046]  
+Blood sugars were high one day and have been a little elevated. [n0047][pn0002_n0047]  
+Kidney function is described as good and stable. [n0023][n0055][pn0002_n0023][pn0002_n0055]  
+
+ASSESSMENT AND PLAN  
+Hyperglycemia in the setting of type 2 diabetes mellitus will be managed by increasing insulin glargine (Lantus) to 20 units nightly and continuing blood sugar monitoring with reporting of values. [n0006][n0048][n0049][n0050][pn0002_n0006][pn0002_n0048][pn0002_n0049][pn0002_n0050]  
+Plan to order a repeat hemoglobin A1c in a couple months. [n0051][pn0002_n0051]  
+Depression is stable, and the plan is to hold off on depression medication and therapy while continuing meditation/relaxation strategies. [n0004][n0026][n0052][n0053][n0054][pn0002_n0004][pn0002_n0026]  
+Kidney transplant status is stable with stable kidney function, and he will continue immunosuppression medications with follow-up/management by Dr. Reyes. [n0001][n0003][n0055][n0056][n0057][pn0001_n0002][pn0002_n0003][pn0002_n0056]  
+Nursing staff will complete checkout/discharge procedures soon. [n0058][pn0002_n0058]

@@ -1,0 +1,27 @@
+HISTORY OF PRESENT ILLNESS  
+Elizabeth is a 66-year-old female who presents for an annual exam with her doctor. [n0001][n0010][pn0001_n0002][pn0001_n0010]  
+She has a history of depression and hypertension. [n0003][n0004][pn0001_n0003][pn0001_n0004]  
+Her depression has been stable, and she has been attending psychotherapy once weekly for the past year, transitioning from mostly virtual to more in-person sessions. [n0003][n0018][n0016][pn0001_n0018]  
+She reports a strong support system at home including her husband and children living nearby. [n0019][pn0001_n0019]  
+She reports being vaccinated and that this has allowed her to see her grandkids again and attend more events such as birthday parties. [n0011][n0012][n0013][pn0001_n0011][pn0001_n0012][pn0001_n0013]  
+For hypertension, she is currently taking lisinopril 20 mg daily and monitors her blood pressure at home using a cuff. [n0005][n0007][n0020][pn0001_n0005][pn0001_n0007][pn0001_n0020]  
+On review of systems, she notes nasal congestion and denies chest pain, shortness of breath, abdominal pain, nausea, and vomiting. [n0021][n0023][n0024][n0025][n0026][n0027][n0028][pn0001_n0021][pn0001_n0023][pn0001_n0024][pn0001_n0025][pn0001_n0026][pn0001_n0027][pn0001_n0028]  
+
+PHYSICAL EXAM  
+A physical examination was completed. [n0006][pn0001_n0006]  
+Neck exam shows no carotid bruits appreciated. [n0034][n0006][pn0001_n0034]  
+Cardiac exam reveals a slight 2/6 systolic ejection murmur that is stable. [n0035][n0036][pn0001_n0035][pn0001_n0036]  
+Lungs are clear on exam. [n0037][n0006]  
+Extremities show trace bilateral lower extremity edema. [n0038][n0006][pn0001_n0038]  
+
+RESULTS  
+In-office vital signs were reviewed and blood pressure and heart rate were noted to be really good. [n0030][n0031][pn0001_n0030][pn0001_n0031]  
+An EKG performed before the visit was reviewed and was perfectly fine. [n0041][pn0001_n0041]  
+
+ASSESSMENT AND PLAN  
+Depression is stable on weekly psychotherapy, and no new depression medication is planned at this time. [n0003][n0018][n0043][pn0002_n0003]  
+Hypertension is stable with blood pressure looking fine in the office, and she should continue lisinopril 20 mg daily. [n0004][n0005][n0044][pn0002_n0004][pn0002_n0005]  
+She should continue monitoring blood pressures at home and contact the doctor if readings start rising. [n0007][n0044][pn0001_n0007][pn0001_n0044]  
+A screening mammogram is due and will be scheduled. [n0046][n0045][pn0001_n0046]  
+Dietary improvement was recommended. [n0039][pn0002_n0039]  
+She may take her current medications together, and she can use an alarm reminder to help with adherence. [n0047][n0048][pn0001_n0047][pn0002_n0048]

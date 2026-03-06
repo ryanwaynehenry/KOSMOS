@@ -1,0 +1,42 @@
+## HISTORY OF PRESENT ILLNESS
+Andrew is a 59-year-old male with a past medical history of depression, type 2 diabetes, and hypertension who presents with an upper respiratory infection. [6]  
+Over the last week or so after doing yard work/landscaping, he developed fatigue and shortness of breath and feels he caught a cold that has worsened. [7]  
+His shortness of breath is exertional (noted with lifting/carrying heavy bags of soil) and he became very winded. [12][13]  
+He is not coughing up anything yet but feels like that may be next. [14][15]  
+He felt a little warm but thought it was due to exertion. [16][17]  
+He reports elbow pain “quite a bit” and knee tiredness/tension that he attributes to lifting bags. [18][19]  
+He reports having received both COVID vaccines. [8][9]  
+He denies any history of seasonal allergies. [10][11]  
+Regarding depression, he reports doing well overall and has been using barre classes to relax, and he prefers to defer medication/psychotherapy for now and recheck in a few months. [20][21][56][58][60][61][62]  
+For diabetes, he monitors sugars during the work week but often forgets on weekends; diet is mostly good except for some house parties, and he has not noticed elevated sugars during this illness. [22][23][24][25]  
+For hypertension, he monitors BP more regularly during the work week than on weekends, reports it has been under control, and confirms he is taking his medication. [26][27][28][29]  
+He denies nausea, vomiting, and diarrhea. [30][31][32][33]  
+
+## PHYSICAL EXAM
+Vital signs in the office were normal and he was afebrile. [34][36]  
+Cardiac exam: heart sounds “nice and strong.” [38]  
+Pulmonary exam: scattered rhonchi bilaterally that clear with cough. [38]  
+Extremities: mild lower extremity edema. [38]  
+MSK: pain to palpation of both elbows. [38]  
+
+## RESULTS
+Chest X-ray was normal with no airspace disease and no pneumonia. [40][41]  
+Diabetic labs showed hemoglobin A1c 8.0 (elevated), with goal discussed of ~6–7. [43][44][46]  
+
+## ASSESSMENT AND PLAN
+1) **Upper respiratory infection / suspected viral syndrome**: Clinician felt presentation was consistent with viral syndrome and expected improvement over a couple of days. [50][52]  
+- Send COVID test to rule out COVID. [50]  
+- Symptomatic treatment: Robitussin for cough; ibuprofen and/or Tylenol for fever. [54]  
+- Return precautions: patient to notify clinic if symptoms worsen. [77]  
+
+2) **Depression (stable by report)**: Patient reports doing fairly well and prefers to defer meds/psychotherapy for now. [21][56][60][61][62]  
+- Offered medication regimen and/or psychotherapy referral if needed in the future. [56][58]  
+
+3) **Type 2 diabetes mellitus (suboptimally controlled, A1c 8.0)**: Increase metformin to 1000 mg twice daily. [44][63]  
+- Recheck hemoglobin A1c in 4 months (ordered). [65][67]  
+
+4) **Hypertension (reported controlled)**: Continue lisinopril 20 mg daily. [68]  
+- Refill provided/ordered per patient request. [72][73][74]  
+- Lipid panel ordered. [70]  
+
+5) **Follow-up**: Follow up visit planned in about 4 months. [75][76]

@@ -1,0 +1,31 @@
+HISTORY OF PRESENT ILLNESS  
+Gregory presents for evaluation of an active right knee injury that began about two and a half weeks ago after stepping off a curb. [n0001][n0003][n0005][pn0001_n0003][pn0001_n0005]  
+He reports he did not fall during the event and instead “sort of turned over” his ankle, with ankle soreness that has since resolved. [n0003][n0014][n0015][pn0001_n0014][pn0001_n0015]  
+Over the last two weeks, his right knee symptoms have been about the same, and they worsen with exertional activities such as going up and down, gardening, and moving pots but do not stay worse. [n0052][n0053][pn0001_n0052][pn0001_n0053]  
+He notes intermittent right knee clicking with walking, with the most clicking during a full squat. [n0006][n0016][n0020][pn0001_n0006][pn0001_n0016][pn0001_n0020]  
+He describes episodes where the right knee feels “locked,” particularly after standing on one foot for an extended period, and then he has to ease into walking again. [n0013][n0016][n0017][pn0001_n0013][pn0001_n0016][pn0001_n0017]  
+He reports little to no pain most of the time, but pain can be reproduced when the knee/foot is pulled to the outside. [n0011][n0033][n0034][pn0001_n0011][pn0001_n0033][pn0001_n0034]  
+He is fearful that the clicking represents an injury. [n0021][n0022][pn0001_n0021]  
+For symptom control, he has been icing the right knee (20 minutes on/20 minutes off at least four times daily), which makes the knee feel better in the morning and at the end of the day. [n0009][pn0001_n0009]  
+He has been taking ibuprofen at night/before bed for pain from the right knee injury, which helps him sleep better and helps prevent swelling overnight, and he notes he is not a big pill taker. [n0004][n0018][n0048][pn0001_n0004][pn0001_n0018][pn0001_n0048][pn0004_n0005]  
+He also reports intermittent foot numbness/tingling that depends on the shoe worn and is not new, in the setting of a chronic history of right second toe fractures (broken three times over the last ten years). [n0007][n0008][pn0001_n0007][pn0001_n0008][pn0007_n0008]  
+
+PHYSICAL EXAM  
+On right knee musculoskeletal exam, there is slight edema and slight effusion. [n0029][n0030][pn0001_n0029][pn0001_n0030]  
+Knee range of motion is full. [n0036][pn0001_n0036]  
+Varus stress testing is positive. [n0035][pn0001_n0035][pn0035_n0043]  
+Lachman test is negative. [n0037][pn0001_n0037]  
+Pedal pulses (dorsalis pedis and posterior tibialis) are palpable. [n0038][pn0001_n0038]  
+There is no pain to palpation of the right lateral knee and bending the knee in most positions does not hurt. [n0031][pn0001_n0031]  
+
+RESULTS  
+Knee x-ray (“knee scanned”) shows no acute fracture or bony abnormality. [n0039][n0040][n0041][pn0001_n0039][pn0039_n0040][pn0039_n0041]  
+
+ASSESSMENT AND PLAN  
+Right knee injury is assessed as a lateral collateral ligament strain, supported by a positive varus stress test. [n0005][n0043][n0035][pn0001_n0043][pn0035_n0043]  
+No surgery referral is planned. [n0044][n0042]  
+Start meloxicam 15 mg by mouth once daily. [n0045][pn0001_n0045][pn0002_n0045]  
+Continue icing the right knee as part of symptom management. [n0009][n0042][pn0001_n0009]  
+Refer to physical therapy to strengthen muscles around the injury and help prevent future injuries. [n0010][n0042][pn0001_n0010][pn0002_n0010]  
+If he is still having pain, physical therapy will proceed and an MRI of the knee may be considered. [n0054][n0055][pn0001_n0054][pn0001_n0055][pn0002_n0055]  
+Follow-up visit planned. [n0012]

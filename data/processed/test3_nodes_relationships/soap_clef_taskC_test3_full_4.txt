@@ -1,0 +1,25 @@
+HISTORY OF PRESENT ILLNESS  
+Roy is a 50-year-old male presenting for follow-up with a history of hypertension and depression. [n0001][n0004][n0003][n0008][pn0001_n0004][pn0001_n0003]  
+He reports a stressful winter and spring at work related to short-staffing and onboarding new employees. [n0001][n0009][pn0001_n0009]  
+He reports occasional sleep disturbance, noting he could use more sleep and usually wakes around 5:00 AM. [n0001][n0011][pn0001_n0011]  
+He reports his diet has been “off the charts” over the last month or so while on vacation/at the beach, and he has had a little weight gain. [n0006][n0005][pn0001_n0006][pn0001_n0005]  
+He reports concern about recent blood pressure readings, though hypertension has been under relatively good control recently. [n0013][n0004][pn0001_n0013]  
+He reports depression has had bouts but is currently under control, and he denies thoughts of self-harm. [n0003][n0012][pn0001_n0003][pn0001_n0012]  
+He is taking lisinopril 5 mg daily for high blood pressure and Zoloft 50 mg daily for depression and requests a refill of Zoloft. [n0007][n0010][n0020][n0021][n0022][pn0001_n0007][pn0001_n0010][pn0001_n0020][pn0001_n0021][pn0001_n0022]  
+
+PHYSICAL EXAM  
+A quick physical examination was performed. [n0014][pn0001_n0014]  
+Lungs are clear. [n0015][pn0001_n0015]  
+Heart is regular with a grade 2 systolic ejection murmur that is not new. [n0016][n0017][pn0001_n0016][pn0001_n0017]  
+Extremities are normal with no edema. [n0018][n0019][pn0001_n0018][pn0001_n0019]  
+
+RESULTS  
+Blood pressure readings were discussed and were described as concerning by the patient, though noted to be under relatively good control recently. [n0013][n0004][pn0001_n0013]  
+
+ASSESSMENT AND PLAN  
+Hypertension: continue lisinopril 5 mg daily with no change at this time. [n0004][n0007][pn0002_n0004][pn0002_n0007]  
+Depression: continue Zoloft 50 mg daily with no change, and Zoloft was ordered/refilled. [n0003][n0021][n0022][pn0002_n0003][pn0002_n0021][pn0001_n0022]  
+Weight gain/diet: patient has put on a little weight and was advised to get back on his diet. [n0005][n0006][pn0002_n0005][pn0002_n0006]  
+Follow-up visits are planned in about a month and then again in about three months. [n0023][pn0001_n0023]  
+Hemoglobin A1c was mentioned as part of the plan/context for getting things back on track. [n0024][pn0001_n0024]  
+Patient will proceed to check-out. [n0025][pn0001_n0025]

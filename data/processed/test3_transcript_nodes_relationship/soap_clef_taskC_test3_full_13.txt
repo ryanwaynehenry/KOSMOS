@@ -1,0 +1,34 @@
+## HISTORY OF PRESENT ILLNESS
+Michelle King (DOB 01/05/1986) is a new patient referred by her primary doctor (Dr. Scott) for evaluation of “really bad” acid reflux/GERD. [0][6][8]  
+She reports long-standing reflux since about age 12, with worsening over the past few years. [24]  
+Current symptoms are described as a burning sensation in the chest and throat, with some days controlled and other days severe despite medication. [10][12][14]  
+She has been taking omeprazole 40 mg twice daily for about 1 year, with incomplete relief. [10][26][53][54]  
+She denies dysphagia/food sticking. [15][16]  
+She denies abdominal pain, nausea/vomiting, and changes in bowel movements including constipation, diarrhea, or rectal bleeding. [17][18][19][20][21][22]  
+She identifies triggers including stress and certain foods/drinks, especially spicy foods and soda/carbonated beverages; citrus and tomato-based foods can also worsen symptoms and she has not fully eliminated these from her diet. [29][30][32][34][55]  
+Weight has been “pretty stable,” but she reports decreased appetite for the past 2 months in the setting of significant work stress and anxiety. [35][36][58]  
+She works as a paralegal. [38]  
+Family history is notable for grandmother with esophageal cancer (mother’s side) and mother with acid reflux. [40][42]  
+She may have had an upper endoscopy when younger but has not had one in the last 10 years. [43][44][45][46]  
+She previously tried omeprazole plus ranitidine, which helped. [48]  
+
+## PHYSICAL EXAM
+Physical exam was documented as normal per the clinician’s new patient template except for well-healed abdominal surgical scars. [51]  
+Patient reports the abdominal scar is from surgery as an infant (~1 month old) for “twisted intestines.” [52]  
+
+## RESULTS
+No diagnostic test results were reviewed or reported during this visit. [0]  
+
+## ASSESSMENT AND PLAN
+**1) GERD / acid reflux, poorly controlled on omeprazole**: History is consistent with GERD with persistent heartburn despite omeprazole 40 mg BID. [53][54]  
+Plan includes dietary modification to avoid identified triggers (spicy foods, carbonated/caffeinated beverages including soda, citrus, tomato-based foods). [32][33][55][56]  
+Discussed stress/anxiety as a trigger and recommended working on stress reduction as this may improve symptoms. [57][58]  
+Medication change: discontinue omeprazole and start Nexium (esomeprazole) 40 mg twice daily; prescription to be sent to pharmacy on file. [59][60][61]  
+
+**2) Evaluate for complications/alternate etiologies**: Recommend EGD (upper endoscopy) with sedation to evaluate for potential causes of GERD and to assess for ulcers or pre-cancer/cancer, with biopsies if indicated. [61]  
+Patient would like to schedule the EGD today and was instructed to schedule at checkout. [62][63]  
+Follow up in clinic after EGD to review results and response to diet/stress/medication changes. [63]  
+Return precautions: patient advised to call the office if symptoms change or problems arise before the EGD/follow-up. [65]  
+
+**3) Clinician contingency plan**: Clinician noted suspicion for GERD with possible underlying functional etiology and documented that she denies dysphagia and has no unintentional weight loss. [66]  
+If EGD is normal and symptoms persist despite Nexium, consider trial of Protonix and obtain pH-impedance study to evaluate acid exposure and distinguish functional etiology vs hypersensitivity. [66]

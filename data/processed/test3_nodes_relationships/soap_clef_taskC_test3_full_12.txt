@@ -1,0 +1,33 @@
+HISTORY OF PRESENT ILLNESS
+
+Shirley Taylor is a 60-year-old right-handed female who is a new patient referred by Dr. Jacob Ward for evaluation of bilateral hand numbness and tingling. [n0001][n0010][n0011][n0012][pn0001_n0010][pn0001_n0011][pn0001_n0012]  
+She reports intermittent paresthesias in both hands for a few weeks that come and go throughout the day and are worse at night. [n0003][n0024][pn0001_n0003][pn0001_n0024][pn0003_n0024]  
+She describes the right hand symptoms as tingling/numbness from the middle and ring fingers up to the forearm, and the left hand symptoms as more in the pinky and ring fingers (not the middle finger). [n0003]  
+She reports a motor vehicle accident last December with bilateral wrist fractures and a head contusion, and she was evaluated in the emergency department where she was told the head injury was a contusion and was given nerve pain medicine. [n0016][n0017][n0021][n0004][n0025][pn0001_n0016][pn0001_n0017][pn0001_n0021][pn0001_n0004][pn0001_n0025][pn0016_n0017][pn0016_n0021]  
+She reports both wrists have gotten worse over the last month, with the right wrist worse than the left. [n0019][pn0001_n0019]  
+She reports intermittent wrist pain (soreness and occasional throbbing) associated with use and wrist weakness, especially with use. [n0022][n0023][pn0001_n0022][pn0001_n0023][pn0022_n0023]  
+She reports mild neck stiffness. [n0020][pn0001_n0020]  
+She wears wrist splints (left sometimes) and reports the splint seems to help. [n0018][pn0001_n0018]  
+Past medical history includes chronic kidney disease, gout, hypertension, anxiety, gastroesophageal reflux disease, and diabetes mellitus, and she reports prior prediabetes that she got under control by changing her diet. [n0026][n0027][n0008][n0005][n0006][n0028][n0007][n0029][n0030][pn0001_n0026][pn0001_n0027][pn0001_n0008][pn0001_n0005][pn0001_n0006][pn0001_n0028][pn0001_n0007][pn0001_n0029][pn0001_n0030]  
+Current medications include carvedilol 25 mg twice daily and escitalopram 10 mg daily, and she has a sulfonamide allergy that causes a rash. [n0031][n0032][n0033][pn0001_n0031][pn0001_n0032][pn0001_n0033]  
+She denies a history of thyroid disorder. [n0034][pn0001_n0034]  
+Review of systems is notable for fatigue, weight gain, excessive appetite/always hungry, bloating, floaters, shortness of breath, leg swelling, nail bed trenches, dry skin, itching, and muscle pain. [n0037][n0038][n0039][n0044][n0040][n0041][n0042][n0043][n0045][n0046][n0047][n0048][pn0001_n0037][pn0001_n0038][pn0001_n0039][pn0001_n0044][pn0001_n0040][pn0001_n0041][pn0001_n0042][pn0001_n0043][pn0001_n0045][pn0001_n0046][pn0001_n0047][pn0001_n0048]  
+
+PHYSICAL EXAM
+
+Neurologic sensory testing shows sensation normal except diminished pinprick in the right third and fourth fingers and the left fourth and fifth fingers. [n0049][pn0001_n0049]  
+Tinel sign is positive at both wrists and both elbows. [n0052][pn0001_n0052]  
+Deep tendon reflexes are 1+ and symmetric with knees 2+. [n0050][pn0001_n0050]  
+Plantar responses are down-going bilaterally. [n0051][pn0001_n0051]  
+
+RESULTS
+
+CT head/brain with and without contrast on 2/5/21 showed no metastatic disease and no acute intracranial abnormalities. [n0013][n0014][n0015][pn0013_n0014][pn0013_n0015]  
+
+ASSESSMENT AND PLAN
+
+Bilateral carpal tunnel syndrome. [n0053][pn0001_n0053][pn0002_n0053][pn0052_n0053]  
+Question of bilateral cubital tunnel syndrome. [n0054][pn0002_n0054][pn0052_n0054]  
+Plan to schedule EMG/NCV (electromyogram and nerve conduction study) and have the patient return for testing. [n0055][n0056][n0057][n0064][pn0001_n0055][pn0001_n0056][pn0001_n0057][pn0001_n0064][pn0002_n0056][pn0002_n0057][pn0002_n0064]  
+Encouraged continued splinting. [n0063][pn0001_n0063][pn0002_n0063]  
+If symptoms do not resolve, consider hand clinic/hand surgeon referral, symptomatic injections (potentially through her current orthopedist), and possible carpal tunnel release. [n0058][n0059][n0060][n0062][n0061][pn0001_n0058][pn0001_n0059][pn0001_n0060][pn0001_n0062][pn0001_n0061][pn0002_n0058][pn0002_n0059][pn0002_n0060][pn0002_n0061]

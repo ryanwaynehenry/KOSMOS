@@ -1,0 +1,32 @@
+HISTORY OF PRESENT ILLNESS
+
+Jeremy presents for a follow-up visit for evaluation of a lower back injury that began about four months ago after moving boxes while his son was moving out of a college dorm. [n0001][n0003][n0009][n0010][n0011][n0012][pn0001_n0003][pn0001_n0009][pn0001_n0010][pn0001_n0012]  
+He reports ongoing low back pain that had started to feel better but still wakes him when rolling over in sleep, with sharp pain during certain movements that improves with repositioning. [n0004][n0023][pn0001_n0004][pn0001_n0023]  
+He reports intermittent leg weakness and abnormal sensation only when carrying something heavy and feels nervous about carrying heavy objects. [n0019][n0020][n0021][n0022][pn0001_n0019][pn0001_n0020][pn0001_n0021][pn0001_n0022]  
+He reports an episode of numbness and tingling in the right foot/toes lasting about an hour when he first felt a tweak in his lower back, which has not recurred. [n0018][pn0001_n0018]  
+He denies urinary incontinence and bowel incontinence. [n0035][n0036][pn0001_n0035][pn0001_n0036]  
+He denies fever and chills. [n0039][n0040][pn0001_n0039][pn0001_n0040]  
+For symptom relief, he previously tried acetaminophen without benefit and is currently taking ibuprofen, which helps only briefly, and he has also tried heat and ice without improvement. [n0005][n0006][n0024][n0025][n0026][n0027][pn0001_n0005][pn0001_n0006][pn0001_n0024][pn0001_n0025][pn0001_n0026][pn0001_n0027]  
+He reports he tries not to take too much ibuprofen to avoid stomach upset and denies having an upset stomach from it. [n0005][n0028][pn0001_n0028]  
+He reports difficulty accessing appointments and tried physical therapy at his gym, which did not seem to help. [n0013][n0014][n0015][n0016][n0017][pn0001_n0013][pn0001_n0014][pn0001_n0015][pn0001_n0016][pn0001_n0017]  
+He previously went to urgent care where an MRI was recommended, but he initially deferred due to insurance concerns and improvement in pain, and he now wants to proceed with MRI. [n0029][n0031][n0032][n0033][n0034][pn0001_n0029][pn0001_n0032][pn0001_n0033][pn0001_n0034]  
+Past surgical history includes a right total knee replacement in spring 2020 with good outcome. [n0037][pn0001_n0037]  
+
+PHYSICAL EXAM
+
+Vital signs in the office were reported as good, including blood pressure 117/56, heart rate 68, oxygen saturation 95% on room air, and no temperature. [n0041][n0042][n0043][n0044][n0045][pn0001_n0041][pn0001_n0043][pn0001_n0044][pn0001_n0045]  
+Neck exam noted a bony protuberance at C5-C6 that was not painful to touch. [n0046][n0047][pn0001_n0046][pn0001_n0047]  
+Lumbar spine/musculoskeletal exam showed no pain to palpation of the lumbar spine, decreased flexion/extension, positive straight leg raise, paraspinal muscle spasm, and lower extremity strength equal bilaterally. [n0048][n0049][n0050][n0051][n0052][n0053][pn0001_n0048][pn0001_n0049][pn0001_n0050][pn0001_n0051][pn0001_n0053]  
+
+RESULTS
+
+Lumbar spine x-ray showed no acute bony abnormality and no fracture. [n0055][n0056][pn0001_n0055][pn0055_n0056]  
+
+ASSESSMENT AND PLAN
+
+Low back pain with suspected acute disk herniation (onset a few months ago) with ongoing symptoms. [n0004][n0007][n0057][n0063][pn0001_n0007][pn0001_n0057]  
+Order MRI lumbar spine to better evaluate soft tissue given persistent symptoms and prior x-ray findings. [n0058][n0059][pn0001_n0058][pn0002_n0058]  
+Continue physical therapy with referral to a physical therapist through the health system. [n0060][n0061][pn0001_n0060][pn0001_n0061][pn0002_n0060]  
+Start meloxicam 15 mg once daily for symptom management. [n0064][n0065][pn0001_n0064][pn0001_n0065][pn0002_n0064]  
+Discuss epidural steroid injection as a possible next step if imaging confirms a herniated disk, with the goal of reducing inflammation and improving symptoms. [n0066][n0067][pn0002_n0066]  
+Neck finding may represent cervical arthritis. [n0054][pn0001_n0054][pn0002_n0054]

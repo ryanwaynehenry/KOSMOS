@@ -1,0 +1,24 @@
+HISTORY OF PRESENT ILLNESS  
+Mrs. Martinez is a 43-year-old female evaluated by Dr. Gomez for arm and wrist pain after an injury while playing tennis. [n0001][pn0001_n0002][n0011][n0010][n0006][n0004]  
+She reports the injury occurred when she missed a backhand and hit the top of the net/pole, jarring her arm. [n0010][n0011][n0009]  
+She has pain toward the wrist/distal radius region and pain with wrist movement. [n0009][n0004][n0006]  
+She reports a little swelling of the arm after the injury. [n0005][pn0001_n0005]  
+She denies numbness in the hand. [n0012][pn0001_n0012]  
+Past history includes allergies treated with Flonase. [n0013][n0014][pn0001_n0014]  
+She also reports prior trauma described as a stabbing and a prior fall during lawn work involving a rake. [n0016][pn0001_n0016][n0017][n0018][pn0001_n0018]  
+
+PHYSICAL EXAM  
+A physical examination was performed by Dr. Gomez. [n0021][pn0001_n0021]  
+There was tenderness over the distal radius. [n0023][pn0001_n0023]  
+Arm bending during the exam caused pain with bending the arm. [n0022][n0006][pn0001_n0006]  
+A provocative wrist/thumb flexion maneuver provoked pain, and the patient had pain when the thumb was stressed and flexed. [n0024][n0025][pn0001_n0025]  
+
+RESULTS  
+Arm x-ray was normal with no fractures or other abnormalities seen. [n0019][n0007][pn0007_n0019][n0020][pn0019_n0020]  
+
+ASSESSMENT AND PLAN  
+Assessment is strain of the upper arm with possible contusion related to the jarring injury, with no fracture on x-ray. [n0026][n0027][pn0026_n0027][n0010][n0007][n0019]  
+Treat conservatively with ice for pain and swelling. [n0028][pn0002_n0028][n0005]  
+Start an anti-inflammatory, specifically Motrin 800 mg three times daily with food, for pain and swelling. [n0029][n0030][pn0002_n0030]  
+Plan follow-up evaluation in about a week if pain and swelling do not improve. [n0031][pn0002_n0031]  
+Orders for the discussed procedures and medications were planned, and the note was to be finalized using Dragon. [n0032][n0003][pn0002_n0003][n0033]

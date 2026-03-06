@@ -1,0 +1,34 @@
+HISTORY OF PRESENT ILLNESS  
+Scott presents for evaluation of an active right knee injury that began about three days ago. [n0001][n0003][pn0001_n0003]  
+The injury occurred over the weekend while playing pickup soccer when he felt a pop in the right knee while trying to kick the ball. [n0010][n0011][pn0001_n0010][pn0001_n0011]  
+He reports right knee swelling that has started to go down. [n0004][pn0001_n0004]  
+He reports right knee pain rated 6–7/10 currently and about 4–5/10 as swelling has improved. [n0005][n0004][pn0001_n0005][pn0004_n0005]  
+He reports the right knee feels “really loose” and does not feel normal, though he is still able to bear weight. [n0006][n0022][pn0001_n0006][pn0001_n0022]  
+He reports decreased function/limited motion of the right knee, with pain toward the end of bending and needing to help get the leg straightened. [n0012][n0015][n0016][pn0001_n0012][pn0001_n0015][pn0001_n0016]  
+He reports that sitting behind a desk at work has not been comfortable lately and that prolonged sitting can be painful with intermittent locking. [n0043][n0045][n0047][pn0001_n0043][pn0001_n0045][pn0001_n0047]  
+For symptom relief, he has been taking anti-inflammatories including ibuprofen on a pretty regular basis, which has helped a little bit. [n0013][n0014][pn0001_n0013][pn0001_n0014]  
+
+PHYSICAL EXAM  
+On gait assessment, he demonstrates a marked limp of the right leg with ambulation. [n0018][n0020][n0021][pn0001_n0018][pn0001_n0020][pn0001_n0021]  
+Right knee exam shows significant effusion with slight ecchymosis. [n0004][n0017][pn0004_n0017][n0019]  
+There is pain localized more to the inside of the right knee with mild tenderness to palpation at the medial joint line. [n0024][n0025][pn0001_n0024][pn0001_n0025]  
+Range of motion is limited, lacking a few degrees of terminal extension to about 115 degrees and lacking about 20–30 degrees of terminal flexion, limited by pain. [n0028][n0005][pn0001_n0028]  
+Lachman test is positive on the right. [n0029][pn0001_n0029]  
+Neurovascular exam of the bilateral lower extremities is intact and muscle strength is 5/5. [n0030][n0031][pn0001_n0030][pn0001_n0031]  
+
+RESULTS  
+Knee range of motion testing today shows limitation to approximately 115 degrees with loss of terminal extension and 20–30 degrees of terminal flexion. [n0028]  
+Lachman testing today is positive. [n0029]  
+Neurovascular exam is intact bilaterally and strength is 5/5. [n0030][n0031]  
+MRI of the knee has been ordered to evaluate ACL integrity, and results are pending. [n0007][n0032][pn0002_n0007][pn0007_n0032]  
+
+ASSESSMENT AND PLAN  
+Right knee injury with swelling/effusion, pain, instability/looseness, and limited range of motion, with exam findings (positive Lachman) suggestive of an ACL tear. [n0003][n0004][n0005][n0006][n0029][n0032][pn0029_n0032][pn0003_n0032]  
+Obtain the ordered knee MRI to further evaluate the suspected ACL tear. [n0007][n0032][pn0002_n0007][pn0007_n0032]  
+Start meloxicam 50 mg daily to reduce swelling and pain. [n0034][pn0002_n0034][pn0001_n0034]  
+Use ice therapy for the knee if swelling and pain persist. [n0035][pn0002_n0035][pn0001_n0035]  
+Recommend activity modification to avoid stress/strain on the knee, including wearing a knee immobilizer and using crutches when walking around. [n0036][n0037][n0038][pn0002_n0036][pn0002_n0037][pn0002_n0038]  
+Avoid jogging for a while (no jogging) until MRI results are available and the plan is determined. [n0008][n0050][pn0002_n0008][pn0002_n0050]  
+Limit work activities and avoid sitting too long by moving the leg periodically with light activity to prevent locking. [n0041][n0044][n0048][n0047][pn0002_n0044][pn0002_n0048]  
+Discussed that surgery may be needed depending on MRI results. [n0033][pn0001_n0033]  
+Patient agrees with the plan. [n0001]

@@ -1,0 +1,29 @@
+HISTORY OF PRESENT ILLNESS  
+Susan is a 26-year-old female evaluated by a clinician/doctor for chronic hypertension that has been getting worse and described as “out of control lately.” [n0001][n0003][pn0001_n0002][pn0001_n0003]  
+She reports home blood pressure readings over 150 despite taking Norvasc 10 mg daily (dose increased) for high blood pressure. [n0011][n0007][n0006][pn0001_n0011][pn0001_n0007]  
+She reports headaches and is unsure whether they are related to stress at work or her high blood pressure. [n0012][n0013][n0014][pn0001_n0012][pn0001_n0013]  
+She denies chest pain and shortness of breath. [n0015][n0016][pn0001_n0015][pn0001_n0016]  
+She has a history of kidney transplant a few years ago with reported good and solid outcome and is currently taking immunosuppression medications. [n0004][n0017][pn0001_n0004][pn0001_n0017]  
+She asked about starting a new medication and about diet restrictions to help control her blood pressure. [n0009][n0010]  
+
+PHYSICAL EXAM  
+A physical examination was performed, and she appeared in no distress. [n0018][n0019][pn0001_n0018]  
+Neck exam showed the neck was supple. [n0020][pn0001_n0020]  
+Cardiovascular exam noted an irregular rate and rhythm with a 2/6 systolic ejection murmur. [n0021][pn0001_n0021]  
+Lung exam was clear. [n0022][pn0001_n0022]  
+There was a healed kidney transplant scar on the left flank. [n0023][pn0001_n0023]  
+No lower extremity edema was present. [n0024][pn0001_n0024]  
+
+RESULTS  
+Kidney function was described as normal and “really good” after transplant. [n0005][pn0001_n0005]  
+Creatinine was reviewed and described as showing kidney function looks really good. [n0025][pn0001_n0025]  
+EKG was reviewed and interpreted as perfectly normal. [n0026][pn0001_n0026]  
+Blood pressure was noted to be high and not controlled on Norvasc, with a plan to reassess after starting carvedilol. [n0006][n0007][n0027][pn0001_n0006]  
+A lipid panel, routine labs, and a complete metabolic panel were ordered. [n0028][n0029][n0030][pn0001_n0028][pn0001_n0029][pn0001_n0030]  
+
+ASSESSMENT AND PLAN  
+Hypertension is assessed as uncontrolled, and carvedilol 25 mg twice daily was prescribed with a plan to reassess blood pressure in a couple of weeks. [n0003][n0006][n0027][pn0002_n0003][pn0002_n0027]  
+Continue Norvasc 10 mg daily for blood pressure management. [n0007][pn0001_n0007][pn0002_n0007]  
+Status post kidney transplant with good kidney function; continue current immunosuppression medications. [n0004][n0005][n0017][pn0002_n0017]  
+Obtain ordered labs including lipid panel, routine labs, and complete metabolic panel. [n0028][n0029][n0030][pn0002_n0028][pn0002_n0030]  
+Nurse will help schedule a follow-up appointment with the doctor. [n0031][n0032][pn0001_n0032]

@@ -1,0 +1,45 @@
+## HISTORY OF PRESENT ILLNESS
+Diana Scott (DOB 12/8/1920) is a new patient seen on 7/9/2021 for evaluation of a newly noted “worrisome” heart murmur. [0][4][8]  
+She is not sure what symptoms to expect and initially did not think she had symptoms. [10]  
+She denies chest pain. [14]  
+She reports exertional shortness of breath when walking too fast/too long or if she tries to drink a whole glass of water without stopping, but it is not very bothersome unless she “overdo[es] it.” [18][22][24]  
+Her exercise tolerance is limited and she uses a walker; she can walk to the end of the driveway or around the cul-de-sac before becoming short of breath/overly fatigued. [20]  
+She feels her symptoms are about 70–80% different compared with ~6 months ago, and prior to that she did not notice anything. [25][26]  
+She reports severe bilateral leg pain for about 1 month and has started taking pain pills for this. [14][16][28]  
+She reports intermittent dizziness/lightheadedness for which she takes a pill only when symptoms are bad, and she denies syncope. [30][32][34]  
+She reports ankle swelling for about 6 months that fluctuates in severity. [38][40]  
+She reports gradual weight loss over ~1 year from her usual ~130 lb to 120 lb. [42][44]  
+She denies fevers or chills. [45][46]  
+She reports fatigue that she attributes to taking “all that medication.” [48]  
+She reports taking all medications reviewed with Madison. [53][54]  
+Family history is notable for a son with a heart attack, a brother with stroke (in the setting of “sugar diabetes”), and an eldest sister with a heart problem. [56][58][60]  
+She reports never smoking and has no known medication allergies. [61][62]  
+
+## PHYSICAL EXAM
+Constitutional: Elderly, no acute distress. [92]  
+Cardiovascular: Normal rate and regular rhythm with preserved S1 and S2; 4/6 systolic murmur at the right upper sternal border with mild radiation to the carotids. [92][93]  
+Neurologic: Gait normal for age. [92]  
+
+## RESULTS
+EKG today showed sinus rhythm with frequent PVCs and an anterior septum infarct pattern. [94]  
+Blood pressure was “really good” today. [81]  
+No echocardiogram results are available yet; echocardiogram was ordered to be completed today. [69][73][89]  
+
+## ASSESSMENT AND PLAN
+1) **Cardiac murmur, concern for aortic stenosis (likely moderate vs severe)**: Patient has a 4/6 systolic murmur at the RUSB with mild carotid radiation, concerning for aortic stenosis; preserved S2 suggests moderate disease though symptoms could be from severe AS. [75][93]  
+Plan: Obtain echocardiogram today to assess cardiac structure/function and valve disease, and follow up in 3–4 weeks to review results and next steps. [69][73][89]  
+If severe AS is confirmed, TAVR was discussed as a potential minimally invasive option; SAVR was discussed but felt not to be a good option given age/medical history, and patient is unsure about pursuing TAVR at her age. [77][79][78]  
+
+2) **PVCs / referral for tachycardia**: EKG shows frequent PVCs; patient denies palpitations. [94][36]  
+Plan: Start with echocardiogram; depending on echo results and AS severity, consider ischemic evaluation and/or ambulatory monitor to assess PVC burden. [94]  
+
+3) **Hypertension (controlled today)**: Blood pressure was good today, so continue amlodipine and lisinopril without changes. [81]  
+
+4) **Hyperlipidemia on simvastatin; bilateral leg pain**: She is taking simvastatin ~20 mg, and given bilateral leg pain and no history of coronary artery disease, clinician recommended discussing with PCP whether she might be able to stop the statin. [83]  
+Plan: Cardiologist will send echocardiogram results and recommendations to PCP for shared decision-making regarding statin therapy. [85]  
+
+5) **Lightheadedness/dizziness**: She uses meclizine as needed; dizziness could be related to aortic stenosis and/or PVCs. [30][96]  
+Plan: Evaluate with echocardiogram first; consider monitor later if needed. [96]  
+
+6) **Other issues noted**: She does not appear significantly volume overloaded on exam today. [93]  
+Patient agreed to complete the echocardiogram today and had no further questions at the end of the visit. [72][90]

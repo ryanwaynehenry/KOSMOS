@@ -1,0 +1,31 @@
+## HISTORY OF PRESENT ILLNESS
+Jordan Roberts is a 49-year-old new patient with a history of hypertension and prior palpitations who presents for evaluation of elevated blood pressure. [0][3]  
+He was seen in the emergency room in March for high blood pressure and palpitations, which he attributes to having had a few cups of coffee and no breakfast and thinks may have been a panic attack. [3][4]  
+He has not had recurrent palpitations since that episode. [5][6]  
+He reports having issues with high blood pressure since he was young and notes a strong family history of hypertension. [8][10]  
+He recently started a new antihypertensive medication about a month ago (Benicar HCT 40/25, which includes hydrochlorothiazide) and is also taking amlodipine 10 mg daily. [12][14][15][17][18]  
+He checks his blood pressure at home every morning, with recent readings around 146–155 mmHg, and is not yet in the 120s. [19][20][22][23][24]  
+He is trying to reduce his salt intake and reports he is doing well with limiting salt. [25][26]  
+He reports exercising by walking on the treadmill when he can. [29][30]  
+
+## PHYSICAL EXAM
+Cardiopulmonary exam: heart and lungs sound good. [35][37]  
+Musculoskeletal/Extremities: no tenderness with palpation reported during exam. [39][40]  
+Extremities: ankles and feet without swelling on exam. [41][43]  
+
+## RESULTS
+Potassium one week ago was 4.0, and it has not been rechecked since. [43][44]  
+
+## ASSESSMENT AND PLAN
+**1) Resistant hypertension / hypertension (early onset, not at goal on current regimen):** Blood pressure remains elevated at home (146–155) despite being on three maximized medications per clinician assessment. [22][43][75]  
+- Start spironolactone to address possible aldosterone-driven resistant hypertension. [47][63][75]  
+- Continue current antihypertensive regimen including Benicar HCT (with hydrochlorothiazide) and amlodipine 10 mg daily. [15][17][18][49]  
+- Lifestyle: continue salt reduction; provided DASH diet counseling and recommended heart.org for education; encouraged routine treadmill exercise ~30 minutes most days. [27][59][61]  
+- Monitoring/safety counseling: reviewed risks of spironolactone + hydrochlorothiazide including electrolyte imbalance and dehydration; advised good hydration and to watch for dizziness on standing. [49][51]  
+- Reviewed risk of hyperkalemia (rare) and hyponatremia with combination therapy; plan for blood tests in 2 weeks to ensure electrolytes are safe. [49][51][63][75]  
+- Reviewed rare gynecomastia risk; instructed patient to stop the medication and notify clinician if breast tenderness/swelling occurs. [53][54][75]  
+- Follow up in 2 weeks for blood pressure check and metabolic panel/electrolytes. [63][69][75]  
+- If not controlled on spironolactone, next steps include referral to a resistant hypertension clinic to evaluate secondary causes and consider procedural options (e.g., renal denervation). [63][65][67][75]  
+- Clinician noted carvedilol would be the next medication option but is avoided if possible due to potential erectile dysfunction. [75]  
+
+**2) Palpitations (resolved):** Prior palpitations occurred during March ER visit and have not recurred. [3][5][6]

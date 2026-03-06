@@ -1,0 +1,34 @@
+HISTORY OF PRESENT ILLNESS  
+Teresa presents with severe right medial elbow pain for about four days that is not getting better, wakes her at night, and is limiting her ability to work on a ceramic bowl/pottery. [n0001][n0003][n0011][n0019][pn0001_n0003][pn0001_n0011]  
+She has tried a little bit of ice and has been taking some ibuprofen for pain, but it has not really helped. [n0004][n0020][pn0001_n0004][pn0001_n0020]  
+She has a history of hypertension that has been stable, and she is currently taking lisinopril 10 mg. [n0005][n0006][pn0001_n0005][pn0001_n0006][pn0005_n0006]  
+She has longstanding diabetes mellitus that is not under control and reports having a hard time keeping up with metformin and checking blood sugars every day. [n0007][n0008][pn0001_n0007][pn0001_n0008]  
+She reports blood sugars around 150–170 and notes having a sweet tooth. [n0025][n0026][pn0001_n0025][pn0001_n0026]  
+She would like to see a dietitian again for updated dietary recommendations and agrees to cut down on eating and taste testing baked goods. [n0001][n0033][n0039][n0041][pn0001_n0033][pn0001_n0041]  
+
+PHYSICAL EXAM  
+Vital signs today include blood pressure 120/70, respiratory rate 18, oxygen saturation 100%, and elbow pain 7/10, with pulse rate described as appropriate. [n0044][n0045][n0046][n0048][n0050][pn0001_n0044]  
+She is afebrile and not experiencing difficulty breathing. [n0047][n0049][pn0001_n0047][pn0001_n0049]  
+Cardiovascular exam is normal with no murmur, rub, or gallop, and pulses are equal bilaterally. [n0058][n0062][pn0001_n0062]  
+Lungs are clear bilaterally to auscultation. [n0059][pn0001_n0059]  
+Right elbow exam shows moderate tenderness at the medial epicondyle, and the skin/soft tissue exam shows no rash, bruising, swelling, discoloration, or lesions. [n0057][n0060][pn0001_n0057]  
+On right upper extremity maneuvers, she has pain with turning the wrist inward/resisted pronation and with wrist flexion, but no pain with turning the wrist outward. [n0014][pn0001_n0014]  
+
+RESULTS  
+Right elbow x-ray is normal with no fracture or bony abnormality. [n0078][n0079][n0080][pn0001_n0078][pn0078_n0079][pn0078_n0080]  
+Weight is up about five pounds compared with the last visit, which the clinician was not seriously worried about and noted could be muscle. [n0053][n0056][pn0001_n0053][pn0001_n0056]  
+
+ASSESSMENT AND PLAN  
+Right elbow pain is assessed as medial epicondylitis of the right elbow. [n0003][n0061][n0064][pn0001_n0061][pn0001_n0064][pn0061_n0064]  
+Plan includes resting the right elbow and holding off on pottery for the next couple of weeks. [n0065][n0063][pn0001_n0065][pn0001_n0063]  
+Order/use a right arm sling while awake. [n0066][n0063][pn0001_n0066][pn0001_n0063]  
+Apply ice to the elbow for 20 minutes three times daily. [n0067][n0063][pn0001_n0067][pn0001_n0063]  
+Start ibuprofen 600 mg by mouth every 6 hours with food for 1 week for elbow pain. [n0068][n0063][pn0001_n0068][pn0002_n0068][pn0001_n0063]  
+Physical rehabilitation will be discussed at the next visit if the elbow problem is taking longer to heal. [n0081][pn0001_n0081]  
+
+Hypertension is stable with improved blood pressure today, and the plan is to continue lisinopril 10 mg. [n0005][n0006][n0045][pn0002_n0006][pn0002_n0005]  
+Diabetes mellitus is not under control, and the plan is to increase metformin to 1000 mg twice daily. [n0007][n0072][pn0002_n0007][pn0001_n0072][pn0008_n0072]  
+She was advised to check and record blood sugars every day, and hemoglobin A1c will be ordered for longer-term assessment. [n0073][n0075][pn0001_n0073][pn0002_n0075]  
+Follow up with the doctor is planned in a couple of weeks for diabetes management, and a referral to diabetic counseling is planned. [n0074][n0077][pn0001_n0074][pn0001_n0077]  
+She would like to see a dietitian again to review dietary recommendations, including discussion of combining protein with sweet foods. [n0038][n0041][pn0001_n0038][pn0001_n0041]  
+Teresa agrees to cut down on eating and taste testing baked goods. [n0001][n0033][pn0001_n0033]

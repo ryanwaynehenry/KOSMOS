@@ -1,0 +1,37 @@
+## HISTORY OF PRESENT ILLNESS
+Dennis is a 57-year-old male with a history of diabetes, high blood pressure, and asthma who presents with shortness of breath. [0]  
+He reports feeling “not too good” for about a couple of weeks. [1][3]  
+He wakes up with shortness of breath and also becomes short of breath with activity (e.g., when walking/exerting himself). [5][24]  
+He reports coughing up blood for about three weeks. [9][11]  
+He estimates the amount of blood as about 3–4 cups per day and states it occurs only with coughing (no vomiting blood or other bleeding). [13][14][15]  
+He denies bruising or bleeding from his teeth/gums. [16][17]  
+He reports a chronic knee problem with pain but no swelling. [19]  
+He has not gone to the hospital/ER for this issue and tried to get an office appointment but the office was booked. [20][21]  
+Regarding diabetes, he reports his control has been “not so good,” uses a Dexcom, and notes post-meal glucose spikes well over 200 and morning readings around 150 for about a month. [25][27][29][31]  
+His last hemoglobin A1c was about 7.7, and they previously discussed improving diet and exercise. [30]  
+Regarding blood pressure, he is taking Norvasc but skips it on some days because his home blood pressures can run low (sometimes in the lower 90s). [32][33][35]  
+
+## PHYSICAL EXAM
+In clinic, oxygen saturation was about 94% on pulse oximetry. [24]  
+Blood pressure in clinic was about 120/70. [34]  
+Neck exam: no JVD, no neck swelling, and no carotid bruits. [36]  
+Lungs: rales and rhonchi more on the right, no wheezing heard, and diminished breath sounds on the right. [36]  
+Cardiac: 2/6 systolic ejection murmur (unchanged from prior) with regular rate and rhythm. [36]  
+Abdomen: soft. [36]  
+Extremities: 1+ nonpitting edema at both ankles/lower extremities, no calf tenderness, and negative Homan sign. [36]  
+
+## RESULTS
+No diagnostic test results were available in the clinic note; chest x-ray, CT chest, and blood work were planned to be obtained in the emergency department. [36]  
+Hemoglobin A1c was previously about 7.7. [30]  
+
+## ASSESSMENT AND PLAN
+**1) Shortness of breath with significant hemoptysis** — Ongoing SOB for ~2 weeks with hemoptysis for ~3 weeks (reported 3–4 cups/day), with right-sided rales/rhonchi and diminished breath sounds on exam. [3][9][11][13][36]  
+Given concern for serious etiologies including blood clot vs pneumonia/other lung process, patient will be sent to the emergency department for urgent evaluation. [36]  
+Plan in ED: chest x-ray, CT scan of the chest, and blood testing/blood work; clinician will call the ED and patient will go from clinic. [36][37]  
+
+**2) Diabetes mellitus, suboptimally controlled** — CGM readings reported elevated (post-prandial >200, AM ~150) for ~1 month; last A1c ~7.7. [25][27][29][30][31]  
+Order hemoglobin A1c today. [38]  
+After acute illness is evaluated/treated, plan to likely increase metformin from 500 mg twice daily to 750 mg twice daily and follow up in ~3 weeks to review diabetes management. [38][39]  
+
+**3) Hypertension with intermittent low home readings** — Patient reports holding Norvasc on some days due to low home BPs (sometimes in the 90s); clinic BP 120/70. [33][34][35]  
+Hold Norvasc for now while evaluating the current shortness-of-breath episode and reassess blood pressure after workup is completed. [40]

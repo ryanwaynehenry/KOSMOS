@@ -1,0 +1,33 @@
+HISTORY OF PRESENT ILLNESS
+
+Wayne presents for evaluation of a non-healing right diabetic foot ulcer that has been present for about two to three weeks and is not getting better. [n0001][n0003][pn0001_n0003][n0008][pn0001_n0008]  
+He reports the wound started as a blister on the right foot after wearing shoes (Hoka’s) and he is no longer wearing the shoes that caused the problem. [n0005][pn0001_n0005][n0014][pn0001_n0014]  
+He denies any trauma to the right foot. [n0012][pn0001_n0012]  
+He reports peripheral neuropathy and decreased sensation at the wound site and denies wound pain. [n0013][pn0001_n0013][n0017][pn0001_n0017][n0016][pn0001_n0016]  
+He denies fever, chills, or drainage from the wound. [n0018][pn0001_n0018]  
+He has been placing a band-aid on the wound, but notes his sock sometimes sticks to the wound when removing it. [n0004][pn0001_n0004][n0019][pn0001_n0019]  
+He completed a course of antibiotics yesterday without improvement in the wound appearance. [n0015][pn0001_n0015][n0003]  
+He reports diabetes mellitus with last hemoglobin A1c a little over 8. [n0007][pn0001_n0007][n0021][pn0001_n0021]  
+He endorses being very upset about the shoes that caused the problem. [n0006][pn0001_n0006]  
+He reports having stability issues sometimes. [n0020][pn0001_n0020]  
+He was referred by his primary care provider for this wound. [n0009][n0010][pn0001_n0010]  
+
+PHYSICAL EXAM
+
+Vital signs were reported as temperature 98.1, heart rate 72, respiratory rate 16, and blood pressure 110/65. [n0023][n0024][n0025][n0026][n0027][pn0001_n0023]  
+Right foot exam shows a 1 x 2 inch circular wound on the dorsal lateral right foot proximal to the fifth MTP joint with yellow slough and minimal granulation tissue, without surrounding erythema/cellulitis, fluid collection, necrosis, odor, or bony exposure. [n0003][n0028][pn0001_n0028]  
+Vascular exam shows palpable bilateral popliteal pulses, no palpable dorsalis pedis or posterior tibial pulses, and pedal Doppler signals present. [n0029][pn0001_n0029][n0030][n0031][n0032][n0033]  
+
+RESULTS
+
+Right foot x-ray shows no evidence of osteomyelitis. [n0034][n0035][pn0034_n0035][pn0001_n0034]  
+
+ASSESSMENT AND PLAN
+
+Right diabetic foot ulcer (non-healing wound) on the dorsal lateral right foot, with plan for in-office debridement. [n0003][pn0001_n0003][n0037][pn0001_n0037]  
+Start collagenase topical ointment applied to the wound once daily and cover with a dry sterile dressing. [n0038][pn0001_n0038][pn0002_n0038][n0039][pn0001_n0039][pn0002_n0039]  
+Use a pressure management (surgical) shoe to offload the area. [n0040][pn0001_n0040][pn0002_n0040]  
+No additional antibiotics are needed at this time. [n0041]  
+Order an ankle-brachial index to assess blood supply for wound healing, with possible referral to a vascular specialist depending on results. [n0036][pn0001_n0036][pn0002_n0036][n0043][pn0001_n0043]  
+Diabetes mellitus with elevated hemoglobin A1c (last a little over 8); discuss diet modification and consider a diabetes consultation to improve glycemic control to support wound healing. [n0007][pn0001_n0007][n0021][n0046][n0045][pn0002_n0045][n0044][pn0001_n0044][pn0002_n0044][pn0003_n0007]  
+Follow up in two weeks, and the patient agrees with the plan. [n0042][pn0001_n0042][n0001]

@@ -1,0 +1,30 @@
+HISTORY OF PRESENT ILLNESS  
+Michael presents for a follow-up visit after his primary care provider (PCP) was concerned about symptoms and ordered a CT scan. [n0012][n0013][n0004][pn0001_n0012][pn0001_n0013][pn0001_n0004]  
+He reports intermittent left-sided back pain in the left lumbar region that is sometimes sharp and sometimes moves. [n0005][pn0001_n0005]  
+He reports drinking a lot more water with increased urine output and intermittent nocturia (waking at night to urinate more than normal). [n0018][n0020][n0019][pn0001_n0018][pn0001_n0020][pn0001_n0019]  
+He denies being more tired lately and reports his appetite is unchanged. [n0016][n0017]  
+He has had recurrent sore throats/recurrent streptococcal tonsillitis over the last five months (record notes four sore throats in that time). [n0006][pn0001_n0006]  
+He lives with siblings, reports most siblings are healthy, and notes a brother who smokes at home leading to tobacco smoke exposure in the house. [n0030][n0011][n0032][pn0001_n0030][pn0001_n0011][pn0001_n0032]  
+He is in school, reports school is going well with good grades, and has a class right after today’s appointment. [n0023][n0024][n0009][pn0001_n0023][pn0001_n0024][pn0001_n0009]  
+He is changing jobs and reports his new job has no health insurance. [n0066][n0069][pn0001_n0066][pn0001_n0069]  
+He reports his mother is paying for the tests. [n0062]  
+
+PHYSICAL EXAM  
+Throat exam shows no erythema or swelling, and the tonsils are midline and look good. [n0010][n0037][n0038][pn0001_n0010][pn0001_n0038]  
+There is no cervical lymphadenopathy on exam. [n0039][n0010][pn0001_n0039]  
+Lung exam is clear without wheezes, rales, or rhonchi. [n0041][n0010][pn0001_n0041]  
+Cardiac exam shows no murmur, rub, or gallop. [n0042][n0010][pn0001_n0042]  
+Abdominal exam is benign with no tenderness, rebound, or guarding, and palpation does not elicit pain. [n0044][n0045][n0010][pn0001_n0044][pn0001_n0045]  
+On exam, pressing on the left back area did not hurt. [n0005]  
+
+RESULTS  
+CT scan shows findings that are concerning and are discussed as consistent with suspected glomerulonephritis in the setting of recurrent strep episodes. [n0004][n0046][n0006][pn0004_n0046][pn0006_n0046][pn0004_n0006]  
+
+ASSESSMENT AND PLAN  
+Suspected glomerulonephritis based on CT findings, with discussion that this could lead to kidney disease including chronic kidney disease. [n0046][n0004][n0047][n0048][pn0004_n0046][pn0046_n0047][pn0046_n0048]  
+Order laboratory evaluation including lipid panel, urinalysis, CMP, CBC, vitamin D, TSH, and iron measurement, with blood draw today/as soon as possible (some tests may require fasting per lab). [n0007][n0052][n0053][n0054][n0055][n0056][n0057][n0059][n0008][n0063][pn0001_n0007][pn0001_n0008][pn0007_n0063][pn0008_n0063]  
+Refer to ENT for evaluation of recurrent streptococcal tonsillitis and consideration of tonsillectomy. [n0006][n0049][n0051][pn0001_n0049][pn0001_n0051][pn0002_n0051]  
+Address household tobacco smoke exposure by planning a conversation with Michael’s brother about smoking at home. [n0032][n0033][n0011][pn0001_n0032][pn0001_n0011]  
+No vaccinations are planned today. [n0077]  
+Plan follow-up in one week, with phone follow-up if results are normal and in-person follow-up if additional conversations are needed. [n0078][n0079][pn0001_n0078][pn0002_n0079]  
+A work note is planned to help him complete blood draws and then go to class. [n0067][n0009][n0008][pn0001_n0067][pn0001_n0009][pn0001_n0008]

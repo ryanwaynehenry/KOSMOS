@@ -1,0 +1,28 @@
+HISTORY OF PRESENT ILLNESS  
+Joshua was evaluated by the clinician for right-sided flank pain in the setting of a kidney stone. [n0001][n0005][n0003][pn0001_n0002][pn0001_n0003]  
+He reports intermittent right flank pain radiating to the groin for the last two weeks, with one episode radiating to a testicle. [n0005][n0018][pn0001_n0005][pn0001_n0018]  
+Pain is usually 1–2/10 but can reach 4/10 when worse. [n0014][pn0001_n0014]  
+He notes the pain depends on how much he has been drinking and what activities he has been doing. [n0012][n0013][pn0001_n0012][pn0001_n0013]  
+He has been taking ibuprofen for pain, which helps somewhat but does not fully resolve the pain. [n0008][pn0001_n0008]  
+He denies nausea, vomiting, dysuria, hematuria, and fevers, and he reports possible chills. [n0006][n0007][n0016][n0017][n0020][n0019][pn0001_n0006][pn0001_n0007][pn0001_n0016][pn0001_n0017][pn0001_n0020][pn0001_n0019]  
+He has a history of kidney stones, having passed stones on his own and having required surgery a couple of times, and he reports a family history of kidney stones. [n0004][n0022][n0021][pn0001_n0004][pn0001_n0022][pn0001_n0021]  
+He saw his primary care provider prior to this visit and is using a urine strainer but has not caught a stone yet. [n0036][n0037][pn0001_n0036][pn0001_n0037]  
+
+PHYSICAL EXAM  
+On exam, blood pressure was noted to be elevated. [n0023][n0024][pn0001_n0023][pn0001_n0024]  
+Abdomen was non-tender to palpation. [n0023][n0025][pn0001_n0023][pn0001_n0025]  
+There was right-sided costovertebral angle tenderness. [n0023][n0026][pn0001_n0023][pn0001_n0026]  
+
+RESULTS  
+CT scan performed prior to the visit showed a 0.5 cm stone in the proximal right ureter. [n0027][n0003][pn0001_n0027]  
+CT scan showed no evidence of hydronephrosis/obstruction. [n0027][n0028][pn0027_n0028][pn0001_n0028]  
+
+ASSESSMENT AND PLAN  
+Right proximal ureteral kidney stone is assessed as the cause of his flank/groin pain and right CVA tenderness. [n0003][n0005][n0026][pn0003_n0005][pn0003_n0026]  
+Plan is conservative management with increased oral fluid intake to help pass the stone. [n0031][n0032][pn0001_n0031][pn0001_n0032][pn0002_n0031][pn0002_n0032]  
+He will continue ibuprofen for pain, and tramadol 50 mg will be prescribed for pain control. [n0008][n0009][n0034][pn0001_n0008][pn0001_n0009][pn0002_n0009][pn0001_n0034]  
+If he has breakthrough pain while on tramadol, he may take ibuprofen. [n0035][n0008][n0009]  
+He will continue using the urine strainer when urinating to try to catch the stone. [n0037][pn0001_n0037]  
+Laboratory testing will be ordered including BMP, urinalysis, and urine culture to help assess for possible infection and guide whether antibiotics are needed. [n0038][n0039][n0040][n0041][n0042][n0043][pn0001_n0038][pn0002_n0039][pn0002_n0040][pn0002_n0041]  
+Follow-up is planned in 1–2 weeks, and if he remains symptomatic and the stone persists, further treatment options including possible lithotripsy will be discussed. [n0011][n0044][n0045][n0010][pn0001_n0011][pn0001_n0045][pn0002_n0010]  
+The clinician does not think he will need surgery for this stone. [n0029]

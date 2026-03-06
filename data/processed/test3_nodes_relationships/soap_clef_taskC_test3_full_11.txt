@@ -1,0 +1,29 @@
+HISTORY OF PRESENT ILLNESS  
+Mr. Cook is a 60-year-old right-handed man referred today for evaluation of numbness and tingling in both hands. [n0001][n0009][pn0001_n0009][n0004][n0005][pn0001_n0004][pn0001_n0005]  
+He reports symptoms for a few weeks, with distribution on the right from the middle and ring fingers extending up the forearm and on the left involving the pinky and ring fingers. [n0004][n0005][n0017][n0018][pn0001_n0017][pn0001_n0018]  
+He notes intermittent tingling that is worse when his wrists hurt and becomes dull when wrist pain resolves. [n0005][n0019][pn0005_n0019]  
+He describes intermittent wrist pain/throbbing and wrist weakness, especially with use. [n0019][n0021][n0022][pn0001_n0019][pn0001_n0021][pn0001_n0022]  
+He reports that hand/finger sensory symptoms occur more at night and come and go during the day, and he denies clear loss of sensation though feels his hands/fingers may be less sensitive. [n0023][pn0001_n0023]  
+He reports a motor vehicle accident last December with bilateral wrist fractures (right worse) and a head contusion, and he also reports mild neck stiffness. [n0013][n0014][pn0001_n0013][pn0001_n0014][n0016][pn0001_n0016][n0015][pn0001_n0015]  
+He is wearing wrist splints (right and sometimes left) and reports the splint helps. [n0007][pn0001_n0007]  
+He reports he is currently taking Coreg for hypertension and Lexapro for anxiety, and he has nerve pain medicine but has not been taking it as he should. [n0025][n0026][pn0001_n0025][pn0001_n0026][n0027][n0028][pn0001_n0027][pn0001_n0028][n0024][pn0001_n0024]  
+He reports prediabetes is improving and under control with diet changes, and he denies any history of thyroid issues. [n0029][n0030][pn0001_n0029][pn0001_n0030][n0031][pn0001_n0031]  
+Review of systems is notable for fatigue, weight gain, excessive appetite/always hungry, bloating, floaters, shortness of breath, leg swelling, nail bed changes, dry skin, itching, gout, and muscle pain. [n0032][n0033][n0034][n0035][n0036][n0037][n0038][n0039][n0040][n0041][n0042][n0043][n0044]  
+
+PHYSICAL EXAM  
+Neurologic exam shows diminished pinprick sensation in the right third and fourth fingers with otherwise normal sensation noted. [n0046][pn0001_n0046]  
+Left hand sensation is decreased in the fourth and fifth fingers. [n0047][pn0001_n0047]  
+Tinel sign is positive at both wrists and both elbows. [n0051][pn0001_n0051]  
+Deep tendon reflexes are 1+ and symmetric with 2+ at the knees, and plantar responses are downgoing bilaterally. [n0048][pn0001_n0048][n0049][pn0001_n0049]  
+
+RESULTS  
+No EMG results are available yet because the electromyogram study still needs to be scheduled. [n0008][n0059][pn0001_n0008][pn0001_n0059]  
+
+ASSESSMENT AND PLAN  
+Assessment is bilateral carpal tunnel syndrome, with bilateral cubital tunnel syndrome also considered. [n0052][pn0001_n0052][n0053][pn0002_n0053]  
+Positive Tinel testing supports the working diagnoses of carpal tunnel syndrome and possible cubital tunnel syndrome. [n0051][pn0051_n0052][pn0051_n0053]  
+Plan to schedule an EMG/nerve test to help determine where the nerve irritation is coming from. [n0008][n0058][n0059][pn0002_n0008][pn0001_n0058][pn0001_n0059]  
+He will continue wearing wrist splints. [n0007][pn0001_n0007][pn0002_n0007]  
+He will return here for follow-up after the EMG is complete. [n0006][pn0001_n0006][n0008]  
+If symptoms persist after EMG, consider referral to Dr. Martinez’s hand clinic or an orthopedist for possible injections or carpal tunnel release surgery. [n0060][n0061][n0062][n0063][n0064][n0065][pn0001_n0060][pn0001_n0062][pn0001_n0063][pn0001_n0064][pn0001_n0065]  
+The patient agrees to schedule the EMG test and follow up after the EMG and will keep wearing splints. [n0001]

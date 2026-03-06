@@ -1,0 +1,42 @@
+HISTORY OF PRESENT ILLNESS
+
+Natalie is a 39-year-old female who presents today for a check-up related to abnormal blood work with reported high blood sugars from routine labs last week. [n0001][n0003][n0004][n0008][n0009][pn0001_n0003][pn0001_n0004][pn0001_n0008][pn0001_n0009]  
+She has a history of diabetes mellitus and is currently taking metformin 1000 mg daily, with a prior dose increase noted. [n0006][n0012][n0023][pn0001_n0006][pn0001_n0012][pn0001_n0023]  
+She reports no symptoms and denies chest pain, shortness of breath, nausea, vomiting, diarrhea, difficulty urinating, burning with urination, headache, and abdominal pain. [n0019][n0010][n0011][n0020][n0021][n0022][n0024][n0025][n0040][n0041][pn0001_n0019][pn0001_n0010][pn0001_n0011][pn0001_n0020][pn0001_n0021][pn0001_n0022][pn0001_n0024][pn0001_n0025][pn0001_n0040][pn0001_n0041]  
+She reports her diabetic diet has been going well with avoidance of sugars and that she has been watching her weight. [n0013][n0028][pn0001_n0013][pn0001_n0028]  
+She reports exercising with power walking every day for at least 30 minutes. [n0014][n0034][pn0001_n0014][pn0001_n0034]  
+She reports checking morning fasting blood sugars. [n0029][pn0001_n0029]  
+She has chronic hypertension that she reports is stable on daily antihypertensive medication, and she monitors blood pressure at home with normal readings. [n0005][n0030][n0031][pn0001_n0005][pn0001_n0030][pn0001_n0031]  
+She is status post right ACL repair about five years ago and reports the knee has been doing well with no mobility issues. [n0007][n0015][n0032][n0033][pn0001_n0007][pn0001_n0015][pn0001_n0032][pn0001_n0033]  
+
+PHYSICAL EXAM
+
+Vital signs today are reassuring with blood pressure looking good, oxygen level great, and temperature good. [n0035][n0036][n0037][n0038][pn0001_n0035][pn0001_n0036][pn0001_n0037][pn0001_n0038]  
+Neck examination is normal. [n0045][pn0001_n0045]  
+Eyes appear normal on exam. [n0046][pn0001_n0046][pn0002_n0046]  
+Lung exam is clear. [n0047][pn0001_n0047][pn0002_n0047]  
+Cardiac exam is notable for a systolic ejection murmur estimated at 3/6. [n0048][pn0001_n0048][pn0002_n0048]  
+Abdominal exam is soft. [n0049][pn0001_n0049][pn0002_n0049]  
+No lower extremity swelling is noted. [n0050][pn0001_n0050]  
+
+RESULTS
+
+Hemoglobin A1c is 8.1 and interpreted as elevated. [n0026][n0006][pn0001_n0026][pn0001_n0006]  
+Routine blood work from last week showed elevated blood glucose. [n0008][n0009][n0017][pn0001_n0008][pn0001_n0009][pn0001_n0017]  
+CBC, comprehensive metabolic panel, and lipid panel were ordered today. [n0054][n0055][n0053][pn0001_n0054][pn0001_n0055][pn0001_n0053][pn0002_n0054][pn0002_n0055][pn0002_n0053]  
+
+ASSESSMENT AND PLAN
+
+Diabetes mellitus with elevated A1c (8.1) and recent hyperglycemia on routine labs. [n0006][n0026][n0009][pn0001_n0006][pn0001_n0026][pn0001_n0009]  
+Start Jardiance 10 mg daily for diabetes management. [n0052][pn0001_n0052][pn0002_n0052]  
+Continue metformin 1000 mg daily. [n0012][pn0001_n0012]  
+Continue aggressive adherence to diabetic diet and ongoing daily exercise (power walking). [n0013][n0014][n0034][pn0001_n0013][pn0001_n0014][pn0001_n0034]  
+Additional diagnostic workup is planned to further evaluate the elevated blood sugars. [n0018][pn0001_n0018]  
+
+Hypertension, reported stable with normal home readings and blood pressure looking good today. [n0005][n0031][n0036][pn0001_n0005][pn0001_n0031][pn0001_n0036]  
+Continue lisinopril for blood pressure control and re-check blood pressure at the next visit while continuing home monitoring. [n0056][n0057][pn0001_n0056][pn0001_n0057][pn0002_n0056]  
+
+Status post right ACL repair with stable knee function and no mobility limitations. [n0015][n0032][n0033][pn0001_n0015][pn0001_n0032][pn0001_n0033]  
+Continue physical therapy and normal exercise regimen, and continue physical exercise for the knee. [n0059][n0060][n0058][pn0001_n0059][pn0001_n0060][pn0001_n0058][pn0002_n0059][pn0002_n0060][pn0002_n0058]  
+
+Patient reports no further questions at the end of the visit. [n0061][pn0001_n0061]

@@ -1,0 +1,26 @@
+HISTORY OF PRESENT ILLNESS  
+Michelle King presents as a new patient for evaluation of long-standing gastroesophageal reflux disease with heartburn and a burning sensation in the chest/throat, described as really bad and getting worse over the past few years despite omeprazole. [n0001][n0013][n0003][n0043][n0017][n0007][pn0001_n0003][pn0001_n0007][pn0001_n0043][pn0001_n0017]  
+She reports symptoms can be variable, with some days fine and other days really bad. [n0003]  
+She identifies dietary triggers (including spicy foods, carbonated beverages/soda, citrus, and tomato-based foods) and reports she has not completely eliminated them, including continued soda, citrus, and tomato-based product intake. [n0010][n0026][n0027][n0028][pn0001_n0010][pn0001_n0026][pn0001_n0027][pn0001_n0028]  
+She reports stress and anxiety are big problems and notes stress can worsen her reflux symptoms. [n0004][n0005][pn0001_n0004][pn0001_n0005][pn0003_n0005][pn0003_n0004]  
+She reports reduced appetite for the past two months in the setting of a lot of work stress, while her weight has been pretty stable and she denies unintentional weight loss. [n0030][n0031][n0029][n0055][pn0001_n0030][pn0001_n0031][pn0001_n0029][pn0001_n0055]  
+She denies dysphagia, abdominal pain, nausea, vomiting, change in bowel habits, constipation, diarrhea, and rectal bleeding. [n0006][n0018][n0019][n0020][n0021][n0022][n0023][n0024][pn0001_n0006][pn0001_n0018][pn0001_n0019][pn0001_n0020][pn0001_n0021][pn0001_n0022][pn0001_n0023][pn0001_n0024]  
+Family history is notable for a grandmother with esophageal cancer and a mother with acid reflux. [n0032][n0033][pn0001_n0032][pn0001_n0033]  
+She reports a history of surgery as an infant for twisted intestines (correction of malrotation). [n0042][n0011][pn0001_n0042][pn0001_n0011]  
+She reports having had an upper endoscopy when younger but not in the last 10 years. [n0035][pn0001_n0035]  
+She was referred by her primary doctor, Dr. Scott, and was evaluated today by Dr. Phillips. [n0015][n0012][n0002][pn0001_n0015][pn0001_n0012][pn0001_n0002]  
+
+PHYSICAL EXAM  
+Physical exam was normal except for well-healed abdominal surgical scars. [n0040][n0041][pn0001_n0040][pn0001_n0041]  
+
+RESULTS  
+No diagnostic study results are documented in the record for this visit. [n0013]  
+
+ASSESSMENT AND PLAN  
+GERD with persistent heartburn/burning symptoms despite current omeprazole 40 mg twice daily. [n0003][n0043][n0017][n0007][pn0001_n0003][pn0001_n0043][pn0001_n0017][pn0001_n0007]  
+Switch from omeprazole to Nexium 40 mg twice daily, and Dr. Phillips will send the prescription to the patient’s pharmacy. [n0008][n0046][pn0002_n0008][pn0001_n0008][pn0001_n0046][pn0007_n0008]  
+Proceed with planned diagnostic upper endoscopy (EGD) with sedation, with possible biopsies if abnormalities are seen, to evaluate for potential causes including ulcer and to assess for precancerous or cancerous conditions. [n0009][n0047][n0048][n0049][pn0001_n0009][pn0002_n0009]  
+Counsel to improve lifestyle modifications by avoiding dietary triggers (spicy foods, carbonated beverages/soda, citrus, and tomato-based foods) and addressing stress as part of symptom management. [n0010][n0052][n0005][pn0002_n0010][pn0001_n0052][pn0003_n0005]  
+Plan scheduling at the checkout desk for the EGD and a follow-up office visit with Dr. Phillips to discuss EGD results and review progress with dietary, stress, and medication changes. [n0050][n0051][pn0001_n0050][pn0001_n0051][n0052][n0053]  
+Dr. Phillips suspects GERD with an underlying functional etiology, and if the EGD is normal and symptoms persist despite a trial of Nexium, Protonix may be considered and a pH-impedance study may be obtained to rule out abnormal acid reflux exposure and help distinguish functional etiology versus a hypersensitivity process. [n0054][n0056][n0057][n0058][n0059][pn0002_n0054][pn0057_n0058]  
+The patient agrees with switching from omeprazole to Nexium, is open to trying the recommended treatments, and plans to schedule the EGD. [n0001][n0008][n0009][pn0001_n0008][pn0001_n0009]

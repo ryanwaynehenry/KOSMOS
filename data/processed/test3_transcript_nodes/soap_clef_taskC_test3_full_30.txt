@@ -1,0 +1,32 @@
+## HISTORY OF PRESENT ILLNESS
+Michael presents after his PCP was concerned about symptoms and ordered a CT scan. [0]  
+He reports intermittent left-sided back pain that varies in quality (sometimes sharp) and sometimes moves. [3][5]  
+He denies increased fatigue and reports appetite is unchanged. [10][11][12][13]  
+He reports increased water intake and waking at night to urinate more than usual. [16][17]  
+He rides a bike every so often. [19]  
+He reports that most siblings at home are healthy, but he has a brother who smokes (including at the house despite being told not to). [34][35][37]  
+The clinician notes a history of recurrent “strep”/sore throats (noted as four episodes in the last five months), and the patient confirms recurrent strep diagnoses. [38][39][41]  
+
+## PHYSICAL EXAM
+Throat exam: no erythema or swelling; tonsils midline. [44]  
+Neck: no cervical lymphadenopathy. [44]  
+Lungs: clear to auscultation without wheezes, rales, or rhonchi. [44]  
+Cardiac: normal heart sounds without murmur, rub, or gallop. [44]  
+Back: no tenderness to palpation over the area of reported left back pain. [44][45]  
+Abdomen: no pain with palpation; no rebound or guarding. [46][47]  
+
+## RESULTS
+CT ordered by the PCP showed findings concerning for possible glomerulonephritis with swelling, potentially related to recurrent strep episodes. [0][48]  
+
+## ASSESSMENT AND PLAN
+**1) Suspected glomerulonephritis (possible post-streptococcal), based on CT findings and history of recurrent strep:** Discussed concern for potential progression to kidney disease/chronic kidney disease and need for further confirmation. [48]  
+Plan: Order labs including lipid panel, urinalysis, CMP, CBC, vitamin D, and TSH. [48]  
+
+**2) Recurrent strep/sore throats:** Refer to ENT for evaluation and consideration of tonsillectomy to help reduce recurrent strep episodes (decision deferred to ENT). [38][48]  
+
+**3) Increased urination/nocturia and increased water intake:** Will evaluate further with ordered labs including UA and CMP. [17][48]  
+
+**Logistics / follow-up:** Patient asked about test cost and was told the tests would be “free ninety nine” because his mom is paying. [49][50]  
+Patient was advised to complete labs as soon as possible (lab next door), with some tests requiring fasting. [54]  
+No vaccinations/shots planned today. [65][66]  
+Return in 1 week for results; follow-up may be by phone if results are normal, but in-person visit may be needed if further discussion is required. [68][70]

@@ -1,0 +1,27 @@
+HISTORY OF PRESENT ILLNESS  
+Evelyn is a 56-year-old female presenting today for an annual exam with her doctor. [n0001][n0011][pn0001_n0011][pn0001_n0002]  
+Over the last month, she has had intermittent chest pain described as burning/chest pressure in the middle of the chest that occurs with walking and resolves with rest, about three times per week, and is not present at rest. [n0008][pn0001_n0008]  
+She denies shortness of breath, nausea, and vomiting. [n0021][n0022][n0023][pn0001_n0021][pn0001_n0022][pn0001_n0023]  
+She has a history of coronary artery disease with prior coronary stenting. [n0003][n0019][pn0001_n0003][pn0001_n0019]  
+Her herniated disc in the back has been doing well after a steroid injection several months ago, and she reports no back pain or limitations in movement. [n0012][n0006][n0013][n0014][pn0001_n0012][pn0001_n0006][pn0001_n0013][pn0001_n0014]  
+She reports prior carpal tunnel syndrome treated with carpal tunnel release a couple of years ago, with full range of motion, no recurrent numbness/tingling, and she is back at work. [n0015][n0004][n0017][n0018][n0007][pn0001_n0015][pn0001_n0004][pn0001_n0017][pn0001_n0018][pn0001_n0007]  
+On review of systems, she reports a little nasal congestion attributed to pollen allergies and denies fever/chills, muscle aches, and lower extremity edema. [n0029][n0030][pn0001_n0029][pn0001_n0030][n0028][n0027][n0026][pn0001_n0028][pn0001_n0027][pn0001_n0026]  
+
+PHYSICAL EXAM  
+Vital signs were reviewed and noted to look really good, with blood pressure under good control and oxygenation fine. [n0032][n0033][n0034][pn0001_n0032][pn0001_n0033][pn0001_n0034]  
+Cardiovascular exam shows a slight 3/6 systolic ejection murmur with no carotid bruits and no lower extremity edema. [n0035][n0031][pn0001_n0035][pn0001_n0031]  
+Respiratory exam shows lungs clear to auscultation. [n0036][n0031][pn0001_n0036][pn0001_n0031]  
+Healed surgical scars are present on the right wrist. [n0037][n0031][pn0001_n0037][pn0001_n0031]  
+
+RESULTS  
+Echocardiogram from last year showed slightly low left ventricular ejection fraction around 45% and slight mitral regurgitation. [n0039][n0040][n0041][pn0039_n0040][pn0039_n0041][pn0001_n0039][pn0001_n0040][pn0001_n0041]  
+Electrocardiogram is stable with no new changes and reflects prior coronary artery disease. [n0043][n0003][pn0001_n0043][pn0001_n0003][pn0003_n0043]  
+
+ASSESSMENT AND PLAN  
+Intermittent exertional chest pain in the setting of known coronary artery disease and prior stenting; plan to order cardiac stress testing to evaluate for possible additional coronary blockages. [n0008][n0003][n0019][n0009][n0047][pn0003_n0008][pn0001_n0009][pn0002_n0009][pn0003_n0047]  
+Continue aspirin and metoprolol. [n0045][n0046][pn0001_n0045][pn0001_n0046]  
+Start rosuvastatin (Crestor) 20 mg once daily and obtain a lipid panel. [n0049][n0048][pn0001_n0049][pn0001_n0048][pn0002_n0049]  
+Herniated disc/back symptoms are improved after prior steroid injection, and no further steroid injection or physical therapy referral is planned at this time. [n0005][n0006][n0044][pn0001_n0005][pn0001_n0006]  
+Murmur is consistent with slight mitral regurgitation on prior echocardiogram. [n0042][n0041][n0039][pn0041_n0042][pn0039_n0041][pn0001_n0042][pn0001_n0041]  
+Nurse will assist with scheduling the ordered testing. [n0052][pn0001_n0052]  
+Patient reports no further questions at the end of the visit. [n0050][pn0001_n0050]

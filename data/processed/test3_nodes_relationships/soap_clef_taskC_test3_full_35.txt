@@ -1,0 +1,30 @@
+HISTORY OF PRESENT ILLNESS  
+Matthew presents for evaluation of vision changes with trouble in the right eye. [n0001][n0011][n0012][pn0001_n0011][pn0001_n0012]  
+He reports metamorphopsia for a few months, worsening over the last three to four months, with straight lines appearing crooked/wavy. [n0004][n0016][pn0001_n0004][pn0001_n0016]  
+He reports intermittent impaired vision and difficulty adjusting to dim light, including decreased vision when reading in dark places. [n0013][n0014][n0015][pn0001_n0013][pn0001_n0014][pn0001_n0015]  
+He has a history of high blood pressure and reports he has not taken his blood pressure pill for a while and has trouble remembering to take it. [n0005][n0025][n0026][pn0001_n0005][pn0001_n0025][pn0001_n0026]  
+He reports current cigarette smoking at about a pack per day and difficulty quitting despite attempts such as hypnosis, lozenges, and chewing gum. [n0021][n0022][pn0001_n0021][pn0001_n0022]  
+He reports going out to eat with his wife almost every night. [n0003][n0001][pn0001_n0003]  
+
+PHYSICAL EXAM  
+An anterior segment examination was completed and revealed posterior chamber intraocular lenses in both eyes. [n0029][n0030][pn0001_n0029][pn0001_n0030]  
+On right eye exam, the cornea was clear and there was no NVI. [n0031][n0032][pn0001_n0031][pn0001_n0032]  
+Right eye cup-to-disc ratio was 0.2. [n0033][pn0001_n0033]  
+Right fundus exam showed retina attached 360 degrees with no holes or tears and RPE changes in the fovea. [n0034][pn0001_n0034]  
+Right macular exam showed drusen, retinal thickening, subretinal fluid, exudate accumulation, and hemorrhage. [n0035][pn0001_n0035]  
+Left eye exam showed cornea clear, no MVI, cup-to-disc 0.3, RPE changes in the fovea, no hemorrhage, no subretinal fluid, and retina attached appropriately. [n0036][pn0001_n0036]  
+
+RESULTS  
+The clinician reviewed the diagnostic exam and noted findings consistent with neovascular (wet) age-related macular degeneration. [n0037][n0008][pn0001_n0037][pn0001_n0008]  
+OCT showed drusen deposits under the RPE and subretinal fluid with visualization of a choroidal neovascular membrane, consistent with neovascular age-related macular degeneration. [n0038][pn0001_n0038]  
+Fluorescein angiography revealed a focal area of leakage in the right eye, consistent with neovascular age-related macular degeneration. [n0039][n0042][n0008][pn0001_n0039][pn0001_n0042]  
+
+ASSESSMENT AND PLAN  
+Neovascular (wet) age-related macular degeneration with associated decreased vision risk and central blind spot/scotoma discussed. [n0008][n0009][n0044][pn0008_n0009][pn0001_n0044]  
+Plan for intravitreal Lucentis injections once a month, with the first injection planned for today. [n0006][n0007][n0046][pn0001_n0006][pn0001_n0007][pn0001_n0046]  
+The eye will be numbed prior to injection, and the patient was counseled that he should not feel pain during the injection. [n0047][n0048][pn0001_n0047][pn0001_n0048]  
+The patient agrees to proceed with the eye injection as long as it will not hurt a lot. [n0001][n0050]  
+High blood pressure with nonadherence to blood pressure medication; patient was instructed to start taking his blood pressure medication today and to take it as prescribed. [n0005][n0026][pn0001_n0005][pn0001_n0026]  
+The patient agrees to start taking his blood pressure medication today. [n0001][n0026]  
+Tobacco use: patient currently smokes about a pack per day and was advised to cut back or quit smoking altogether. [n0021][n0022][n0002][pn0001_n0021][pn0001_n0022]  
+Follow-up visit planned. [n0010]

@@ -1,0 +1,34 @@
+## HISTORY OF PRESENT ILLNESS
+Wayne presents for evaluation of a non-healing sore/wound on the right foot. [0][3]  
+He reports the wound has been present for about 2–3 weeks and is not improving. [3][5]  
+He was evaluated by his PCP and referred for further care, and he previously saw a podiatrist but has not had one since that provider moved a couple of years ago. [3]  
+He denies any trauma to the foot, but notes the wound started as a blister after wearing a new pair of travel shoes that were too tight, which he did not feel due to neuropathy. [6][7]  
+He has been covering the area with a band-aid, and notes his sock sometimes sticks to the wound when he removes it. [7][13]  
+He completed a course of antibiotics yesterday without noticeable change in the wound. [8][9]  
+He reports no pain at the wound site due to decreased sensation. [10][11]  
+He denies fever, chills, or drainage from the wound. [12][13]  
+He is no longer wearing the shoes that caused the blister (Hoka shoes purchased at REI). [14][15][19][21]  
+Regarding diabetes, he feels it is “not too bad,” and reports his last hemoglobin A1c was a little over 8. [28][29]  
+
+## PHYSICAL EXAM
+Vital signs: T 98.1°F, HR 72, RR 16, BP 110/65. [30]  
+Right foot: 1 x 2 inch circular wound on the dorsal aspect of the lateral right foot, just proximal to the right 5th MTP joint, with yellow slough and minimal granulation tissue. [30]  
+No surrounding erythema/cellulitis, no fluid collection, no necrosis, no odor, and no bony exposure appreciated. [30]  
+Vascular exam: palpable bilateral femoral and popliteal pulses; no palpable DP/PT pulses, but Doppler signals present. [30]  
+Patient reports no pain with palpation of the wound. [30][31]  
+
+## RESULTS
+Right foot X-ray shows no evidence of osteomyelitis (no bone infection). [32]  
+
+## ASSESSMENT AND PLAN
+**1) Diabetic foot ulcer, right lateral dorsal foot (non-healing x 2–3 weeks), without clinical cellulitis and with X-ray negative for osteomyelitis.** [0][5][30][32]  
+- Order ankle-brachial index (ABI) to assess blood supply and healing potential. [32]  
+- Perform in-office debridement to remove dead tissue. [32]  
+- Start collagenase ointment applied once daily, then cover with a dry sterile dressing, and continue until the wound is shrinking with healthy pink tissue. [32]  
+- Offload pressure with a surgical shoe. [32]  
+- No additional antibiotics recommended at this time. [32]  
+- Follow up in 2 weeks; consider referral to vascular specialist if ABI suggests inadequate perfusion for wound healing. [32]  
+
+**2) Diabetes mellitus with suboptimal control (last A1c a little over 8), impacting wound healing.** [29][34]  
+- Emphasized importance of improved glycemic control to promote wound healing. [34]  
+- Consider diabetic consult to review diet modifications to help lower A1c. [34]

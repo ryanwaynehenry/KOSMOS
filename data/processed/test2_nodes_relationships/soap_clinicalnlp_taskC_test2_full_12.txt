@@ -1,0 +1,29 @@
+HISTORY OF PRESENT ILLNESS  
+Brittany Edwards is a 32-year-old female seen for a follow-up visit for irritable bowel syndrome (IBS) with functional abdominal pain, nausea, vomiting, and diarrhea. [n0001][n0014][pn0001_n0014][n0003][pn0001_n0003][n0004][pn0001_n0004][n0005][pn0001_n0005][n0006][pn0001_n0006][n0015][pn0001_n0015]  
+She reports intermittent IBS flare-ups and a history of abdominal pain flares since August 2019. [n0051][pn0001_n0051][n0078][pn0001_n0078][n0016][pn0001_n0016]  
+Review of systems is positive for diarrhea, nausea, and abdominal pain. [n0085][pn0001_n0085][n0006][n0005][n0086]  
+She reports ongoing cramping/spasmodic abdominal pain and sharp pains and has been avoiding heavy foods, though she ate fried chicken today and felt mostly all right afterward. [n0054][pn0001_n0054][n0055][pn0001_n0055][n0056][pn0001_n0056][n0057][pn0001_n0057][n0058][pn0001_n0058]  
+She notes gastrointestinal sensitivity, with her gut not tolerating spicy foods including spicy shrimp, and she eats spicy foods when going out on Friday and Saturday nights. [n0029][pn0001_n0029][n0027][pn0001_n0027][n0028][pn0001_n0028]  
+She often goes out with friends to Friday’s restaurant and typically eats pasta/chicken alfredo there. [n0035][pn0001_n0035][n0036][pn0001_n0036][n0009][pn0001_n0009][n0008][pn0001_n0008]  
+She reports pasta can make her feel bloated, though chicken alfredo normally does not bother her. [n0007][n0009][n0008]  
+She reports drinking alcohol when out with friends, most often tequila (prefers Patrón) or dark/brown liquor (typically two drinks), and occasionally a martini. [n0013][pn0001_n0013][n0042][pn0001_n0042][n0044][pn0001_n0044][n0046][pn0001_n0046][n0045][pn0001_n0045][n0047][pn0001_n0047][n0048][pn0001_n0048]  
+She reports doing better when drinking water instead of sodas. [n0069][pn0001_n0069][n0070][pn0001_n0070]  
+
+PHYSICAL EXAM  
+On general exam, she is alert and cooperative and appears her stated age. [n0061][pn0001_n0061]  
+Lungs are clear to auscultation bilaterally. [n0062][pn0001_n0062]  
+Heart has regular rate and rhythm. [n0063][pn0001_n0063]  
+Abdominal exam is soft and non-tender with no masses or organomegaly and normal active bowel sounds. [n0065][pn0001_n0065]  
+
+RESULTS  
+No diagnostic test results are documented in the available record for this visit. [n0014]  
+
+ASSESSMENT AND PLAN  
+IBS with associated functional abdominal pain and intermittent flares. [n0003][pn0001_n0003][n0004][pn0001_n0004][n0051][pn0001_n0051][pn0003_n0004]  
+Start Elavil 25 mg by mouth nightly as a long-term neuromodulator to help reduce GI symptoms and IBS flare-ups, with counseling that it may cause mild drowsiness. [n0012][pn0001_n0012][pn0012_n0075][pn0012_n0078][pn0012_n0080][n0080]  
+Start Citrucel (fiber) twice daily for regularity. [n0066][pn0001_n0066][pn0002_n0066]  
+Continue Bentyl 20 mg by mouth as needed (up to four times daily) for intestinal cramping, including use 30–45 minutes prior to eating out. [n0010][pn0001_n0010][n0091][pn0001_n0091][pn0002_n0091][n0022]  
+For nausea, use Zofran as needed and avoid taking it ahead of time; first try reducing triggers such as greasy/fatty foods and sugary drinks and plan to drink plenty of water. [n0011][pn0001_n0011][n0071][pn0001_n0071][n0072][pn0001_n0072][n0073][pn0001_n0073][n0074][pn0001_n0074][n0069][pn0001_n0069]  
+Dietary and lifestyle modifications were recommended, including reducing greasy/fatty foods and decreasing alcohol consumption. [n0090][pn0001_n0090][n0092][pn0001_n0092][n0093][pn0001_n0093]  
+Prescriptions were sent to the pharmacy, and the patient was advised to call with questions and to follow up via MyChart email in about one month regarding symptoms and any medication side effects or need for adjustments. [n0081][pn0001_n0081][n0082][pn0001_n0082][n0083][pn0001_n0083][n0094][pn0001_n0094][n0095][n0096][n0097]  
+The patient agrees with the plan, including trying Citrucel twice daily, using Bentyl as needed, reducing triggers (greasy/fatty foods, sugary drinks, alcohol), and following up via MyChart in about a month. [n0001][n0066][n0091][n0092][n0093][n0094]

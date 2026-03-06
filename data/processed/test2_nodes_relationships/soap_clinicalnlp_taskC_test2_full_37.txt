@@ -1,0 +1,38 @@
+HISTORY OF PRESENT ILLNESS
+
+Sophia presents for evaluation of bilateral knee pain (behind the kneecaps) that has been present for about six months and is getting worse. [n0001][n0003][pn0001_n0003]  
+She describes the pain as deep and achy, sometimes with creaking, and notes that resting helps. [n0003][n0008][pn0001_n0008]  
+The pain limits her running such that she cannot get to half a mile currently, whereas she previously ran five to six miles daily. [n0003][n0004][pn0001_n0004]  
+She reports pain with stairs, rising from sitting (including getting up from her desk or after watching TV), and squatting. [n0003][n0007]  
+She works from home and is at her desk a lot, which she reports can worsen her knee pain when getting up. [n0001][n0009][n0007][pn0001_n0009]  
+She also reports intermittent leg pain that occurs with running. [n0016][pn0001_n0016]  
+She runs outdoors and uses a treadmill during the winter, but has been cutting down due to symptoms. [n0004][n0018][pn0001_n0018]  
+She denies knee swelling, redness, and any history of knee injury. [n0022][n0023][n0024][pn0001_n0022][pn0001_n0023][pn0001_n0024]  
+When symptoms first started, she tried icing and an ace bandage wrap obtained from the pharmacy. [n0010][n0011][n0012][pn0001_n0010][pn0001_n0011][pn0001_n0012]  
+She sometimes takes ibuprofen or naproxen but tries to avoid taking medications. [n0013][n0014][n0015][pn0001_n0013][pn0001_n0014]  
+Her primary care doctor wanted her to be seen for the knee pain. [n0005][pn0001_n0005]  
+
+PHYSICAL EXAM
+
+Vital signs were reviewed and noted to look good. [n0027][pn0001_n0027]  
+Cardiovascular exam shows regular rate and rhythm with no murmurs. [n0028][pn0001_n0028][pn0002_n0028]  
+Gait is normal on musculoskeletal exam. [n0029][pn0001_n0029][pn0002_n0029]  
+Lower extremity strength testing shows hip abduction strength 3/5 bilaterally, with the remainder of lower extremity strength 5/5. [n0030][n0031][pn0001_n0030][pn0001_n0031]  
+Knee exam shows tenderness to palpation of the bilateral retinacular retinaculum and a positive patellar grind test, with no overlying erythema/redness, ecchymosis/bruising, warmth, or effusion. [n0032][pn0001_n0032]  
+She is able to squat but squatting hurts. [n0033][n0003][pn0001_n0033]  
+Lachman, anterior drawer, posterior drawer, and McMurray tests are negative bilaterally. [n0034][n0035][n0036][n0037][pn0001_n0034][pn0001_n0035][pn0001_n0036][pn0001_n0037]  
+Patellar and Achilles reflexes are symmetrical. [n0038][pn0001_n0038]  
+
+RESULTS
+
+Bilateral knee x-rays show no fractures or osteoarthritis. [n0039][pn0001_n0039]  
+A knee MRI was reviewed as part of the evaluation, though specific MRI findings are not documented. [n0040][pn0001_n0040]  
+
+ASSESSMENT AND PLAN
+
+Bilateral knee pain is assessed as patellofemoral pain syndrome. [n0003][n0041][pn0001_n0041][pn0003_n0041]  
+Plan for physical therapy to work on lower extremity exercises to improve strength and mobility and to address running mechanics. [n0043][n0044][n0045][pn0001_n0043]  
+She may continue ibuprofen/anti-inflammatory medication as needed for knee pain. [n0042][pn0002_n0042][pn0001_n0042]  
+Treatment goal is return to running, and she will take it easy from running for now. [n0001][n0046][pn0001_n0046]  
+Progress will be assessed at follow-up visits, and the clinician plans to follow up with her soon. [n0047][pn0001_n0047]  
+Sophia agrees with the plan to take it easy from running for now and to follow up with the clinician. [n0001]

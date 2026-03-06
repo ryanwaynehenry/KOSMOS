@@ -29,7 +29,8 @@ RELATION_OPTIONS = [
     {"name": "has_provider", "description": "Person(patient) -> Person(clinician): Links the patient to their clinician/provider of care.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["Person"], "target_entity_types": ["PERSON_CLINICIAN"]},
     {"name": "evaluated_by", "description": "Person(patient) -> Person(clinician): Clinician evaluated the patient in this context.", "source_classes": ["Person"], "source_entity_types": ["PERSON_PATIENT"], "target_classes": ["Person"], "target_entity_types": ["PERSON_CLINICIAN"]},
     {"name": "documented_by", "description": "Condition/Medication/LabTest/Observation/Activity/Procedure -> Person(clinician): Clinician authored or documented the clinical fact.", "source_classes": ["Condition", "MedicationStatement", "LabTest", "Observation", "Activity", "Procedure"], "target_classes": ["Person"], "target_entity_types": ["PERSON_CLINICIAN"]},
-    {"name": "reported_by", "description": "Condition/Medication/LabTest/Observation/Activity/Procedure -> Person: Who stated the fact (patient or clinician).", "source_classes": ["Condition", "MedicationStatement", "LabTest", "Observation", "Activity", "Procedure"], "target_classes": ["Person"], "target_entity_types": ["PERSON_PATIENT", "PERSON_CLINICIAN"]},
+    {"name": "reported_by", "description": "Condition/Medication/LabTest/Observation/Activity/Procedure -> Person (patient or clinician): Who stated the fact (patient or clinician).", "source_classes": ["Condition", "MedicationStatement", "LabTest", "Observation", "Activity", "Procedure"], "target_classes": ["Person"], "target_entity_types": ["PERSON_PATIENT", "PERSON_CLINICIAN"]},
+    {"name": "reported", "description": "Person (patient or clinician) -> Condition/Medication/LabTest/Observation/Activity/Procedure: Who stated the fact (patient or clinician).", "source_classes": ["Person"], "target_entity_types": ["PERSON_PATIENT", "PERSON_CLINICIAN"], "target_classes": ["Condition", "MedicationStatement", "LabTest", "Observation", "Activity", "Procedure"]},
     {"name": "diagnosed", "description": "Person(clinician) -> Condition: Clinician diagnosed/assessed the condition.", "source_classes": ["Person"], "source_entity_types": ["PERSON_CLINICIAN"], "target_classes": ["Condition"], "target_entity_types": ["PROBLEM"]},
     {"name": "prescribed", "description": "Person(clinician) -> Medication: Clinician prescribed or initiated the medication.", "source_classes": ["Person"], "source_entity_types": ["PERSON_CLINICIAN"], "target_classes": ["MedicationStatement"], "target_entity_types": ["MEDICATION"]},
     {"name": "ordered_test", "description": "Person(clinician) -> LabTest: Clinician ordered the test/measurement.", "source_classes": ["Person"], "source_entity_types": ["PERSON_CLINICIAN"], "target_classes": ["LabTest"], "target_entity_types": ["LAB_TEST"]},
@@ -138,6 +139,7 @@ Return a JSON array where each object has:
 - direction ("source->target" or "target->source")
 - explanation (brief rationale, note when you used a screening inference)
 - evidence_turn_ids (list of turn_ids that support the choice)
+Return valid JSON only; every value must be double-quoted strings; do not include free text outside JSON.
 """
 
 

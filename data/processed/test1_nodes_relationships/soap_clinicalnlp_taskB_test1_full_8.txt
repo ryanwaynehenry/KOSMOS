@@ -1,0 +1,23 @@
+HISTORY OF PRESENT ILLNESS  
+Mrs. Anderson is a 44-year-old female presenting with left shoulder pain for about one week. [n0001][n0004][pn0001_n0004]  
+She reports that any kind of movement of the left shoulder hurts, including lifting it up even a little bit. [n0004][n0010][pn0001_n0010]  
+The pain began while she was in a gymnastics class. [n0011][pn0001_n0011]  
+She initially reported not taking pain medications, then clarified she took Tylenol for two or three days without benefit. [n0008][n0009][pn0001_n0009]  
+She has a history of past surgery on the left arm, which the clinician felt does not seem related to the current pain. [n0017][pn0001_n0017]  
+
+PHYSICAL EXAM  
+Left shoulder movement is painful. [n0010][n0004]  
+
+RESULTS  
+A prior x-ray was reviewed and did not show a broken bone or fracture. [n0012][n0013][pn0012_n0013][pn0001_n0012][pn0001_n0013]  
+
+ASSESSMENT AND PLAN  
+Assessment is left shoulder pain with suspected injury of the left shoulder joint. [n0004][n0014][pn0002_n0014][pn0002_n0004]  
+Start ibuprofen 600 mg three times daily for one week for pain control. [n0006][pn0002_n0006][pn0001_n0006]  
+The clinician also discussed trying naproxen (Aleve/Advil) for left shoulder pain. [n0026][n0027][pn0002_n0026][pn0026_n0027]  
+Recommend rest of the left arm while healing and avoid carrying heavy weights. [n0019][n0021][pn0002_n0019]  
+Use ice and/or a heat pad to help relieve pain if symptoms persist. [n0015][n0016][pn0002_n0015][pn0002_n0016]  
+Use the right hand for at least the next three to four weeks. [n0022][pn0002_n0022]  
+Plan follow-up in about three weeks if pain is still present, with consideration of a repeat x-ray depending on symptoms. [n0023][n0025][pn0002_n0023][pn0001_n0025]  
+Patient was advised to call the doctor and consider an earlier appointment if pain worsens. [n0027][n0029][n0030][pn0001_n0029][pn0001_n0030]  
+Orders were placed for medications and procedures as discussed. [n0028][pn0001_n0028]

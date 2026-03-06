@@ -1,0 +1,27 @@
+HISTORY OF PRESENT ILLNESS  
+Julie presents for evaluation of longstanding headaches that have been occurring for years since she was a teenager and have been happening more frequently and with greater severity. [n0001][n0003][pn0001_n0003]  
+Her headaches are described as a pulsing sensation on the right side of her head behind the eye and are worsened by activity, limiting how long she can exercise and becoming worse when she starts to jog. [n0003][n0008][pn0001_n0008]  
+She reports that her headaches previously tended to occur around menses and can also occur when she is really stressed. [n0003][n0016][pn0003_n0016][n0017][pn0003_n0017]  
+She has had ringing in her ears for a few months. [n0004][pn0001_n0004]  
+She reports intermittent blurred vision that comes and goes, including symptoms on the side/peripheral vision. [n0018][pn0001_n0018][n0019][pn0001_n0019]  
+She denies numbness or tingling in the hands, feet, or face. [n0020][pn0001_n0020]  
+She reports being a little nervous about what has been going on with her headaches. [n0015][pn0001_n0015]  
+She is trying to exercise more in order to lose weight and is starting to get back into running. [n0008][n0007][pn0001_n0007]  
+She was referred/sent by her primary care provider due to headaches becoming more frequent and more severe. [n0013][pn0001_n0013][n0003]  
+
+PHYSICAL EXAM  
+Vital signs reviewed from intake were reassuring, including blood pressure which looked good. [n0028][n0030][n0025]  
+Cardiac exam showed normal sinus rhythm with no murmurs, rubs, or gallops. [n0031][pn0001_n0031]  
+Funduscopic exam showed papilledema (swelling behind the eye). [n0032][n0033][pn0001_n0032][pn0001_n0033]  
+Neurologic assessment was normal with cranial nerves I–XII intact including a normal cranial reflex. [n0034][pn0001_n0034]  
+Gait was normal. [n0035][pn0001_n0035]  
+
+RESULTS  
+A prior brain MRI from a few years ago was reviewed, and a more recent brain MRI is being ordered/planned. [n0026][n0012][pn0001_n0012][pn0001_n0026]  
+
+ASSESSMENT AND PLAN  
+Symptoms (headaches worsening with activity, ringing in the ears, and vision changes) with papilledema are concerning for idiopathic intracranial hypertension with increased intracranial pressure. [n0011][n0005][pn0001_n0005][n0006][pn0001_n0006][n0033]  
+Discussed that continued increased intracranial pressure can lead to permanent vision changes. [n0006][n0036][pn0006_n0036]  
+Plan for diagnostic evaluation includes brain MRI, lumbar puncture (spinal tap) to evaluate intracranial pressure and potentially provide symptom relief, and neuro-ophthalmology referral for a comprehensive eye examination. [n0010][n0012][pn0001_n0012][n0037][pn0001_n0037][n0043][pn0001_n0043][n0039][pn0001_n0039]  
+Treatment discussed includes starting medication(s) to help decrease pressure in the brain and help with headaches, along with exercise and weight loss as important parts of treatment. [n0040][pn0002_n0040][n0042][n0041][pn0001_n0041]  
+A follow-up visit is planned. [n0014]

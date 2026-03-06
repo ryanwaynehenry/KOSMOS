@@ -1,0 +1,27 @@
+HISTORY OF PRESENT ILLNESS  
+Mr. Edwards is a 54-year-old male evaluated by Dr. Cruz for facial pain. [n0001][pn0001_n0002][n0012]  
+He reports severe, episodic right facial pain in the right cheekbone area for about 2–3 months, described as stabbing/shooting and sometimes “super hot,” with episodes lasting a few minutes to about an hour. [n0004][pn0001_n0004]  
+He notes the pain can be triggered by cold weather, certain temperatures, and wind. [n0004]  
+He previously tried ibuprofen/Motrin and topical Tiger Balm without benefit. [n0018][n0019][n0020][pn0001_n0018][pn0001_n0019][pn0001_n0020][pn0018_n0019]  
+He reports occasional headaches that usually resolve with Tylenol and states this stabbing facial pain is different. [n0024][n0026][n0027][pn0001_n0024][pn0001_n0026][pn0001_n0027]  
+He denies facial numbness or tingling, facial or eye weakness, and visual changes. [n0014][n0015][n0016][n0017][pn0001_n0014][pn0001_n0015][pn0001_n0016][pn0001_n0017]  
+He denies a history of multiple sclerosis, brain tumors, and migraines. [n0022][n0023][n0025][pn0001_n0022][pn0001_n0023][pn0001_n0025]  
+
+PHYSICAL EXAM  
+A physical examination was performed/planned during this visit. [n0028][pn0001_n0028]  
+On facial light-touch testing with cotton, sensation was reported as a little numb on the right compared with the left. [n0030][pn0001_n0030]  
+On facial pinprick testing, the patient reported the needle sensation was dull on the right side and sharp on the left side. [n0031][pn0001_n0031]  
+A hearing assessment using finger rubbing next to the ear was performed as part of the exam. [n0029]  
+
+RESULTS  
+MRI was reviewed and showed a small blood vessel abutting and perhaps pinching the trigeminal nerve. [n0005][pn0005_n0006][pn0005_n0010]  
+This MRI finding was considered consistent with trigeminal neuralgia and trigeminal nerve compression. [n0005][pn0005_n0007][pn0005_n0010][n0010]  
+
+ASSESSMENT AND PLAN  
+Assessment is trigeminal neuralgia associated with compression of the trigeminal nerve. [n0007][n0010][pn0001_n0007][pn0001_n0010][pn0007_n0010]  
+Plan is to treat with medication first for pain control, and the patient would like to try Tegretol first. [n0035][n0009][n0001][pn0001_n0009][pn0002_n0009]  
+Dr. Cruz will prescribe/send Tegretol to the patient’s pharmacy, with dosing described as trial-and-error. [n0040][n0042][n0009][pn0002_n0009]  
+Potential Tegretol adverse effects were reviewed, including memory loss, tingling, imbalance, and dermatologic/skin reaction, and molecular genetic testing may be done to help ensure safety. [n0038][pn0009_n0038][n0039][pn0001_n0039]  
+Gabapentin was discussed as a first-line medication option to reduce trigeminal nerve excitability for pain control. [n0008][pn0002_n0008][n0035]  
+If medications are not sufficient, surgical options including decompression of the trigeminal nerve were discussed, though surgery is not recommended at this time. [n0036][n0037][n0041][pn0002_n0036][pn0002_n0037][pn0002_n0041]  
+Follow-up is planned in about one month to assess response and discuss next steps if pain continues. [n0011][pn0001_n0011][n0001]

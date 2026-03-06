@@ -1,0 +1,40 @@
+HISTORY OF PRESENT ILLNESS
+
+Noah presents for a follow-up visit with low back pain that began about a week ago and has persisted after initially returning a few hours after onset. [n0001][n0003][n0004][pn0001_n0004]  
+He reports the pain started after a sudden twisting movement to the left and possibly lifting something, and it is worse with sudden twisting. [n0012][n0013][n0004][pn0001_n0012][pn0001_n0013]  
+He describes the pain as more toward the middle/center and sometimes going across the low back/left side. [n0004]  
+He has tried over-the-counter medications without resolution of symptoms. [n0011][pn0001_n0011]  
+He has a history of diabetes mellitus, described as under control, and he is currently taking metformin twice daily. [n0005][n0006][pn0001_n0005][pn0001_n0006][pn0002_n0005]  
+He reports checking home blood glucose in the mornings (tries most mornings) and notes the readings have been on the higher side. [n0007][pn0001_n0007]  
+He has not had a hemoglobin A1c for almost five months, and an A1c is planned. [n0005][n0008][pn0001_n0008][pn0002_n0008]  
+He reports current sugar intake whenever he gets the chance and exercises whenever he gets the chance, and he sometimes goes skiing. [n0016][n0017][n0019][pn0001_n0016][pn0001_n0017][pn0001_n0019]  
+He asked whether it is okay to go to his family’s bakery on Main Street, where cakes and donuts are made, and dietary counseling to avoid donuts and watch carbohydrates/sweets was discussed. [n0010][n0020][n0021][n0040][pn0001_n0010][pn0001_n0020][pn0001_n0021][pn0002_n0040]  
+He also mentions possible trouble with the left eye. [n0014]  
+
+PHYSICAL EXAM
+
+Lung exam: clear. [n0025][pn0001_n0025]  
+Cardiac exam: regular rate and rhythm and described as “all good.” [n0026][pn0001_n0026]  
+Back palpation exam was performed, and the patient reported pain when pressing on the left side into the buttock area. [n0027][n0028][pn0001_n0027][pn0001_n0028]  
+Straight leg raise testing caused a little pain in the right leg and a little pain/tenderness in the left leg. [n0029][n0030][n0031][pn0001_n0029][pn0001_n0030][pn0001_n0031]  
+He denied pain, numbness, or tingling in the feet. [n0032][pn0001_n0032]  
+A quick physical exam including planned eye and ear examination was discussed. [n0022][n0023][n0024][pn0001_n0022][pn0001_n0023][pn0001_n0024]  
+
+RESULTS
+
+No hemoglobin A1c has been obtained for almost five months, and an A1c was ordered/planned. [n0008][pn0001_n0008][pn0002_n0008]  
+A lumbar spine X-ray was ordered/planned as an outpatient as part of the diagnostic workup for low back pain. [n0009][pn0001_n0009][pn0002_n0009]  
+A CT scan may be ordered if questions remain after the X-ray and pain continues. [n0044][n0047][pn0001_n0044][pn0001_n0047][pn0002_n0044]  
+
+ASSESSMENT AND PLAN
+
+Low back pain assessed as musculoskeletal low back strain, with possible intervertebral disc disorder to be evaluated with imaging. [n0004][n0033][n0034][pn0001_n0033][pn0002_n0033]  
+Start ibuprofen 400 mg up to about three times a day for pain, with occasional Tylenol when pain is more severe. [n0036][n0037][pn0001_n0036][pn0001_n0037][pn0002_n0036][pn0002_n0037]  
+Start cyclobenzaprine (Flexeril) once daily every evening, with caution advised regarding strenuous or hazardous activities such as driving after taking it. [n0038][pn0001_n0038][pn0002_n0038]  
+Order physical therapy for the back to help with pain and strengthen back muscles. [n0035][pn0001_n0035][pn0002_n0035]  
+Proceed with diagnostic assessment starting with lumbar spine X-ray, and consider CT scan and referral to a pain management specialist if pain persists after initial diagnostics. [n0045][n0009][n0044][n0046][pn0001_n0045][pn0001_n0009][pn0001_n0044][pn0001_n0046][pn0002_n0045][pn0002_n0009][pn0002_n0044][pn0002_n0046]  
+
+Diabetes mellitus: continue metformin twice daily with no changes today, continue diet and exercise counseling, and order hemoglobin A1c given lack of recent testing. [n0005][n0006][n0039][n0008][pn0001_n0006][pn0002_n0039][pn0002_n0008]  
+Counseling included that it is okay to go to the bakery but to avoid donuts and watch carbohydrate/sweets intake. [n0010][n0040][pn0001_n0010][pn0002_n0040]  
+Home blood pressure readings were recommended every morning with written recording. [n0041][pn0001_n0041]  
+Nursing staff will be sent to see the patient before he leaves, and the patient agreed with the plan (“sounds good”). [n0048][n0001][pn0001_n0048][pn0002_n0048]

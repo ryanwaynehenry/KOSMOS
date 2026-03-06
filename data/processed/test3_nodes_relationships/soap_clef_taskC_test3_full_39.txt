@@ -1,0 +1,39 @@
+HISTORY OF PRESENT ILLNESS  
+Frank presents with episodic shortness of breath for about a week, occurring with exertion (walking around, stairs, walking quickly) and with worsened orthopnea now requiring two pillows. [n0001][n0004][pn0001_n0004]  
+He reports a similar episode about six months ago that improved after a Lasix dose change, and he denies current paroxysmal nocturnal dyspnea (no episodes of waking up really short of breath this time). [n0004][n0020][n0028][pn0001_n0028]  
+He reports leg swelling. [n0025][pn0001_n0025]  
+He reports nocturia at least once and sometimes twice nightly, which is worse than before. [n0016][pn0001_n0016]  
+He reports his diet has not been what it should have been over the last couple of weeks during holidays and family get-togethers, and he has been watching salt intake. [n0010][n0024][n0009][pn0001_n0010][pn0001_n0024][pn0001_n0009]  
+He has chronic coronary artery disease with a history of myocardial infarction in 2018 and stent placement in the right coronary artery, with a prior ejection fraction of about 35%. [n0006][n0021][n0022][n0023][pn0001_n0006][pn0001_n0021][pn0001_n0022][pn0001_n0023]  
+He has chronic kidney disease stage 3/kidney dysfunction and follows with a nephrologist (last seen about a month ago). [n0007][n0034][n0029][pn0001_n0007][pn0001_n0034][pn0001_n0029]  
+About a week ago he had an episode of foot pain (in front of the big toe) that lasted 4–5 days and slowly went away, and he took Motrin for a while but stopped it as quickly as possible. [n0032][n0071][n0011][n0072][n0033][pn0001_n0032][pn0001_n0071][pn0001_n0011][pn0001_n0072][pn0001_n0033]  
+He is currently using acetaminophen (Tylenol) for pain but reports it is not very effective. [n0013][pn0001_n0013]  
+He reports he could not sleep last night. [n0039][pn0001_n0039]  
+
+PHYSICAL EXAM  
+A quick physical examination was performed in the office with findings suggesting fluid retention. [n0044][n0051][pn0001_n0044][pn0001_n0051]  
+Vital signs in the office included blood pressure 135/80. [n0045][n0046][pn0001_n0045][pn0001_n0046]  
+Neck exam showed jugular venous distention to about 9 cm. [n0047][n0044][pn0001_n0047]  
+Lung exam showed bibasilar crackles with occasional rhonchi that cleared with cough. [n0048][n0044][pn0001_n0048]  
+Cardiac exam revealed a 3/6 systolic ejection murmur at the left base. [n0049][n0044][pn0001_n0049]  
+Extremities showed 1–2+ bilateral pitting edema. [n0050][n0044][pn0001_n0050]  
+
+RESULTS  
+Ejection fraction is documented as about 35% (low). [n0023][pn0001_n0023]  
+A chest x-ray is planned. [n0061][pn0001_n0061][pn0002_n0061]  
+An echocardiogram is planned to evaluate the murmur and ensure pumping function is stable. [n0062][n0063][pn0001_n0062][pn0002_n0062]  
+A comprehensive metabolic panel is ordered to ensure kidney function is stable. [n0070][pn0001_n0070][pn0002_n0070]  
+Uric acid is ordered to evaluate possible gout flare. [n0075][n0074][pn0001_n0075][pn0002_n0075]  
+
+ASSESSMENT AND PLAN  
+Acute exacerbation of chronic heart failure is assessed with associated fluid retention. [n0005][n0051][n0052][pn0001_n0005][pn0005_n0051]  
+Increase furosemide/Lasix from 40 mg daily to 80 mg daily, starting in the morning, with the option to add a second dose around 4 PM if needed and avoiding taking it too late at night. [n0026][n0017][n0053][pn0017_n0054][pn0002_n0017]  
+He will call in two days with a weight update and call sooner if shortness of breath worsens. [n0055][n0056][n0004][pn0001_n0055][pn0001_n0056]  
+If worsening shortness of breath occurs, hospital admission for intravenous diuretics may be needed. [n0057][n0058][n0004][pn0002_n0057][pn0002_n0058]  
+Dietary management was emphasized, including watching salt intake, and a dietitian referral is planned to help with diet control including potassium and salt restriction. [n0009][n0015][n0037][n0077][pn0002_n0009][pn0001_n0015][pn0002_n0037][pn0002_n0077]  
+Coronary artery disease with prior MI and RCA stent will be further evaluated with planned cardiology follow-up by contacting Doctor White. [n0006][n0021][n0022][n0064][n0060][pn0001_n0064][pn0001_n0060]  
+Heart murmur will be evaluated with the planned echocardiogram. [n0063][n0062][pn0001_n0063][pn0002_n0062]  
+Chronic kidney disease stage 3: continue follow-up with nephrology and avoid NSAIDs (Motrin/Advil), using Tylenol instead for pain. [n0007][n0030][n0036][n0065][n0066][n0013][pn0001_n0030][pn0002_n0036][pn0002_n0013]  
+Possible gout flare is considered as an explanation for the recent foot pain, and uric acid testing is ordered. [n0074][n0071][n0075][pn0002_n0074][pn0002_n0075]  
+For ongoing pain, he was advised to call if pain remains a significant problem and alternative medications may be discussed that would not further injure kidney function. [n0067][n0068][n0069][n0076][pn0001_n0069]  
+The patient agrees with the plan including the dietitian referral and Lasix dosing plan and will call in two days with the weight update as instructed. [n0001][n0055][n0056][n0015][n0017]

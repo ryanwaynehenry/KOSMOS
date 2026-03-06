@@ -1,0 +1,34 @@
+## HISTORY OF PRESENT ILLNESS
+Michelle King is a 39-year-old female with quadriplegia due to prior spinal cord injury who presents for follow-up after hospitalization at District Regional Hospital (admitted 06/29/2021, discharged 07/02/2021). [0]  
+During that hospitalization she had increasing spasms and lightheadedness, significant constipation, and diaphoresis, and in the ED she was febrile with WBC 23,000 with concern for UTI and was treated with IV antibiotics. [0]  
+She also had labile blood pressure with headache and vomiting during the episode and gradually improved prior to discharge. [0]  
+She has a suprapubic catheter, and cultures were obtained/reviewed during the hospitalization. [0]  
+At today’s visit, she reports she does not think the episode was a UTI and believes constipation (and associated autonomic dysreflexia) contributed to her blood pressure being “out of control,” noting she had minimal stool output in the hospital but had a large bowel movement at home with significant symptom improvement. [3][7][98]  
+She went to the ER because her blood pressure was severely elevated with headache and vomiting and she felt she could not manage it at home. [19][21]  
+She reports she is now back to her normal self and otherwise doing well. [18][26][27]  
+She reports irregular bowel movements despite taking MiraLAX daily and doubling the dose when she does not have a bowel movement, and she has lactulose available as a rescue medication (takes ~2 days to work and is difficult for her). [47][49][53]  
+She is unvaccinated for COVID-19 and is hesitant due to concerns about unknown side effects and reports of “vaccine injury,” stating she feels young/healthy enough to recover and takes vitamin C and multivitamins. [59][61][63][65][67]  
+
+## PHYSICAL EXAM
+Focused exam performed with lung auscultation; patient was breathing comfortably during the exam maneuvers. [28][30]  
+She denied any pain or discomfort. [30][31]  
+
+## RESULTS
+Hospital course/labs reviewed: WBC was markedly elevated to 23,000 during the ED evaluation. [0]  
+Urine cultures from the hospitalization were “not very impressive,” per clinician review. [12]  
+Clinician noted that her WBC has sometimes been mildly elevated in the past and was normal last year. [14]  
+Hospital imaging included x-rays (no CT scan). [7][18]  
+
+## ASSESSMENT AND PLAN
+**1) Acute on chronic constipation with possible contribution to autonomic dysreflexia / BP lability; leukocytosis during hospitalization.** [7][16][98]  
+Discussed that autonomic dysreflexia typically does not elevate the WBC count, though inflammation (including being “backed up and inflamed”) can contribute. [9][10][16]  
+Plan: defer repeat testing for now and return in ~2–3 weeks (or next 3–4 weeks) for updated fasting labs including repeat CBC and a full cholesterol panel. [38][40][42][99]  
+Rationale: ensure WBC trends down; if it remains elevated, consider other bowel pathology. [44][46]  
+Continue bowel regimen with MiraLAX as baseline and lactulose as rescue therapy as previously used. [47][49][50][53][98]  
+
+**2) Quadriplegia with history of autonomic dysreflexia; suprapubic catheter.** [0][98]  
+No acute issues reported today; patient feels back to baseline. [18][27]  
+
+**3) COVID-19 vaccine counseling / unvaccinated.** [59][99]  
+Reviewed patient concerns about side effects and discussed clinician recommendation that she should be vaccinated given high-risk status and potential for severe outcomes from COVID-19. [60][68][70][72][74][99]  
+Patient will think about vaccination and follow up with questions as needed. [79][92][93]

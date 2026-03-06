@@ -1,0 +1,30 @@
+HISTORY OF PRESENT ILLNESS  
+Dennis presents for an office visit for episodic pain at the back of the heel with radiation up into the calf. [n0006][n0008][n0009][pn0001_n0006][pn0001_n0008][pn0001_n0009]  
+He reports symptoms typically occur after a workout or when first getting up in the morning. [n0008][n0018][pn0001_n0008][pn0001_n0018]  
+He describes the pain as feeling really tight and almost like it is tearing when first getting out of bed. [n0018][n0019][n0020][pn0001_n0018][pn0001_n0019][pn0001_n0020][pn0018_n0019][pn0018_n0020]  
+He notes the pain eases somewhat after walking around for about 10–15 minutes but becomes really sore again after sitting for an extended period and then getting back up. [n0018][n0021][n0022][n0023][pn0001_n0018][pn0001_n0021][pn0001_n0022][pn0001_n0023]  
+He reports severe pain mainly in the right lower limb that is impacting his ability to focus on training. [n0025][pn0001_n0025]  
+He is currently training aggressively for a triathlon five days per week, including running (about 10 km), biking (about 45–60 minutes), and swimming (about 30–60 minutes). [n0003][n0004][n0007][n0011][n0014][pn0001_n0003][pn0001_n0004][pn0001_n0007][pn0001_n0011][pn0001_n0014]  
+He reports he does not stretch at all. [n0015][pn0001_n0015]  
+
+PHYSICAL EXAM  
+Lower extremity examination was performed, and the clinician assessed whether symptoms were present in the left leg versus mainly on the right. [n0026][n0027][pn0001_n0026][pn0001_n0027]  
+During exam maneuvers, pulling the toes up (dorsiflexion) caused a little bit of pain. [n0028][n0030][n0031][pn0001_n0028][pn0001_n0030][pn0001_n0031]  
+Resisted pushing against the examiner with the foot caused a little bit of pain, consistent with mild pain with resisted plantarflexion on the right. [n0032][n0033][pn0001_n0032][pn0001_n0033]  
+Squeezing/pressing the right heel elicited significant pain. [n0038][pn0001_n0038]  
+The Achilles tendon was described as real tender, and palpation along the tendon was painful. [n0039][pn0001_n0039]  
+Thompson test was negative. [n0037][pn0001_n0037]  
+
+RESULTS  
+Thompson test result was negative. [n0037][pn0001_n0037]  
+No x-ray was planned at this time. [n0047]  
+
+ASSESSMENT AND PLAN  
+Achilles tendinitis/tendonitis was diagnosed, described as related to overuse from aggressive training. [n0040][n0041][n0044][pn0001_n0040][pn0001_n0041][pn0001_n0044][pn0002_n0040][pn0040_n0044]  
+Plan includes stopping training for 1–2 weeks to allow healing. [n0042][pn0001_n0042][pn0002_n0042]  
+Start ibuprofen (three tablets every six hours) for pain and inflammation related to Achilles tendonitis. [n0043][n0044][pn0001_n0043][pn0002_n0043][pn0043_n0044]  
+Order physical therapy visits to work on strength and stretching. [n0045][pn0001_n0045][pn0002_n0045]  
+Schedule follow-up within about 7–10 days after the first physical therapy appointment to monitor progress. [n0046][n0057][n0058][pn0001_n0046][pn0001_n0057][pn0001_n0058][pn0002_n0046][pn0002_n0058]  
+If he is still having significant pain about 10 days in without improvement despite activity modification, consider escalation to a more aggressive treatment plan. [n0048][pn0001_n0048][pn0002_n0048]  
+Discharge from today’s visit is planned. [n0056][pn0001_n0056][pn0002_n0056]  
+Patient agrees with the plan. [n0001]

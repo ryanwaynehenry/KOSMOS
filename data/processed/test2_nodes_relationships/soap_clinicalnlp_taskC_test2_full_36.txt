@@ -1,0 +1,43 @@
+HISTORY OF PRESENT ILLNESS  
+Elizabeth is a 53-year-old female with diabetes mellitus who presents for evaluation of intermittent dull, pressure-like chest pain for about three months, mainly occurring with walking and limiting her ability to keep up with walking. [n0001][n0004][n0003][n0013][pn0001_n0003][pn0001_n0013]  
+She reports the chest pain does not radiate and is not present at the time of today’s visit. [n0003]  
+She denies shortness of breath, sweats, and clamminess at present. [n0018][n0019][n0020][pn0001_n0018][pn0001_n0019][pn0001_n0020]  
+She denies nausea, vomiting, and diarrhea. [n0028][n0029][n0030][pn0001_n0028][pn0001_n0029][pn0001_n0030]  
+Her diabetes has been doing fairly well, though she feels her blood sugars have been a little higher because she has not been able to be as active recently. [n0004][n0022][n0023][pn0001_n0022][pn0001_n0023]  
+She is currently taking metformin 500 mg twice daily and denies medication side effects. [n0008][n0031][pn0001_n0008][pn0001_n0031]  
+She reports loving sodas and is trying to cut down on sodas and sweet things as part of diet modification. [n0014][n0021][n0061][pn0001_n0014][pn0001_n0021][pn0001_n0061]  
+She has a family history of heart disease. [n0050][pn0001_n0050]  
+She has an ophthalmology appointment scheduled in two weeks for an eye exam related to diabetic retinopathy screening. [n0011][n0012][n0058][n0026][pn0001_n0011][pn0001_n0012][pn0001_n0026]  
+
+PHYSICAL EXAM  
+Neck exam shows no jugular venous distention and no carotid bruits. [n0042][pn0001_n0042]  
+Lung exam is clear with no crackles or rhonchi. [n0043][pn0001_n0043]  
+Cardiac exam shows regular rate and rhythm with a 2/6 systolic ejection murmur. [n0044][pn0001_n0044]  
+Pulses are equal. [n0045][pn0001_n0045]  
+Abdominal exam is soft with no tenderness, guarding, or masses. [n0046][pn0001_n0046]  
+Back exam is normal. [n0047][pn0001_n0047]  
+There is 1+ nonpitting edema in the lower legs/ankle area without calf tenderness. [n0048][pn0001_n0048]  
+
+RESULTS  
+An EKG performed in the office today is normal and shows no signs of a heart attack. [n0006][n0027][n0007][pn0001_n0006][pn0006_n0007]  
+Blood pressure has been running high/elevated, including elevated readings noted previously and in the chart. [n0005][n0033][n0036][n0064][n0065][pn0001_n0005][pn0001_n0033][pn0001_n0036][pn0001_n0064][pn0001_n0065]  
+Her last hemoglobin A1c was 7 and interpreted as pretty good. [n0025][pn0001_n0025]  
+A hemoglobin A1c is ordered today. [n0059][pn0001_n0059]  
+
+ASSESSMENT AND PLAN  
+Chest pain with exertion is concerning for suspected unstable angina with possible coronary occlusion/decreased blood flow to the heart despite a normal EKG today. [n0003][n0049][n0052][n0057][n0006][n0027][pn0001_n0003][pn0001_n0049][pn0001_n0052][pn0001_n0057]  
+Start aspirin 81 mg once daily beginning today. [n0053][pn0001_n0053]  
+Start nitroglycerin sublingual as prescribed (every five minutes up to three pills) for chest pain that does not go away after stopping activity. [n0009][pn0001_n0009]  
+If chest pain does not go away after one or two nitroglycerin pills, she is instructed to call 911 and go to the hospital for emergency evaluation. [n0009][n0054][n0056][pn0001_n0054][pn0001_n0056]  
+Referral to cardiology is planned for next week with planned cardiac stress testing. [n0051][n0055][pn0001_n0051][pn0001_n0055]  
+
+Hypertension is addressed today given persistently elevated blood pressure readings. [n0005][n0036][n0065][pn0001_n0005][pn0001_n0036][pn0001_n0065]  
+Start low-dose hydrochlorothiazide for high blood pressure and swelling in the feet/lower legs. [n0010][n0066][pn0001_n0010][pn0010_n0066]  
+She is counseled that hydrochlorothiazide may cause increased urination (especially in the evening) and may have a potential cross-reaction with sulfa medications, and a medication side effects handout is planned. [n0071][n0073][n0072][n0070][pn0010_n0071][pn0010_n0073][pn0070_n0071]  
+Plan includes diet control measures for blood pressure. [n0040][pn0001_n0040]  
+Home blood pressure monitoring is planned with a cuff and daily morning log until follow-up in about two weeks. [n0039][n0067][n0060][pn0001_n0039][pn0001_n0067][pn0001_n0060]  
+
+Diabetes mellitus: continue metformin 500 mg twice daily, and reinforce avoiding pop and sweet things. [n0004][n0008][n0061][pn0001_n0004][pn0001_n0008][pn0002_n0061]  
+Plan to reassess in about two weeks and make medication adjustments if needed. [n0015][n0060][pn0001_n0015][pn0001_n0060]  
+Continue with the planned ophthalmology appointment/eye exam for diabetic retinopathy screening. [n0011][n0012][n0058][pn0001_n0011][pn0001_n0012]  
+She plans to get back to her exercise regimen once her heart evaluation is addressed. [n0063][n0062][pn0001_n0063]

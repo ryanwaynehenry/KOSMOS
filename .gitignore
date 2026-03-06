@@ -33,3 +33,46 @@ dist/
 # FAISS
 *faiss
 UMLS_sapbert_mapping.json
+
+# Data
+data/raw/aci/acibench*
+data/raw/aci/*eval.json
+data/raw/aci/ACI-Bench*
+data/raw/aci/train_full.json
+data/training_kgs
+data/prompts
+data/processed_post*
+data/analysis
+data/combined_kg
+data/interim_ai_review_applied
+data/evaluation
+data/evaluation_prompts
+data/interim/altered_session*
+data/interim/example_graph.json
+data/interim/file_with*
+data/interim/train_full*
+data/processed/test1
+data/processed/test2
+data/processed/test3
+data/processed/soap_train_full*
+data/processed/test1_transcript_nodes-faulty
+
+figures
+
+ontology-kg-predictions
+
+# Scripts
+scripts/apply_anomaly_repair_responses.py
+scripts/review_and_fix_anomalous_triples.py
+scripts/spotcheck_ranked_anomaly_triples.py
+scripts/build_kg_training_data.py
+scripts/generate_soap_kg_prompts.py
+scripts/merge_faiss_shards.py
+scripts/print_fhir_resource_attributes.py
+scripts/eval_soap_cosine.py
+
+src/clinical_kg/kg/export_aci.py
+src/clinical_kg/kg/soap_prompts_aci.py
+
+data\processed\soap_clef_taskC_test4_full*
+data\interim\clef_taskC_test4_full*

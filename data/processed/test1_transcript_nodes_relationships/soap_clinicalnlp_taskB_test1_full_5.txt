@@ -1,0 +1,35 @@
+## HISTORY OF PRESENT ILLNESS
+Lawrence is a 62-year-old male with a past medical history of type 1 diabetes (on insulin pump), congestive heart failure, depression, and reflux who presents with shortness of breath. [6][18][24][30]  
+He reports about 10 days of symptoms with feeling “swelling up a little bit,” which he associates with going to house parties and eating salty foods, along with lethargy. [7][11][12][13]  
+His dyspnea is exertional, noticeable when walking up a flight of stairs. [8][9]  
+He reports morning discomfort/stiffness and needing time to adjust to walking after getting up. [15]  
+He had one episode of waking up acutely short of breath at night about a week ago, without recurrence. [16][17]  
+Regarding diabetes, he reports no recent blood sugar spikes; he monitors closely during the work week but sometimes forgets on weekends. [18][20][21]  
+Regarding depression, he describes the past year and a half as difficult, has tried “natural solutions” (including outdoor stretching in summer), is not ready for medications, and is open to suggestions. [24][25][27]  
+Regarding reflux, he has been working on lifestyle modifications including cutting back on Red Bull/caffeine, and alcohol intake was difficult during the holidays but is improving. [30][32][34][35]  
+He denies chest pain, fever, chills, cough, and abdominal pain. [40][41][42][43]  
+He denies suicidal or homicidal ideation. [36][37]  
+
+## PHYSICAL EXAM
+Vital signs in the office were reassuring, and pulse oximetry/oxygenation “looks good” while sitting. [46]  
+Neck exam: no jugular venous distension and no carotid bruits appreciated. [48]  
+Cardiac exam: slight 3/6 systolic ejection murmur. [48]  
+Lung exam: crackles bilaterally at the bases. [48]  
+Extremities: 1+ pitting edema in the lower extremities. [48]  
+
+## RESULTS
+Chest x-ray was reviewed and “looks good,” with no evidence of airspace disease/pneumonia. [50][52]  
+Labs were reviewed and “look okay,” including no elevated white blood cell count, lowering concern for infection. [52]  
+
+## ASSESSMENT AND PLAN
+**1) Shortness of breath / suspected acute congestive heart failure exacerbation with fluid retention (likely related to dietary indiscretion):** Start Lasix 40 mg daily and monitor daily weights. [48][54]  
+If weight is not decreasing or is increasing, patient should call the clinician; if dyspnea worsens at rest, patient should call the clinician or 911 and go to the ER as IV diuretics may be needed. [56][58][64]  
+
+**2) Type 1 diabetes:** Order hemoglobin A1c in about a month to assess need for adjustments, and patient to follow up with endocrinology. [60]  
+Ensure patient has a recent eye exam. [60]  
+
+**3) Depression:** Refer to psychiatry for talk therapy; no medications planned at this time. [60][62]  
+
+**4) Reflux:** Continue omeprazole 20 mg daily. [62]  
+
+Return precautions reviewed, including calling for any problems with breathing. [64][65]

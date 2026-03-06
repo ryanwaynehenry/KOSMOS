@@ -1,0 +1,37 @@
+## HISTORY OF PRESENT ILLNESS
+Hannah presents with a hacking cough for 3 days. [3][5]  
+The cough began after exposure to her sister who was sick with similar symptoms, and it has progressed to productive cough with green phlegm. [5][39]  
+Associated symptoms include mild sore throat and nasal congestion. [9]  
+She denies fever and shortness of breath. [11][13]  
+She has been drinking lots of water and using over-the-counter cough medication without much relief. [15]  
+She reports a history of seasonal allergy symptoms in the spring (sneezing and runny nose). [17]  
+She denies body aches, nausea, vomiting, and diarrhea. [19][21][27]  
+Regarding type 2 diabetes, she has been checking blood sugars and reports readings around the 120s, and she is tolerating metformin 500 mg without side effects. [23][24][25]  
+Regarding hypertension, she reports home blood pressures with systolic in the 140s and diastolic around the 70s, and she has been taking hydrochlorothiazide daily. [29][31][33][35]  
+She is trying to avoid salty foods but is having difficulty reducing sugar intake. [37]  
+She was on vacation last week and felt okay then, but started feeling poorly after returning. [45][47][49]  
+
+## PHYSICAL EXAM
+Vital signs were overall reassuring except for elevated blood pressure of 144/72. [50]  
+No frontal sinus tenderness was noted, with mild bilateral maxillary sinus tenderness. [51][53][56]  
+Oropharynx showed pharyngeal erythema with symmetric tonsils and no exudates, and there was anterior cervical lymphadenopathy. [56]  
+Cardiac exam: regular rate and rhythm with a 2/6 systolic ejection murmur at the left base. [56]  
+Lungs were clear to auscultation without wheezes, rales, or rhonchi. [56]  
+No lower extremity edema was appreciated. [56]  
+
+## RESULTS
+Blood pressure in clinic was 144/72. [50]  
+COVID-19 testing was planned for today. [56][58]  
+
+## ASSESSMENT AND PLAN
+1) **Cough / suspected viral upper respiratory infection**: Symptoms and exposure history are most consistent with a viral URI. [5][56]  
+Plan: supportive care with fluids, rest, and symptomatic cough treatment (may try Coricidin HBP with caution given hypertension/diabetes). [56]  
+Plan: obtain COVID-19 test today and provide results when available. [56][58]  
+
+2) **Type 2 diabetes mellitus**: Home glucose readings are around the 120s and she is tolerating metformin. [23][25]  
+Plan: continue metformin 500 mg daily or twice daily as previously directed. [60]  
+Plan: check hemoglobin A1c at next visit (approximately every 3 months). [60]  
+
+3) **Hypertension**: Blood pressure is elevated in clinic and at home despite adherence to hydrochlorothiazide. [29][35][50]  
+Plan: increase hydrochlorothiazide to 25 mg once daily and take in the morning due to diuretic effect. [60]  
+Plan: continue home BP monitoring a few times per week at different times of day. [60]

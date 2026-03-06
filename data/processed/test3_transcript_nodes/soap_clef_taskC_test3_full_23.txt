@@ -1,0 +1,28 @@
+## HISTORY OF PRESENT ILLNESS
+Zachary presents with acute left arm/elbow pain that began yesterday after waking up with pain (initially documented as right elbow but clarified to be left). [0][1][4][5]  
+He is right-handed and denies sleeping on the arm wrong or any specific injury/trigger. [6][7][8][9][10][11]  
+Pain is described as achiness/heaviness that radiates from the elbow up the arm to the neck, is intermittent, and has not improved with Motrin. [13][15][18][19][24][25][26][27]  
+He reports intermittent chest pain that started yesterday and occurs with the arm pain, sometimes radiating up the neck; it comes and goes a few times per day and once made him stop mowing the grass. [41][45][47][49][51]  
+He denies shortness of breath. [52][53]  
+For hypertension, his in-office BP today was 150/90, while he reports home readings averaging ~125/72, and he has been taking amlodipine (Norvasc) 2.5 mg. [28][29][32][33]  
+He reports his diet is “doing okay,” after previously having higher salt intake. [34][35][37]  
+For diabetes, his last A1c was 7.2 and he is on metformin 500 mg, but he does not routinely check blood sugars. [38][39]  
+He mentioned discussing symptoms with his brother (a “heart doctor”), who thought it might not be cardiac. [57][59]  
+
+## PHYSICAL EXAM
+Cardiac exam: clinician notes a slight heart murmur that was not previously heard. [56]  
+
+## RESULTS
+No diagnostic test results were available in the transcript at the time of documentation; EKG and point-of-care glucose were planned. [56][40]  
+
+## ASSESSMENT AND PLAN
+**1) Chest pain with left arm/neck radiation—concern for acute coronary syndrome (possible mild MI).** The clinician felt the presentation was concerning and not clearly musculoskeletal given lack of provoking activity, and planned to obtain an EKG. [56]  
+Administer aspirin and nitroglycerin to assess symptom response, and if EKG is concerning, call 911 for transfer to the hospital for urgent evaluation. [56]  
+
+**2) Left arm/elbow pain.** Evaluate with physical exam, but prioritize cardiac workup given associated chest pain and radiation pattern. [28][56]  
+
+**3) Hypertension.** Continue Norvasc 2.5 mg; elevated clinic BP may represent white coat effect given reported home readings. [28][29][32][33]  
+Discussed home BP monitoring with a cuff and tracking readings. [28]  
+
+**4) Type 2 diabetes mellitus.** Check point-of-care glucose today and continue metformin 500 mg for now, with possible medication adjustment depending on results. [38][40][56]  
+Counseled that daily glucose checks help ensure sugars are in range and medication dosing is appropriate. [40]

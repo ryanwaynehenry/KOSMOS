@@ -1,0 +1,29 @@
+HISTORY OF PRESENT ILLNESS  
+Diane is a 28-year-old female presenting today for an emergency room follow-up visit after an ER visit yesterday. [n0001][n0003][n0012][pn0001_n0003][pn0001_n0012]  
+Yesterday, she developed lightheadedness and a headache and started to fall during a walk, but her boyfriend caught her and she went to the ER. [n0007][n0008][n0011][n0012][n0013][pn0001_n0007][pn0001_n0008][pn0001_n0012][pn0001_n0013]  
+In the ER, she reports her blood pressure was very high (almost 200) and she notes her blood pressure sometimes “skyrockets” about once a week to a month. [n0006][pn0001_n0006]  
+She reports traveling a lot that week for work and not eating as well while traveling. [n0014][n0015][pn0001_n0014][pn0001_n0015]  
+She confirms she bought a blood pressure cuff but does not bring it with her when traveling. [n0016][pn0001_n0016]  
+She has a history of chronic hypertension that is not controlled at this time. [n0005][pn0001_n0005]  
+She is currently taking lisinopril and is also on other medications (not specified). [n0017][n0018][pn0001_n0017][pn0001_n0018]  
+She has a history of depression and reports doing really well with weekly therapy started last year, and she has not started depression medication because it is not needed at this time. [n0004][n0010][n0019][pn0001_n0004][pn0001_n0019]  
+On review of systems, she denies chest pain and shortness of breath and reports a little nasal congestion that she attributes to seasonal allergies. [n0022][n0024][n0025][n0026][n0027][pn0001_n0022][pn0001_n0024][pn0001_n0025][pn0001_n0026][pn0001_n0027]  
+She describes a strong support system including her boyfriend, mother, and brother. [n0009][n0011][n0020][n0021][pn0001_n0009][pn0001_n0011][pn0001_n0020][pn0001_n0021]  
+
+PHYSICAL EXAM  
+Blood pressure in the office today is still a little elevated. [n0029][pn0001_n0029]  
+On exam, no carotid bruits are appreciated. [n0033][n0034][pn0001_n0033][pn0001_n0034]  
+Cardiac exam reveals a slight 2/6 systolic ejection murmur. [n0033][n0035][n0036][pn0001_n0033][pn0001_n0035][pn0001_n0036]  
+Lungs are clear bilaterally. [n0033][n0037][pn0001_n0033][pn0001_n0037]  
+There is trace pitting edema in the lower extremities bilaterally. [n0033][n0038][pn0001_n0033][pn0001_n0038]  
+
+RESULTS  
+ECG reviewed today appears the same as last year. [n0040][pn0001_n0040]  
+Echocardiogram from a few months ago showed a slightly leaky heart valve, and the murmur is noted to be stable with nothing to do for the valve at this time. [n0041][n0042][n0036][pn0001_n0041][pn0041_n0042]  
+
+ASSESSMENT AND PLAN  
+Hypertension is not controlled, and the plan is to increase lisinopril to 40 mg once daily. [n0005][n0043][n0047][pn0001_n0005][pn0001_n0043][pn0002_n0043]  
+She will continue checking blood pressures and report readings to the doctor through the patient portal, with possible future adjustments including adding a second antihypertensive agent if needed. [n0044][n0045][n0047][pn0001_n0044][pn0002_n0045][pn0001_n0047]  
+Depression is doing really well with ongoing weekly therapy, and no depression medication is planned at this time. [n0004][n0010][n0019][pn0001_n0004][pn0001_n0019]  
+She may contact the clinician if she needs anything. [n0046][pn0001_n0046][pn0002_n0046]  
+Patient reports no questions at this time. [n0048][pn0001_n0048]

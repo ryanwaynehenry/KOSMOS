@@ -5,12 +5,25 @@
   <title>KG Relationship Viewer</title>
   <style>
     :root {
-      --bg: #0f172a;
-      --panel: #111827;
-      --text: #e5e7eb;
-      --muted: #94a3b8;
-      --accent: #38bdf8;
+      /* White / light theme */
+      --bg: #ffffff;
+      --panel: #f8fafc;     /* sidebar background */
+      --panel2: #ffffff;    /* cards/modal background */
+      --border: #cbd5e1;    /* light border */
+      --text: #0f172a;      /* main text (very dark) */
+      --muted: #334155;     /* muted but still readable */
+      --accent: #0ea5e9;    /* headings + highlight */
+      --input-bg: #ffffff;
+      --input-border: #94a3b8;
+
+      /* Graph styling */
+      --graph-link: #1f2937;     /* edge lines */
+      --graph-label: #0f172a;    /* node labels */
+      --edge-label: #334155;     /* edge labels */
+      --arrow: #111827;          /* arrowhead fill */
+      --node-stroke: #111827;    /* node outline */
     }
+
     body {
       margin: 0;
       background: var(--bg);
@@ -20,24 +33,29 @@
       height: 100vh;
       overflow: hidden;
     }
+
     #sidebar {
       width: 320px;
       background: var(--panel);
-      border-right: 1px solid #1f2937;
+      border-right: 1px solid var(--border);
       padding: 16px;
       box-sizing: border-box;
       overflow-y: auto;
     }
+
     #graph {
       flex: 1;
       position: relative;
+      background: var(--bg);
     }
+
     h2 {
       margin: 0 0 12px 0;
       font-size: 16px;
       letter-spacing: 0.02em;
       color: var(--accent);
     }
+
     label {
       display: block;
       font-size: 12px;
@@ -45,90 +63,107 @@
       margin-top: 12px;
       margin-bottom: 4px;
     }
+
     input, textarea, button {
       width: 100%;
-      border: 1px solid #1f2937;
+      border: 1px solid var(--input-border);
       border-radius: 6px;
       padding: 8px;
-      background: #0b1220;
+      background: var(--input-bg);
       color: var(--text);
       box-sizing: border-box;
       font-size: 13px;
     }
+
     textarea {
       resize: vertical;
       min-height: 80px;
     }
+
     button {
       cursor: pointer;
-      background: linear-gradient(90deg, #38bdf8, #6366f1);
+      background: linear-gradient(90deg, #0ea5e9, #2563eb);
       border: none;
-      color: #0b1220;
+      color: #ffffff;
       font-weight: 600;
       margin-top: 12px;
     }
+
     button:active {
       transform: translateY(1px);
     }
+
     .legend {
       display: flex;
       flex-wrap: wrap;
       gap: 6px;
       margin-top: 12px;
     }
+
     .legend-item {
       display: flex;
       align-items: center;
       gap: 6px;
       padding: 4px 6px;
-      background: #0b1220;
+      background: var(--panel2);
       border-radius: 6px;
-      border: 1px solid #1f2937;
+      border: 1px solid var(--border);
       font-size: 12px;
+      color: var(--text);
     }
+
     .swatch {
       width: 12px;
       height: 12px;
       border-radius: 3px;
+      border: 1px solid rgba(15, 23, 42, 0.25);
     }
+
     #modal {
       position: fixed;
       inset: 0;
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba(15, 23, 42, 0.40);
       display: none;
       align-items: center;
       justify-content: center;
       z-index: 10;
     }
+
     #modal .content {
       width: 520px;
       max-height: 80vh;
       overflow-y: auto;
-      background: #0b1220;
-      border: 1px solid #1f2937;
+      background: var(--panel2);
+      border: 1px solid var(--border);
       border-radius: 10px;
       padding: 16px;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 20px 60px rgba(15, 23, 42, 0.18);
+      color: var(--text);
     }
+
     #modal pre {
-      background: #0f172a;
+      background: #f1f5f9;
       padding: 8px;
       border-radius: 6px;
       overflow-x: auto;
-      border: 1px solid #1f2937;
+      border: 1px solid var(--border);
+      color: var(--text);
     }
+
     .pill {
       display: inline-block;
       padding: 4px 8px;
       border-radius: 999px;
-      background: #1f2937;
-      color: var(--muted);
+      background: #e2e8f0;
+      color: #0f172a;
       font-size: 12px;
       margin-right: 6px;
       margin-bottom: 6px;
+      border: 1px solid var(--border);
     }
   </style>
 </head>
+
 <body>
   <div id="sidebar">
     <h2>KG Relationship Viewer</h2>
@@ -139,403 +174,447 @@
     <label>Filter nodes (IDs or canonical names, comma/newline separated)</label>
     <textarea id="filterInput" placeholder="2348_1_n0001, 2348_1_n0003"></textarea>
     <button id="applyFilter">Apply Filter</button>
-    <button id="clearFilter" style="background:#1f2937;color:var(--text);border:1px solid #334155;">Clear Filter</button>
-    <button id="resetLayout" style="background:#1f2937;color:var(--text);border:1px solid #334155;">Reset Layout</button>
 
+    <button id="clearFilter" style="background:#ffffff;color:var(--text);border:1px solid var(--border);">
+      Clear Filter
+    </button>
+
+    <button id="resetLayout" style="background:#ffffff;color:var(--text);border:1px solid var(--border);">
+      Reset Layout
+    </button>
 
     <div class="legend" id="legend"></div>
   </div>
+
   <div id="graph"></div>
 
   <div id="modal">
     <div class="content">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
         <h3 id="modalTitle" style="margin:0;font-size:16px;color:var(--accent);"></h3>
-        <button id="closeModal" style="width:auto;padding:6px 10px;background:#1f2937;color:var(--text);border:1px solid #334155;">Close</button>
+        <button id="closeModal" style="width:auto;padding:6px 10px;background:#ffffff;color:var(--text);border:1px solid var(--border);">
+          Close
+        </button>
       </div>
       <div id="modalBody"></div>
     </div>
   </div>
 
   <script src="https://d3js.org/d3.v7.min.js"></script>
-<script>
-  const classColors = {
-    Person: "#38bdf8",
-    Condition: "#f97316",
-    MedicationStatement: "#22c55e",
-    LabTest: "#f43f5e",
-    Observation: "#a855f7",
-    Activity: "#14b8a6",
-    Procedure: "#facc15",
-    Default: "#94a3b8",
-  };
+  <script>
+    const classColors = {
+      Person: "#0284c7",
+      Condition: "#ea580c",
+      MedicationStatement: "#16a34a",
+      LabTest: "#dc2626",
+      Observation: "#7c3aed",
+      Activity: "#0f766e",
+      Procedure: "#ca8a04",
+      Default: "#64748b",
+    };
 
-  const graphEl = document.getElementById("graph");
-  const svg = d3.select("#graph").append("svg").attr("width", "100%").attr("height", "100%");
-  const defs = svg.append("defs");
-  defs.append("marker")
-    .attr("id", "arrow")
-    .attr("viewBox", "0 -5 10 10")
-    .attr("refX", 18)
-    .attr("refY", 0)
-    .attr("markerWidth", 12)
-    .attr("markerHeight", 12)
-    .attr("orient", "auto")
-    .append("path")
-    .attr("d", "M0,-5L10,0L0,5")
-    .attr("fill", "#e2e8f0");
+    const graphEl = document.getElementById("graph");
+    const svg = d3.select("#graph").append("svg").attr("width", "100%").attr("height", "100%");
+    const defs = svg.append("defs");
 
-  const rootG = svg.append("g");
+    defs.append("marker")
+      .attr("id", "arrow")
+      .attr("viewBox", "0 -5 10 10")
+      .attr("refX", 18)
+      .attr("refY", 0)
+      .attr("markerWidth", 12)
+      .attr("markerHeight", 12)
+      .attr("orient", "auto")
+      .append("path")
+      .attr("d", "M0,-5L10,0L0,5")
+      .attr("fill", getComputedStyle(document.documentElement).getPropertyValue("--arrow").trim());
 
-  const zoomBehavior = d3.zoom()
-    .scaleExtent([0.15, 6])
-    .on("zoom", (event) => {
-      rootG.attr("transform", event.transform);
-    });
+    const rootG = svg.append("g");
 
-  svg.call(zoomBehavior);
-  svg.on("dblclick.zoom", null);
+    const zoomBehavior = d3.zoom()
+      .scaleExtent([0.15, 6])
+      .on("zoom", (event) => {
+        rootG.attr("transform", event.transform);
+      });
 
-  function zoomToFit(simNodes, padding = 60) {
-    const { w, h } = getGraphSize();
-    if (!simNodes || simNodes.length === 0) return;
+    svg.call(zoomBehavior);
+    svg.on("dblclick.zoom", null);
 
-    const xs = simNodes.map(n => n.x).filter(v => Number.isFinite(v));
-    const ys = simNodes.map(n => n.y).filter(v => Number.isFinite(v));
-    if (xs.length === 0 || ys.length === 0) return;
+    function zoomToFit(simNodes, padding = 60) {
+      const { w, h } = getGraphSize();
+      if (!simNodes || simNodes.length === 0) return;
 
-    const minX = Math.min(...xs), maxX = Math.max(...xs);
-    const minY = Math.min(...ys), maxY = Math.max(...ys);
+      const xs = simNodes.map(n => n.x).filter(v => Number.isFinite(v));
+      const ys = simNodes.map(n => n.y).filter(v => Number.isFinite(v));
+      if (xs.length === 0 || ys.length === 0) return;
 
-    const boxW = Math.max(1, (maxX - minX) + padding * 2);
-    const boxH = Math.max(1, (maxY - minY) + padding * 2);
+      const minX = Math.min(...xs), maxX = Math.max(...xs);
+      const minY = Math.min(...ys), maxY = Math.max(...ys);
 
-    const scale = Math.min(w / boxW, h / boxH);
-    const tx = (w / 2) - scale * ((minX + maxX) / 2);
-    const ty = (h / 2) - scale * ((minY + maxY) / 2);
+      const boxW = Math.max(1, (maxX - minX) + padding * 2);
+      const boxH = Math.max(1, (maxY - minY) + padding * 2);
 
-    const t = d3.zoomIdentity.translate(tx, ty).scale(scale);
+      const scale = Math.min(w / boxW, h / boxH);
+      const tx = (w / 2) - scale * ((minX + maxX) / 2);
+      const ty = (h / 2) - scale * ((minY + maxY) / 2);
 
-    svg.transition()
-      .duration(450)
-      .call(zoomBehavior.transform, t);
-  }
+      const t = d3.zoomIdentity.translate(tx, ty).scale(scale);
 
-  let simulation, nodes = [], links = [], positionsKey = "kg_positions_default";
-  let filterIds = new Set();
-
-  function colorFor(cls) {
-    return classColors[cls] || classColors.Default;
-  }
-
-  function normalizeId(id) {
-    return (id || "").trim().toLowerCase();
-  }
-
-  function getGraphSize() {
-    const rect = graphEl.getBoundingClientRect();
-    const w = Math.max(200, rect.width);
-    const h = Math.max(200, rect.height);
-    return { w, h };
-  }
-
-  function loadPositions() {
-    try {
-      const raw = localStorage.getItem(positionsKey);
-      return raw ? JSON.parse(raw) : {};
-    } catch (e) {
-      return {};
+      svg.transition()
+        .duration(450)
+        .call(zoomBehavior.transform, t);
     }
-  }
 
-  function savePositions(simNodes) {
-    const stored = {};
-    simNodes.forEach(n => {
-      stored[n.id] = { x: n.x, y: n.y };
-      if (n.fx != null && n.fy != null) {
-        stored[n.id].fx = n.fx;
-        stored[n.id].fy = n.fy;
+    let simulation, nodes = [], links = [], positionsKey = "kg_positions_default";
+    let simulationStopped = false;
+    let filterIds = new Set();
+
+    function colorFor(cls) {
+      return classColors[cls] || classColors.Default;
+    }
+
+    function normalizeId(id) {
+      return (id || "").trim().toLowerCase();
+    }
+
+    function getGraphSize() {
+      const rect = graphEl.getBoundingClientRect();
+      const w = Math.max(200, rect.width);
+      const h = Math.max(200, rect.height);
+      return { w, h };
+    }
+
+    function loadPositions() {
+      try {
+        const raw = localStorage.getItem(positionsKey);
+        return raw ? JSON.parse(raw) : {};
+      } catch (e) {
+        return {};
       }
-    });
-    localStorage.setItem(positionsKey, JSON.stringify(stored));
-  }
-
-  function clearSavedPositions() {
-    localStorage.removeItem(positionsKey);
-  }
-
-  function applyFilterAndRender() {
-    let filteredNodes = nodes;
-    if (filterIds.size > 0) {
-      filteredNodes = nodes.filter(n =>
-        filterIds.has(normalizeId(n.id)) ||
-        filterIds.has(normalizeId(n.canonical_name))
-      );
     }
-    const nodeIdSet = new Set(filteredNodes.map(n => n.id));
-    const filteredLinks = links.filter(l =>
-      nodeIdSet.has(l.source.id || l.source) &&
-      nodeIdSet.has(l.target.id || l.target)
-    );
-    render(filteredNodes, filteredLinks);
-  }
 
-  function render(renderNodes, renderLinks) {
-    rootG.selectAll("*").remove();
+    function savePositions(simNodes) {
+      const stored = {};
+      simNodes.forEach(n => {
+        stored[n.id] = { x: n.x, y: n.y };
+        if (n.fx != null && n.fy != null) {
+          stored[n.id].fx = n.fx;
+          stored[n.id].fy = n.fy;
+        }
+      });
+      localStorage.setItem(positionsKey, JSON.stringify(stored));
+    }
 
-    const gLinks = rootG.append("g").attr("stroke", "#475569").attr("stroke-width", 1.5);
-    const gNodes = rootG.append("g");
-    const gLabels = rootG.append("g").attr("font-size", 11).attr("fill", "#cbd5e1");
-    const gEdgeLabels = rootG.append("g").attr("font-size", 10).attr("fill", "#94a3b8");
+    function clearSavedPositions() {
+      localStorage.removeItem(positionsKey);
+    }
 
-    const posMap = loadPositions();
-    renderNodes.forEach(n => {
-      const saved = posMap[n.id];
-      if (saved) {
-        n.x = saved.x;
-        n.y = saved.y;
-        if (saved.fx != null && saved.fy != null) {
-          n.fx = saved.fx;
-          n.fy = saved.fy;
+    function applyFilterAndRender() {
+      let filteredNodes = nodes;
+      if (filterIds.size > 0) {
+        filteredNodes = nodes.filter(n =>
+          filterIds.has(normalizeId(n.id)) ||
+          filterIds.has(normalizeId(n.canonical_name))
+        );
+      }
+      const nodeIdSet = new Set(filteredNodes.map(n => n.id));
+      const filteredLinks = links.filter(l =>
+        nodeIdSet.has(l.source.id || l.source) &&
+        nodeIdSet.has(l.target.id || l.target)
+      );
+      render(filteredNodes, filteredLinks);
+    }
+
+    function render(renderNodes, renderLinks) {
+      rootG.selectAll("*").remove();
+
+      const css = getComputedStyle(document.documentElement);
+      const LINK_COLOR = css.getPropertyValue("--graph-link").trim();
+      const NODE_LABEL = css.getPropertyValue("--graph-label").trim();
+      const EDGE_LABEL = css.getPropertyValue("--edge-label").trim();
+      const NODE_STROKE = css.getPropertyValue("--node-stroke").trim();
+
+      const gLinks = rootG.append("g")
+        .attr("stroke", LINK_COLOR)
+        .attr("stroke-width", 2.2)
+        .attr("stroke-opacity", 0.95);
+
+      const gNodes = rootG.append("g");
+
+      const gLabels = rootG.append("g")
+        .attr("font-size", 12)
+        .attr("fill", NODE_LABEL)
+        .attr("font-weight", 600);
+
+      const gEdgeLabels = rootG.append("g")
+      .attr("font-size", 11)
+      .attr("fill", EDGE_LABEL)
+      .attr("font-weight", 700);
+
+      const posMap = loadPositions();
+      renderNodes.forEach(n => {
+        const saved = posMap[n.id];
+        if (saved) {
+          n.x = saved.x;
+          n.y = saved.y;
+          if (saved.fx != null && saved.fy != null) {
+            n.fx = saved.fx;
+            n.fy = saved.fy;
+          } else {
+            n.fx = null;
+            n.fy = null;
+          }
         } else {
           n.fx = null;
           n.fy = null;
         }
-      } else {
-        n.fx = null;
-        n.fy = null;
+      });
+
+      const { w, h } = getGraphSize();
+
+      simulationStopped = false;
+      simulation = d3.forceSimulation(renderNodes)
+        .force("link", d3.forceLink(renderLinks).id(d => d.id).distance(150).strength(0.75))
+        .force("charge", d3.forceManyBody().strength(-260).distanceMax(700))
+        .force("collide", d3.forceCollide(26).strength(0.85))
+        .force("center", d3.forceCenter(w / 2, h / 2))
+        .force("x", d3.forceX(w / 2).strength(0.03))
+        .force("y", d3.forceY(h / 2).strength(0.03))
+        .alpha(1)
+        .alphaDecay(0.03)
+        .on("tick", ticked)
+        .on("end", () => {
+          savePositions(renderNodes);
+          zoomToFit(renderNodes);
+          stopSimulation();
+        });
+
+      const link = gLinks.selectAll("line")
+        .data(renderLinks)
+        .join("line")
+        .attr("marker-end", "url(#arrow)");
+
+      const edgeLabel = gEdgeLabels.selectAll("text")
+        .data(renderLinks)
+        .join("text")
+        .attr("text-anchor", "middle")
+        .style("paint-order", "stroke")   // draw stroke behind fill
+        .style("stroke", "#ffffff")       // halo color (white background)
+        .style("stroke-width", 4)         // halo thickness
+        .style("stroke-linejoin", "round")
+        .style("pointer-events", "none")  // don’t block dragging/hovering
+        .text(d => d.relation || "");
+
+      const node = gNodes.selectAll("circle")
+        .data(renderNodes)
+        .join("circle")
+        .attr("r", 16)
+        .attr("fill", d => colorFor(d.class))
+        .attr("stroke", NODE_STROKE)
+        .attr("stroke-width", 2.0)
+        .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended))
+        .on("dblclick", (_, d) => openModal(d));
+
+      const label = gLabels.selectAll("text")
+        .data(renderNodes)
+        .join("text")
+        .attr("text-anchor", "middle")
+        .attr("dy", 30)
+        .style("paint-order", "stroke")
+        .style("stroke", "#ffffff")        // halo color (white bg)
+        .style("stroke-width", 4)          // thickness of halo
+        .style("stroke-linejoin", "round")
+        .style("pointer-events", "none")   // don’t block dragging
+        .text(d => d.canonical_name || d.id);
+
+      function ticked() {
+        link
+          .attr("x1", d => d.source.x)
+          .attr("y1", d => d.source.y)
+          .attr("x2", d => d.target.x)
+          .attr("y2", d => d.target.y);
+
+        edgeLabel
+          .attr("x", d => (d.source.x + d.target.x) / 2)
+          .attr("y", d => (d.source.y + d.target.y) / 2);
+
+        node.attr("cx", d => d.x).attr("cy", d => d.y);
+        label.attr("x", d => d.x).attr("y", d => d.y);
       }
-    });
 
-    const { w, h } = getGraphSize();
+      function stopSimulation() {
+        if (!simulation || simulationStopped) return;
+        simulationStopped = true;
+        simulation.alphaTarget(0);
+        simulation.alpha(0);
+        simulation.stop();
+      }
 
-    const degree = new Map();
-    renderLinks.forEach(l => {
-      const s = (l.source && l.source.id) ? l.source.id : l.source;
-      const t = (l.target && l.target.id) ? l.target.id : l.target;
-      degree.set(s, (degree.get(s) || 0) + 1);
-      degree.set(t, (degree.get(t) || 0) + 1);
-    });
+      function dragstarted(event, d) {
+        if (!simulationStopped && !event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+      }
 
-    simulation = d3.forceSimulation(renderNodes)
-      .force("link", d3.forceLink(renderLinks).id(d => d.id).distance(150).strength(0.75))
-      .force("charge", d3.forceManyBody().strength(-260).distanceMax(700))
-      .force("collide", d3.forceCollide(26).strength(0.85))
-      .force("center", d3.forceCenter(w / 2, h / 2))
-      .force("x", d3.forceX(w / 2).strength(0.03))
-      .force("y", d3.forceY(h / 2).strength(0.03))
-      .alpha(1)
-      .alphaDecay(0.03)
-      .on("tick", ticked)
-      .on("end", () => {
+      function dragged(event, d) {
+        d.fx = event.x;
+        d.fy = event.y;
+        if (simulationStopped) {
+          d.x = event.x;
+          d.y = event.y;
+          ticked();
+        }
+      }
+
+      function dragended(event, d) {
+        if (!simulationStopped && !event.active) simulation.alphaTarget(0);
+        d.fx = event.x;
+        d.fy = event.y;
+        if (simulationStopped) {
+          d.x = event.x;
+          d.y = event.y;
+          ticked();
+        }
         savePositions(renderNodes);
-        zoomToFit(renderNodes);
-      });
-
-
-
-
-    const link = gLinks.selectAll("line")
-      .data(renderLinks)
-      .join("line")
-      .attr("marker-end", "url(#arrow)");
-
-    const edgeLabel = gEdgeLabels.selectAll("text")
-      .data(renderLinks)
-      .join("text")
-      .attr("text-anchor", "middle")
-      .text(d => d.relation || "");
-
-    const node = gNodes.selectAll("circle")
-      .data(renderNodes)
-      .join("circle")
-      .attr("r", 16)
-      .attr("fill", d => colorFor(d.class))
-      .attr("stroke", "#0f172a")
-      .attr("stroke-width", 1.5)
-      .call(d3.drag()
-        .on("start", dragstarted)
-        .on("drag", dragged)
-        .on("end", dragended))
-      .on("dblclick", (_, d) => openModal(d));
-
-    const label = gLabels.selectAll("text")
-      .data(renderNodes)
-      .join("text")
-      .attr("text-anchor", "middle")
-      .attr("dy", 26)
-      .text(d => d.canonical_name || d.id);
-
-    function ticked() {
-      // for (const n of renderNodes) {
-      //   n.x = Math.max(60, Math.min(w - 30, n.x));
-      //   n.y = Math.max(60, Math.min(h - 30, n.y));
-      // }
-      link
-        .attr("x1", d => d.source.x)
-        .attr("y1", d => d.source.y)
-        .attr("x2", d => d.target.x)
-        .attr("y2", d => d.target.y);
-
-      edgeLabel
-        .attr("x", d => (d.source.x + d.target.x) / 2)
-        .attr("y", d => (d.source.y + d.target.y) / 2);
-
-      node.attr("cx", d => d.x).attr("cy", d => d.y);
-      label.attr("x", d => d.x).attr("y", d => d.y);
-    }
-
-    function dragstarted(event, d) {
-      if (!event.active) simulation.alphaTarget(0.3).restart();
-      d.fx = d.x;
-      d.fy = d.y;
-    }
-
-    function dragged(event, d) {
-      d.fx = event.x;
-      d.fy = event.y;
-    }
-
-    function dragended(event, d) {
-      if (!event.active) simulation.alphaTarget(0);
-
-      // Always pin where the user drops it
-      d.fx = event.x;
-      d.fy = event.y;
-
-      savePositions(renderNodes);
-    }
-
-    function handleResize() {
-      const { w: nw, h: nh } = getGraphSize();
-      simulation
-        .force("center", d3.forceCenter(nw / 2, nh / 2))
-        .force("x", d3.forceX(nw / 2).strength(0.06))
-        .force("y", d3.forceY(nh / 2).strength(0.06));
-      simulation.alpha(0.6).restart();
-    }
-
-    window.removeEventListener("resize", handleResize);
-    window.addEventListener("resize", handleResize);
-  }
-
-  function openModal(node) {
-    const body = document.getElementById("modalBody");
-    const ontology = node.ontology ? JSON.stringify(node.ontology, null, 2) : "None";
-    const attrs = node.attributes ? JSON.stringify(node.attributes, null, 2) : "{}";
-    const details = `
-      <div style="margin-bottom:8px;">
-        <span class="pill">${node.class || node.entity_type || "Unknown"}</span>
-        <span class="pill">ID: ${node.id}</span>
-      </div>
-      <div style="margin-bottom:8px;"><strong>Canonical:</strong> ${node.canonical_name || ""}</div>
-      <div style="margin-bottom:8px;"><strong>Ontology:</strong></div>
-      <pre>${ontology}</pre>
-      <div style="margin-top:8px;"><strong>Attributes:</strong></div>
-      <pre>${attrs}</pre>
-    `;
-    document.getElementById("modalTitle").textContent = node.canonical_name || node.id;
-    body.innerHTML = details;
-    document.getElementById("modal").style.display = "flex";
-  }
-
-  document.getElementById("closeModal").onclick = () => {
-    document.getElementById("modal").style.display = "none";
-  };
-  document.getElementById("modal").onclick = (e) => {
-    if (e.target.id === "modal") document.getElementById("modal").style.display = "none";
-  };
-
-  function buildLegend() {
-    const legend = document.getElementById("legend");
-    legend.innerHTML = "";
-    Object.entries(classColors).forEach(([cls, color]) => {
-      if (cls === "Default") return;
-      const item = document.createElement("div");
-      item.className = "legend-item";
-      item.innerHTML = `<span class="swatch" style="background:${color}"></span>${cls}`;
-      legend.appendChild(item);
-    });
-  }
-
-  function parseRelations(payload) {
-    const rels = payload.relationship_candidates || [];
-    const byId = {};
-    (payload.nodes || []).forEach(n => { if (n.id) byId[n.id] = n; });
-
-    const edges = [];
-    rels.forEach(r => {
-      const meta = r.llm_relation || {};
-      if (!meta.relation || meta.relation === "no_relation") return;
-
-      let sourceId = r.source_node_id;
-      let targetId = r.target_node_id;
-
-      const dir = (meta.direction || "").split("->").map(s => s.trim());
-      if (dir.length === 2) {
-        sourceId = dir[0] === "source" ? r.source_node_id : r.target_node_id;
-        targetId = dir[1] === "target" ? r.target_node_id : r.source_node_id;
+        if (!simulationStopped) stopSimulation();
       }
 
-      if (!byId[sourceId] || !byId[targetId]) return;
+      function handleResize() {
+        const { w: nw, h: nh } = getGraphSize();
+        if (simulationStopped) {
+          zoomToFit(renderNodes);
+          return;
+        }
+        simulation
+          .force("center", d3.forceCenter(nw / 2, nh / 2))
+          .force("x", d3.forceX(nw / 2).strength(0.06))
+          .force("y", d3.forceY(nh / 2).strength(0.06));
+        simulation.alpha(0.6).restart();
+      }
 
-      edges.push({
-        source: sourceId,
-        target: targetId,
-        relation: meta.relation,
-        explanation: meta.explanation,
-        evidence_turn_ids: meta.evidence_turn_ids,
-      });
-    });
-    return edges;
-  }
-
-  function loadFromPayload(payload) {
-    positionsKey = "kg_positions_" + (payload.encounter_id || "default");
-    nodes = payload.nodes || [];
-    links = parseRelations(payload);
-    applyFilterAndRender();
-  }
-
-  document.getElementById("applyFilter").onclick = () => {
-    const raw = document.getElementById("filterInput").value;
-    filterIds = new Set(
-      raw.split(/[\s,]+/)
-        .map(v => v.trim())
-        .filter(Boolean)
-        .map(normalizeId)
-    );
-    applyFilterAndRender();
-  };
-
-  document.getElementById("clearFilter").onclick = () => {
-    document.getElementById("filterInput").value = "";
-    filterIds = new Set();
-    applyFilterAndRender();
-  };
-
-  document.getElementById("resetLayout").onclick = () => {
-    clearSavedPositions();
-    (nodes || []).forEach(n => { n.fx = null; n.fy = null; });
-    applyFilterAndRender();
-  };
-
-  document.getElementById("loadBtn").onclick = async () => {
-    const file = document.getElementById("fileInput").files[0];
-    if (file) {
-      const text = await file.text();
-      const payload = JSON.parse(text);
-      loadFromPayload(payload);
-      return;
+      window.removeEventListener("resize", handleResize);
+      window.addEventListener("resize", handleResize);
     }
-    const path = document.getElementById("pathInput").value || "data/interim/file_with_relationships.json";
-    const resp = await fetch(path);
-    const payload = await resp.json();
-    loadFromPayload(payload);
-  };
 
-  buildLegend();
-</script>
+    function openModal(node) {
+      const body = document.getElementById("modalBody");
+      const ontology = node.ontology ? JSON.stringify(node.ontology, null, 2) : "None";
+      const attrs = node.attributes ? JSON.stringify(node.attributes, null, 2) : "{}";
+      const details = `
+        <div style="margin-bottom:8px;">
+          <span class="pill">${node.class || node.entity_type || "Unknown"}</span>
+          <span class="pill">ID: ${node.id}</span>
+        </div>
+        <div style="margin-bottom:8px;"><strong>Canonical:</strong> ${node.canonical_name || ""}</div>
+        <div style="margin-bottom:8px;"><strong>Ontology:</strong></div>
+        <pre>${ontology}</pre>
+        <div style="margin-top:8px;"><strong>Attributes:</strong></div>
+        <pre>${attrs}</pre>
+      `;
+      document.getElementById("modalTitle").textContent = node.canonical_name || node.id;
+      body.innerHTML = details;
+      document.getElementById("modal").style.display = "flex";
+    }
 
+    document.getElementById("closeModal").onclick = () => {
+      document.getElementById("modal").style.display = "none";
+    };
+    document.getElementById("modal").onclick = (e) => {
+      if (e.target.id === "modal") document.getElementById("modal").style.display = "none";
+    };
+
+    function buildLegend() {
+      const legend = document.getElementById("legend");
+      legend.innerHTML = "";
+      Object.entries(classColors).forEach(([cls, color]) => {
+        if (cls === "Default") return;
+        const item = document.createElement("div");
+        item.className = "legend-item";
+        item.innerHTML = `<span class="swatch" style="background:${color}"></span>${cls}`;
+        legend.appendChild(item);
+      });
+    }
+
+    function parseRelations(payload) {
+      const rels = payload.relationship_candidates || [];
+      const byId = {};
+      (payload.nodes || []).forEach(n => { if (n.id) byId[n.id] = n; });
+
+      const edges = [];
+      rels.forEach(r => {
+        const meta = r.llm_relation || {};
+        if (!meta.relation || meta.relation === "no_relation") return;
+
+        let sourceId = r.source_node_id;
+        let targetId = r.target_node_id;
+
+        const dir = (meta.direction || "").split("->").map(s => s.trim());
+        if (dir.length === 2) {
+          sourceId = dir[0] === "source" ? r.source_node_id : r.target_node_id;
+          targetId = dir[1] === "target" ? r.target_node_id : r.source_node_id;
+        }
+
+        if (!byId[sourceId] || !byId[targetId]) return;
+
+        edges.push({
+          source: sourceId,
+          target: targetId,
+          relation: meta.relation,
+          explanation: meta.explanation,
+          evidence_turn_ids: meta.evidence_turn_ids,
+        });
+      });
+      return edges;
+    }
+
+    function loadFromPayload(payload) {
+      positionsKey = "kg_positions_" + (payload.encounter_id || "default");
+      nodes = payload.nodes || [];
+      links = parseRelations(payload);
+      applyFilterAndRender();
+    }
+
+    document.getElementById("applyFilter").onclick = () => {
+      const raw = document.getElementById("filterInput").value;
+      filterIds = new Set(
+        raw.split(/[\s,]+/)
+          .map(v => v.trim())
+          .filter(Boolean)
+          .map(normalizeId)
+      );
+      applyFilterAndRender();
+    };
+
+    document.getElementById("clearFilter").onclick = () => {
+      document.getElementById("filterInput").value = "";
+      filterIds = new Set();
+      applyFilterAndRender();
+    };
+
+    document.getElementById("resetLayout").onclick = () => {
+      clearSavedPositions();
+      (nodes || []).forEach(n => { n.fx = null; n.fy = null; });
+      applyFilterAndRender();
+    };
+
+    document.getElementById("loadBtn").onclick = async () => {
+      const file = document.getElementById("fileInput").files[0];
+      if (file) {
+        const text = await file.text();
+        const payload = JSON.parse(text);
+        loadFromPayload(payload);
+        return;
+      }
+      const path = document.getElementById("pathInput")?.value || "data/interim/file_with_relationships.json";
+      const resp = await fetch(path);
+      const payload = await resp.json();
+      loadFromPayload(payload);
+    };
+
+    buildLegend();
+  </script>
 </body>
 </html>

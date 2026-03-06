@@ -1,0 +1,31 @@
+HISTORY OF PRESENT ILLNESS  
+Melissa Sanchez (DOB 9/23/1962) presents today for an office follow-up visit after mitral valve repair performed on 8/3/2020. [n0001][n0011][n0012][n0013][pn0001_n0011][pn0001_n0012][pn0001_n0013]  
+She reports feeling better overall and is recovering nicely after surgery. [n0010][n0025][pn0001_n0010][pn0001_n0025]  
+She denies any new symptoms but continues to have intermittent chest pain and episodes of shallow breathing, especially with exertion. [n0026][n0004][n0005][n0028][pn0001_n0026][pn0001_n0004][pn0001_n0005][pn0001_n0028]  
+These episodes last only a few minutes, improve when she slows down, and then go away for a while. [n0004][n0005][n0027][n0029][n0030][pn0001_n0027][pn0001_n0029][pn0001_n0030]  
+She reports atrial fibrillation is well controlled with medicine. [n0003][n0009][pn0001_n0003][pn0009_n0049]  
+She is currently taking Coumadin 4 mg, Lasix 4 mg daily, and atenolol 50 mg daily, and she is trying to keep up with taking her medications regularly using a reminder app. [n0006][n0007][n0008][n0031][pn0001_n0006][pn0001_n0007][pn0001_n0008][pn0001_n0031]  
+She denies medication side effects overall, noting that atenolol initially caused irritability but this has improved and does not bother her as much now. [n0032][n0008][n0033][pn0001_n0032][pn0008_n0033][pn0001_n0033]  
+Past history includes mitral regurgitation, diabetes mellitus, asthma, and recurrent chest discomfort with a negative cardiac workup for coronary artery disease. [n0019][n0020][n0021][n0022][n0023][n0024][pn0001_n0019][pn0001_n0020][pn0001_n0021][pn0001_n0022][pn0001_n0023]  
+
+PHYSICAL EXAM  
+Physical exam was performed with the patient positioned on the examination table. [n0034][n0037][pn0001_n0034][pn0001_n0037]  
+Neck exam shows no jugular venous distention. [n0038]  
+Lung exam shows reduced breath sounds with clear auscultation and percussion. [n0039][pn0001_n0039]  
+Cardiac exam reveals an irregularly irregular rhythm with S1 slightly accentuated and no S3. [n0040][n0041][n0044][pn0001_n0040][pn0001_n0041][pn0001_n0044]  
+Abdominal palpation is non-tender. [n0045][pn0001_n0045]  
+Extremities show trace peripheral edema, and she reports no issues with her feet when asked. [n0046][n0047][pn0001_n0046][pn0001_n0047]  
+
+RESULTS  
+ECG from 12/26/2020 shows atrial fibrillation with a controlled ventricular response and anterior T-wave inversion, with no significant change compared with the prior study. [n0016][n0017][n0018][pn0016_n0017][pn0016_n0018]  
+An ECG obtained earlier today was reviewed and showed atrial fibrillation. [n0050][n0049][pn0001_n0050]  
+Prior cardiac workup for coronary artery disease was negative. [n0023][n0024][pn0001_n0023]  
+Clinician notes that the cardiac valves are working well. [n0048][pn0001_n0048]  
+
+ASSESSMENT AND PLAN  
+Status post mitral valve repair (8/3/2020) with improving postoperative recovery. [n0012][n0013][n0025][pn0001_n0012][pn0001_n0013][pn0001_n0025]  
+Atrial fibrillation with irregularly irregular rhythm, described as well controlled with medicine. [n0003][n0040][n0041][n0009][pn0001_n0003][pn0003_n0041][pn0009_n0049]  
+Intermittent exertional chest pain and shallow breathing episodes that resolve within minutes with activity pacing. [n0004][n0005][n0028][n0027][n0029][n0030][pn0004_n0005]  
+Continue the same medication therapy and encourage her to keep active. [n0015][n0053][pn0002_n0015][pn0002_n0053]  
+Plan cardiology follow-up in about six to nine months. [n0054][pn0001_n0054]  
+Patient states she will do her best to keep active and continue current medications and asked about follow-up timing. [n0001]

@@ -1,0 +1,25 @@
+HISTORY OF PRESENT ILLNESS  
+Alexis presents with right-hand numbness and tingling that has been on and off for six months and has become more persistent over the last month, now occurring all the time. [n0001][n0003][n0004][pn0001_n0003][pn0001_n0004]  
+She reports right-hand pain that occurs mostly when typing on the keyboard, and she notes that using the mouse makes the pain worse. [n0005][n0006][n0015][n0016][pn0001_n0005][pn0001_n0006][pn0001_n0015][pn0001_n0016]  
+She works in data entry and sits at a computer keyboard all day long. [n0001][n0013][n0029][pn0001_n0013][pn0001_n0029]  
+She reports that not typing on the keyboard helps the most. [n0019][pn0001_n0019]  
+She denies sleep disturbance from the pain and tingling. [n0020][pn0001_n0020]  
+She has been taking ibuprofen (Motrin) for pain and reports it helps the most. [n0007][pn0001_n0007]  
+
+PHYSICAL EXAM  
+Symptoms are noted to be mostly in the right hand rather than both hands. [n0022][n0023][pn0001_n0023]  
+Bending the wrist causes pain, consistent with right wrist pain with movement. [n0024][n0025][pn0001_n0025]  
+Numbness/tingling is described in the right thumb, index finger, and middle finger. [n0026][pn0001_n0026]  
+Tinel’s sign is positive with wrist/forearm tapping causing shooting pain. [n0027][n0025][n0008][pn0001_n0027]  
+Grip strength is decreased on the right. [n0028][pn0001_n0028]  
+
+RESULTS  
+An outpatient EMG/nerve conduction study of the wrist is ordered, with results to be reviewed at a follow-up visit. [n0010][n0032][pn0001_n0010][pn0001_n0032][pn0002_n0010]  
+
+ASSESSMENT AND PLAN  
+Assessment is right carpal tunnel syndrome with associated right wrist pain and right-hand numbness/tingling in a median nerve distribution, with exam notable for positive Tinel’s sign and decreased right grip strength. [n0008][n0025][n0026][n0027][n0028][pn0001_n0008][pn0008_n0025][pn0008_n0026]  
+Proceed with conservative therapy starting with a wrist splint, to be worn at night. [n0009][n0033][pn0001_n0009][pn0001_n0033][pn0002_n0009][pn0002_n0033]  
+Continue ibuprofen and increase to 600 mg four times daily for carpal tunnel syndrome pain. [n0030][n0008][pn0001_n0030][pn0002_n0030][pn0008_n0030]  
+EMG/nerve conduction study will evaluate for wrist nerve impingement/compression. [n0010][n0031][pn0010_n0031][pn0001_n0031]  
+Depending on EMG results, consider physical therapy and, if positive and symptoms persist despite conservative treatment, consider outpatient carpal tunnel release. [n0036][n0034][n0037][n0010][n0033][pn0001_n0036][pn0001_n0034][pn0001_n0037]  
+Patient agrees with the plan and prefers to start with the wrist splint and conservative treatment. [n0001]

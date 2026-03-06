@@ -1,0 +1,28 @@
+HISTORY OF PRESENT ILLNESS  
+Sean presents for a follow-up visit for intermittent left-sided low back pain that “depends on the day.” [n0001][n0003][n0008][pn0001_n0003][pn0001_n0008]  
+He reports the pain occurs randomly, is worse with bending over, and is present with standing/weightbearing and with palpation on the left side. [n0003][n0018][pn0001_n0018][n0024][n0025]  
+He states stretching helps his pain, and his significant other encourages him to stretch. [n0005][n0006][pn0001_n0005][pn0001_n0006]  
+He has a history of back surgery in November 2020, described as a microdiscectomy performed after a disc fragment broke off and wrapped around/connected to the spinal thecal sac. [n0004][n0009][n0010][n0011][pn0001_n0004][pn0001_n0009][pn0001_n0010][pn0001_n0011]  
+He reports a prior episode of horrible back pain with horrible pain radiating down the leg that was characterized as nerve pain. [n0012][n0013][n0014][pn0001_n0012][pn0001_n0013][pn0001_n0014]  
+He previously took high-dose gabapentin and describes the withdrawal as terrible. [n0015][n0016][pn0001_n0015][pn0015_n0016]  
+For current pain management, he reports taking ibuprofen 800 mg daily and has tried other pain medications. [n0007][n0020][pn0001_n0007][pn0001_n0020]  
+He requested Vicodin and then Demerol for pain management. [n0001][n0040][n0043]  
+
+PHYSICAL EXAM  
+Back exam included forward bending and palpation/pushing on the left low back. [n0021][pn0001_n0021]  
+He had no pain with flexion during the exam. [n0023][pn0001_n0023][pn0002_n0023]  
+He endorsed pain with palpation on the left side around L5 and denied pain with palpation on the right side. [n0025][pn0001_n0025][n0026][pn0001_n0026]  
+Range of motion and forced dorsiflexion were normal. [n0028][pn0001_n0028][n0027][pn0001_n0027]  
+He denied pain down the legs, and no nerve pain was reported. [n0029][pn0001_n0029][n0030][pn0001_n0030]  
+
+RESULTS  
+Spine x-ray showed no fractures and that everything has healed properly. [n0031][n0032][pn0001_n0031][pn0031_n0032][pn0001_n0032]  
+
+ASSESSMENT AND PLAN  
+Assessment is left-sided low back pain with suspected pulled muscle related to spinal misalignment. [n0003][pn0002_n0003][n0033][pn0001_n0033][pn0002_n0033][n0034][pn0001_n0034][pn0002_n0034][pn0033_n0034]  
+Plan to prescribe physical therapy at the VA with a VA physical therapist. [n0035][pn0001_n0035][n0036][pn0001_n0036]  
+Switch from ibuprofen to meloxicam for pain management. [n0007][n0038][pn0002_n0038][pn0001_n0038][pn0007_n0038][pn0038_n0041]  
+Referral to pain management is planned to discuss pain control and avoiding narcotics. [n0039][pn0001_n0039][n0042][pn0002_n0042][n0041]  
+Clinician checked the medical record in the context of pain management. [n0044][pn0001_n0044][pn0002_n0044]  
+Clinician agreed to prescribe Demerol. [n0043][pn0001_n0043][pn0002_n0043]  
+Patient has been to physical therapy at the VA before, thanked the doctor, and reported no other problems to discuss today. [n0001]

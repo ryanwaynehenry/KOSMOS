@@ -1,0 +1,32 @@
+HISTORY OF PRESENT ILLNESS  
+Brandon presents for a follow-up visit today for evaluation of neck pain noted on his chart. [n0001][n0016][n0017][pn0001_n0016][pn0001_n0017]  
+He reports severe, sharp, incapacitating neck pain since a car crash in February, worsened by bending the neck forward and backward, and he states he cannot work due to the pain. [n0004][n0005][n0025][n0026][n0027][n0046][pn0001_n0004][pn0001_n0005][pn0001_n0027][pn0004_n0005]  
+He rates his pain as “twelve” on a 0–10 scale. [n0021][pn0001_n0021]  
+He reports associated stiffness, headaches, intermittent dizziness, numbness, muscle spasms, generalized body aches, and fatigue since the accident. [n0024][n0028][n0029][n0031][n0034][n0035][n0049][pn0001_n0024][pn0001_n0028][pn0001_n0029][pn0001_n0031][pn0001_n0034][pn0001_n0035][pn0001_n0049]  
+He denies visual disturbance recently. [n0030][pn0001_n0030]  
+He reports intermittent bruising and swelling of the neck. [n0012][n0013][n0048][pn0001_n0012][pn0001_n0013][pn0001_n0048]  
+He was coming home from a pain clinic visit when the most recent crash occurred and reports back pain in that context. [n0007][n0019][n0020][pn0001_n0007][pn0001_n0019][pn0001_n0020]  
+He reports prior fentanyl use prescribed by the pain clinic but states he has not had a fentanyl prescription for several weeks. [n0008][n0009][pn0001_n0008][pn0001_n0009]  
+He reports his lawyer advised him to come to this visit and wanted an MRI. [n0015][n0040][pn0001_n0015]  
+
+PHYSICAL EXAM  
+Neck exam shows tenderness to palpation at the midline over the bone and on the side of the neck, with pain on palpation of both bony process and muscle. [n0041][n0042][n0043][n0044][pn0001_n0041][pn0001_n0042][pn0001_n0043][pn0001_n0044]  
+Cervical range of motion is moderate, and flexion/extension is painful. [n0045][n0046][pn0001_n0045][pn0001_n0046]  
+No laceration is seen. [n0047]  
+The clinician does not note bruising or swelling on today’s exam. [n0012][n0013][n0048]  
+
+RESULTS  
+Prior X-ray obtained before today’s visit shows no fracture. [n0051][n0052][pn0001_n0051][pn0051_n0052]  
+
+ASSESSMENT AND PLAN  
+Neck sprain diagnosed in the setting of neck pain after a February car crash and negative X-ray for fracture. [n0004][n0005][n0014][n0051][n0054][pn0001_n0014][pn0004_n0005][pn0005_n0014]  
+Order MRI of the neck and plan to await results. [n0011][pn0001_n0011][pn0002_n0011]  
+CT scan was also discussed as an imaging option. [n0057][pn0001_n0057][pn0002_n0057]  
+Start Robaxin 1500 mg every 6–8 hours to help relax muscles and improve pain. [n0010][pn0001_n0010][pn0002_n0010]  
+Provide a home neck exercise program to be done every morning to help restore movement. [n0060][pn0001_n0060]  
+Advise applying ice when bruising or swelling occurs. [n0058][n0012][n0013][pn0001_n0058][pn0012_n0013]  
+If Robaxin is not helping, consider topical options (IcyHot, Biofreeze) and heat pad treatment. [n0062][n0063][n0065][pn0001_n0062][pn0001_n0063][pn0001_n0065]  
+Plan referral to physical therapy for ongoing management. [n0006][pn0001_n0006]  
+If pain becomes complicated, consider referral to a pain clinic and explore local injections as options pending MRI results. [n0064][n0066][n0011][pn0001_n0064][pn0001_n0066][pn0001_n0011]  
+Provide a work restriction note keeping the patient off work for now while awaiting MRI results. [n0068][n0027][pn0001_n0068][pn0026_n0027]  
+Patient agrees with the plan to wait for the MRI result and to be off work for now. [n0001]

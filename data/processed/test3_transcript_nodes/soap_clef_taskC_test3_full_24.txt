@@ -1,0 +1,42 @@
+## HISTORY OF PRESENT ILLNESS
+Karen is a 34-year-old female with a history of chronic migraines and hypertension who presents with abdominal pain. [0]  
+Pain began ~10 days ago as mild right-sided discomfort and has worsened over the last couple of days. [3]  
+Pain waxes and wanes, typically 4–5/10 and up to 7–8/10 at worst. [5]  
+Pain is worse after meals and is less severe in the morning before eating. [7][9]  
+Pain is mostly localized to the right side with slight radiation to the left. [11]  
+She reports nausea and a little heartburn but denies vomiting. [13]  
+Pain is tender to palpation and can worsen with certain positions. [15]  
+She denies dysuria or hematuria. [18][19]  
+She reports no change in bowel habits. [20][21]  
+She has decreased appetite due to nausea and feels more fatigued over the last week. [23]  
+She reports chills but no documented fevers, and she is afebrile today. [47][48]  
+She has not eaten anything unusual and reports no recent unusual travel or exposures (only travel back to Wisconsin). [25][27]  
+Migraines have been rare recently; she typically uses Excedrin Migraine and uses sumatriptan only if not responsive to OTC analgesics. [29][33][35]  
+For hypertension, she checks BP 2–3 times per week with home readings typically SBP 120s–low 130s and DBP in the 70s; she is taking lisinopril 20 mg daily and is running low and requests a refill. [37][39][40][41][43]  
+
+## PHYSICAL EXAM
+Overall exam was normal/unremarkable aside from findings below. [44]  
+Cardiovascular: Grade 3/6 systolic ejection murmur, unchanged from prior exam; otherwise normal cardiovascular exam. [44]  
+Abdomen: Mild–moderate right upper quadrant tenderness with equivocal Murphy’s sign. [44][46]  
+Abdomen otherwise soft without significant tenderness, including no right lower quadrant tenderness on deep palpation. [46]  
+Back: No CVA tenderness. [46]  
+
+## RESULTS
+No diagnostic test results were available yet at the time of the conversation. [46][52]  
+
+## ASSESSMENT AND PLAN
+1) **Acute abdominal pain with RUQ tenderness; concern for gallstones vs gallbladder infection (cholecystitis).** [46]  
+- Order CBC, chem 12, urinalysis, pregnancy test, and right upper quadrant ultrasound today and review results before discharge. [46][52]  
+- Keep patient in clinic while tests are obtained; consider ED transfer depending on results. [46]  
+- NPO (do not eat anything) for now in case a surgical issue is identified. [46]  
+
+2) **Chronic migraines, currently infrequent.** [48]  
+- Continue Excedrin Migraine OTC as needed and sumatriptan as needed for breakthrough migraines. [48]  
+- Refill sumatriptan per patient request. [49][50]  
+- Counseling: avoid alcohol binges and caffeine binges and try to get enough sleep. [48]  
+
+3) **Hypertension, overall adequately controlled by home readings though slightly elevated in clinic today.** [39][40][48]  
+- Continue lisinopril 20 mg daily and provide refill prescription sent to pharmacy. [40][48]  
+- Encourage daily home BP checks. [48]  
+
+**Follow-up:** Return visit in ~4 weeks; clinician will follow up on today’s test results before patient leaves. [52]

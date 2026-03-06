@@ -1,0 +1,39 @@
+HISTORY OF PRESENT ILLNESS
+
+William presents for a follow-up visit for a right knee injury that began about a week ago. [n0001][n0011][n0004][pn0001_n0011][pn0001_n0004]  
+He reports the injury occurred while doing trampoline activity at a trampoline park with his wife, and he does not go often. [n0003][n0012][n0014][pn0001_n0003][pn0001_n0012][pn0001_n0014]  
+At the time of injury, he heard an audible snap/pop with immediate pain. [n0013][n0014][pn0001_n0013][pn0001_n0014]  
+Pain is located on the outside (lateral aspect) of the right knee and he has been limping but is able to bear weight. [n0004][n0036][pn0001_n0004][pn0001_n0036]  
+For symptom management, he has taken Tylenol and has elevated the knee but did not use ice or heat. [n0018][n0019][pn0001_n0018][pn0001_n0019]  
+He reports he is not consistent with a regular exercise regimen. [n0015][n0017][pn0001_n0015][pn0001_n0017]  
+He has hypertension with a blood pressure reading noted as high (180/80) and reports taking lisinopril 20 mg most days when he remembers, without recent home blood pressure measurements and without obtaining a blood pressure cuff. [n0005][n0010][n0007][n0022][n0020][pn0001_n0005][pn0001_n0010][pn0001_n0007]  
+He has diabetes mellitus and reports blood sugars are a little bit better, checking glucose about four to five times per week when he remembers, and he is taking metformin 500 mg. [n0006][n0008][n0025][pn0001_n0006][pn0001_n0008][pn0001_n0025]  
+He describes his diet as decent but could be better, is trying to watch carbohydrates but is not counting carbs, and denies being on a ketogenic diet or a restricted sodium diet. [n0009][n0030][n0031][n0029][pn0001_n0009][pn0001_n0030][pn0001_n0031][pn0001_n0029]  
+
+PHYSICAL EXAM
+
+A physical examination was performed. [n0032][pn0001_n0032]  
+Blood pressure was noted to be high at 180/80. [n0010][n0032][pn0001_n0010]  
+Cardiovascular exam showed regular rate and rhythm with no murmur appreciated. [n0033][n0032][pn0001_n0033]  
+Lung exam was clear bilaterally. [n0034][n0032][pn0001_n0034]  
+Right knee exam showed lateral bruising and swelling with no effusion and decent range of motion, though pain occurred with some movement. [n0037][n0038][n0035][n0041][pn0001_n0037][pn0001_n0038][pn0001_n0035]  
+Gait was notable for a slight limp. [n0036][n0004][pn0001_n0036][pn0004_n0036]  
+
+RESULTS
+
+Right knee X-ray was completed and showed no evidence of fracture or bony abnormality. [n0039][pn0001_n0039]  
+
+ASSESSMENT AND PLAN
+
+Right knee injury assessed as a lateral ligament strain of the right knee. [n0004][n0041][pn0001_n0041][pn0004_n0041]  
+Start meloxicam 15 mg daily for pain and swelling. [n0042][pn0001_n0042][pn0002_n0042]  
+Refer to physical therapy to strengthen muscles around the knee and help prevent further injury. [n0043][pn0001_n0043][pn0002_n0043]  
+If pain persists, plan for additional knee imaging. [n0044][pn0001_n0044][pn0002_n0044]  
+
+Hypertension with blood pressure still above goal; continue lisinopril 20 mg and consider medication modification. [n0005][n0010][n0007][n0046][pn0002_n0007][pn0001_n0046]  
+Order an echocardiogram in the setting of hypertension. [n0045][n0005][pn0001_n0045][pn0002_n0045]  
+
+Diabetes mellitus with reported improvement in blood sugars; order hemoglobin A1c to assess long-term glycemic control. [n0006][n0008][n0047][pn0001_n0047][pn0002_n0047]  
+Order a lipid panel and consider medication adjustments depending on A1c and lipid results. [n0048][n0049][pn0001_n0048][pn0001_n0049][pn0002_n0048]  
+
+Patient agrees with the plan. [n0001]

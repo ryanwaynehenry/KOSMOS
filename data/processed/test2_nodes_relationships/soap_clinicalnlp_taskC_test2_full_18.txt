@@ -1,0 +1,25 @@
+HISTORY OF PRESENT ILLNESS  
+Bobby presents for evaluation of several weeks of intermittent severe right upper abdominal/right upper quadrant pain underneath the ribs, up to 8/10, that is related to eating (right after meals or a couple hours after) and is slightly improved with cutting out fatty foods but still present. [n0001][n0003][n0013][n0007][n0021][pn0001_n0003][pn0001_n0013][pn0001_n0007][pn0001_n0021]  
+He reports episodic nausea with severe pain episodes and denies vomiting. [n0004][n0037][pn0001_n0004][pn0001_n0037][pn0003_n0004][pn0003_n0037]  
+He reports intermittent low-grade fevers when the pain is very bad for a couple of days. [n0036][pn0001_n0036][pn0003_n0036]  
+He has type 2 diabetes mellitus that he is managing with diet and exercise, including a current ketogenic/carbohydrate-restricted dietary pattern with reduced sugar intake, and he reports improving blood sugars and diabetes-related symptoms. [n0006][n0016][n0017][n0008][n0024][n0020][n0019][pn0001_n0006][pn0001_n0016][pn0001_n0017][pn0001_n0008][pn0001_n0024][pn0001_n0020][pn0001_n0019]  
+He reports about 25 pounds of weight loss over the last three months. [n0018][n0008][pn0001_n0018][pn0001_n0008]  
+Family history is notable for gallbladder disease in both parents, who had their gallbladders removed. [n0026][n0027][pn0001_n0026]  
+He reports the pain has not significantly limited his ability to exercise, though he avoids exercising right after eating and watches symptoms around meals. [n0028][n0013][n0003][pn0001_n0028][pn0001_n0013][pn0001_n0003]  
+
+PHYSICAL EXAM  
+Vital signs today are reported as looking good, including BP 128/88, RR 16, HR 68 bpm, and oxygen saturation 99% on room air. [n0043][n0039][n0040][n0041][n0042][pn0001_n0043][pn0001_n0039][pn0001_n0040][pn0001_n0041][pn0001_n0042]  
+Cardiovascular exam shows regular rate and rhythm without ectopic beats, clicks, rubs, or murmurs. [n0044]  
+Lungs are clear and equal bilaterally. [n0045][pn0001_n0045]  
+Abdominal exam shows positive bowel sounds, soft nondistended abdomen, slight guarding in the right upper quadrant, no rebound tenderness, and right upper quadrant pain with palpation with a positive Murphy’s sign and no peritoneal signs appreciated. [n0046][n0047][n0049][n0050][pn0001_n0046][pn0001_n0047][pn0001_n0049][pn0001_n0050]  
+
+RESULTS  
+Abdominal ultrasound (performed prior to today) shows multiple gallstones in the gallbladder with mild thickening and a common bile duct size of 4.1 mm, interpreted as within normal limits. [n0005][n0051][pn0001_n0005][pn0001_n0051]  
+
+ASSESSMENT AND PLAN  
+Mild cholecystitis with gallstones is assessed based on symptoms, exam (positive Murphy’s sign), and ultrasound findings, and no frank biliary obstruction is appreciated. [n0052][n0049][n0005][n0053][pn0001_n0052][pn0001_n0049][pn0005_n0052][pn0001_n0053]  
+Plan for laparoscopic cholecystectomy next week (expected duration about 1–1.5 hours) with likely overnight hospital stay for post-procedure monitoring, and the nurse will obtain paperwork signatures. [n0059][n0055][n0056][n0062][pn0001_n0059][pn0001_n0055][pn0001_n0056][pn0001_n0062]  
+Post-op guidance includes taking it easy for the first 24 hours, avoiding hiking for the first couple of days, and walking around on solid ground within a day or two if feeling up to it, with planned postoperative follow-up in about a week or so. [n0059][n0064][n0065][n0060][pn0002_n0064][pn0002_n0065][pn0001_n0060]  
+Dietary counseling includes avoiding high fat foods and eating foods high in fiber after surgery. [n0057][n0058][pn0002_n0057][pn0002_n0058]  
+Type 2 diabetes mellitus is improving with diet and exercise, and the patient is advised to follow up with his physician/endocrinologist/PCP for diabetes management and monitoring around the time of surgery. [n0006][n0061][pn0001_n0006][pn0001_n0061]  
+The patient has no questions today and is looking forward to surgery next week with the goal of stopping the belly pain. [n0001][n0059]

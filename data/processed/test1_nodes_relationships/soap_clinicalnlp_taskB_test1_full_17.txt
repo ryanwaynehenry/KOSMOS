@@ -1,0 +1,37 @@
+HISTORY OF PRESENT ILLNESS  
+Diana Scott is a 100-year-old patient presenting for evaluation of a new, worrisome heart murmur. [n0001][n0004][pn0001_n0004]  
+She reports severe bilateral leg pain for about one month that is her main limiting symptom and has started taking pain pills for this. [n0007][n0022][pn0001_n0007][pn0001_n0022]  
+She reports intermittent mild shortness of breath that is improving and occurs when she walks too fast or too long. [n0006][pn0001_n0006]  
+She reports intermittent lightheadedness and dizziness and takes meclizine only when symptoms are bad (not daily). [n0008][n0009][n0010][pn0001_n0008][pn0001_n0009][pn0001_n0010]  
+She reports ankle swelling for about six months that fluctuates in severity. [n0026][pn0001_n0026]  
+She reports persistent gradual weight loss over about one year from her usual ~130 lb to 120 lb. [n0015][pn0001_n0015]  
+She reports fatigue and attributes feeling overly tired to taking many medications. [n0029][n0030][pn0001_n0029][pn0001_n0030]  
+She denies chest pain, syncope, and irregular heartbeat/palpitations. [n0005][n0024][n0025][n0069][pn0001_n0005][pn0001_n0024][pn0001_n0025][pn0001_n0069]  
+She denies fever and chills. [n0027][n0028][pn0001_n0027][pn0001_n0028]  
+She reports never smoking and no medication allergies. [n0040][n0041][pn0001_n0040][pn0001_n0041]  
+Family history is notable for myocardial infarction in her son and stroke and diabetes in her brother, and she reports heart problems run in the family. [n0035][n0037][n0038][n0039][pn0001_n0035][pn0001_n0037][pn0001_n0038]  
+She reports having a walker now. [n0023][pn0001_n0023]  
+
+PHYSICAL EXAM  
+On exam, she is an elderly patient in no acute distress. [n0059][pn0001_n0059]  
+Cardiovascular exam shows normal S1 and preserved S2 with normal rate and regular rhythm, and a 4/6 systolic murmur at the right upper sternal border with mild radiation to the carotids. [n0060][n0061][pn0001_n0060][pn0001_n0061]  
+Neurologic exam notes gait is normal for age. [n0062][pn0001_n0062]  
+She does not appear significantly volume overloaded today. [n0065][pn0001_n0065]  
+
+RESULTS  
+Electrocardiogram today shows sinus rhythm with frequent PVCs and an anterior septum infarct pattern. [n0066][n0068][pn0001_n0066][pn0001_n0068]  
+Blood pressure today is described as really good. [n0047][pn0001_n0047]  
+A chest X-ray was completed last week. [n0021][pn0001_n0021]  
+Outside records note diastolic dysfunction and a possible prior echocardiogram. [n0063][n0064][pn0001_n0063]  
+An echocardiogram is ordered/planned to be completed today to assess cardiac structure and function and evaluate valve disease. [n0013][n0014][pn0001_n0013][pn0001_n0014][pn0002_n0013][pn0002_n0014]  
+
+ASSESSMENT AND PLAN  
+New systolic murmur is assessed as most consistent with aortic valve stenosis, with moderate severity suspected. [n0004][n0011][n0061][pn0002_n0011]  
+Complete echocardiogram today and follow up in about 3–4 weeks to review results and next steps, with results and recommendations to be sent to her PCP. [n0001][n0013][n0014][n0018][n0056][pn0001_n0018][pn0001_n0056]  
+If aortic stenosis is severe, TAVR may be considered, and a TAVR evaluation is planned following the echocardiogram. [n0012][n0073][pn0002_n0012][pn0001_n0073]  
+Frequent PVCs are noted on today’s EKG, and overall PVC burden may be assessed with a heart monitor depending on echocardiogram results and aortic stenosis severity. [n0066][n0068][n0071][pn0001_n0066]  
+Depending on echocardiogram results and severity of aortic stenosis, an ischemic evaluation may be needed. [n0070][n0014][pn0002_n0014]  
+Hypertension medications will not be changed today given good blood pressure, and she should continue amlodipine and lisinopril as currently prescribed. [n0047][n0048][n0049][pn0002_n0048][pn0002_n0049]  
+Continue levothyroxine with no change for chronic hyperthyroidism. [n0057][n0058][pn0002_n0058]  
+She is currently taking simvastatin 20 mg for lipids, and given leg pain and no history of coronary artery disease, possible statin discontinuation will be deferred to discussion with her PCP after results are sent. [n0007][n0050][n0051][n0053][n0055][n0056][pn0001_n0050][pn0001_n0053][pn0001_n0055][pn0001_n0056]  
+The patient agrees to complete the echocardiogram today and to follow up in three to four weeks, and she feels the plan looks good. [n0001]

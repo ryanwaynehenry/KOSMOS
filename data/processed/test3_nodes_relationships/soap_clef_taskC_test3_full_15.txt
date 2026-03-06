@@ -1,0 +1,24 @@
+HISTORY OF PRESENT ILLNESS  
+Matthew Rogers (DOB 5/24/2007) presents today for an acne follow-up visit and was evaluated by the clinician. [n0001][n0007][pn0001_n0002][pn0001_n0007]  
+He has acne vulgaris that is improving and well controlled on the face but with a mild flare on the back. [n0003][n0037][pn0001_n0003][pn0001_n0037]  
+He reports using benzoyl peroxide wash as part of his routine. [n0004][pn0001_n0004]  
+He reports current use of clindamycin lotion and tretinoin topical cream (nighttime). [n0012][n0013][pn0001_n0012][pn0001_n0013]  
+He reports using sunscreen/moisturizer. [n0014][n0015][pn0001_n0014][pn0001_n0015]  
+He denies redness, peeling, dryness, and irritation from his acne medications. [n0017][n0018][n0019][n0020][pn0001_n0017][pn0001_n0018][pn0001_n0019][pn0001_n0020]  
+He reports that his chest and back have not really bothered him and that he has not put much effort into treating those areas. [n0022][n0023][pn0001_n0022][pn0001_n0023]  
+
+PHYSICAL EXAM  
+A physical examination was completed during this visit. [n0040][pn0001_n0040]  
+On exam, there are scattered inflammatory papules and pustules across the upper back and posterior shoulders. [n0038][pn0001_n0038]  
+On facial exam, there are fewer than 5 inflammatory papules on the forehead, cheeks, and chin. [n0039][pn0001_n0039]  
+Mask position was adjusted during the encounter to allow examination of the face. [n0025][pn0001_n0025]  
+
+RESULTS  
+The clinician’s exam assessment is consistent with acne vulgaris with a mild back flare. [n0003][n0037][pn0002_n0003][pn0002_n0037]  
+
+ASSESSMENT AND PLAN  
+Acne vulgaris: continue the current acne treatment plan for the face. [n0003][n0041][pn0002_n0003][pn0002_n0041]  
+Back acne flare: start PanOxyl 10% foaming wash to the back (and recommended for chest/back) daily in the shower, and samples/coupons were provided. [n0005][n0028][n0035][n0036][pn0002_n0005][pn0001_n0005][pn0001_n0035][pn0001_n0036]  
+The clinician recommended a 5–10% benzoyl peroxide wash base for chest/back. [n0026][pn0002_n0026]  
+Medication management: the clinician plans to send refills for clindamycin (11 refills) and tretinoin topical cream (three refills) to Walgreens on Broad as part of an annual prescription plan with yearly follow-up for medication management. [n0029][n0030][n0032][n0033][n0034][pn0002_n0032][pn0002_n0033]  
+Recommendations and an acne printout were to be included on the patient’s checkout sheet. [n0006][n0027][pn0001_n0006]

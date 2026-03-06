@@ -12,13 +12,14 @@ from clinical_kg.data_models import Mention, OntologyCode, Turn
 from clinical_kg.kg.builder import build_nodes
 from clinical_kg.kg.relations import build_relationship_candidates
 from clinical_kg.kg.schema import shacl_turtle
+from clinical_kg.kg.export_doclens import generate_soap_note
 from clinical_kg.nlp.coref import add_coref_clusters
 from clinical_kg.nlp.ner import extract_mentions
 from clinical_kg.nlp.preprocessing import load_and_segment, segment_transcript_text
 from clinical_kg.nlp.relations import attach_attributes
 from clinical_kg.umls.lookup import best_concept_for_mention, source_to_sab
 
-FAISS_FALLBACK_SCORE = 0.5
+FAISS_FALLBACK_SCORE = 0.8
 
 
 def _type_preferences(mention_type, cfg: PipelineConfig):
@@ -282,8 +283,11 @@ def save_processed_transcript(
     output_stem: Optional[str] = None,
 ) -> Path:
     """
-    Process a transcript and write the consolidated JSON (turns, mentions, nodes)
-    to data/interim/<source-stem>.json. Returns the output path.
+    Process a transcript and write consolidated outputs:
+    - data/interim/<source-stem>.json with turns, mentions, nodes, relationships, and soap_note
+    - data/processed/soap_<source-stem>.txt and .json
+
+    Returns the interim JSON path.
 
     If transcript_text is provided, transcript_path can be None and output_stem is used
     for naming (defaults to encounter_id).
@@ -322,7 +326,48 @@ def save_processed_transcript(
         "relationship_candidates": relationships,
         "shacl_shapes_ttl": shacl_turtle(),
     }
+
+    # Also generate SOAP note outputs using DocLens and write to data/processed.
+    turns_payload = [
+        {
+            "turn_id": t.turn_id,
+            "speaker": t.speaker,
+            "text": t.text,
+        }
+        for t in turns
+    ]
+    note_text, prompt_input = generate_soap_note(
+        nodes=nodes,
+        relationship_candidates=relationships,
+        transcript_text=transcript_text,
+        turns=turns_payload,
+    )
+    payload["soap_note"] = note_text
+
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    processed_dir = Path("data") / "processed"
+    processed_dir.mkdir(parents=True, exist_ok=True)
+    soap_json_path = processed_dir / f"soap_{stem}.json"
+    soap_txt_path = processed_dir / f"soap_{stem}.txt"
+    soap_json_path.write_text(
+        json.dumps(
+            {
+                "exporter": "doclens",
+                "note_text": note_text,
+                "prompt_input": prompt_input,
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    soap_txt_path.write_text(
+        note_text if note_text.endswith("\n") else f"{note_text}\n",
+        encoding="utf-8",
+    )
+    print(f"Wrote {soap_json_path}")
+    print(f"Wrote {soap_txt_path}")
 
     return output_path

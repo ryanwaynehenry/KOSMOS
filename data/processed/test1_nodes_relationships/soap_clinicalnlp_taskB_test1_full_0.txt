@@ -1,0 +1,48 @@
+HISTORY OF PRESENT ILLNESS
+
+Andrew is a 59-year-old male who was evaluated by a clinician for an upper respiratory infection/viral syndrome. [n0001][pn0001_n0002][pn0001_n0006][pn0001_n0012]  
+Symptoms began about the last week or so and worsened, including fatigue, episodic shortness of breath with exertion, and cough. [n0006][n0007][n0008][n0009][pn0001_n0007][pn0001_n0008][pn0001_n0009]  
+He reports getting really winded with exertion while lifting/carrying heavy bags of soil during yard work/landscaping. [n0008][n0016][n0025][pn0001_n0016][pn0001_n0025]  
+He denies fever and denies nausea, vomiting, and diarrhea. [n0010][n0037][n0038][n0039][pn0001_n0010][pn0001_n0037][pn0001_n0038][pn0001_n0039]  
+He reports joint pain involving the elbows and knees, including significant elbow pain and knee tension that he associates with lifting heavy bags. [n0011][n0023][n0024][n0025][pn0001_n0011][pn0001_n0023][pn0001_n0024][pn0011_n0023][pn0011_n0024]  
+He denies any seasonal allergies. [n0020][pn0001_n0020]  
+Past medical history includes depression (stable), type 2 diabetes mellitus, and hypertension (stable). [n0003][n0004][n0005][pn0001_n0003][pn0001_n0004][pn0001_n0005]  
+For diabetes, he monitors blood glucose during the work week but is less consistent on weekends, and he reports his blood glucose has not been elevated. [n0031][n0035][pn0001_n0031]  
+He reports his diet has been pretty good overall except at house parties. [n0029][n0032][pn0001_n0029][pn0001_n0032]  
+For hypertension, he reports blood pressure has been under control and he monitors it regularly during the work week but less on weekends. [n0005][n0033][n0035][pn0001_n0033]  
+He reports taking his current medications and is on lisinopril, with a refill requested/ordered. [n0036][n0014][n0061][pn0001_n0036][pn0001_n0014][pn0002_n0014][pn0002_n0061]  
+He has completed COVID-19 vaccination (both vaccines). [n0019][pn0001_n0019]  
+The clinician does not think he has COVID-19 but plans testing to confirm. [n0013][n0052][pn0001_n0013][pn0001_n0052]  
+Regarding depression, he reports doing well and has previously discussed not starting medication, with possible psychotherapy in the future. [n0003][n0027][n0056][pn0001_n0003][pn0001_n0056]  
+
+PHYSICAL EXAM
+
+In-office vital signs were noted to look quite good. [n0041][n0040]  
+Cardiovascular exam showed heart sounds that were “nice and strong.” [n0042][pn0001_n0042]  
+Lung exam showed scattered rhonchi bilaterally that cleared with cough. [n0043][n0040]  
+There was mild lower extremity edema on exam. [n0044][n0040][pn0001_n0044]  
+There was pain to palpation/tenderness of both elbows. [n0045][n0040][pn0001_n0045]  
+
+RESULTS
+
+Chest x-ray was normal with no airspace disease and no pneumonia. [n0046][n0047][n0048][pn0046_n0047][pn0046_n0048]  
+Diabetic labs showed hemoglobin A1c 8, interpreted as a little elevated. [n0049][n0050][pn0001_n0049][pn0001_n0050]  
+
+ASSESSMENT AND PLAN
+
+Upper respiratory infection assessed as a viral syndrome, expected to improve over the next couple of days. [n0006][n0012][pn0006_n0012][pn0002_n0012]  
+COVID-19 testing will be sent to ensure he does not have COVID-19. [n0052][n0013][pn0001_n0052][pn0001_n0013]  
+For cough, Robitussin was prescribed. [n0009][n0053][pn0002_n0053][pn0001_n0053]  
+He was encouraged to use ibuprofen and/or Tylenol for any fever. [n0054][n0055][pn0002_n0054][pn0002_n0055]  
+He was advised to notify the clinician if symptoms worsen. [n0064]  
+
+Type 2 diabetes mellitus with A1c 8; plan is to increase metformin to 1000 mg twice daily and recheck hemoglobin A1c in four months. [n0004][n0050][n0059][n0060][pn0002_n0059][pn0002_n0060]  
+A lipid panel was ordered. [n0062][pn0002_n0062]  
+
+Hypertension is stable; continue lisinopril 20 mg daily. [n0005][n0061][pn0002_n0061]  
+Home blood pressure monitoring with a cuff was discussed as a planned option. [n0034]  
+
+Depression is stable; psychotherapy referral was offered if he feels it would be helpful, and antidepressant therapy could be started if desired. [n0003][n0056][n0058][pn0002_n0056][pn0002_n0058]  
+Plan includes follow-up for depression in a few months. [n0057][pn0001_n0057]  
+
+Follow-up visit is planned in about four months. [n0063][pn0001_n0063]

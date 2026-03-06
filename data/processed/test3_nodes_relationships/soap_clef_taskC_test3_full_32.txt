@@ -1,0 +1,31 @@
+HISTORY OF PRESENT ILLNESS  
+Theresa presents for evaluation of intermittent throbbing headaches located at the top of her head for about one month. [n0001][n0003][pn0001_n0003]  
+She reports Tylenol helps her headaches. [n0006][pn0001_n0006]  
+She sometimes has dizziness and a little blurred vision associated with the headaches. [n0015][n0019][n0021][pn0003_n0015][pn0001_n0019]  
+She has had hypertension for a long time and her blood pressure this morning was 172/98. [n0012][n0004][pn0001_n0012][pn0001_n0004]  
+She denies chest pain and shortness of breath. [n0020][n0010][pn0001_n0020][pn0001_n0010]  
+She reports forgetting her medications and taking her blood pressure medication and metformin about every other day. [n0001][n0022][n0023][pn0001_n0022][pn0001_n0023]  
+She reports she does not really take chlorthalidone because it gives her a stomachache. [n0013][n0014][pn0001_n0013][pn0013_n0014]  
+She reports not sticking with a low sodium diet and eating McDonald’s all the time, including liking Filet-O-Fish. [n0009][n0026][n0029][pn0001_n0009][pn0001_n0026][pn0001_n0029]  
+She reports eating a lot of her kids’ Easter candy over the weekend. [n0037][n0038][pn0001_n0038]  
+
+PHYSICAL EXAM  
+Physical examination was performed today. [n0041][pn0001_n0041]  
+Neck exam showed no jugular venous distention and no carotid bruits. [n0044][n0045][n0046][pn0001_n0044][pn0001_n0045][pn0001_n0046]  
+Lungs were clear bilaterally. [n0047][pn0001_n0047]  
+Cardiac exam revealed a stable 2/6 systolic ejection murmur. [n0040][n0048][pn0001_n0040][pn0001_n0048]  
+Extremities showed slight bilateral upper extremity edema and 1+ pitting edema in both legs. [n0049][n0050][pn0001_n0049][pn0001_n0050]  
+
+RESULTS  
+Vital signs were obtained this morning, with blood pressure 172/98 (high), heart rate within normal limits, and oxygenation fine. [n0005][n0004][n0042][n0043][pn0001_n0005][pn0001_n0004][pn0001_n0042][pn0001_n0043]  
+Blood glucose this morning was 170, interpreted as a bit high/borderline. [n0033][pn0001_n0033]  
+
+ASSESSMENT AND PLAN  
+Poorly controlled hypertension, supported by blood pressure 172/98 and assessed as uncontrolled. [n0052][n0004][pn0001_n0052][pn0004_n0052]  
+Plan is to continue the current blood pressure medication regimen for now, emphasize taking medications daily using reminders, and consider changing the regimen if needed after reassessment. [n0053][n0055][n0058][pn0001_n0053]  
+Recommend home blood pressure monitoring (check three times per week) and obtain/use a home blood pressure monitor. [n0054][n0056][pn0001_n0054][pn0001_n0056]  
+Refer for dietary management education/counseling with a nutritionist and recommend reducing sodium intake given frequent fast food intake and discussion that fast food fish sandwiches can be high in sodium. [n0008][n0009][n0031][n0032][pn0001_n0008][pn0002_n0031]  
+Diabetes mellitus with plan to increase metformin to 1500 mg and continue checking blood sugars as usual to assess response. [n0007][n0059][n0060][pn0001_n0007][pn0001_n0059][pn0001_n0060]  
+Headaches will continue to be managed symptomatically with Tylenol as it has been helpful. [n0003][n0006][pn0001_n0006]  
+Schedule follow-up in one month. [n0061][pn0001_n0061]  
+Patient agrees with the plan including home blood pressure monitoring, nutritionist referral/dietary changes, follow-up in 1 month, and increasing metformin. [n0001]

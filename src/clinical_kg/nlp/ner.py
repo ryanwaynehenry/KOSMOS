@@ -41,7 +41,7 @@ def extract_mentions_base(
     mentions: List[Mention] = []
     counter = 1
 
-    # Pre-seed patient and clinician mentions (one each) before running base model.
+    # Pre-seed patient, clinician, and follow-up visit mentions before running base model.
     if turns:
         patient_mention = Mention(
             mention_id=f"m{counter:04d}",
@@ -57,7 +57,14 @@ def extract_mentions_base(
             type=MentionType.PERSON_CLINICIAN.value if hasattr(MentionType, "PERSON_CLINICIAN") else None,
         )
         counter += 1
-        mentions.extend([patient_mention, clinician_mention])
+        followup_mention = Mention(
+            mention_id=f"m{counter:04d}",
+            turn_id=turns[0].turn_id,
+            text="follow-up visit",
+            type=MentionType.PROCEDURE.value if hasattr(MentionType, "PROCEDURE") else None,
+        )
+        counter += 1
+        mentions.extend([patient_mention, clinician_mention, followup_mention])
 
     for turn in turns:
         doc = model(turn.text)
@@ -104,128 +111,78 @@ def refine_mentions_with_llm(
     system_prompt = (
         """You are a clinical information extraction assistant.
 
-        Your input will be:
-        - A transcript of a conversation between a clinician and a patient, split into turns.
-        - A JSON list of span-level mentions previously extracted by a base NER model.
+            Your input will be:
+            - A transcript of a conversation between a clinician and a patient, split into turns.
+            - A JSON list of span-level mentions previously extracted by a base NER model.
 
-        Each mention has:
-        - turn_id: string identifier of the turn
-        - text: substring of the turn
+            Each mention has:
+            - turn_id: string identifier of the turn
+            - text: substring of the turn
 
-        Your task in this phase is to refine the mention list while preserving span-level structure and turn-level completeness. This phase prioritizes structural fidelity over clinical judgment.
+            Your task in this phase is to ASSIGN ENTITY TYPES to the existing mention spans while preserving span-level structure and turn-level completeness.
 
-        Core Operating Principles (Read Carefully)
-        - This task is not about summarization, deduplication, or clinical triage.
-        - Do not apply subjective judgments about clinical importance, relevance, or significance.
-        - If a mention fits an allowed clinical category, it must be retained even if it is repeated, normal, negative, or boilerplate.
-        - Downstream stages depend on seeing every occurrence of a mention in every turn.
+            Core Operating Principles (Read Carefully)
+            - This task is not about summarization, deduplication, triage, or filtering.
+            - Do not apply subjective judgments about clinical importance, relevance, or significance.
+            - Do NOT remove mentions. Keep every input mention and assign it a type.
+            - Downstream stages depend on seeing every occurrence of a mention in every turn.
 
-        1. Keep Clinically Scoped Mentions
+            1) Keep All Mentions (No Exclusions)
+            - Every input mention must appear exactly once in the output.
+            - There is no "excluded" list in this phase.
 
-        Retain any mention that fits any of the categories below, regardless of repetition or perceived importance:
-        - Conditions, diagnoses, diseases, problems, symptoms, signs, and complaints.
-        - Procedures, interventions, therapies, or counseling modalities.
-        - Lab tests, imaging studies, vital sign types, and other clinical measurements.
-        - Test results and observation values, including normal, negative, or absent findings when explicitly stated.
-        - Medications, doses, frequencies, routes, units, and prescribing details.
-        - Allergies, risk factors, and relevant social or lifestyle factors.
-        - Patient descriptors and references, including names, pronouns, and demographic phrases.
-        - Clinician references, roles, or specialties when mentioned.
+            2) Assign an Entity Type
+            For each input mention, assign exactly one type from the allowed set below.
+            You are not permitted to invent, rename, expand, merge, split, deduplicate, or output any other type value.
+            If a mention does not cleanly match a specific category, choose OTHER.
 
-        Explicit Overrides
-        - PERSON_PATIENT name mentions are always clinically meaningful and must be kept, even if repeated without added context.
-        - Normal or negative findings (e.g., “no acute distress”, “normal exam”, “denies pain”) are always clinically meaningful and must be kept.
-        - Repetition is never a valid reason for exclusion.
+            Allowed type values (must match exactly, including capitalization and underscores):
+            - PROBLEM: Diseases, diagnoses, symptoms, signs, allergies, complaints, whether present or not, including explicitly denied symptoms/conditions.
+            - MEDICATION: Drugs, therapeutic products, formulations.
+            - LAB_TEST: Names of tests or measurements (not results).
+            - PROCEDURE: Clinical actions and care-plan items, including interventions, counseling, procedures, surgeries, appointments and visits, follow-ups, referrals and consultations, and care coordination events.
+            - UNIT: Units of measurement.
+            - DOSE_AMOUNT: Numeric or descriptive dose amounts.
+            - FREQUENCY: Timing or frequency of medications or treatments.
+            - TIME: Any timing information, including dates, times, durations, and relative time expressions.
+            - PERSON_PATIENT: Patient names, pronouns, demographic references, and demographic descriptors about a person in the encounter.
+            - PERSON_CLINICIAN: Clinician names, clinician role references, and specialties.
+            - OBS_VALUE: Observed or measured results, including normal or negative values when stated.
+            - ACTIVITY: Clinically relevant behaviors, triggers, sensitivities, avoidance behaviors, exposures, or lifestyle factors.
+            - OTHER: Clinically relevant mentions not fitting the above categories, including contextual spans that still support clinical meaning.
 
-        2. Remove Only Clearly Non-Clinical Mentions
+            Typing guidance (use only if consistent with the span)
+            - Clinician role words (unnamed) should be PERSON_CLINICIAN when they refer to the care provider in the encounter.
+            - Care-event or visit-type phrases should be PROCEDURE.
+            - Standalone timing words or duration phrases should be TIME.
+            - Triggers, sensitivities, exposures, and avoidance contexts should usually be ACTIVITY (or OTHER if they do not clearly describe a behavior/exposure).
+            - If the span is a greeting fragment, conversational filler, or a meaningless fragment, still KEEP it and type it as OTHER.
 
-        Exclude a mention only if it clearly falls into one of the categories below:
-        - Greetings, closings, or conversational filler with no clinical content.
-        - Generic nouns or phrases with no medical meaning.
-        - Obvious truncations or parsing artifacts that do not form a meaningful phrase.
+            Demographics Attribution Rule (Critical)
+            Demographic references MUST be typed as PERSON_PATIENT when they describe the patient (or another explicitly referenced person in the encounter).
+            This includes demographics even when they are not a name or pronoun.
+            Examples of demographics: age phrases, sex/gender terms, race/ethnicity terms, pregnancy/postpartum descriptors, and physical descriptors functioning as demographics when clearly describing a person.
 
-        Forbidden Exclusion Reasons
-        Do not exclude mentions for any of the following reasons:
-        - “Redundant”
-        - “Not clinically significant”
-        - “Normal finding”
-        - “Boilerplate”
-        - “Already mentioned earlier”
-        - “Lacks additional context”
+            Structural Constraints
+            - Do not merge or split mentions.
+            - Do not deduplicate across turns.
+            - Each mention must remain associated with its original turn_id.
+            - Preserve every mention occurrence, even if repeated verbatim.
 
-        3. Assign an Entity Type
+            Output Format (STRICT)
+            Return only valid, machine-parsable JSON with exactly one top-level key:
+            {
+            "typed_mentions": [
+                {"turn_id": "...", "text": "...", "type": "<allowed type>"},
+                ...
+            ]
+            }
 
-        For each kept mention, you must assign exactly one type from the allowed set below.
-        You are not permitted to invent, rename, expand, or output any other type value.
-        If a mention does not cleanly match a specific category, you must still choose one of the allowed types, and in that case use OTHER.
-
-        Allowed type values (must match exactly, including capitalization and underscores):
-        - PROBLEM: Diseases, diagnoses, symptoms, signs, allergies, complaints, whether present or not.
-        - MEDICATION: Drugs, therapeutic products, formulations.
-        - LAB_TEST: Names of tests or measurements (not results).
-        - PROCEDURE: Clinical actions and care-plan items, including therapeutic or diagnostic interventions, psychotherapy, procedures, surgeries, appointments and visits, follow-ups, referrals and consultations, and care coordination events.
-        - UNIT: Units of measurement.
-        - DOSE_AMOUNT: Numeric or descriptive dose amounts.
-        - FREQUENCY: Timing or frequency of medications or treatments.
-        - TIME: Any timing information, including dates, times, durations, and relative time expressions (e.g., “today”, “yesterday”, “next week”, “in 2 days”, “for 3 months”, “last visit”, “post-op”, “pre-op”).
-        - PERSON_PATIENT: Patient names, pronouns, or demographic references.
-        - PERSON_CLINICIAN: Clinician names, roles, or specialties.
-        - OBS_VALUE: Observed or measured results, including normal or negative values.
-        - ACTIVITY: Clinically relevant behaviors or lifestyle factors.
-        - OTHER: Clinically relevant mentions not fitting the above categories.
-
-        Type Output Constraint
-        - The "type" field must be exactly one of the allowed type values above.
-        - Do not invent new types or modify the allowed labels.
-        - If a mention does not cleanly match a specific category, choose the closest allowed type, or OTHER if no closer fit exists.
-
-
-        3A. Demographics Attribution Rule (Critical)
-
-        Demographic references MUST be typed as PERSON_PATIENT when they describe the patient (or another explicitly referenced person in the encounter).
-        This includes demographics even when they are not a name or pronoun.
-
-        Demographic spans that should be PERSON_PATIENT include:
-        - Age and age ranges (e.g., “__ years old”, “in their __s”)
-        - Sex and gender terms when used to describe the patient
-        - Race and ethnicity terms when used to describe the patient
-        - Pregnancy or postpartum descriptors when used to describe the patient
-        - Physical descriptors that function as demographics in context (e.g., “right-handed”) when clearly describing the patient
-
-        Attribution guidance
-        - If a demographic mention appears in a turn where the patient is the subject (e.g., introductions, HPI framing, “the patient is …”), treat it as describing the patient and type it PERSON_PATIENT.
-        - If the demographic mention explicitly refers to a different person (e.g., a family member), still type it as PERSON_PATIENT because it is a person descriptor, unless your system requires separate family typing (not allowed here).
-        - Do not type demographics as OTHER, PROBLEM, or ACTIVITY when they are describing a person.
-
-        Edge cases
-        - If the demographic is part of a longer mention span provided by the base NER, do not merge or expand, but still assign PERSON_PATIENT to that span if it is primarily demographic.
-        - If a demographic term is used generically (not describing any person in the encounter), you may exclude it as non-clinical only if it clearly has no patient linkage.
-
-        4. Structural Constraints
-        - Do not merge mentions.
-        - Do not deduplicate across turns.
-        - Each mention must remain associated with its original turn_id.
-        - Preserve every clinically scoped mention occurrence, even if repeated verbatim.
-
-        5. Output Format (STRICT)
-
-        Return only valid, machine-parsable JSON with exactly two top-level keys:
-        {
-        "kept": [
-            {"turn_id": "...", "text": "...", "type": "<allowed type>"},
-            ...
-        ],
-        "excluded": [
-            {"turn_id": "...", "text": "...", "reason": "..."},
-            ...
-        ]
-        }
-
-        Output Rules
-        - Every input mention must appear exactly once in either kept or excluded.
-        - Exclusion reasons must reference only the allowed removal criteria.
-        - Do not include explanations, commentary, or markdown.
-        - Return only the JSON.
+            Output Rules
+            - The output list must contain the same number of items as the input mention list.
+            - Each input mention must appear exactly once in the output, with the same turn_id and text, plus a type.
+            - Do not include explanations, commentary, or markdown.
+            - Return only the JSON.
         """
 
     )
@@ -261,7 +218,7 @@ def refine_mentions_with_llm(
 
         kept_items: List[Dict[str, Any]] = []
         if isinstance(llm_output, dict):
-            kept_items = llm_output.get("kept") or []
+            kept_items = llm_output.get("typed_mentions") or []
         elif isinstance(llm_output, list):
             kept_items = llm_output  # backward compatibility if model still returns list
 
@@ -351,9 +308,13 @@ def extract_mentions_llm(
         Extract spans that match any of these categories, when present in the transcript:
 
         A) People, roles, and identifiers
-        - Person names (patient, clinician, caregiver)
+        - Person names (Jim, Dr. Smith, patient, clinician, doctor, caregiver)
         - Family member roles (parent, sibling, grandparent, etc.)
-        - Care team roles (nurse, therapist, pharmacist, etc.)
+        - Care team role mentions (extract even when generic)
+            - Extract clinician role references even when unnamed:
+            - "the doctor", "my doctor", "your doctor" -> extract "doctor"
+            - "the clinician", "provider" -> extract "clinician" or "provider"
+            - "the nurse" -> extract "nurse"
         - Relationship descriptors when explicitly stated (spouse, roommate, child)
 
         B) Demographics and person attributes
@@ -483,7 +444,7 @@ def extract_mentions_llm(
     seen = set()
     mentions: List[Mention] = []
 
-    # Pre-seed patient and clinician mentions (one each) before batching.
+    # Pre-seed patient, clinician, and follow-up visit mentions (one each) before batching.
     if turns:
         patient_mention = Mention(
             mention_id=f"m{counter:04d}",
@@ -499,8 +460,21 @@ def extract_mentions_llm(
             type=MentionType.PERSON_CLINICIAN.value if hasattr(MentionType, "PERSON_CLINICIAN") else None,
         )
         counter += 1
-        mentions.extend([patient_mention, clinician_mention])
-        seen.update({(patient_mention.turn_id, patient_mention.text), (clinician_mention.turn_id, clinician_mention.text)})
+        followup_mention = Mention(
+            mention_id=f"m{counter:04d}",
+            turn_id=turns[0].turn_id,
+            text="follow-up visit",
+            type=MentionType.PROCEDURE.value if hasattr(MentionType, "PROCEDURE") else None,
+        )
+        counter += 1
+        mentions.extend([patient_mention, clinician_mention, followup_mention])
+        seen.update(
+            {
+                (patient_mention.turn_id, patient_mention.text),
+                (clinician_mention.turn_id, clinician_mention.text),
+                (followup_mention.turn_id, followup_mention.text),
+            }
+        )
 
     for idx, batch in enumerate(batches, start=1):
         user_prompt = "Transcript turns:\n" + "\n".join(batch) + "\nReturn the JSON list."

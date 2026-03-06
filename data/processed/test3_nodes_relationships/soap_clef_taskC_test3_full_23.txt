@@ -1,0 +1,29 @@
+HISTORY OF PRESENT ILLNESS  
+Zachary presents today for a follow-up visit to address pain and to check on hypertension and diabetes. [n0001][n0012][pn0001_n0012]  
+He reports intermittent chest pain that started yesterday and occurs a few times per day, and it was bothersome enough that he had to stop mowing the grass. [n0004][n0030][pn0001_n0004][pn0001_n0030]  
+He also reports intermittent achy/heavy pain radiating in the left arm from the shoulder to the elbow and up toward the neck since yesterday, and Motrin has not been very effective. [n0003][n0014][pn0001_n0003][pn0001_n0014]  
+The chest pain is associated with the arm/elbow pain. [n0004][n0003][pn0003_n0004]  
+He denies shortness of breath. [n0031][pn0001_n0031]  
+He reports doing usual housework and denies doing anything unusual or lifting heavy things. [n0013][pn0001_n0013]  
+He reports home blood pressure readings averaging about 125/72, though his in-clinic blood pressure today is 150/90, and the clinician notes possible mild white coat syndrome. [n0005][n0007][n0018][pn0001_n0007][pn0002_n0018]  
+For diabetes, his last hemoglobin A1c was 7.2, and he reports he is not really checking blood sugars. [n0006][n0021][n0023][pn0001_n0006][pn0001_n0021][pn0001_n0023]  
+He is currently taking Norvasc 2.5 mg for hypertension and metformin 500 mg for diabetes. [n0009][n0022][n0038][pn0001_n0009][pn0001_n0022][pn0001_n0038]  
+He reports that his brother, who is a heart doctor, thought the chest pain might not be cardiac. [n0011][n0041][n0042][pn0001_n0011][pn0041_n0042]  
+
+PHYSICAL EXAM  
+Blood pressure today is 150/90. [n0007][pn0001_n0007]  
+Cardiac exam is notable for a slight heart murmur that has been heard previously. [n0032][pn0001_n0032][pn0002_n0032]  
+A physical exam is planned, including an exam of the left arm due to pain from shoulder to elbow. [n0029][n0015][pn0001_n0029][pn0001_n0015]  
+
+RESULTS  
+Hemoglobin A1c at the last visit was 7.2. [n0021][pn0001_n0021]  
+An EKG is planned/ordered due to chest pain and concern for a possible mild heart attack. [n0008][n0033][n0048][pn0001_n0008][pn0002_n0008][pn0002_n0033]  
+Glucose testing (including point-of-care glucose) is planned/ordered today to assess blood sugar control. [n0024][n0037][pn0001_n0024][pn0002_n0037]  
+
+ASSESSMENT AND PLAN  
+Intermittent chest pain with associated left arm radiation raises concern for a possible mild heart attack, and the clinician does not think this is musculoskeletal pain. [n0004][n0003][n0033][n0034][pn0003_n0004][pn0002_n0033]  
+Obtain an EKG, and administer aspirin and nitroglycerin to assess response. [n0008][n0035][n0036][pn0002_n0008][pn0002_n0035][pn0002_n0036]  
+If the EKG suggests a mild heart attack, plan to call 911 and transfer the patient to the hospital for further evaluation. [n0033][n0039][n0040][pn0001_n0039][pn0001_n0040]  
+Hypertension: continue Norvasc 2.5 mg, and pursue home blood pressure monitoring with a home cuff given possible white coat syndrome. [n0005][n0009][n0016][n0017][n0018][pn0001_n0009][pn0002_n0005]  
+Diabetes mellitus: check glucose today (including point-of-care glucose) and continue metformin 500 mg for now, with planned medication optimization based on results. [n0006][n0024][n0037][n0038][n0028][pn0002_n0006][pn0002_n0022][pn0001_n0028]  
+Additional tests are planned/ordered as discussed. [n0049][pn0002_n0049]

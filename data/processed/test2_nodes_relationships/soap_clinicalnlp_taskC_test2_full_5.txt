@@ -1,0 +1,41 @@
+HISTORY OF PRESENT ILLNESS
+
+Rebecca is a 27-year-old female who was evaluated by the clinician/doctor. [n0001][pn0001_n0002]  
+She has been swimming more regularly over the past month. [n0001][n0013][pn0001_n0013]  
+She reports episodic right knee pain that occurs while swimming breaststroke and starts after a couple laps. [n0008][n0015][n0017][pn0001_n0008]  
+She denies any remembered injury to the right knee (no fall or twist). [n0018][pn0001_n0018]  
+She has a history of chronic back pain that comes and goes and is currently under control, with no pain going down the legs. [n0005][pn0001_n0005]  
+She has a history of carpal tunnel syndrome status post carpal tunnel release a couple of years ago and reports it is doing really well with full range of motion and feels a lot better. [n0004][n0012][pn0001_n0004][pn0001_n0012]  
+Her depression is stable and has been going well with medication and therapy, and she is trying to get outside more. [n0006][n0007][n0020][n0021][pn0001_n0006]  
+She reports sleeping well and denies concerns about hurting herself or others. [n0022][n0023][pn0001_n0023]  
+A review of systems was completed by the nurse before the visit with no significant issues. [n0003][n0019][pn0001_n0019]  
+
+PHYSICAL EXAM
+
+A physical examination was performed by the doctor. [n0024][pn0001_n0024]  
+Right knee exam maneuvers caused pain with patellar movement and with resisted/stiffening of the upper leg. [n0025][n0040][pn0001_n0025][pn0001_n0040]  
+Patellar compression (patellar inhibition) testing caused most of the pain. [n0029][pn0001_n0029]  
+There was no swelling in the knee joints on exam. [n0041][pn0001_n0041]  
+There was little pain with knee range of motion. [n0028][pn0001_n0028]  
+Heart exam was regular. [n0030][pn0001_n0030]  
+Lungs were clear. [n0031][pn0001_n0031]  
+No adenopathy was appreciated. [n0032][pn0001_n0032]  
+Thyroid exam was normal. [n0033][pn0001_n0033]  
+Grip strength was equal. [n0034][pn0001_n0034]  
+
+RESULTS
+
+Right knee x-ray was normal. [n0026][pn0001_n0026]  
+
+ASSESSMENT AND PLAN
+
+Right knee pain is assessed as chondromalacia of the patella, attributed to knee overuse from swimming. [n0008][n0009][n0035][pn0008_n0009]  
+Start ibuprofen 600 mg four times a day with food for chondromalacia of the patella. [n0037][pn0001_n0037]  
+Begin straight leg raising exercises to strengthen the quadriceps and help with pain. [n0038][n0039][pn0001_n0038]  
+Avoid activities that put extra pressure on the knees for a little while, including lunges and breaststroke swimming, and consider taking a break from these activities while symptoms improve. [n0042][n0044][n0045][n0047][pn0002_n0044][pn0002_n0045]  
+Swimming may be continued using strokes with knees straight if comfortable, and she may continue swimming after the knee improves. [n0045][n0046][pn0002_n0046]  
+Follow up with the doctor in a couple weeks if symptoms are not improving. [n0043][pn0001_n0043]  
+Depression is stable and the plan is to continue the current depression medication and therapy. [n0006][n0007][n0020][pn0002_n0007]  
+Chronic back pain is currently under control, and she was advised to call the doctor if it flares up. [n0005][n0048][pn0001_n0048]  
+Carpal tunnel syndrome status post prior release is stable and doing well. [n0004][n0012][pn0001_n0004]  
+Patient checkout was planned at the end of the visit. [n0049][pn0001_n0049]

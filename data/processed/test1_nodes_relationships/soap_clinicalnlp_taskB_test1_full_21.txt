@@ -1,0 +1,35 @@
+HISTORY OF PRESENT ILLNESS
+
+Stephanie Morales is a 36-year-old female presenting for evaluation of left ankle pain and swelling after a fall due to slipping on snow/ice while walking to her car. [n0001][n0008][n0010][n0012][n0015][pn0001_n0008][pn0001_n0010][pn0001_n0012][pn0001_n0015]  
+Symptoms began two days ago, with pain localized to the outside of the left ankle and making it hard to walk. [n0008][n0013][pn0001_n0008][pn0001_n0013]  
+She reports no bleeding and denies calf pain, lower-leg pain, and knee pain. [n0019][n0020][n0021][n0022][pn0001_n0019][pn0001_n0020][pn0001_n0021][pn0001_n0022]  
+She has tried ibuprofen along with ice and elevation, which helped a little bit. [n0016][n0017][n0018][pn0001_n0016][pn0001_n0017][pn0001_n0018]  
+Past history is notable for diabetes mellitus and hypertension. [n0003][n0004][pn0001_n0003][pn0001_n0004]  
+For diabetes, she reports checking blood sugars regularly with pretty stable readings and a prior hemoglobin A1c of about 6.8. [n0006][n0025][pn0001_n0006][pn0001_n0025]  
+She is taking metformin and has a planned diabetic eye exam appointment in the next couple of weeks. [n0005][n0007][n0029][pn0001_n0005][pn0001_n0007][pn0001_n0029]  
+For hypertension, she is taking Norvasc and needs a refill. [n0031][n0032][pn0001_n0031][pn0001_n0032]  
+
+PHYSICAL EXAM
+
+Blood pressure today is 120/70. [n0030][pn0001_n0030]  
+Neck exam is fine with no bruits. [n0033][pn0001_n0033]  
+Lungs are clear on respiratory exam. [n0034][pn0001_n0034]  
+Heart exam is normal with an unchanged 2/6 systolic ejection murmur. [n0035][n0036][pn0001_n0035][pn0001_n0036]  
+Abdominal (belly) exam is good. [n0037][pn0001_n0037]  
+Left ankle exam shows tenderness over the lateral malleolus and fifth metatarsal with swelling and redness and pain with valgus stressing, with otherwise normal sensation and normal pulses. [n0038][pn0001_n0038]  
+
+RESULTS
+
+Prior hemoglobin A1c was about 6.8 per chart review. [n0025][n0026][pn0001_n0025][pn0002_n0026]  
+An ankle x-ray has been ordered to evaluate for possible fracture. [n0040][n0041][pn0001_n0040][pn0001_n0041]  
+
+ASSESSMENT AND PLAN
+
+Left ankle injury assessed as likely ankle sprain, with concern for possible fracture given fifth metatarsal tenderness. [n0009][n0039][n0041][pn0001_n0009][pn0001_n0039][pn0001_n0041]  
+Obtain ankle x-ray, and use an air splint and crutches while avoiding weightbearing until x-ray results are back, with plan for partial weightbearing if no fracture. [n0040][n0042][n0043][pn0001_n0040][pn0001_n0042][pn0002_n0043]  
+Start Naprosyn 500 mg twice daily and continue ice and elevation for pain control. [n0044][n0045][n0046][pn0001_n0044][pn0001_n0045][pn0001_n0046]  
+If the x-ray shows a fracture, the clinician will call with results and arrange orthopedic referral. [n0047][n0048][pn0001_n0047][pn0001_n0048]  
+Diabetes mellitus: continue metformin, order hemoglobin A1c and baseline labs, and keep the upcoming diabetic eye exam appointment. [n0003][n0005][n0007][n0050][n0051][pn0002_n0005][pn0002_n0050][pn0002_n0051]  
+Hypertension: refill Norvasc and continue blood pressure monitoring. [n0004][n0032][n0054][n0055][pn0001_n0032][pn0001_n0054][pn0001_n0055]  
+She was advised to call the office if any issues arise or if something changes. [n0052][n0053][pn0001_n0053]  
+Patient agrees with the plan for ankle evaluation and treatment. [n0001]

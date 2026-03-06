@@ -1,0 +1,24 @@
+## HISTORY OF PRESENT ILLNESS
+Alexis presents with right-hand symptoms related to prolonged keyboard use, reporting numbness and tingling in the right hand. [0][1]  
+Symptoms have been on and off for about 6 months and have become more persistent over the last month. [2][3]  
+She reports associated pain, mostly when typing, and also with mouse use. [5][7][13][17]  
+She states the numbness/tingling is now present all the time. [9]  
+She has been taking ibuprofen, and resting/not typing helps the most. [10][11]  
+She denies that the pain or tingling wakes her at night and reports it is not affecting her sleep. [18][19][21]  
+Symptoms are mostly in the right hand, with distribution primarily in the thumb, index finger, and middle finger. [22][23][28][29]  
+
+## PHYSICAL EXAM
+Right wrist exam demonstrates pain with bending, including pain on extension and flexion. [24][25][26][27][32]  
+Grip strength is mildly decreased on the right compared with expected. [32]  
+Tapping over the inside of the wrist/forearm elicits shooting pain with grimacing, consistent with a positive Tinel’s sign. [32]  
+
+## RESULTS
+No diagnostic test results were available during this visit; an EMG/nerve conduction study was ordered for outpatient evaluation. [36]  
+
+## ASSESSMENT AND PLAN
+Assessment: Suspected right carpal tunnel syndrome based on symptom distribution (thumb/index/middle finger), decreased right grip strength, and positive Tinel’s sign in the setting of repetitive keyboard work. [1][29][32][34]  
+Start conservative management with a wrist splint to be worn at night. [34][38]  
+Continue ibuprofen and increase dose to 600 mg four times daily. [34]  
+Order outpatient EMG/nerve conduction study to further evaluate nerve compression and guide next steps. [36][38]  
+If EMG is positive, continue conservative treatment first, and consider additional therapy/physical therapy versus proceeding to carpal tunnel release surgery depending on results and response. [36][38]  
+Patient agrees with the plan and prefers trying therapy/conservative measures to avoid surgery if possible. [37]

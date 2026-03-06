@@ -1,0 +1,42 @@
+HISTORY OF PRESENT ILLNESS
+
+Mark Jackson is a 45-year-old male who presents for evaluation of right elbow pain. [n0001][n0010][pn0001_n0005]  
+He reports pain on the outside part of the right elbow for the last three weeks or so, described as shooting/stabbing/very sharp, rated 8/10 with use and 3/10 at rest, non-radiating, worse with movement and better with rest. [n0005]  
+He reports playing a lot more tennis recently with increased tennis activity. [n0006][pn0001_n0006]  
+He denies any recent trauma or fall onto the right elbow and denies any popping sensation. [n0014][pn0001_n0014][n0015][pn0001_n0015][n0017]  
+He has tried acetaminophen, ibuprofen, and ice application with limited benefit. [n0019][pn0001_n0019][n0020][pn0001_n0020][n0021][pn0001_n0021][n0018]  
+He denies fever recently. [n0007][pn0001_n0007]  
+He has a history of type 2 diabetes mellitus with reported blood sugars around 150–160 and notes recent candy intake after Easter. [n0003][n0009][pn0001_n0009][n0027][pn0001_n0027]  
+He is currently taking metformin 500 mg twice daily (increased at the last visit from once daily to twice daily). [n0029][pn0001_n0029]  
+He has mild intermittent asthma that is reported to be under good control and is using fluticasone (Flovent) twice daily and albuterol as needed. [n0004][n0031][n0032]  
+He has a penicillin allergy and a history of cholecystectomy about ten years ago. [n0033][pn0001_n0033][n0034][pn0001_n0034]  
+
+PHYSICAL EXAM
+
+Physical examination today was overall unremarkable with a few exceptions. [n0036][n0045]  
+Cardiovascular exam shows a grade 3/6 systolic ejection murmur that is unchanged from prior exam, with otherwise normal cardiovascular findings. [n0037][n0038]  
+Musculoskeletal exam shows moderate lateral epicondylar tenderness of the right elbow with moderate pain on passive range of motion. [n0039][n0040][n0041]  
+Right wrist exam demonstrates mild pain with resisted extension. [n0042][n0043]  
+There is no palpable right elbow joint effusion. [n0044]  
+
+RESULTS
+
+Right elbow x-ray today is normal with no acute fracture, no other bony abnormality, no malalignment, and no sign of joint effusion. [n0046][n0050][n0047][n0048][n0049][n0044][pn0046_n0047][pn0046_n0048][pn0046_n0049]  
+Hemoglobin A1c, CBC, and a chemistry panel were ordered/planned today. [n0059][pn0001_n0059][n0060][pn0001_n0060][n0061][pn0001_n0061]  
+
+ASSESSMENT AND PLAN
+
+Right lateral epicondylitis (tennis elbow) is assessed as the cause of his right elbow pain in the setting of increased tennis activity. [n0008][n0006][n0005]  
+Plan includes resting the right arm and stopping tennis for 4–6 weeks with activity modification and easing back into tennis. [n0052][pn0001_n0052][n0064][pn0001_n0064]  
+He was advised to ice the right elbow for 20 minutes at least three times per day. [n0053][pn0001_n0053]  
+A right forearm brace will be provided by the nurse before he leaves. [n0054][n0051][pn0001_n0054][pn0001_n0051]  
+Ultram (tramadol) 50 mg once daily was prescribed for elbow pain. [n0055][pn0001_n0055]  
+Follow up is planned in four weeks to reevaluate the right elbow and consider additional imaging and/or physical therapy referral depending on progress. [n0056][n0065][pn0001_n0056][pn0001_n0065]  
+
+Type 2 diabetes mellitus is noted to be a little bit out of control with reported blood sugars around 150–160. [n0003][n0009]  
+Metformin is being increased to 1000 mg twice daily. [n0057][pn0001_n0057]  
+He will check blood sugar twice daily for the next two weeks and then report readings. [n0058][pn0001_n0058]  
+Hemoglobin A1c, CBC, and chemistry panel were ordered/planned as part of diabetes evaluation. [n0059][n0060][n0061]  
+
+Mild intermittent asthma is under good control, and the plan is to continue Flovent with no changes and continue albuterol with a refill prescription. [n0004][n0062][pn0001_n0062][n0063][pn0001_n0063]  
+The patient agrees to recording the conversation and states the plan sounds pretty good and he understands the plan. [n0001]

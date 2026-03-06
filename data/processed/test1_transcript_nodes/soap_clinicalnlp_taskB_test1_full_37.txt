@@ -1,0 +1,31 @@
+## HISTORY OF PRESENT ILLNESS
+Mr. Edwards is a 54-year-old male presenting for evaluation of right-sided facial pain. [0][3]  
+He reports episodic stabbing/shooting pain localized to the right cheekbone/right face that has been present for ~2–3 months and has gradually worsened. [3][5]  
+He describes the pain as severe/excruciating, rated 10/10 during episodes. [9][21]  
+Episodes typically last a few minutes but can last up to about an hour. [17]  
+Cold temperatures and wind/temperature changes can trigger the pain. [10][11]  
+He initially denied numbness/tingling and denied facial weakness or vision changes. [7][9]  
+He later noted decreased sensation on the right side of the face during exam. [30][32]  
+Ibuprofen/Motrin and topical Tiger Balm have not helped. [14]  
+He has occasional headaches that respond to Tylenol and denies a migraine history, noting this facial pain feels different. [19]  
+He denies a history of multiple sclerosis or brain tumors. [18]  
+He was referred by his family doctor to see a neurosurgeon for this issue. [3][15]  
+
+## PHYSICAL EXAM
+Extraocular movements were intact on finger-following exam. [23]  
+Facial motor function appeared symmetric when showing teeth/smiling. [24]  
+Hearing was intact bilaterally to finger rubbing near the ears. [24][26][27]  
+Light touch sensation was decreased (“a little bit numb”) on the right face compared with the left. [29][30]  
+Pinprick testing was perceived as dull on the right face and sharp on the left. [31][32]  
+
+## RESULTS
+MRI review showed a small blood vessel abutting and possibly pinching the trigeminal nerve. [33][35]  
+
+## ASSESSMENT AND PLAN
+Right facial pain is most consistent with trigeminal neuralgia due to vascular compression of the trigeminal nerve on MRI. [35][37][42]  
+Start medical therapy first-line, with plan to begin Tegretol (carbamazepine). [38][39][43][48]  
+Discussed that dosing may require trial-and-error and reviewed potential side effects including memory loss, tingling, imbalance, and possible dermatologic/skin reaction. [45][46]  
+Genetic testing may be performed to help assess safety of Tegretol given risk of skin reaction in certain ancestries (as discussed). [46]  
+If medications are insufficient, surgical options including decompression may be considered, though surgery is not recommended as the initial step. [41][42]  
+Prescription will be sent to the patient’s pharmacy. [48][51]  
+Follow up in 1 month to assess response and next steps. [50][51]

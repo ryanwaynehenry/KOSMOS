@@ -27,6 +27,7 @@ SOAP_SECTION_PROMPTS = {
 
 
 SoapSectionValue = Union[List[Dict[str, Any]], Dict[str, Any]]
+DEFAULT_PATIENT_AGREEMENT = "Patient understands and agrees with the recommended medical treatment plan."
 
 
 def _call_soap_section(
@@ -84,9 +85,23 @@ def _summarize_node(node: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
+def _extract_patient_agreement(nodes: List[Dict[str, Any]]) -> Optional[str]:
+    """
+    Look for a patient-specific agreement attribute on the patient node, if present.
+    """
+    for node in nodes:
+        if node.get("entity_type") != "PERSON_PATIENT":
+            continue
+        attrs = node.get("attributes") or {}
+        for key in ("patient_agreement", "patient_agreements", "patient_agreement_text"):
+            if key in attrs and attrs.get(key):
+                return str(attrs.get(key)).strip()
+    return None
+
+
 def _summarize_relationship(rel: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     meta = rel.get("llm_relation") or {}
-    relation = meta.get("relation")
+    relation = meta.get("relation") or rel.get("relation")
     if not relation or relation == "no_relation":
         return None
     return {
@@ -100,6 +115,50 @@ def _summarize_relationship(rel: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         "explanation": meta.get("explanation"),
         "evidence_turn_ids": meta.get("evidence_turn_ids", []),
     }
+
+
+def _apply_ros_guard(subjective_sections: List[Dict[str, Any]]) -> None:
+    """
+    Drop ROS items that lack supporting evidence unless they are valid placeholders.
+    If all items are removed, insert a single placeholder item.
+    """
+    ros_section: Optional[Dict[str, Any]] = None
+    for section in subjective_sections:
+        if (section.get("section") or "").strip().lower() == "review of systems":
+            ros_section = section
+            break
+
+    if not ros_section:
+        return
+
+    items = ros_section.get("items") or []
+    allowed_placeholders = {"Not assessed.", "None reported.", "No data available."}
+
+    kept: List[Dict[str, Any]] = []
+    for item in items:
+        node_ids = item.get("node_ids") or []
+        relationship_ids = item.get("relationship_ids") or []
+        text = (item.get("text") or "").strip()
+        label = item.get("label")
+
+        if node_ids or relationship_ids:
+            kept.append(item)
+            continue
+
+        if label is None and text in allowed_placeholders:
+            kept.append(item)
+
+    if not kept:
+        kept = [
+            {
+                "label": None,
+                "text": "No data available.",
+                "node_ids": [],
+                "relationship_ids": [],
+            }
+        ]
+
+    ros_section["items"] = kept
 
 
 def generate_soap_note(
@@ -123,6 +182,8 @@ def generate_soap_note(
         summary = _summarize_relationship(rel)
         if summary:
             rel_summaries.append(summary)
+
+    patient_agreement_pref = _extract_patient_agreement(nodes)
 
     payload = {
         "nodes": node_summaries,
@@ -150,6 +211,19 @@ def generate_soap_note(
         cfg=cfg,
         system_prompt=SOAP_SECTION_PROMPTS["assessment_and_plan"],
     )
+
+    if isinstance(subjective, list):
+        _apply_ros_guard(subjective)
+
+    if isinstance(assessment_and_plan, dict):
+        pa = assessment_and_plan.get("patient_agreements")
+        pa_dict = pa if isinstance(pa, dict) else {"text": "", "node_ids": [], "relationship_ids": []}
+        pa_text = (pa_dict.get("text") or "").strip()
+        if not pa_text or pa_text.lower() == "no data available.":
+            pa_dict["text"] = patient_agreement_pref or DEFAULT_PATIENT_AGREEMENT
+            pa_dict.setdefault("node_ids", [])
+            pa_dict.setdefault("relationship_ids", [])
+        assessment_and_plan["patient_agreements"] = pa_dict
 
     return {
         "subjective": subjective if isinstance(subjective, list) else [],
@@ -339,8 +413,16 @@ def _format_soap_text(soap: Dict[str, Any]) -> str:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate a SOAP note from a KG JSON file.")
     parser.add_argument("input", type=Path, help="Path to JSON containing turns, nodes, and relationship_candidates.")
-    parser.add_argument("--output-json", type=Path, help="Where to write the SOAP note JSON (default: stdout).")
-    parser.add_argument("--output-txt", type=Path, help="Where to write the SOAP note text with section headings.")
+    parser.add_argument(
+        "--output-json",
+        type=Path,
+        help="Optional override for SOAP JSON output path. Defaults to data/processed/soap_<input-stem>.json",
+    )
+    parser.add_argument(
+        "--output-txt",
+        type=Path,
+        help="Optional override for SOAP text output path. Defaults to data/processed/soap_<input-stem>.txt",
+    )
     args = parser.parse_args()
 
     data = json.loads(args.input.read_text(encoding="utf-8"))
@@ -349,19 +431,23 @@ def main() -> None:
 
     soap = generate_soap_note(nodes=nodes, relationship_candidates=relationships)
 
-    if args.output_json:
-        args.output_json.write_text(
-            json.dumps(soap, indent=2, ensure_ascii=False),
-            encoding="utf-8",
-        )
-    if args.output_txt:
-        args.output_txt.write_text(
-            _format_soap_text(soap),
-            encoding="utf-8",
-        )
+    output_dir = Path("data") / "processed"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    stem = args.input.stem
+    output_json_path = args.output_json or output_dir / f"soap_{stem}.json"
+    output_txt_path = args.output_txt or output_dir / f"soap_{stem}.txt"
 
-    if not args.output_json and not args.output_txt:
-        print(json.dumps(soap, indent=2, ensure_ascii=False))
+    output_json_path.write_text(
+        json.dumps(soap, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    output_txt_path.write_text(
+        _format_soap_text(soap),
+        encoding="utf-8",
+    )
+
+    print(f"Wrote {output_json_path}")
+    print(f"Wrote {output_txt_path}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,29 @@
+HISTORY OF PRESENT ILLNESS  
+Donna is a 37-year-old female with a history of hypertension and diabetes mellitus who presents with headaches and reports her blood pressure has been running high. [n0001][n0004][n0005][pn0001_n0003][pn0001_n0004][pn0001_n0005][n0009]  
+She reports headaches for the past three weeks that occur throughout the day, are getting worse, and are about 7/10 in severity. [n0003][n0013]  
+She takes Tylenol for the headaches, which helps only briefly and decreases the pain to about 4–5/10 before the headache returns. [n0003][n0007][pn0001_n0007]  
+She reports home blood pressure readings including 160/87 and 175/92, with a prior reading of 124/82 noted as pretty normal. [n0010][pn0001_n0010]  
+She is currently taking lisinopril for blood pressure but sometimes forgets doses on weekends when busy and checks her blood pressure about once a week. [n0001][n0011][pn0001_n0011][n0009]  
+She reports checking blood sugars around 120 (sometimes down to 100), and notes her urination has been normal without increased frequency. [n0006][pn0001_n0006][n0012][pn0001_n0012]  
+She has a history of episodic migraines occurring about once a year or every two years and reports she does not really take anything for them. [n0014][pn0001_n0014]  
+She denies congestion with the headache, and denies cough and runny nose, though she reports seasonal allergies in the springtime. [n0015][n0016][n0017][n0018][pn0001_n0015][pn0001_n0016][pn0001_n0017][pn0001_n0018]  
+
+PHYSICAL EXAM  
+She reports forehead tenderness. [n0019][pn0001_n0019]  
+She reports mild cheekbone (maxillary) tenderness and a little neck tenderness. [n0020][n0021][pn0001_n0020][pn0001_n0021]  
+She denies frontal sinus tenderness, maxillary sinus tenderness, and lymphadenopathy. [n0022][n0023][n0024][pn0001_n0022][pn0001_n0023][pn0001_n0024]  
+
+RESULTS  
+Home blood pressure measurements over the past three weeks have been elevated. [n0009][n0010]  
+Reported blood glucose values have been around 120 (sometimes down to 100), noted as a little bit high. [n0006]  
+Blood tests are ordered, including hemoglobin A1c. [n0028][n0029][pn0001_n0028][pn0001_n0029]  
+
+ASSESSMENT AND PLAN  
+Headache in the setting of elevated blood pressure/hypertension, with plan to treat both by increasing lisinopril. [n0003][n0004][pn0003_n0004][n0026][pn0001_n0026]  
+Increase lisinopril from 20 mg once daily to 40 mg once daily. [n0025][n0026][pn0025_n0026][pn0002_n0026]  
+She may continue taking Tylenol for headache symptoms. [n0007][n0003]  
+Hypertension: continue monitoring with ongoing blood pressure measurements. [n0004][n0027][pn0002_n0027]  
+Diabetes mellitus with blood sugars running a little high: obtain hemoglobin A1c and provide diabetic education. [n0005][n0006][n0029][n0030][pn0001_n0029][pn0001_n0030]  
+Encouraged to continue walking for exercise. [n0031][pn0002_n0031]  
+Plan for follow-up visit after blood tests to review results and ensure blood pressure is under control, and patient is advised to come in and be seen by Doctor Ruth. [n0008][n0002][pn0001_n0008][pn0001_n0002]  
+Patient agrees with the plan including increasing lisinopril, continuing to check blood pressure, obtaining blood tests, following up, and continuing walking. [n0001]

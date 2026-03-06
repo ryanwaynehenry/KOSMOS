@@ -1,0 +1,41 @@
+## HISTORY OF PRESENT ILLNESS
+Angela presents for evaluation of suspected kidney stone with history of recurrent stones, as well as follow-up of hypertension and type 2 diabetes. [2]  
+She reports flank/renal pain that was “up and down,” prompting an ER visit last week, but she is now feeling better. [3]  
+She estimates this was her 7th or 8th kidney stone. [5]  
+She believes she passed the stone about 3 days ago after the ER visit. [9]  
+She denies ongoing hematuria and reports her pain has resolved. [11][15]  
+She received pain medication in the ER and thinks it was Percocet. [17][19]  
+She has seen a urologist before, most recently about a year ago, and requests referral to Dr. Harris. [21][61]  
+
+For hypertension, her in-office BP today was 150/90, and she is taking Norvasc 2.5 mg regularly; she reports home BPs are “always great.” [24][27]  
+Diet remains a challenge due to frequent fast food intake because of convenience. [31]  
+
+For diabetes, she is taking metformin 500 mg daily but does not check blood sugars often. [40][45]  
+Her last A1c after the prior visit was 6.7, which is slightly high but improved since diagnosis of type 2 diabetes about a year ago. [48]  
+
+She denies chest pain and abdominal pain today. [49][51]  
+She reports intermittent insomnia related to worrying; meditation apps help, she sleeps with the TV on and keeps her phone by the bed, and prior melatonin use did not help much. [83][87][93]  
+She prefers to avoid prescription sleeping pills. [95]  
+
+## PHYSICAL EXAM
+Lungs clear bilaterally without crackles. [52]  
+Cardiac exam notable for known grade 2/6 systolic ejection murmur, unchanged. [52]  
+Abdomen soft and non-tender, and no right CVA tenderness on exam. [56]  
+
+## RESULTS
+Blood pressure in clinic: 150/90. [24]  
+Most recent hemoglobin A1c (after last visit): 6.7. [48]  
+
+## ASSESSMENT AND PLAN
+**1) Recurrent nephrolithiasis, current episode likely passed/resolved.** Patient reports stone passed ~3 days ago with resolution of pain and hematuria. [9][11][15]  
+Plan: obtain urinalysis and urine culture, and refer to urology (requested Dr. Harris) given frequent recurrences. [56][58][61][62]  
+
+**2) Hypertension, possible white coat effect.** BP elevated in clinic but home readings reportedly better; continue Norvasc 2.5 mg with no dose change and refills as needed. [24][27][64][65]  
+Plan: nutrition consult and continued counseling on lowering sodium intake (goal ≤2300 mg/day) to support BP control and reduce medication needs long-term. [38][66][70]  
+
+**3) Type 2 diabetes mellitus.** Continue metformin 500 mg daily. [40][72]  
+Plan: begin checking blood sugars before every meal to better gauge dietary intake. [72][74][77]  
+
+**4) Insomnia (intermittent).** Continue non-pharmacologic strategies (sleep hygiene) and start melatonin 10 mg as needed; patient declines sleeping pills. [84][95][96]  
+
+**Follow-up:** return in 3 months. [80][104]

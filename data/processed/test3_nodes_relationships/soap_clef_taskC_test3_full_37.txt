@@ -1,0 +1,30 @@
+HISTORY OF PRESENT ILLNESS  
+Angela presents for a follow-up visit for recently diagnosed stage III non-small cell lung cancer while undergoing neoadjuvant chemotherapy and radiation therapy. [n0001][n0012][n0003][pn0001_n0003][n0005][pn0001_n0005][n0004][pn0001_n0004]  
+She reports new mild shortness of breath over the weekend with markedly decreased exercise tolerance, noting she cannot walk down the street without becoming short of breath and could only walk to the end of the street. [n0013][pn0001_n0013][n0015][n0017][n0019][pn0001_n0019]  
+She reports a dry cough and denies phlegm. [n0008][pn0001_n0008][n0007][pn0001_n0007]  
+She denies fever and states it does not feel like she has a cold. [n0020][pn0001_n0020][n0025][pn0001_n0025]  
+She reports persistent painful swallowing with pain felt more in the chest, without a sensation of food getting stuck. [n0009][pn0001_n0009][n0026][pn0001_n0026][n0031][pn0001_n0031]  
+Because swallowing has been so painful, she had decreased liquid intake over the weekend but is still able to drink and has been using Ensure and had a milkshake. [n0028][pn0001_n0028][n0030][pn0001_n0030][n0032][pn0001_n0032]  
+She reports mild nausea and some fatigue after recent chemotherapy, with nausea improved by ondansetron, and she has been getting some rest. [n0040][pn0001_n0040][n0041][pn0001_n0041][n0042][pn0001_n0042][n0043][pn0001_n0043]  
+She reports feeling devastated by the diagnosis but notes good support from her husband and daughter. [n0010][pn0001_n0010][n0035][pn0001_n0035][n0036][n0037]  
+
+PHYSICAL EXAM  
+A quick physical examination was performed. [n0044][pn0001_n0044]  
+Vitals were normal and pulse oximetry was okay. [n0045][pn0001_n0045][n0046][pn0001_n0046]  
+Neck exam showed no cervical or infraclavicular lymphadenopathy. [n0047][pn0001_n0047][n0048][pn0001_n0048][n0049][pn0001_n0049]  
+Cardiovascular exam showed regular rate and rhythm with no murmur. [n0050]  
+Lung exam revealed bilateral crackles. [n0051]  
+Skin exam showed erythema on the left anterior chest. [n0053][n0054][pn0001_n0054]  
+Extremity exam showed no lower extremity edema. [n0056][n0057][pn0001_n0057]  
+
+RESULTS  
+A chest x-ray obtained prior to the visit was interpreted as showing mild radiation pneumonitis. [n0058][pn0001_n0058][n0059][pn0058_n0059]  
+The left upper lobe tumor/nodule (described as 4.4 cm) is reported to be getting smaller on current therapy. [n0006][pn0001_n0006][n0016][pn0001_n0016]  
+
+ASSESSMENT AND PLAN  
+Stage III non-small cell lung cancer with left upper lobe tumor/nodule: continue neoadjuvant chemotherapy (cisplatin/etoposide) and ongoing radiation therapy, with additional testing planned after completion and possible tumor resection afterward. [n0003][pn0001_n0003][n0005][pn0001_n0005][n0038][pn0001_n0038][n0039][pn0001_n0039][n0004][pn0001_n0004][n0061][pn0001_n0061][n0062][pn0001_n0062]  
+Mild radiation pneumonitis with shortness of breath: start prednisone 40 mg by mouth once daily for 5 days to reduce lung inflammation and help breathing. [n0059][pn0001_n0059][n0013][pn0001_n0013][n0011][pn0001_n0011][pn0011_n0066][pn0011_n0067]  
+Odynophagia/painful swallowing attributed to radiation-related inflammation: prescribe lidocaine “swish and swallow” four times daily to help with oral intake, and she may eat immediately afterward. [n0009][pn0001_n0009][n0068][pn0001_n0068][n0069][pn0001_n0069][n0070]  
+Hydration was emphasized during cancer therapy given decreased weekend intake due to pain with swallowing. [n0071][n0072][n0028][pn0001_n0028][n0009]  
+Radiation-related skin changes: left chest erythema was discussed as possibly a radiation burn that should improve with time, especially once radiation is completed. [n0054][pn0054_n0055][n0055][n0004]  
+Potential steroid side effects were reviewed, including that a short course should not cause much weight gain and may cause muscle aches when stopping after 5 days. [n0065][pn0064_n0065][n0011]

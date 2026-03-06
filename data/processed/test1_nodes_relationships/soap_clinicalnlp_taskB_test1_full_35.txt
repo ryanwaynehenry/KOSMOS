@@ -1,0 +1,43 @@
+HISTORY OF PRESENT ILLNESS
+
+Tyler is a 56-year-old male who presents with difficulty swallowing and a persistent sensation of something stuck in his throat for the last four to five weeks. [n0001][n0003][n0011][pn0001_n0003][pn0001_n0011]  
+Symptoms occur with solid foods (liquids are okay), and he sometimes needs to wash solid food down. [n0003][n0011]  
+He reports the sensation is sometimes mildly painful with swallowing. [n0003][n0012][pn0001_n0012]  
+He has thought about potentially choking but reports he has never fully choked. [n0003][n0013][pn0001_n0013]  
+He denies coughing, chest pain, and shortness of breath. [n0004][n0022][n0023][pn0001_n0004][pn0001_n0022][pn0001_n0023]  
+He denies nausea, vomiting, diarrhea, blood in stools, vomiting blood, and coughing up blood. [n0015][n0016][n0017][n0018][n0030][n0031][n0032][pn0001_n0015][pn0001_n0017][pn0001_n0018]  
+He denies weight loss and reports no changes in weight. [n0019][n0020][pn0001_n0019]  
+He has chronic diabetes mellitus and reports it is going great, with adherence to medications and self-monitoring blood glucose about 80% of the time with values within target range. [n0005][n0028][n0029][pn0001_n0005][pn0001_n0028][pn0001_n0029]  
+He is taking metformin 500 mg twice daily for diabetes and reports no nausea, vomiting, diarrhea, or other medication side effects. [n0007][n0030][n0031][n0032][n0033][pn0001_n0007][pn0001_n0033]  
+He has chronic hypertension that is stable and is currently taking Norvasc (amlodipine), but reports he is low and requests a refill. [n0006][n0009][pn0001_n0006][pn0001_n0009]  
+
+PHYSICAL EXAM
+
+Blood pressure in the office today is 120/50. [n0037][pn0001_n0037]  
+Neck exam shows no swelling, masses, or lymph nodes, and the thyroid feels normal. [n0038]  
+Throat exam shows no masses, swelling, or redness. [n0039]  
+No carotid bruit is present. [n0040][pn0001_n0040]  
+Lung exam is clear. [n0041][pn0001_n0041]  
+Heart exam is normal with no murmurs. [n0042][pn0001_n0042]  
+Abdominal exam shows epigastric tenderness without masses or significant swelling. [n0043][pn0001_n0043]  
+Back exam is normal. [n0044][pn0001_n0044]  
+Extremity exam is normal. [n0045][pn0001_n0045]  
+Neurological exam is fine. [n0046][pn0001_n0046]  
+
+RESULTS
+
+Prior hemoglobin A1c was 7.4. [n0026][pn0001_n0026]  
+Self-monitored morning blood glucose values are reported to be within target range. [n0029][pn0001_n0029]  
+
+ASSESSMENT AND PLAN
+
+Dysphagia with globus sensation for 4–5 weeks, worse with solids, with concern for possible esophageal stricture. [n0003][n0011][n0047][pn0001_n0003][pn0001_n0047]  
+Start PriLOSEC 20 mg once daily as reflux medicine, as gastro-esophageal reflux may exacerbate swallowing difficulty. [n0051][n0052][pn0001_n0051][pn0051_n0052]  
+Refer to gastroenterology for evaluation with planned upper GI endoscopy, with possible esophageal dilation if narrowing is found. [n0049][n0050][n0048][pn0001_n0049][pn0001_n0050][pn0001_n0048]  
+Advise chewing foods well, especially hard foods like steak or meat, to reduce the risk of food getting stuck. [n0053][pn0001_n0053]  
+Return precautions: go to the emergency department if food gets stuck, and call the doctor’s office if symptoms worsen or other symptoms develop. [n0054][n0055][pn0001_n0054][pn0001_n0055]  
+Diabetes mellitus: continue current regimen including metformin 500 mg twice daily, and repeat hemoglobin A1c today. [n0005][n0007][n0008][n0035][pn0001_n0005][pn0001_n0007][pn0001_n0008][pn0002_n0008]  
+Order additional blood work today including kidney function testing, and follow up in about a month to review results and adjust treatment if needed. [n0056][n0057][n0061][pn0001_n0056][pn0001_n0057][pn0001_n0061]  
+Arrange ophthalmology referral for a planned diabetic retinal eye exam to screen for diabetic retinopathy. [n0058][n0059][n0060][pn0001_n0058][pn0001_n0059]  
+Hypertension: continue Norvasc, send a refill to the pharmacy, and instruct the patient to call the office if any issues arise. [n0006][n0009][n0062][n0064][pn0001_n0006][pn0001_n0009][pn0001_n0062][pn0001_n0064]  
+Patient agrees with the plan for difficulty swallowing. [n0001]

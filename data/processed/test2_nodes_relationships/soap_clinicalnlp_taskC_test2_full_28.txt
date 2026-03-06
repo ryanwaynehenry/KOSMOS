@@ -1,0 +1,37 @@
+HISTORY OF PRESENT ILLNESS  
+Julia presents for a follow-up visit after an acute anterior STEMI requiring placement of another coronary stent, with a prior RCA stent placed in 2018. [n0010][n0013][n0012][n0011][pn0001_n0010][pn0001_n0013][pn0001_n0012][pn0001_n0011]  
+She previously went to the emergency department for persistent, horrible chest pain that would not go away and was told she needed another stent. [n0016][n0014][pn0001_n0016][pn0001_n0014]  
+Since being discharged from the hospital, she has noticed mild leg swelling. [n0020][n0019][pn0001_n0020][pn0001_n0019]  
+She reports using a couple of pillows at night and sometimes needing to sit up a little more, though she feels her sleeping position is pretty normal. [n0021][n0022][pn0019_n0021][pn0001_n0022]  
+She denies shortness of breath. [n0015][pn0001_n0015]  
+She has a history of coronary artery disease, hypertension, diabetes mellitus, and prior myocardial infarction. [n0003][n0004][n0005][n0006][pn0001_n0003][pn0001_n0004][pn0001_n0005][pn0001_n0006]  
+She reports she can afford her medications, has good insurance, and is taking medications as prescribed. [n0009][n0001][pn0001_n0009]  
+For activity, she walks her dog every day about 1.5–2 miles and is trying to stay active. [n0017][n0032][pn0001_n0017][pn0001_n0032]  
+For diet, she has tried to watch her salt intake after her last heart attack but has been less strict recently and plans to return to a low-salt diet. [n0007][n0006][pn0001_n0007][pn0001_n0006]  
+She reports pizza is her favorite food and that she occasionally has pepperoni and sometimes vegetables as toppings. [n0025][n0008][n0027][n0026][pn0001_n0025][pn0001_n0008][pn0001_n0027][pn0001_n0026]  
+She reports watching her sugars due to diabetes, is taking metformin, and does not want to go on insulin. [n0005][n0029][n0031][n0030][pn0001_n0005][pn0001_n0029][pn0001_n0031]  
+She agrees with the treatment plan and will work on diet changes while continuing to take medications as prescribed. [n0071][n0001][pn0001_n0071]  
+
+PHYSICAL EXAM  
+Vital signs look good. [n0035][pn0001_n0035]  
+Neck exam shows no jugular venous distention and no carotid bruits. [n0036][n0037][n0038][pn0001_n0036][pn0001_n0037][pn0001_n0038]  
+Cardiac exam reveals a 3/6 systolic ejection murmur at the left base. [n0039][n0040][pn0001_n0039][pn0001_n0040]  
+Lungs are clear. [n0041][pn0001_n0041]  
+There is 1+ pitting edema of the lower limbs. [n0042][pn0001_n0042]  
+Right radial artery cath site is clean, dry, and intact without hematoma, and right radial pulses are palpable. [n0043][n0057][pn0001_n0057]  
+
+RESULTS  
+EKG shows normal sinus rhythm with good R wave progression and evolutionary changes anticipated after a STEMI. [n0044][n0045][pn0044_n0045][pn0001_n0044]  
+Echocardiogram shows reduced ejection fraction of 35% with impaired left ventricular function and moderate mitral regurgitation. [n0046][n0047][n0055][n0056][pn0046_n0047][pn0046_n0055][pn0046_n0056]  
+Blood pressure is described as fine. [n0066][pn0001_n0066]  
+
+ASSESSMENT AND PLAN  
+Coronary artery disease is the primary diagnosis. [n0003][pn0002_n0003][pn0001_n0003]  
+Continue aspirin 81 mg daily, Brilinta 90 mg twice daily, and high-dose statin therapy with Lipitor 80 mg daily. [n0048][n0049][n0050][n0051][pn0002_n0048][pn0002_n0049][pn0002_n0051]  
+Continue Toprol 50 mg daily and lisinopril 20 mg daily. [n0052][n0059][pn0002_n0052][pn0002_n0059]  
+Newly reduced ejection fraction (35%) with impaired left ventricular function and moderate mitral regurgitation is assessed, with expectation that function will improve over time and may reflect stunned myocardium. [n0047][n0055][n0056][n0058][pn0002_n0047][pn0002_n0055][pn0002_n0056][pn0002_n0058]  
+Given fluid retention with lower extremity edema and concern for crossing into acute heart failure, start Lasix 40 mg once daily and add Aldactone 12.5 mg daily. [n0060][n0061][n0042][n0062][n0063][pn0060_n0061][pn0002_n0062][pn0002_n0063]  
+Refer to cardiac rehabilitation to support return to regular exercise. [n0053][n0054][pn0002_n0053][pn0002_n0054]  
+Order labs and plan to repeat an echocardiogram in about two months. [n0064][n0065][pn0001_n0064][pn0001_n0065]  
+Plan nutrition counseling and diet modification, including reducing salt and cutting out meat—especially preserved meats such as pepperoni. [n0067][n0068][n0070][n0007][n0008][pn0001_n0067][pn0002_n0068][pn0002_n0070]  
+Continue to monitor her condition over time. [n0073][pn0001_n0073]

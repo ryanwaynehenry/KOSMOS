@@ -1,0 +1,35 @@
+HISTORY OF PRESENT ILLNESS
+
+Angela presents today for a follow-up visit for evaluation of left knee pain. [n0001][n0007][pn0001_n0007][n0003][pn0001_n0003]  
+Her left knee pain began about a week ago, has been persistent and getting worse, and she rates it as about 4/10. [n0003][n0016][pn0001_n0016]  
+She reports she was running around with her niece while helping her learn to ride a bike (taking off training wheels) when she fell and twisted her knee. [n0009][pn0001_n0009][n0010][n0013][n0012][n0008][n0018][pn0001_n0008][pn0001_n0018]  
+She reports hearing a pop at the time of the twisting injury. [n0019][pn0001_n0019]  
+Pain is on both sides of the knee but worse on the inside (medial) than the outside (lateral). [n0017][pn0001_n0017]  
+She has been limping since the injury. [n0015][pn0001_n0015][pn0003_n0015]  
+She has been taking Tylenol, which helps a little but the pain returns within an hour or two. [n0005][pn0001_n0005][pn0005_n0032][n0003]  
+She reports a recent ulcer and was told she cannot take Advil/ibuprofen. [n0020][n0021][pn0020_n0021]  
+She wrapped the knee with kinesiology tape. [n0022][pn0001_n0022]  
+She asks when she can run again. [n0001][n0004][pn0001_n0004]  
+
+PHYSICAL EXAM
+
+Left knee exam is abnormal with pain to palpation on the inside of the knee and edema/effusion. [n0024]  
+Range of motion is moderate with pain on flexion and extension. [n0024]  
+Lachman test is negative, and valgus and varus stress tests are negative. [n0024]  
+Based on the physical exam, the clinician does not think anything is torn in the knee. [n0024][n0028][pn0001_n0028]  
+
+RESULTS
+
+Left knee x-ray is normal with no fractures or bony abnormalities. [n0025][n0026][n0027][pn0025_n0026][pn0025_n0027]  
+
+ASSESSMENT AND PLAN
+
+Assessment is medial collateral ligament (MCL) strain of the left knee with associated inflammation/swelling and left knee pain. [n0031][pn0001_n0031][pn0031_n0032][n0036][pn0031_n0036][n0032]  
+Start tramadol 50 mg twice daily for pain control (non-NSAID option), and continue Tylenol as needed for breakthrough pain. [n0006][n0034][pn0001_n0034][n0033][n0005]  
+Counseled to avoid taking too much Tylenol due to liver toxicity risk. [n0023][pn0005_n0023][n0005]  
+Use a knee immobilizer for the next week to keep the knee from moving and help reduce inflammation. [n0035][pn0001_n0035][pn0002_n0035][n0036]  
+Ice the knee for 20–30 minutes at a time, three to four times per day, to help swelling. [n0037][pn0001_n0037][pn0002_n0037]  
+Avoid running for the next three weeks. [n0004][pn0002_n0004]  
+Follow a knee healing plan with rest/offloading, icing, and mobilization over about a month. [n0040][pn0001_n0040][n0038]  
+If symptoms worsen, she should call the office for reassessment and possible additional imaging such as an MRI. [n0041][pn0001_n0041][n0042][pn0001_n0042][n0002]  
+Patient agrees with the plan for knee immobilizer, icing, and taking prescribed medications. [n0001]

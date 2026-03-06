@@ -1,0 +1,31 @@
+HISTORY OF PRESENT ILLNESS  
+Logan is a 57-year-old male who presents for follow-up with an upper respiratory infection/common cold symptoms. [n0002][n0012][n0013][n0009]  
+He reports he started to get a cold about a week ago that moved from his head into his chest, with upper chest congestion. [n0013][n0015][pn0002_n0013][pn0002_n0015]  
+He reports postnasal drip earlier in the week that has since resolved. [n0005][pn0002_n0005]  
+He denies fever and shortness of breath. [n0019][n0020][pn0002_n0019][pn0002_n0020]  
+He denies chest pain. [n0025][n0046][pn0002_n0025][pn0002_n0046]  
+He reports no one else is sick in his household. [n0018][pn0002_n0018]  
+He reports having received both COVID-19 vaccines. [n0008][n0017][pn0002_n0008][pn0002_n0017]  
+Past history includes coronary artery bypass grafting last year with good outcome, coronary artery disease, hyperlipidemia, and obsessive-compulsive disorder. [n0003][n0043][n0044][n0004][n0011][pn0002_n0003][pn0002_n0044][pn0002_n0004][pn0002_n0011]  
+For hyperlipidemia, he is taking Crestor 20 mg daily and denies muscle aches/myalgias. [n0006][n0023][n0024][pn0002_n0006][pn0002_n0023][pn0002_n0024]  
+He reports his diet has been good for the most part, though not as good during travel over the last week or so. [n0021][n0022][pn0002_n0021][pn0002_n0022]  
+He is exercising. [n0045][pn0002_n0045]  
+
+PHYSICAL EXAM  
+Vital signs are noted as normal with oxygenation 96%. [n0028][n0007][pn0002_n0028][pn0002_n0007]  
+Exam shows cervical lymphadenopathy. [n0030][pn0001_n0030][pn0002_n0030]  
+Lung exam shows abnormal breath sounds with bilateral rhonchi and wheezing consistent with pulmonary congestion. [n0031][n0026][pn0001_n0031][pn0002_n0031][pn0002_n0026]  
+
+RESULTS  
+COVID-19 testing is positive on the COVID-19 Initial Evaluation form. [n0035][pn0035_n0036][pn0002_n0035]  
+Oxygen saturation is 96% and described as very good. [n0007][pn0002_n0007]  
+A lipid panel was reviewed and interpreted as normal/“for the most part, really good.” [n0034][pn0002_n0034][n0033]  
+
+ASSESSMENT AND PLAN  
+Mild COVID-19 infection with good oxygenation. [n0036][n0007][pn0007_n0036][pn0002_n0036]  
+Plan: quarantine for 10 days and try to avoid other household family members, and take off work. [n0037][n0038][n0002][pn0002_n0037][pn0002_n0038]  
+Plan: call the clinician if symptoms worsen. [n0039][n0040][pn0002_n0040]  
+Upper respiratory infection with abnormal breath sounds and pulmonary congestion on exam. [n0032][n0031][n0026][pn0031_n0032]  
+Hyperlipidemia: continue diet modification and plan to repeat a lipid panel in six months. [n0004][n0041][n0042][pn0001_n0041][pn0001_n0042]  
+Coronary artery disease status post CABG last year is assessed as stable/under control, with no chest pain reported. [n0044][n0003][n0046][pn0001_n0044][pn0002_n0003][pn0002_n0046]  
+Plan: stress test in six months. [n0047][pn0002_n0047]

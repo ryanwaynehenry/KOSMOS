@@ -1,0 +1,45 @@
+## HISTORY OF PRESENT ILLNESS
+Diana Scott (DOB 12/8/1920) is a new patient seen on 7/9/2021 for evaluation of a newly noted “worrisome” heart murmur. [0][4][8]  
+She is unsure how long the murmur has been present and reports she does not know what symptoms to look for. [6][7][10]  
+She denies chest pain. [13][14]  
+She reports exertional shortness of breath when walking too fast/too long or if she tries to drink a whole glass of water without stopping, but states it is not very bothersome unless she “overdo[es] it.” [18][22][24]  
+She uses a walker and estimates she can walk to the end of the driveway or around the cul-de-sac before becoming short of breath or overly fatigued. [20]  
+She feels her symptoms are about 70–80% worse compared with about six months ago, and prior to that she did not notice anything. [25][26]  
+She reports severe bilateral leg pain for about one month, for which she recently started taking pain pills, and she feels this leg pain is a major limiter. [14][16][27][28]  
+She reports intermittent dizziness/lightheadedness for which she takes a pill only when symptoms are bad, and she denies syncope. [30][32][33][34]  
+She denies awareness of palpitations or irregular heartbeats. [35][36]  
+She reports ankle swelling for about six months that fluctuates in severity. [38][40]  
+She reports gradual weight loss over about one year from her usual ~130 lb to 120 lb. [42][44]  
+She denies fevers or chills. [45][46]  
+She reports fatigue/feeling overly tired, which she attributes to taking many medications. [48]  
+She confirms she is taking all medications reviewed with Madison. [53][54]  
+Family history includes a son with a heart attack, a brother with stroke (in the setting of “sugar diabetes”), and an eldest sister with a heart problem. [55][56][58]  
+She reports never smoking and no known medication allergies. [61][62]  
+
+## PHYSICAL EXAM
+Constitutional: Elderly, no acute distress. [92]  
+Cardiovascular: Normal S1/S2 preserved, normal rate and regular rhythm; 4/6 systolic murmur at the right upper sternal border with mild radiation to the carotids. [92]  
+Neurologic: Gait normal for age. [92]  
+
+## RESULTS
+Blood pressure was “really good” today. [81]  
+EKG today showed sinus rhythm with frequent PVCs and an anterior septum infarct pattern. [94]  
+Outside records note diastolic dysfunction, and the clinician noted she does not appear significantly volume overloaded today. [93]  
+
+## ASSESSMENT AND PLAN
+1) **Cardiac murmur, concern for aortic stenosis (moderate vs severe)**: Exam notable for 4/6 systolic murmur at RUSB with mild radiation to carotids; clinician suspects aortic stenosis, with preserved S2 suggesting more moderate disease though symptoms could be from severe AS. [92][93][75]  
+- **Diagnostics**: Order/schedule echocardiogram to be completed today to assess cardiac structure/function and valve disease. [69][71][73]  
+- **Future options**: If severe AS, discussed possible TAVR (minimally invasive valve replacement); SAVR felt not to be a good option given age/medical history; no decisions made today. [77][79]  
+
+2) **PVCs / referral for tachycardia**: EKG shows sinus rhythm with frequent PVCs; patient denies significant palpitations. [94][35][36]  
+- **Plan**: Start with echocardiogram; depending on echo results and AS severity, consider ischemic evaluation and/or ambulatory monitor to assess PVC burden. [94]  
+
+3) **Hypertension**: BP controlled today; continue amlodipine and lisinopril without changes. [81]  
+
+4) **Lipids / statin therapy**: She is taking simvastatin ~20 mg; clinician will defer lipid management to PCP, and given bilateral leg pain and no history of coronary artery disease, it may be reasonable to discuss stopping the statin with PCP after echo results are shared. [83][85]  
+
+5) **Thyroid disease**: Continue levothyroxine with no change. [87]  
+
+6) **Lightheadedness/dizziness**: She uses meclizine; symptoms could relate to aortic stenosis and/or PVCs, so evaluation will begin with echocardiogram, with possible monitor later if needed. [96]  
+
+**Follow-up**: Return in 3–4 weeks after the echocardiogram to review results and next steps. [89][96]

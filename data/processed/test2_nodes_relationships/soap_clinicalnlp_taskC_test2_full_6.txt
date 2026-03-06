@@ -1,0 +1,30 @@
+HISTORY OF PRESENT ILLNESS  
+Michelle is a 31-year-old female with a history of type 2 diabetes mellitus and hypertension who presents for evaluation of newly diagnosed Lyme disease in the setting of a prior insect bite after hiking in the woods a couple of weeks ago. [n0001][n0003][pn0001_n0003][n0004][pn0001_n0004][n0013][pn0001_n0013][n0005][pn0001_n0005][n0019][pn0001_n0019]  
+She reports fatigue, myalgias, joint pain with bilateral elbow swelling and tenderness, nausea with reduced appetite, and inadequate oral intake (only able to tolerate toast and crackers). [n0018][pn0001_n0018][n0007][pn0001_n0007][n0030][pn0001_n0030][n0008][pn0001_n0008][n0006][pn0001_n0006][n0020][pn0001_n0020][n0021][pn0001_n0021]  
+She reports a bull’s-eye rash on the left side of her abdomen. [n0009][pn0001_n0009]  
+She denies high fevers and has no abdominal pain or diarrhea. [n0022][pn0001_n0022][n0031][pn0001_n0031][n0032][pn0001_n0032]  
+Regarding chronic conditions, she is taking metformin for diabetes and reports blood sugars are generally okay though sometimes a little high or low. [n0011][pn0001_n0011][n0003][n0023][pn0001_n0023]  
+For hypertension, she is taking lisinopril 10 mg daily, monitors blood pressure at home with good readings, and is avoiding salty foods. [n0012][pn0001_n0012][n0026][pn0001_n0026][n0025][pn0001_n0025][n0027][pn0001_n0027]  
+
+PHYSICAL EXAM  
+A physical examination was performed. [n0010][pn0001_n0010]  
+Vital signs were reported as looking great with no fever at this time. [n0033][pn0001_n0033][n0034][pn0001_n0034]  
+Skin exam noted erythema migrans on the left abdomen that was warm to palpation, non-tender, and without evidence of cellulitis. [n0009]  
+Musculoskeletal exam noted bilateral elbow joint swelling with pain/tenderness to palpation. [n0008][pn0001_n0008]  
+
+RESULTS  
+Lyme titer was positive/elevated. [n0017][pn0001_n0017][n0036][pn0001_n0036]  
+Other labs were reviewed and described as looking good, including a white blood cell count that was not elevated. [n0038][pn0001_n0038][n0039][pn0001_n0039]  
+Blood pressure measured today was normal. [n0048][pn0001_n0048]  
+
+ASSESSMENT AND PLAN  
+Lyme disease: newly diagnosed, and the clinician felt it was caught early enough to treat. [n0013][pn0001_n0013][n0040]  
+Start doxycycline 100 mg by mouth twice daily for three weeks. [n0043][n0042][pn0001_n0042][pn0001_n0043][pn0002_n0043]  
+Plan further testing to evaluate the elevated Lyme titer. [n0037][pn0001_n0037][n0036]  
+Coordinate care by touching base with an infectious disease specialist. [n0044][pn0001_n0044]  
+Schedule follow-up next week for Lyme disease and arrange a follow-up appointment. [n0045][pn0001_n0045][n0052][pn0001_n0052]  
+
+Type 2 diabetes mellitus: chronic and stable on metformin, with hemoglobin A1c ordered to assess control and determine whether metformin changes are needed. [n0003][n0011][pn0001_n0011][n0046][pn0001_n0046][pn0002_n0046]  
+Hypertension: chronic and stable; continue lisinopril 10 mg daily and continue regular blood pressure recording. [n0004][n0012][pn0002_n0012][n0048][pn0001_n0048]  
+Order a lipid panel. [n0047][pn0001_n0047][pn0002_n0047]  
+Nursing checkout is planned. [n0051][pn0001_n0051]

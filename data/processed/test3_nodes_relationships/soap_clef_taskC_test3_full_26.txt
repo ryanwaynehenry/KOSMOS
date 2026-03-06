@@ -1,0 +1,28 @@
+HISTORY OF PRESENT ILLNESS  
+Betty presents with persistent left shoulder pain for a few weeks. [n0001][n0003][pn0001_n0003]  
+Pain is rated 7/10 without Tylenol and improves to 2–3/10 with Tylenol. [n0003][n0004][pn0001_n0004]  
+She has been taking two extra-strength Tylenol every 6–8 hours for the shoulder pain. [n0004][pn0001_n0004]  
+The pain is isolated to the left shoulder. [n0013][pn0002_n0013]  
+Pain is triggered by reaching and lifting, and she avoids raising her arm over her head due to pain. [n0003][n0015][n0016][n0017][pn0001_n0015][pn0001_n0016][pn0001_n0017]  
+She cannot sleep on her left side and reports that pressure from side sleeping worsens the pain. [n0003][n0018][pn0001_n0018]  
+She denies any trauma that she can think of related to the shoulder. [n0009][pn0001_n0009]  
+She denies numbness or tingling in the arm or hand. [n0022][n0023][pn0001_n0022][pn0001_n0023]  
+She reports being physically active and is currently renovating her basement. [n0001][n0007][n0008][pn0001_n0007][pn0001_n0008]  
+
+PHYSICAL EXAM  
+Vitals were reviewed and noted to look good. [n0025][pn0001_n0025]  
+Left shoulder exam shows limited active and passive range of motion with tenderness at the greater tuberosity of the humerus and no tenderness at the sternoclavicular or clavicular joints. [n0024][n0026][pn0001_n0024][pn0001_n0026]  
+Grip strength is good bilaterally. [n0024][n0027][pn0001_n0027]  
+Neurovascular exam shows brisk capillary refill (<3 seconds) with motor function and sensation to light touch intact. [n0028][n0029][n0030][n0031][pn0001_n0028][pn0001_n0029][pn0001_n0030][pn0001_n0031]  
+
+RESULTS  
+Left shoulder x-ray shows no fracture or bony abnormality. [n0032][n0033][n0034][pn0001_n0032][pn0032_n0033][pn0032_n0034]  
+
+ASSESSMENT AND PLAN  
+Left shoulder pain is assessed as most likely due to rotator cuff tendinopathy. [n0003][n0035][pn0001_n0035][pn0003_n0035]  
+Plan is conservative management with referral to physical therapy for six to eight weeks. [n0005][n0039][pn0001_n0005][pn0001_n0039][pn0002_n0005]  
+Order MRI of the shoulder to ensure nothing else is going on. [n0036][pn0001_n0036][pn0002_n0036]  
+Continue Tylenol as needed during physical therapy. [n0037][pn0001_n0037][pn0002_n0037]  
+If symptoms do not improve, a left shoulder steroid injection may be considered. [n0038][pn0001_n0038][pn0002_n0038]  
+Paperwork will be provided by the nurse. [n0040][pn0001_n0040]  
+Follow-up visit is planned. [n0006]

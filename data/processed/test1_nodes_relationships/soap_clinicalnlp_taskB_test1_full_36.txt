@@ -1,0 +1,27 @@
+HISTORY OF PRESENT ILLNESS  
+Jerry is a 45-year-old male who presents today for evaluation of an acute ankle injury sustained while playing basketball. [n0001][n0003][n0007][pn0001_n0003][pn0001_n0007]  
+He reports rolling/twisting his ankle after landing awkwardly while playing at the basketball courts. [n0010][n0012][pn0001_n0010][pn0001_n0012]  
+He has pretty bad pain on the outside of the ankle with associated swelling. [n0017][n0006][pn0001_n0017][pn0001_n0006]  
+He reports the ankle does not feel solid/stable when walking and he is having trouble walking/can’t walk on the ankle. [n0004][n0005][pn0001_n0004][pn0001_n0005]  
+He recently got back into working out/going to the gym. [n0008][n0013][pn0001_n0008][pn0001_n0013]  
+He volunteered to coach starting in April. [n0026][pn0001_n0026]  
+He works from home and notes this should make it feasible to keep the ankle elevated. [n0031][n0030][pn0001_n0031][pn0001_n0030]  
+He has dogs at home and is unsure who will walk them. [n0032][pn0001_n0032]  
+
+PHYSICAL EXAM  
+On right ankle exam, there is exquisite lateral tenderness with some tenderness over the medial deltoid region and swelling on the lateral side. [n0018][pn0001_n0018]  
+Skin is intact with no epidermolysis, capillary refill is brisk, and there is no horrible malalignment. [n0018][pn0001_n0018]  
+
+RESULTS  
+Right ankle x-rays (AP, lateral, and oblique views) obtained today are consistent with a displaced lateral malleolus fracture at the Weber C level. [n0019][n0020][pn0019_n0020]  
+There is no evidence of medial malleolar fracture or posterior malleolar fracture on imaging. [n0021][n0022][pn0019_n0021][pn0019_n0022]  
+
+ASSESSMENT AND PLAN  
+Displaced right lateral malleolus fracture (Weber C) with reported ankle instability and difficulty walking. [n0020][n0004][n0005][pn0004_n0020][pn0004_n0005]  
+Provide crutches given the fracture is described as unstable. [n0009][n0020][pn0001_n0009]  
+Plan for likely ORIF of the right lateral malleolus with internal fixation (plate and screws). [n0024][pn0001_n0024]  
+Recommend activity restriction/sit out from activities while healing. [n0025][pn0001_n0025][pn0002_n0025]  
+Estimated recovery/return to exercise is about three months with the goal of getting him healed up and back to usual activities. [n0027][n0035][pn0001_n0027][pn0001_n0035]  
+
+Ankle swelling and pain: start meloxicam to help reduce swelling and continue supportive care. [n0006][n0017][n0028][pn0001_n0028]  
+Advise icing the ankle and keeping it elevated to reduce swelling. [n0029][n0030][pn0001_n0029][pn0001_n0030]

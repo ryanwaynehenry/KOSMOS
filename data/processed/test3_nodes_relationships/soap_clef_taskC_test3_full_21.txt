@@ -1,0 +1,30 @@
+HISTORY OF PRESENT ILLNESS  
+Betty presents for follow-up after an inferior myocardial infarction a couple of weeks ago, status post right coronary artery stent placement. [n0001][n0003][n0004][pn0001_n0003][pn0001_n0004]  
+She was sent to the emergency department and hospitalized for about 48 hours, and she has been home for a couple of weeks since discharge. [n0012][n0005][n0013][pn0001_n0012][pn0001_n0005][pn0001_n0013]  
+She reports she has been taking recovery easy and doing very light work. [n0009][n0014][pn0001_n0009][pn0001_n0014]  
+She denies chest pain since the stent placement and notes only soreness right after surgery that is much better now. [n0015][n0016][pn0001_n0015][pn0001_n0016]  
+She reports shortness of breath when going up and down stairs and is not doing a lot of exercise. [n0017][pn0001_n0017]  
+She is currently taking Brilinta twice daily and baby aspirin once daily at night. [n0006][n0007][n0008][pn0001_n0006][pn0001_n0007][pn0001_n0008]  
+She is also taking Crestor 40 mg once daily and metoprolol 50 mg once daily. [n0035][n0040][pn0001_n0035][pn0001_n0040]  
+She reports trying to eat well throughout the week, including a lot of vegetables and chicken without added salt, but has pizza a few times on weekends. [n0019][n0020][n0021][n0024][n0025][pn0001_n0019][pn0001_n0020][pn0001_n0021][pn0001_n0024][pn0001_n0025]  
+She asked about resuming swimming. [n0037][pn0001_n0037]  
+
+PHYSICAL EXAM  
+Blood pressure in the office was 127/60. [n0029][pn0001_n0029]  
+Neck exam showed no jugular venous distention and no carotid bruits. [n0030][pn0001_n0030]  
+Cardiac exam revealed a slight 3/6 systolic ejection murmur heard at the left base. [n0031][n0033][pn0001_n0031][pn0001_n0033]  
+Lungs were clear to auscultation bilaterally. [n0032][pn0001_n0032]  
+Right radial (wrist) cardiac catheterization access site was clean, dry, and intact with palpable radial pulse and no hematoma, and the site appeared to be healing. [n0010][pn0001_n0010][pn0002_n0010]  
+
+RESULTS  
+Hospital assessment of heart pumping function was described as pretty normal/low normal. [n0022][pn0001_n0022][pn0002_n0022]  
+Ejection fraction from the hospital was about 50% (low normal). [n0023][pn0001_n0023]  
+Prior echocardiogram showed mild mitral regurgitation. [n0034][pn0001_n0034]  
+
+ASSESSMENT AND PLAN  
+Inferior myocardial infarction status post right coronary artery stent placement: continue dual antiplatelet therapy with Brilinta twice daily (planned for at least one year) and aspirin once daily (planned lifelong until told to stop) to help prevent stent restenosis/closure. [n0003][n0004][n0006][n0007][n0008][n0018][pn0001_n0003][pn0001_n0004][pn0001_n0006][pn0001_n0007][pn0001_n0008][pn0003_n0018]  
+Continue Crestor 40 mg daily and metoprolol 50 mg daily. [n0035][n0040][pn0001_n0035][pn0002_n0035][pn0001_n0040][pn0002_n0040]  
+Enroll in cardiac rehabilitation to support return to exercise and provide dietary education/counseling, and the patient agrees to participate. [n0001][n0038][n0039][pn0001_n0038][pn0002_n0038][pn0002_n0039]  
+She may resume swimming now, starting with only a few laps here and there. [n0037][pn0002_n0037]  
+Heart murmur and mild mitral regurgitation: plan to obtain a follow-up echocardiogram in about six months. [n0033][n0034][n0036][pn0001_n0033][pn0001_n0034][pn0001_n0036][pn0002_n0036]  
+Order follow-up lipid panel and liver function studies at the next visit. [n0041][n0042][pn0002_n0041][pn0002_n0042]

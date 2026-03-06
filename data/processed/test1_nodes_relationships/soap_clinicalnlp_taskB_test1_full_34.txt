@@ -1,0 +1,32 @@
+HISTORY OF PRESENT ILLNESS  
+Kyle presents for evaluation of an incidentally found persistent right upper lobe lung nodule after prior chest imaging. [n0001][n0006][pn0001_n0006]  
+He reports an off-and-on cough for about three months that has resolved. [n0013][pn0001_n0013]  
+He notes the cough began after loading hay (with horses) and he later developed a common cold, which prompted evaluation by his primary care provider. [n0018][n0019][n0020][n0011][pn0001_n0018][pn0001_n0019][pn0001_n0020][pn0001_n0011]  
+His PCP diagnosed bronchitis, obtained a chest x-ray to ensure he did not have pneumonia, and subsequently a CT scan confirmed the lung nodule, leading to referral to this clinician. [n0014][n0015][n0005][n0016][n0017][pn0001_n0014][pn0001_n0015][pn0001_n0016][pn0001_n0017]  
+He denies shortness of breath, pain, fever today, and any prior lung infections or pneumonia. [n0033][n0032][n0044][n0037][n0005][pn0001_n0033][pn0001_n0032][pn0001_n0044][pn0001_n0037][pn0001_n0005]  
+He reports being nervous/scared about the situation. [n0010][pn0001_n0010]  
+Past history is notable for chronic rheumatoid arthritis, which he describes as “fair,” with no recent flares and symptoms mostly involving the hands. [n0007][n0029][n0028][pn0001_n0007][pn0001_n0029][pn0001_n0028]  
+He is currently taking methotrexate 7.5 mg weekly for rheumatoid arthritis. [n0004][n0007][pn0001_n0004][pn0004_n0007]  
+He is a former tobacco smoker who quit about seven years ago and reports feeling better since quitting. [n0008][n0031][pn0001_n0008][pn0001_n0031]  
+He reports no family history of lung cancer and notes his mother had breast cancer and is doing well now. [n0034][n0035][pn0001_n0034][pn0001_n0035]  
+He exercises and does a lot of biking. [n0003][n0021][n0022][pn0001_n0003][pn0001_n0021][pn0001_n0022]  
+
+PHYSICAL EXAM  
+Vital signs today are reported as good, including BP 124/76, HR 70, RR 16, and SpO₂ 98% on room air. [n0043][n0039][n0040][n0041][n0042][pn0001_n0043]  
+Lungs are clear and equal bilaterally on auscultation. [n0045][n0038][pn0001_n0038]  
+Cardiovascular exam shows regular rate and rhythm without clicks, rubs, murmurs, or extra beats. [n0046][pn0001_n0046]  
+Extremities show no lower extremity edema, with intact pulses and brisk capillary refill. [n0049][n0051][n0052][n0048][pn0001_n0049][pn0001_n0051][pn0001_n0052][pn0001_n0048]  
+Skin is pink, warm, and dry. [n0047][pn0001_n0047]  
+There is mild swelling at the knuckles of the third digit on each hand, noted as possibly consistent with rheumatoid arthritis. [n0050][n0007][pn0001_n0050][pn0007_n0050]  
+
+RESULTS  
+Chest CT (performed prior to today’s visit) shows a solitary 2 cm smooth nodule in the lateral aspect of the right upper lobe with no evidence of emphysematous disease. [n0053][n0006][n0054][pn0001_n0053][pn0001_n0054]  
+
+ASSESSMENT AND PLAN  
+Persistent right upper lobe lung nodule (2 cm) confirmed on CT; plan is to obtain pulmonary function tests for baseline lung function and schedule a PET-CT to assess whether the nodule is metabolically active. [n0006][n0053][n0055][n0056][pn0001_n0006][pn0001_n0053][pn0001_n0055][pn0001_n0056]  
+If the PET-CT is metabolically active (“lights up”), this could suggest cancer or inflammation. [n0056][n0057][n0058][pn0056_n0057][pn0056_n0058]  
+Video-assisted thoracoscopic surgery to remove the lung nodule (with a small portion of lung) is discussed as a planned option, with expected overnight hospital admission and a chest tube until the following day with planned bedside removal. [n0059][n0060][n0061][pn0001_n0059][pn0001_n0060][pn0001_n0061]  
+Paperwork will be obtained and signed to start the treatment process. [n0009][pn0001_n0009]  
+Chronic rheumatoid arthritis: continue current medication therapy (methotrexate 7.5 mg weekly) and continue follow-up with rheumatology. [n0007][n0004][n0064][n0062][n0063][pn0001_n0007][pn0001_n0004][pn0001_n0064][pn0001_n0062][pn0001_n0063]  
+Anxiety related to the current situation is acknowledged, and the clinician provides reassurance/support. [n0010][n0002][n0025][pn0001_n0010][pn0001_n0002][pn0002_n0025]  
+Kyle expresses that he thinks he will be okay with the proposed treatment plan but is scared. [n0001]

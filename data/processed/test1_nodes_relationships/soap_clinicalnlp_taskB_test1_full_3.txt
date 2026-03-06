@@ -1,0 +1,30 @@
+HISTORY OF PRESENT ILLNESS  
+Jerry is a 54-year-old male presenting today for an annual exam with the clinician/doctor. [n0001][n0011][pn0001_n0002][pn0001_n0011]  
+Past medical history includes osteoporosis and multiple sclerosis. [n0004][n0005][pn0001_n0004][pn0001_n0005]  
+He reports insomnia that is “really getting to” him. [n0006][pn0001_n0006]  
+He has tried melatonin, meditation, and stretching every morning for insomnia without significant benefit. [n0006][n0013][n0014][n0015][pn0001_n0013][pn0001_n0014][pn0001_n0015]  
+He reports traveling all over the country over a stressful summer. [n0012][pn0001_n0012]  
+He denies chest pain and shortness of breath. [n0025][n0026][pn0001_n0025][pn0001_n0026]  
+He denies joint disorder and denies any recently broken bones. [n0017][n0018][pn0001_n0017][pn0001_n0018]  
+He reports a history of knee surgery with a lingering but improving right leg problem, including weakness. [n0022][n0021][n0020][pn0001_n0022][pn0001_n0021][pn0020_n0021]  
+He is currently taking Fosamax for osteoporosis and needs a refill. [n0016][n0035][pn0001_n0016][pn0001_n0035]  
+He is currently taking his multiple sclerosis medication and reports no issues with it. [n0019][pn0001_n0019]  
+He is followed by a neurologist for multiple sclerosis. [n0003][pn0001_n0003]  
+
+PHYSICAL EXAM  
+Vital signs obtained in the office look really good. [n0028][pn0001_n0028]  
+On physical examination, lungs are clear and heart sounds good. [n0027][n0029][n0030][pn0001_n0027][pn0001_n0029][pn0001_n0030]  
+Lower extremity strength is decreased, documented as right lower extremity 4/5 and left lower extremity 3/5. [n0031][pn0001_n0031]  
+Primitive reflexes are reported as really good. [n0032][pn0001_n0032]  
+The right knee shows arthritic changes on exam. [n0007][pn0001_n0007]  
+
+RESULTS  
+Right knee x-ray shows some changes from arthritis but otherwise looks good. [n0034][n0007][pn0001_n0034][pn0002_n0007]  
+Results were reviewed during the visit. [n0033][pn0002_n0033]  
+
+ASSESSMENT AND PLAN  
+Osteoporosis: continue Fosamax, and a refill was ordered for 1 tab per week with 11 refills. [n0004][n0035][n0036][n0037][pn0001_n0004][pn0001_n0037][pn0002_n0036]  
+Multiple sclerosis: continue current multiple sclerosis medication and continue follow-up with neurology. [n0005][n0019][n0003][pn0001_n0005][pn0001_n0019][pn0001_n0003][pn0002_n0005]  
+Right knee arthritis: imaging is consistent with arthritis changes and otherwise reassuring. [n0007][n0034][pn0001_n0007][pn0001_n0034]  
+Lower extremity weakness: weakness is present on exam with encouraging reflexes. [n0031][n0032][pn0001_n0031][pn0001_n0032]  
+Insomnia: persistent despite melatonin, meditation, and stretching. [n0006][n0013][n0014][n0015][pn0001_n0006]

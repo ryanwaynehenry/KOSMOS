@@ -1,0 +1,33 @@
+## HISTORY OF PRESENT ILLNESS
+Noah presents with low back pain for about 1 week that has not improved with over-the-counter medications. [0][1][3]  
+He does not recall a specific injury but thinks it may have started after twisting to the left and possibly lifting something, with pain that initially improved then returned a few hours later and has persisted since. [4][5][7][9]  
+Pain is located mainly in the midline lower back and is worsened by sudden twisting/movement to the left. [10][11][12][13]  
+He has a history of diabetes and reports taking his medications, including metformin twice daily. [14][15][20][21]  
+He checks morning blood sugars most mornings, and reports they have been running on the higher side. [24][25][28][29]  
+He reports trying to exercise when he can and is trying to limit sweets despite family access to baked goods. [17][34][37][39][41]  
+
+## PHYSICAL EXAM
+HEENT: Ear exam “looks good.” [42][44]  
+Pulmonary: Lungs clear. [44]  
+Cardiovascular: Regular rate and rhythm. [44]  
+Back: No pain with palpation of upper back; significant tenderness with palpation in the midline low back and also tenderness on the left side into the buttock region, with less tenderness on the right. [44][46][47][50][51][52][53]  
+Straight leg raise: Right leg raise causes a little pain; left leg raise causes more tenderness/pain. [56][57][58][59][61]  
+Neuro/Extremities: Denies pain, numbness, or tingling in the feet. [62][63]  
+
+## RESULTS
+No imaging or lab results were available at this visit; lumbar spine X-ray and hemoglobin A1c were ordered. [64]  
+
+## ASSESSMENT AND PLAN
+1) **Low back pain—suspected musculoskeletal low back strain**. [64]  
+- Order outpatient low back X-ray to evaluate joint spaces and assess for possible disc issue. [64]  
+- Start physical therapy for pain control and back muscle strengthening. [64]  
+- Medications: ibuprofen 400 mg as needed (may combine with Tylenol when pain is more severe) up to ~3 times/day, and Flexeril (cyclobenzaprine) 1 tablet nightly; advised caution with hazardous activities (e.g., driving) after taking Flexeril. [64]  
+- If pain persists after initial diagnostics, consider CT scan and possible referral to a pain specialist. [70]  
+
+2) **Diabetes mellitus (on metformin)**. [14][20][21][64]  
+- Continue metformin, diet, and exercise; no medication changes today. [64]  
+- Order hemoglobin A1c (not checked for ~5 months) and adjust management after results return. [64]  
+- Dietary counseling: may go to the bakery but should limit sweets/carbohydrates (occasional treat acceptable, not routine). [65][66]  
+- Home monitoring: instructed to check and record morning readings (doctor stated “blood pressure,” but context suggests home monitoring to guide diabetes management along with A1c). [68]  
+
+Follow-up/Disposition: Nursing staff to assist with discharge and outpatient orders. [72]

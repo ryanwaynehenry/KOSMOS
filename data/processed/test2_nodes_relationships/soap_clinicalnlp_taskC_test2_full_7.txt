@@ -1,0 +1,37 @@
+HISTORY OF PRESENT ILLNESS  
+Hannah is a 52-year-old female presenting for follow-up evaluation after an emergency room visit for high blood sugar. [n0001][n0005][n0014][pn0001_n0005][pn0001_n0014]  
+She reports that over the holidays she ate a ton of sweets, including treats at work from holiday gift baskets and clients, and she is currently staying with family where her mother and grandmother are big bakers, making it hard to cut out sweets and get back into a normal routine. [n0001][n0010][n0011][n0015][n0016][n0021][n0022][n0023][n0024][pn0001_n0010]  
+This past week she experienced lightheadedness with dizziness and seeing spots, which occurred in the setting of hyperglycemia. [n0017][n0018][n0019][n0006][pn0006_n0017][pn0006_n0018][pn0006_n0019]  
+In the emergency room she was told she had high blood sugar, received intravenous fluids, and was advised to cut out extra sweets and return to her normal routine and diet. [n0004][n0006][n0020][n0021][n0022][pn0004_n0006]  
+She denies fever, chills, chest pain, shortness of breath, abdominal pain, and burning with urination. [n0027][n0028][n0029][n0030][n0031][n0032][pn0001_n0027][pn0001_n0028][pn0001_n0029][pn0001_n0030]  
+She reports a history of atrial fibrillation and notes palpitations only when she is really anxious. [n0008][n0035][n0036][pn0001_n0008][pn0001_n0035][pn0001_n0036]  
+She reports gastroesophageal reflux disease is doing well on Protonix 40 mg once daily. [n0009][n0012][pn0001_n0009][pn0001_n0012]  
+She reports chronic osteoarthritis with symptoms that are nothing out of the norm. [n0007][pn0001_n0007]  
+
+PHYSICAL EXAM  
+On exam she appears in no distress. [n0037][n0038][pn0001_n0037]  
+Thyroid is a little enlarged and non-tender. [n0039][pn0001_n0039]  
+No carotid bruits are present. [n0040][pn0001_n0040]  
+Cardiac exam shows an irregular rate and rhythm, and she is noted to be in atrial fibrillation with a good rate. [n0041][n0008][n0057][pn0002_n0008][pn0001_n0057]  
+Lungs are clear. [n0042][pn0001_n0042]  
+Abdomen is soft. [n0043][pn0001_n0043]  
+There is no lower extremity edema. [n0044][pn0001_n0044]  
+
+RESULTS  
+Blood glucose is elevated, and the clinician notes blood sugars have likely been running high for a few months. [n0046][pn0001_n0046]  
+Hemoglobin A1c is elevated. [n0047][pn0001_n0047]  
+Autoimmune labs are pending as part of evaluation for an autoimmune disorder and possible type 1 diabetes. [n0051][n0052][n0053][pn0051_n0052][pn0051_n0053]  
+A complete metabolic panel has been ordered. [n0050][pn0002_n0050]  
+
+ASSESSMENT AND PLAN  
+Diabetes mellitus with recent hyperglycemia and elevated glucose and A1c; diabetes type (type 1 vs type 2) is being evaluated with diabetes labs and autoimmune testing. [n0049][n0006][n0046][n0047][n0048][n0051][pn0046_n0049][pn0047_n0049][pn0048_n0049]  
+Start metformin 500 mg twice daily while the diabetes type workup is pending. [n0013][pn0002_n0013]  
+Advise avoidance of foods high in sugar. [n0055]  
+Plan home glucose monitoring with a glucometer, with nursing instruction. [n0003][n0056][pn0001_n0003][pn0001_n0056]  
+Insulin is on hold and will be started if autoimmune labs indicate an autoimmune disorder consistent with type 1 diabetes. [n0054][n0051][n0052][n0053][pn0051_n0053][pn0052_n0053]  
+
+Atrial fibrillation, currently present with good rate. [n0008][n0057][pn0002_n0008]  
+Continue metoprolol 25 mg twice daily and provide a refill. [n0058][n0059][n0060][pn0001_n0060]  
+
+Gastroesophageal reflux disease, improving on current therapy. [n0009][n0012]  
+Continue Protonix 40 mg once daily. [n0012][pn0002_n0012]

@@ -1,0 +1,40 @@
+HISTORY OF PRESENT ILLNESS
+
+Joyce is a 50-year-old female presenting for a follow-up visit for an abnormal lab finding of low hemoglobin. [n0001][n0013][n0014][n0042][pn0001_n0013][pn0001_n0014][pn0001_n0042]  
+She reports fatigue and low energy over the past couple of months with a slow decline over the past month, limiting her ability to keep up with exercise. [n0017][n0018][pn0001_n0017][pn0001_n0018]  
+She endorses feeling kind of dizzy. [n0022][pn0001_n0022]  
+She denies blood in stool, black/dark stools, and significant menstrual spotting. [n0019][n0020][n0021][pn0001_n0019][pn0001_n0020][pn0001_n0021]  
+She denies chest pain, shortness of breath, fever, chills, and generalized body aches. [n0023][n0024][n0025][n0026][n0027][pn0001_n0023][pn0001_n0024][pn0001_n0025][pn0001_n0026][pn0001_n0027]  
+She notes mild weight loss that she attributes to doing well with exercise. [n0028][n0029][pn0001_n0028][pn0001_n0029]  
+Past history includes COPD and congestive heart failure. [n0003][n0004][pn0001_n0003][pn0001_n0004]  
+She reports her COPD has been okay, with intermittent seasonal breathing difficulty that she attributes to allergies, and she quit smoking cold turkey several years ago and has not resumed. [n0003][n0033][n0034][n0030][pn0001_n0033][pn0001_n0034][pn0001_n0030]  
+For heart failure, she reports watching her diet and salt intake and avoiding salty foods (including french fries). [n0004][n0012][n0035][pn0001_n0012]  
+She reports a good support system including her boyfriend and a brother who lives right down the road. [n0037][n0038][n0039][pn0001_n0037]  
+She agrees to proceed with the anemia workup and scheduling endoscopy/colonoscopy and to stay in close contact over the next week. [n0001][n0046][n0047][n0049][n0058][pn0001_n0046][pn0001_n0047][pn0001_n0049][pn0001_n0058]  
+
+PHYSICAL EXAM
+
+Physical exam in the office shows no cervical lymphadenopathy. [n0005][n0043][pn0001_n0005]  
+Cardiac exam reveals a slight 2/6 systolic ejection murmur that has been heard in the past. [n0005][n0008][pn0001_n0008]  
+Lungs are clear on exam. [n0005][n0009][pn0001_n0005]  
+Abdominal exam shows mild right lower quadrant tenderness to palpation. [n0005][n0010][pn0001_n0010]  
+No lower extremity edema is appreciated, and the patient reports no leg swelling. [n0005][n0011][pn0001_n0011]  
+
+RESULTS
+
+Hemoglobin is 8.2 and interpreted as low. [n0007][pn0001_n0007]  
+Vital signs obtained in the office are interpreted as looking good. [n0040][pn0001_n0040]  
+Chest x-ray shows emphysema changes. [n0032][n0031][pn0001_n0032][pn0001_n0031]  
+An anemia evaluation panel has been obtained, with some results still pending, and the clinician notes everything looks good from that standpoint so far. [n0045][n0046][pn0001_n0045][pn0001_n0046]  
+
+ASSESSMENT AND PLAN
+
+Anemia with low hemoglobin (8.2) is being evaluated, with anemia labs/workup in progress and some results pending to determine the type of anemia. [n0007][n0042][n0048][n0045][n0046][pn0001_n0048][pn0045_n0048]  
+Plan is to refer to gastroenterology and schedule colonoscopy (and endoscopy) to ensure she is not bleeding from inside the belly. [n0057][n0049][n0050][pn0001_n0057][pn0001_n0049]  
+The clinician will stay in close contact with Joyce over the next week or so to sort out the anemia workup. [n0058][pn0001_n0058][pn0002_n0058]  
+
+COPD/emphysema is stable, and the clinician does not think inhalers or further COPD referrals are needed at this time. [n0003][n0031][n0053][n0051][pn0002_n0003]  
+Continue smoking avoidance. [n0052][pn0002_n0052][pn0001_n0052]  
+
+Congestive heart failure: continue Toprol, lisinopril, and Lasix 20 mg daily. [n0004][n0054][n0055][n0056][pn0002_n0004][pn0002_n0054][pn0002_n0055][pn0002_n0056]  
+Continue dietary salt restriction as currently practiced. [n0012][n0004][pn0001_n0012]

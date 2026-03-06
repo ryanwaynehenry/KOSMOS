@@ -1,0 +1,29 @@
+HISTORY OF PRESENT ILLNESS  
+Michelle King is a 39-year-old female with a history of quadriplegia due to prior spinal cord injury who presents for follow-up after hospitalization. [n0001][n0006][n0025][n0024][pn0001_n0024]  
+She was admitted to District Regional Hospital from 06/29/2021 to 07/02/2021 after an ED evaluation notable for fever and leukocytosis (WBC 23,000) with concern for urinary tract infection, and she was treated with IV antibiotics with subsequent clinical improvement and discharge. [n0004][n0005][n0029][n0012][n0011][n0030][pn0001_n0004][pn0001_n0005][pn0001_n0029][pn0001_n0012][pn0001_n0011][pn0001_n0030]  
+During that episode she had increasing concerns for spasms and lightheadedness and also reported diaphoresis and labile blood pressure. [n0026][n0027][n0028][n0031][pn0001_n0026][pn0001_n0027][pn0001_n0028][pn0001_n0031]  
+She reports her blood pressure was “out of control” and associated with headache and vomiting. [n0016][n0009][n0010][pn0001_n0016][pn0001_n0009][pn0001_n0010]  
+She reports severe chronic constipation with irregular bowel habits, noting minimal bowel movements in the hospital and a large bowel movement after returning home with improvement in how she felt. [n0008][n0051][n0037][n0038][pn0001_n0008][pn0001_n0051][pn0001_n0037][pn0001_n0038]  
+She believes the hospitalization was more likely related to constipation and dysreflexia rather than a true urinary tract infection. [n0008][n0007][n0011]  
+She denies pain or discomfort. [n0044][pn0001_n0044]  
+She has a suprapubic catheter. [n0032][pn0001_n0032]  
+She is currently taking Miralax daily for constipation and uses lactulose as a rescue medication for severe constipation. [n0017][n0018][n0074][pn0001_n0017][pn0001_n0018][pn0001_n0074]  
+She is unvaccinated for COVID-19, is somewhat homeopathic, and expresses concern about vaccine side effects including “vaccine injury.” [n0001][n0081][n0055][n0022][pn0001_n0081][pn0001_n0055][pn0001_n0022]  
+She reports limited respiratory status and takes vitamin C and multivitamins. [n0054][n0058][n0059][pn0001_n0054][pn0001_n0058][pn0001_n0059]  
+
+PHYSICAL EXAM  
+No physical exam findings are documented in the available record for this visit. [n0024]  
+
+RESULTS  
+During the hospitalization, white blood cell count was elevated to 23,000. [n0012][pn0001_n0012]  
+Urine culture obtained during hospitalization was reviewed and described as not very impressive. [n0040][pn0001_n0040]  
+Hospital staff performed x-rays and did not perform a CT scan. [n0039][n0042][n0043][pn0001_n0039][pn0001_n0043]  
+
+ASSESSMENT AND PLAN  
+Recent hospitalization for febrile illness with leukocytosis and concern for infection/possible UTI, now improved after IV antibiotics, with clinician impression that the presentation looked like an infection. [n0004][n0005][n0030][n0034][n0011][n0029][n0012][pn0001_n0004][pn0001_n0005][pn0001_n0030][pn0001_n0034][pn0002_n0034]  
+Leukocytosis: plan to repeat CBC and obtain updated fasting labs in the next 3–4 weeks to ensure the white blood cell count trends downward. [n0075][n0077][n0076][n0013][pn0001_n0075][pn0001_n0077][pn0001_n0076][pn0072_n0077]  
+Additional lab monitoring: plan for complete blood work including a cholesterol and triglyceride panel in a couple of weeks, with follow-up visit planned in 2–3 weeks. [n0047][n0014][n0046][n0049][n0078][pn0001_n0047][pn0001_n0014][pn0001_n0046][pn0001_n0049][pn0001_n0078]  
+Constipation/irregular bowel habits: continue bowel regimen with Miralax as primary therapy and lactulose as rescue medication. [n0008][n0051][n0017][n0018][n0074][pn0001_n0008][pn0001_n0051][pn0001_n0017][pn0001_n0018][pn0072_n0074]  
+If the white blood cell count remains elevated, clinician noted this may suggest another bowel-related issue or inflammation. [n0013][n0050][n0041]  
+COVID-19 prevention counseling: clinician recommends COVID-19 vaccination and assessed the patient as high risk for COVID-19 complications based on quadriplegia, and stated the vaccine is safe. [n0020][n0056][n0080][n0057][n0006][pn0002_n0020][pn0001_n0056][pn0001_n0080][pn0002_n0057]  
+Patient will think about the COVID vaccine and will let the doctor know if she has more questions. [n0001]

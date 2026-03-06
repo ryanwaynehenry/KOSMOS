@@ -1,0 +1,42 @@
+## HISTORY OF PRESENT ILLNESS
+Billy is a 74-year-old man who presents with cough. [58][74]  
+Cough began about 1 week ago and has worsened over the last 2 days. [1][2][3]  
+He reports productive cough with yellow sputum and has felt generally unwell the last 2 days. [1][2]  
+He feels warm but has not measured a temperature, and he denies chills though he feels a little achy at times. [7][8][9]  
+He denies shortness of breath. [10][11]  
+He reports nasal congestion with postnasal drainage and mild sinus pressure. [13]  
+He reports no one else is sick at home, and he works as a teacher. [14][15][17]  
+He also reports twisting/injuring his right knee today after coughing and falling down 4–5 stairs. [31][33][35][37]  
+Since the fall, he can walk but has a mild limp, pain mostly on the inside of the right knee, and he can bend and straighten the knee without the knee feeling like it will give out. [41][42][43][45][46][47]  
+He has not taken analgesics for the knee and has only used OTC cough/cold medication (e.g., DayQuil), which has helped the cough a little. [48][49][53]  
+For chronic conditions, he reports not checking home blood pressures and not monitoring salt intake, but he is taking lisinopril (believed to be 20 mg daily). [18][21][22][23][25][27]  
+He reports not monitoring blood sugars or sugar intake, but he is taking metformin and believes he takes it twice daily with help from his wife organizing his pill box. [55][59][61]  
+
+## PHYSICAL EXAM
+Vitals: T 98.4°F, BP ~125/62, HR in the 80s, SpO₂ 97% on room air. [66]  
+HEENT: Tenderness to palpation over bilateral maxillary sinuses. [67][69][70]  
+Nose: Bilateral turbinate erythema/edema with yellow discharge. [70]  
+Throat: Uvula midline with no peritonsillar erythema, edema, or exudate. [70]  
+Neck: Bilateral cervical lymphadenopathy. [70]  
+Lungs: Coarse rhonchi bilaterally that clear with cough. [70]  
+Cardiac: Regular rate and rhythm without murmur. [70]  
+MSK (right knee): Pain to palpation with decreased flexion/extension and medial ecchymosis, without effusion. [71][74]  
+
+## RESULTS
+No imaging or lab results were reviewed during the visit. [74][79]  
+Right knee x-ray, lipid panel, and hemoglobin A1c were ordered. [76][78]  
+
+## ASSESSMENT AND PLAN
+1) **Cough / viral syndrome with mild bronchitis**: Clinician felt this is most consistent with a viral syndrome/mild bronchitis and recommended supportive care and continuation of OTC medications. [74]  
+Start **guaifenesin 600 mg PO twice daily** to help expectorate phlegm. [74]  
+No antibiotics at this time; if symptoms worsen, patient should call and chest x-ray may be considered to evaluate for pneumonia. [74]  
+
+2) **Right knee pain after fall—suspected right MCL strain**: Suspected right medial collateral ligament strain from fall this morning. [76]  
+Start **meloxicam 15 mg PO daily** and refer to **physical therapy** for strengthening. [76]  
+Order **right knee x-ray** to rule out bony injury. [76]  
+
+3) **Hypertension**: Continue **lisinopril 20 mg daily**. [78]  
+Order **lipid panel**. [78]  
+
+4) **Diabetes mellitus**: Order **hemoglobin A1c** to assess control and determine if metformin adjustment is needed. [78]  
+Counseled patient to monitor sugar intake and report home blood sugars via the patient portal; patient agreed to try. [58][78][79]

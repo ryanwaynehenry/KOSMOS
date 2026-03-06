@@ -1,0 +1,30 @@
+HISTORY OF PRESENT ILLNESS  
+Barbara is a 31-year-old female with a history of type 2 diabetes mellitus (reported as under control) and asthma who presents with abdominal pain. [n0001][n0003][n0004][pn0001_n0003][pn0001_n0004][pn0001_n0006]  
+She reports gradually increasing pain over the past week located on both sides of the upper abdomen/epigastrium that spikes when she is working out (jogging/running), causing her to take it easy. [n0006][n0019][pn0001_n0006][pn0001_n0019]  
+She reports intermittent nausea (about three times in the past week) and has vomited a couple of times. [n0009][n0010][pn0001_n0009][pn0001_n0010]  
+She denies fever and denies diarrhea. [n0020][n0015][pn0001_n0020][pn0001_n0015]  
+She reports her coffee intake was “pretty bad” toward the end of last week but she has been cutting down to about one cup this week. [n0007][pn0001_n0007]  
+She reports eating a lot of spicy food lately and plans to cut back. [n0014][pn0001_n0014]  
+For asthma, she is taking fluticasone (Flovent) daily but sometimes forgets doses, and she uses albuterol as needed for wheezing; she denies any recent asthma attacks. [n0011][n0012][n0005][pn0001_n0011][pn0001_n0012][pn0001_n0005][pn0012_n0023]  
+For diabetes, she is taking metformin and reports it is helping keep her diabetes under control. [n0003][n0022][pn0001_n0003][pn0001_n0022]  
+
+PHYSICAL EXAM  
+A physical examination was performed and was overall unremarkable for the most part. [n0024][pn0001_n0024]  
+Cardiac exam shows a grade 3/6 systolic ejection murmur that is unchanged from the prior exam. [n0024][n0025][pn0001_n0025]  
+Lung exam shows very faint mild end-expiratory wheezes with excellent air movement. [n0024][n0027][pn0001_n0027]  
+Abdominal exam shows mild epigastric tenderness with an otherwise soft abdomen, no right lower quadrant tenderness, and no significant right upper quadrant tenderness. [n0026][pn0001_n0026]  
+
+RESULTS  
+A blood glucose measurement was discussed, with a reported value of “eight hundred,” and it was described as under control. [n0021][pn0001_n0021]  
+The clinician plans to obtain a urinalysis, urine pregnancy test, complete blood count, and comprehensive metabolic panel. [n0032][n0033][n0034][n0035][pn0002_n0032][pn0002_n0033][pn0002_n0034][pn0002_n0035]  
+
+ASSESSMENT AND PLAN  
+Abdominal pain was assessed as acute gastritis, thought to be probably related to caffeine intake, with the patient also suspecting spicy food may be contributing. [n0006][n0008][n0007][n0014][pn0001_n0008][pn0002_n0008]  
+Start Zantac twice daily to help with gastric acid and abdominal pain. [n0030][n0031][pn0001_n0030][pn0002_n0030][pn0030_n0031]  
+She was advised to cut back on spicy food while symptoms are present. [n0014][pn0002_n0014]  
+Type 2 diabetes mellitus: continue metformin with dose adjustment to 1000 mg in the morning and 500 mg in the evening, and continue self-monitoring blood glucose to review at follow-up. [n0003][n0036][n0037][n0038][pn0001_n0003][pn0001_n0037][pn0001_n0038]  
+Asthma: continue Flovent daily and use albuterol as needed for wheezing. [n0011][n0012][n0023][pn0001_n0011][pn0001_n0012][pn0012_n0023]  
+Systolic ejection murmur: unchanged, and the clinician is not worried and will monitor. [n0025][pn0002_n0025]  
+Alcohol use: patient reports drinking less than two or three drinks per week and is cutting down, and the clinician recommended cutting back. [n0029][pn0002_n0029]  
+Follow up is planned in four weeks, and the patient was instructed to contact the clinician with any questions in the meantime. [n0013][n0039][pn0001_n0013][pn0002_n0013][pn0002_n0039]  
+The patient agrees with the plan and will cut back on spicy food and follow up in four weeks. [n0001][n0013][n0014][pn0001_n0013][pn0001_n0014]

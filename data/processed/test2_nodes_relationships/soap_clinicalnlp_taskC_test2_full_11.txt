@@ -1,0 +1,30 @@
+HISTORY OF PRESENT ILLNESS  
+Jordan Roberts is a 49-year-old patient presenting as a new patient to this provider for evaluation and management of hypertension. [n0001][n0019][pn0001_n0019][n0004][pn0001_n0004]  
+He has had high blood pressure since he was young and recently had an emergency department visit in March for high blood pressure with palpitations, which he believes was more consistent with a panic attack. [n0004][n0022][pn0001_n0022][n0003][n0025]  
+He reports no recurrent palpitations since that emergency visit. [n0003][pn0001_n0003]  
+Home blood pressure readings taken every morning have been running about 146–155 and are not yet in the 120s. [n0030][pn0001_n0030]  
+He is currently taking multiple antihypertensive medications including Benicar HCT 40/25 (started about a month ago) and amlodipine 10 mg daily, and his hypertension is characterized as resistant despite three medications at maximum dose. [n0007][pn0001_n0007][n0029][pn0001_n0029][n0010][pn0001_n0010][n0005][pn0001_n0005]  
+He reports trying to cut down on dietary salt intake. [n0015][pn0001_n0015]  
+He reports exercising by walking on the treadmill when he can, with treadmill exercise described as occurring most days for about 30 minutes per session. [n0032][pn0001_n0032][n0017][pn0001_n0017]  
+He reports that many family members have high blood pressure. [n0026][pn0001_n0026]  
+
+PHYSICAL EXAM  
+Cardiopulmonary exam: heart and lungs sound good. [n0034][pn0001_n0034]  
+Extremities: ankles and feet looked good without noted swelling. [n0036][pn0001_n0036][n0037][pn0001_n0037][n0038]  
+He denies pain with palpation during the exam. [n0035][pn0001_n0035]  
+
+RESULTS  
+Potassium was 4.0 one week ago and was described as good. [n0013][pn0001_n0013][n0039][pn0001_n0039]  
+A thyroid profile from March 1, 2021 is referenced in the chart. [n0021][pn0001_n0021]  
+
+ASSESSMENT AND PLAN  
+Resistant hypertension in the setting of longstanding hypertension with elevated home readings despite three maximized antihypertensive medications. [n0004][n0005][pn0001_n0005][n0010][n0030]  
+Start spironolactone to help lower aldosterone levels and blood pressure, and the patient is willing to try it. [n0009][pn0002_n0009][n0001]  
+Counsel on potential spironolactone adverse effects including rare gynecomastia and possible dizziness, and advise stopping the medication and notifying the clinician if gynecomastia occurs. [n0014][pn0009_n0014][n0053][n0052][n0054][n0001]  
+Because spironolactone in combination with hydrochlorothiazide can contribute to electrolyte imbalance and dehydration and can lower sodium, plan blood testing in two weeks including a basic metabolic panel with electrolyte monitoring (including sodium and potassium). [n0008][n0009][n0047][n0048][n0050][n0051][n0068][n0074][pn0002_n0074]  
+Schedule follow-up in two weeks for blood pressure check and lab review. [n0067][pn0001_n0067][n0012][pn0001_n0012]  
+Lifestyle counseling: continue reduced-salt diet and review DASH diet information, including a salt goal under 2000 mg/day (ideally 1500 mg/day). [n0041][pn0002_n0041][n0016][pn0001_n0016][n0066][pn0002_n0066]  
+Encourage ongoing physical activity including routine treadmill exercise, which was discussed as potentially lowering blood pressure by 7–10 points. [n0065][pn0002_n0065][n0017][pn0002_n0017][n0063][pn0002_n0063]  
+Provide patient education resources including the American Heart Association heart.org website for blood pressure information. [n0061][pn0002_n0061][n0062][pn0002_n0062]  
+If blood pressure remains uncontrolled on spironolactone, plan evaluation/referral to a resistant hypertension clinic to assess for secondary causes and consider procedure-based options such as renal denervation. [n0018][pn0001_n0018][n0078][pn0001_n0078][n0069][n0071][pn0001_n0071]  
+Discussed that uncontrolled hypertension increases risk for enlarged heart, heart failure, renal failure, and stroke, reinforcing the goal of getting blood pressure under control. [n0056][pn0004_n0056][n0057][pn0004_n0057][n0059][pn0004_n0059][n0060][pn0004_n0060][n0055]

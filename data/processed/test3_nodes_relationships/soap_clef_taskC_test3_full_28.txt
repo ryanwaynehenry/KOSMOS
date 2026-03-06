@@ -1,0 +1,33 @@
+HISTORY OF PRESENT ILLNESS  
+Jerry Thompson is a 67-year-old male with chronic hypertension, hyperlipidemia, and chronic intermittent osteoarthritis who is being evaluated by a clinician for elevated/fluctuating blood pressure. [n0001][n0011][n0004][n0005][n0006][pn0001_n0002]  
+Over the last three to four weeks, he reports intermittent lightheadedness described as feeling “fuzzy,” sometimes with mild headache, and he feels a little unsteady during episodes. [n0008][n0009][n0020][pn0001_n0008][pn0001_n0009][pn0001_n0020]  
+He reports home blood pressure readings over the last three to four weeks with systolic values occasionally over 180. [n0007][pn0001_n0007]  
+He denies recent syncope and clarifies he is not experiencing vertigo (no spinning sensation). [n0010][n0021][pn0001_n0010][pn0001_n0021]  
+He reports sometimes having a little chest heaviness that is not sustained and denies difficulty breathing. [n0016][n0015][pn0001_n0016][pn0001_n0015]  
+He denies palpitations or heart racing (not usually). [n0026][n0027][pn0001_n0026][pn0001_n0027]  
+He denies fever, nausea, vomiting, and diarrhea. [n0022][n0023][n0024][n0025][pn0001_n0022][pn0001_n0023][pn0001_n0024][pn0001_n0025]  
+He reports he is currently taking lisinopril 20 mg twice per day (increased at the last visit) and very rarely misses doses. [n0028][n0029][n0030][pn0001_n0028][pn0001_n0029][pn0001_n0030]  
+He uses a pill box and has tried a medication tracking app (set up with help from his grandson) but found it a little confusing, and he reports being on track with his medication schedule. [n0031][n0032][n0035][n0034][pn0001_n0031][pn0001_n0032][pn0001_n0035][pn0001_n0034]  
+For hyperlipidemia, he is currently taking atorvastatin. [n0004][n0038][pn0001_n0004][pn0001_n0038]  
+He remains active with golfing, though osteoarthritis symptoms fluctuate with weather changes and he sometimes plays less or skips a day, using Tylenol as needed for mild pain. [n0039][n0005][n0040][n0041][n0042][pn0001_n0039][pn0001_n0005][pn0001_n0040][pn0001_n0041][pn0001_n0042]  
+
+PHYSICAL EXAM  
+A physical examination was completed and was overall described as pretty normal and unremarkable. [n0043][pn0001_n0043]  
+Cardiac exam showed a stable grade 3/6 systolic ejection murmur. [n0044][pn0001_n0044]  
+Lung exam showed mild bibasilar rales with excellent air movement and no wheezes or rhonchi. [n0045][pn0001_n0045]  
+Extremity exam showed trace bilateral lower extremity edema. [n0046][pn0001_n0046]  
+
+RESULTS  
+Home blood pressure readings over the last three to four weeks have been elevated, with systolic values occasionally over 180. [n0007][pn0001_n0007]  
+The clinician ordered blood tests including a cholesterol and triglyceride panel, CBC with differential, and a comprehensive metabolic panel. [n0051][n0052][n0053][n0054][pn0002_n0051][pn0002_n0052][pn0002_n0053][pn0002_n0054]  
+A urinalysis was also ordered to assess kidney function. [n0055][n0056][pn0002_n0055]  
+
+ASSESSMENT AND PLAN  
+Hypertension with elevated/fluctuating blood pressure that is getting worse will be addressed with medication adjustments and close monitoring. [n0011][n0006][pn0002_n0011][pn0002_n0006]  
+Increase lisinopril to 60 mg twice per day and add hydrochlorothiazide 25 mg daily for blood pressure control. [n0048][n0049][pn0002_n0048][pn0002_n0049][pn0006_n0048][pn0006_n0049]  
+He will check home blood pressure twice daily for the next two weeks and follow up in two weeks. [n0047][n0050][pn0001_n0047][pn0001_n0050]  
+Hyperlipidemia will be monitored with a cholesterol panel, and he will continue atorvastatin. [n0004][n0052][n0038][pn0002_n0052][pn0004_n0038]  
+Osteoarthritis: continue staying active including walking, and use Tylenol for mild pain as needed. [n0005][n0057][n0041][pn0002_n0057][pn0002_n0041]  
+Encourage hydration with six to eight glasses of water per day and increase intake if feeling dehydrated, especially with increased activity or warmer weather. [n0059][n0058][pn0002_n0059]  
+Limit beer intake to not more than a couple drinks per week given blood pressure concerns. [n0061][pn0002_n0061]  
+The systolic ejection murmur is unchanged from prior and will continue to be monitored. [n0044]

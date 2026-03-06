@@ -1,0 +1,48 @@
+HISTORY OF PRESENT ILLNESS  
+Maria Martin (DOB 03/05/1946) presents for a follow-up visit and consents to have the visit recorded. [n0001][n0015][pn0001_n0015]  
+She has poor glycemic control with last hemoglobin A1c 9.9 and is currently taking metformin and glimepiride 2 mg. [n0076][n0005][pn0005_n0076][n0082][pn0001_n0082][n0003][pn0001_n0003]  
+The plan is to increase glimepiride to 4 mg twice daily, and she was counseled to monitor for hypoglycemia symptoms (weak, shaky, sweaty) and notify the clinician if they occur. [n0004][n0081][pn0002_n0081][n0080]  
+She reports nasal congestion with a recent cough that is improving, and when mucus comes up it is relatively clear. [n0055][pn0001_n0055][n0008][pn0001_n0008][pn0008_n0055][n0056][pn0001_n0056]  
+She denies shortness of breath, fever, chills, chest pain, chest pressure, chest tightness, headache, dizziness, and nausea/vomiting. [n0054][pn0001_n0054][n0057][pn0001_n0057][n0058][pn0001_n0058][n0059][pn0001_n0059][n0060][pn0001_n0060][n0061][pn0001_n0061][n0047][pn0001_n0047][n0048][pn0001_n0048][n0063][pn0001_n0063]  
+She reports chronic leg pain and foot pain that limit walking, as well as pain in the hips and upper legs that is described as relatively stable. [n0041][pn0001_n0041][n0043][pn0001_n0043][n0042][n0009][pn0001_n0009]  
+She reports urinary symptoms including slow urination and urinary frequency with nocturia once in a while, which are stable. [n0062][pn0001_n0062]  
+She has hypertension and reports a home blood pressure reading of 116 a couple of weeks ago, and she is taking metoprolol, lisinopril/hydrochlorothiazide, and amlodipine. [n0033][pn0001_n0033][n0034][pn0001_n0034][n0036][pn0001_n0036][n0037][pn0001_n0037][n0038][pn0001_n0038]  
+She has hyperlipidemia and is taking high-dose atorvastatin. [n0039][pn0001_n0039][n0013][pn0001_n0013][pn0013_n0039]  
+She has peripheral ischemic vascular disease in the legs. [n0040][pn0001_n0040]  
+She is still smoking and is not ready to quit but will think about quitting, and the clinician recommends smoking cessation. [n0045][pn0001_n0045][n0014][pn0001_n0014][pn0002_n0014]  
+Regarding diet, she reports she has not had pasta, does not often have bread (usually two slices in the morning), and hardly drinks sodas; she drinks club soda and prefers seltzer water rather than regular water. [n0018][pn0001_n0018][n0019][pn0001_n0019][n0022][pn0001_n0022][n0025][pn0001_n0025][n0026][pn0001_n0026][n0027][pn0001_n0027][n0028][pn0001_n0028]  
+She has a history of cataracts with completed cataract surgery and reports vision is better overall but one intraocular lens feels “kinda funny,” and she recently had an eye exam and received a new glasses prescription from Dr. Sanchez. [n0032][pn0001_n0032][n0050][pn0001_n0050][n0049][pn0001_n0049][n0051][pn0001_n0051][n0029][pn0001_n0029][n0007][pn0001_n0007]  
+
+PHYSICAL EXAM  
+A physical examination was performed today. [n0012][pn0001_n0012]  
+Lungs are clear with no rasps or wheezing. [n0011][pn0001_n0011]  
+Carotid exam is normal. [n0064][pn0001_n0064]  
+Cardiac exam shows regular rhythm and normal rate with crisp S1/S2 and no murmurs. [n0066][pn0001_n0066]  
+Extremities show no edema with palpable dorsalis pedis and posterior tibial pulses, and thickened nails are present. [n0067][pn0001_n0067][n0068][pn0001_n0068][n0069][pn0001_n0069]  
+Skin exam shows mildly dry skin without skin breakdown. [n0070][pn0001_n0070][n0071][pn0001_n0071]  
+Sensation is mildly decreased at the tips of the first and second toes. [n0072][pn0001_n0072]  
+
+RESULTS  
+Prior hemoglobin A1c was 9.9 (elevated). [n0005][pn0001_n0005]  
+In-clinic blood pressure recheck was 140/60, and the patient reports home readings are better (116 a couple of weeks ago). [n0083][pn0001_n0083][n0034][pn0001_n0034]  
+Blood work including kidney function is being rechecked today. [n0077][pn0001_n0077][n0084][pn0001_n0084][n0086][pn0001_n0086]  
+
+ASSESSMENT AND PLAN  
+Poor glycemic control (A1c previously 9.9): continue metformin and increase glimepiride to 4 mg twice daily (new prescription). [n0076][pn0001_n0076][n0005][n0082][pn0002_n0082][n0004][pn0002_n0004][n0081][pn0002_n0081]  
+Counsel patient to watch for hypoglycemia symptoms (weak, shaky, sweaty) and report any low sugars. [n0080]  
+Dietary counseling: clinician recommends dietary modification to reduce sugars/carbohydrates and to cut down on the number of wheat bread slices per day. [n0017][pn0002_n0017][n0021][pn0001_n0021]  
+
+Hypertension: blood pressure was rechecked in clinic, and she remains on metoprolol, lisinopril/hydrochlorothiazide, and amlodipine. [n0083][pn0001_n0083][n0036][pn0001_n0036][n0037][pn0001_n0037][n0038][pn0001_n0038]  
+
+Hyperlipidemia and peripheral ischemic vascular disease: continue high-dose atorvastatin to protect the arteries. [n0039][pn0001_n0039][n0040][pn0001_n0040][n0013][pn0001_n0013]  
+
+Leg and foot pain with peripheral neuropathy: clinician assesses foot pain as peripheral neuropathy and notes medication could be considered if it becomes severe, but she is already on many medications. [n0043][pn0002_n0043][n0010][pn0002_n0010][n0078][pn0010_n0078][n0079]  
+Foot care: recommend keeping feet moisturized, and patient uses a topical foot scrub/cream intermittently after showering. [n0073][pn0002_n0073][n0074][pn0001_n0074]  
+
+Cough and congestion: symptoms are improving and lung exam is clear. [n0008][pn0001_n0008][n0055][pn0001_n0055][n0011][pn0001_n0011]  
+
+Vision after cataract surgery: patient reports one lens feels “kinda funny,” and clinician will see what the optometrists say about possible laser cleanup. [n0051][pn0001_n0051][n0052][n0053]  
+
+Tobacco use: patient continues to smoke, will think about quitting, and clinician recommends smoking cessation. [n0045][pn0001_n0045][n0014][pn0001_n0014][pn0002_n0014]  
+
+Follow-up: obtain labs today and return for follow-up in four months. [n0086][pn0002_n0086][n0087][pn0001_n0087]

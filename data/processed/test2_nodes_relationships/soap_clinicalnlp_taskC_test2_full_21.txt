@@ -1,0 +1,35 @@
+HISTORY OF PRESENT ILLNESS  
+Dennis is a 57-year-old male evaluated by a clinician for shortness of breath and coughing up blood. [n0001][pn0001_n0002][n0004][n0005][pn0001_n0004][pn0001_n0005]  
+He reports episodic shortness of breath for about a couple of weeks that can wake him up and recur after he gets back home. [n0004][pn0001_n0004]  
+He reports coughing up a lot of blood for probably three weeks or so, estimated at three to four cups per day, with associated cough. [n0005][pn0001_n0005][n0006][pn0001_n0006]  
+He is short of breath with walking or exertion. [n0027][pn0001_n0027]  
+He denies fever, bruising/bleeding from teeth or gums, leg swelling, and calf swelling. [n0024][pn0001_n0024][n0015][pn0001_n0015][n0016][pn0001_n0016][n0017]  
+He denies recent foreign travel. [n0018]  
+His chronic conditions include diabetes mellitus, hypertension/high blood pressure, and asthma. [n0007][pn0001_n0007][n0008][pn0001_n0008][n0050][pn0001_n0050][n0014][pn0001_n0014]  
+For diabetes, he uses a Dexcom and takes metformin, and he reports blood sugars running a little high. [n0029][pn0001_n0029][n0028][pn0001_n0028][n0007][n0010][pn0001_n0010]  
+He reports home blood pressures can be low (sometimes in the lower 90s) and he has been holding Norvasc on some days. [n0009][pn0001_n0009][n0011][pn0001_n0011]  
+He also reports knee pain for quite some time without knee swelling. [n0019][pn0001_n0019][n0020][pn0001_n0020]  
+He tried to get an office appointment but was unable due to scheduling, and an emergency department evaluation is planned for his coughing and coughing up blood. [n0023][pn0001_n0023][n0022][n0021][n0013][pn0001_n0013]  
+
+PHYSICAL EXAM  
+Oxygen saturation by pulse oximetry in clinic is 94%. [n0025][n0026][pn0001_n0025][pn0001_n0026]  
+Neck exam shows no JVD, no neck swelling, and no carotid bruits. [n0034]  
+Lung exam shows rales and rhonchi more on the right side with diminished breath sounds on the right and no wheezing. [n0035][pn0001_n0035]  
+Cardiac exam shows a systolic ejection murmur unchanged from before with regular rate and rhythm otherwise. [n0036][pn0001_n0036]  
+Abdominal exam is soft. [n0037][pn0001_n0037]  
+Lower extremity exam shows 1+ nonpitting edema bilaterally with no calf tenderness and a negative Homan sign. [n0038][pn0001_n0038]  
+
+RESULTS  
+Blood pressure is documented as 120/70 with home readings sometimes in the lower 90s. [n0009][pn0001_n0009]  
+Reported glucose values are well over 200 after meals and around 150 in the morning. [n0010][pn0001_n0010]  
+Prior hemoglobin A1c was about 7.7. [n0030][pn0001_n0030]  
+A repeat hemoglobin A1c is planned/ordered today. [n0045][pn0001_n0045][pn0002_n0045]  
+
+ASSESSMENT AND PLAN  
+Hemoptysis with shortness of breath and cough is being evaluated urgently, with concern for lung infection and differential including blood clot and possible pneumonia. [n0004][n0005][n0006][pn0004_n0005][pn0004_n0006][n0039][pn0002_n0039][n0041][pn0002_n0041][n0043][pn0002_n0043]  
+Plan is referral to the emergency department for evaluation including chest x-ray, CT scan of the chest, and blood work. [n0013][pn0001_n0013][n0040][pn0001_n0040][n0042][pn0001_n0042][n0012][pn0001_n0012]  
+Treatment will be started depending on what the emergency department finds. [n0044][pn0002_n0044]  
+Hypertension/high blood pressure: hold off on Norvasc for now and reassess blood pressure after the shortness-of-breath episode is under better control. [n0008][n0050][n0051][n0011][n0052][pn0001_n0052][n0053][pn0002_n0053]  
+Diabetes mellitus: continue monitoring with Dexcom, order hemoglobin A1c today, and increase metformin from 500 mg twice daily to 750 mg twice daily. [n0007][n0029][n0045][pn0002_n0045][n0046][n0047][pn0046_n0047][pn0002_n0047]  
+Follow up in about three weeks is planned to discuss diabetes and the treatment plan and to reassess blood pressure once the acute episode is controlled. [n0003][pn0001_n0003][n0049][pn0001_n0049][n0052]  
+Patient reports no questions and states he can bike to the emergency department. [n0001]

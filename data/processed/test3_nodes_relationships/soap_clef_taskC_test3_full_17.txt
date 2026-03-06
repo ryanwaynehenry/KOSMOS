@@ -1,0 +1,29 @@
+HISTORY OF PRESENT ILLNESS  
+Ashley James is a 14-year-old female who presents for a follow-up visit with Dr. Rogers for evaluation of an abnormal renal ultrasound showing an atrophic/smaller right kidney. [n0001][n0003][n0010][n0004][pn0001_n0010][pn0001_n0004][pn0001_n0002]  
+She reports ongoing abdominal/stomach pain described as mild burning, especially with eating, with a prior episode of severe right-sided stomach pain where she was bent over in pain. [n0005][n0023][n0013][pn0001_n0005][pn0001_n0023][pn0001_n0013]  
+During the initial illness, the family suspected appendicitis, and she was treated as having a stomach virus and received intravenous fluids. [n0015][n0016][n0017][pn0001_n0015][pn0001_n0016][pn0001_n0017]  
+She reports vomiting during that episode but has not had any more vomiting since. [n0022][pn0001_n0022]  
+She reports intermittent dysuria triggered by certain drinks (e.g., soda/carbonation) and intermittent urinary hesitancy/difficulty starting urination, and she denies hematuria. [n0055][n0056][n0047][n0057][pn0001_n0055][pn0001_n0056][pn0001_n0047][pn0001_n0057]  
+She is currently taking Pepcid 40 mg daily and Claritin for allergies. [n0037][n0038][n0039][n0040][pn0001_n0037][pn0001_n0038][pn0001_n0039][pn0039_n0040]  
+Family history includes kidney disease in relatives (including a great aunt with end-stage renal disease/CKD stage 5, diabetes, and hypertension) and maternal grandmother with breast cancer. [n0049][n0043][n0050][n0051][n0052][n0044][pn0001_n0049][pn0001_n0050][pn0001_n0051][pn0001_n0052][pn0001_n0044]  
+The family also reports a history of obstructive uropathy in her father (who had a kidney transplant) and that a family member died at age 47 of a massive heart attack, with additional discussion of the grandfather’s dialysis-dependent chronic kidney disease and failed renal transplant. [n0046][n0045][n0048][n0008][n0078][n0080][n0082][n0085][pn0008_n0048]  
+She is active in softball and plans to join the drill team over the summer. [n0070][n0071][n0001][pn0001_n0070][pn0001_n0071]  
+
+PHYSICAL EXAM  
+Cardiopulmonary exam was performed today. [n0006][pn0001_n0006]  
+She is well-appearing, sitting comfortably, not in acute distress, and her lungs and heart sound great with the remainder of the exam within normal limits. [n0007][pn0001_n0007][pn0002_n0007]  
+Mental status: alert and oriented. [n0059][pn0001_n0059][pn0002_n0059]  
+
+RESULTS  
+Kidney function testing is normal. [n0060][pn0001_n0060]  
+Blood pressure measurements are reported as good. [n0061][pn0001_n0061]  
+Prior renal ultrasound reportedly showed one kidney was bigger, and the abnormal renal ultrasound evaluation includes an atrophic/smaller right kidney. [n0021][n0010][n0004][pn0001_n0021][pn0001_n0010][pn0001_n0004]  
+A prior genetic disease DNA analysis panel found no clinically significant mutations. [n0054][n0053][pn0001_n0054][pn0001_n0053]  
+
+ASSESSMENT AND PLAN  
+Atrophy/smaller right kidney with compensatory hypertrophy/greater workload of the left kidney; plan is ongoing monitoring of kidney size difference. [n0004][n0064][pn0001_n0004][pn0001_n0064][pn0002_n0004][pn0002_n0064]  
+Monitoring plan includes annual renal ultrasound, annual urinalysis to ensure no protein or blood in the urine, and annual blood pressure checks given higher risk for developing high blood pressure and proteinuria. [n0065][n0066][n0067][n0062][n0063][pn0002_n0065][pn0002_n0066][pn0002_n0067][pn0062_n0063]  
+Medication counseling: avoid NSAIDs such as ibuprofen and use Tylenol instead if needed. [n0068][n0069][pn0002_n0068][pn0002_n0069]  
+Lifestyle counseling: continue being physically active, maintain a healthy diet, and stay well-hydrated with at least two liters of water per day, especially during sports/activities. [n0075][n0074][n0072][pn0002_n0075][pn0002_n0074][pn0002_n0072]  
+Follow-up: next follow-up visit is planned with her primary care physician or an adult nephrologist closer to home. [n0076][pn0002_n0076][pn0001_n0076]  
+She is advised to call if symptoms worsen. [n0077]

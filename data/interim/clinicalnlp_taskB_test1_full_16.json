@@ -1,0 +1,5455 @@
+{
+  "encounter_id": "clinicalnlp_taskB_test1_full_16",
+  "turns": [
+    {
+      "turn_id": "t0001",
+      "speaker": "D",
+      "text": "judy gomez , mrn 869723 . date of birth , 5 , 7 , 1961 . judy gomez is in office today for ongoing management of psoriatic arthritis . hello , judy , how is judy gomez doing today ?"
+    },
+    {
+      "turn_id": "t0002",
+      "speaker": "P",
+      "text": "judy gomez is doing good , thank you . how is the doctor ?"
+    },
+    {
+      "turn_id": "t0003",
+      "speaker": "D",
+      "text": "the doctor is great , thanks . so how has judy gomez been since the last time ? the doctor knows the last time the doctor and judy gomez were talking about decreasing judy gomez's prednisone dose , correct ?"
+    },
+    {
+      "turn_id": "t0004",
+      "speaker": "P",
+      "text": "yes . judy gomez is just on one prednisone pill now and one prednisone pill seems to be enough ."
+    },
+    {
+      "turn_id": "t0005",
+      "speaker": "D",
+      "text": "aw , that's great to hear ."
+    },
+    {
+      "turn_id": "t0006",
+      "speaker": "P",
+      "text": "yeah , there were a couple days there judy gomez took an extra prednisone pill , just because there was a little extra pain in judy gomez's feet . and judy gomez does have a desk job , so when judy gomez has a day off where judy gomez is moving around a lot judy gomez's feet do tend to hurt a bit more ."
+    },
+    {
+      "turn_id": "t0007",
+      "speaker": "D",
+      "text": "okay . how many times did judy gomez do taking an extra prednisone pill ?"
+    },
+    {
+      "turn_id": "t0008",
+      "speaker": "P",
+      "text": "um , taking an extra prednisone pill was n't often , maybe once a week ."
+    },
+    {
+      "turn_id": "t0009",
+      "speaker": "D",
+      "text": "okay . so discontinuing the prednisone sounds like the doctor and judy gomez are still on track for discontinuing the prednisone . the doctor will do discontinuing the prednisone today and judy gomez can let the doctor know how discontinuing the prednisone goes on judy gomez's next visit . and how about the methotrexate , does judy gomez think that methotrexate helped with judy gomez's joint pain ?"
+    },
+    {
+      "turn_id": "t0010",
+      "speaker": "P",
+      "text": "yeah , definitely . because judy gomez went to get judy gomez's covid shots , um , but from the letter judy gomez got about the methotrexate , the letter said that methotrexate could interfere with the vaccine , you know , reduce the efficacy . so judy gomez did n't take methotrexate on the week that judy gomez got the first shot ."
+    },
+    {
+      "turn_id": "t0011",
+      "speaker": "D",
+      "text": "okay . and what happened ?"
+    },
+    {
+      "turn_id": "t0012",
+      "speaker": "P",
+      "text": "judy gomez felt absolutely horrible until judy gomez took methotrexate again a week later ."
+    },
+    {
+      "turn_id": "t0013",
+      "speaker": "D",
+      "text": "the doctor is sorry to hear that . and- and what did judy gomez do about the second dose ?"
+    },
+    {
+      "turn_id": "t0014",
+      "speaker": "P",
+      "text": "well , judy gomez called into the hotline because judy gomez was in so much pain with the first shot . and the hotline said , \" no , just go ahead and take methotrexate , \" so judy gomez did ."
+    },
+    {
+      "turn_id": "t0015",
+      "speaker": "D",
+      "text": "okay . that's good then . the doctor and judy gomez do have to keep an eye out on methotrexate since methotrexate is a high-risk medication . does judy gomez have an appointment to get judy gomez's blood drawn for the next time ?"
+    },
+    {
+      "turn_id": "t0016",
+      "speaker": "P",
+      "text": "no , the clinic staff did n't give judy gomez an appointment to get judy gomez's blood drawn ."
+    },
+    {
+      "turn_id": "t0017",
+      "speaker": "D",
+      "text": "okay . so the doctor can do scheduling an appointment to get judy gomez's blood drawn for judy gomez too . uhm , so what questions does judy gomez have for the doctor , judy ?"
+    },
+    {
+      "turn_id": "t0018",
+      "speaker": "P",
+      "text": "well , judy gomez just wanted to know why judy gomez was getting all these bruises here , so like when judy gomez bumps judy gomez . judy gomez does n't know where the bruises are coming from ."
+    },
+    {
+      "turn_id": "t0019",
+      "speaker": "D",
+      "text": "okay . the bruising is probably from the prednisone , prednisone can increase bruising ."
+    },
+    {
+      "turn_id": "t0020",
+      "speaker": "P",
+      "text": "okay . judy gomez did n't know that prednisone can increase bruising . um , judy gomez does n't even feel the bruising when the bruising happens , the bruises just show up ."
+    },
+    {
+      "turn_id": "t0021",
+      "speaker": "D",
+      "text": "yeah . unfortunately increased bruising can happen , but the doctor and judy gomez are working on discontinuing prednisone so let's see if the bruises do go away ."
+    },
+    {
+      "turn_id": "t0022",
+      "speaker": "P",
+      "text": "okay . discontinuing prednisone sounds good , thanks ."
+    },
+    {
+      "turn_id": "t0023",
+      "speaker": "D",
+      "text": "okay , judy , please , um , sit up here and the doctor will take a look . shoes and socks off please ."
+    },
+    {
+      "turn_id": "t0024",
+      "speaker": "P",
+      "text": "all right ."
+    },
+    {
+      "turn_id": "t0025",
+      "speaker": "D",
+      "text": "all right . the doctor will see here . okay . so where is judy gomez hurting ? in judy gomez's joints right here ?"
+    },
+    {
+      "turn_id": "t0026",
+      "speaker": "P",
+      "text": "yeah , a little . also in judy gomez's feet joints as well ."
+    },
+    {
+      "turn_id": "t0027",
+      "speaker": "D",
+      "text": "okay . and how about when judy gomez bends the knee like this ?"
+    },
+    {
+      "turn_id": "t0028",
+      "speaker": "P",
+      "text": "well , bending the knee like this hurt before the doctor and judy gomez increased the methotrexate , but bending the knee like this is doing pretty good now ."
+    },
+    {
+      "turn_id": "t0029",
+      "speaker": "D",
+      "text": "okay , good . can judy gomez flex judy gomez's toes please ? good range of motion . also ridges in nails , that's from the psoriasis ."
+    },
+    {
+      "turn_id": "t0030",
+      "speaker": "P",
+      "text": "yeah . judy gomez's nails have been like that for a long time now ."
+    },
+    {
+      "turn_id": "t0031",
+      "speaker": "D",
+      "text": "okay . all right , uhm , ms gomez , it looks like the doctor and judy gomez are moving along with judy gomez's treatment nicely . the doctor will stop judy gomez's prednisone and continue with the methotrexate . make sure to stop by the front desk and make an appointment for the blood work , and the doctor will see judy gomez in three months ."
+    },
+    {
+      "turn_id": "t0032",
+      "speaker": "P",
+      "text": "all right . the plan sounds good . thank you so much , it was great to see the doctor ."
+    },
+    {
+      "turn_id": "t0033",
+      "speaker": "D",
+      "text": "it was great seeing judy gomez too . thank you ."
+    }
+  ],
+  "mentions": [
+    {
+      "canonical_name": "patient (Judy Gomez)",
+      "entity_type": "PERSON_PATIENT",
+      "turn_ids": [
+        "t0001",
+        "t0002",
+        "t0003",
+        "t0004",
+        "t0006",
+        "t0007",
+        "t0009",
+        "t0010",
+        "t0012",
+        "t0013",
+        "t0014",
+        "t0015",
+        "t0017",
+        "t0018",
+        "t0020",
+        "t0021",
+        "t0023",
+        "t0025",
+        "t0026",
+        "t0027",
+        "t0028",
+        "t0029",
+        "t0030",
+        "t0031",
+        "t0033"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0001",
+          "turn_id": "t0001",
+          "text": "patient",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0004",
+          "turn_id": "t0001",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0005",
+          "turn_id": "t0001",
+          "text": "mrn 869723",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0006",
+          "turn_id": "t0001",
+          "text": "5 , 7 , 1961",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0009",
+          "turn_id": "t0002",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0012",
+          "turn_id": "t0003",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0016",
+          "turn_id": "t0004",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0021",
+          "turn_id": "t0006",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0031",
+          "turn_id": "t0007",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0044",
+          "turn_id": "t0009",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0047",
+          "turn_id": "t0010",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0054",
+          "turn_id": "t0012",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0059",
+          "turn_id": "t0013",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0061",
+          "turn_id": "t0014",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0068",
+          "turn_id": "t0015",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0081",
+          "turn_id": "t0017",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0082",
+          "turn_id": "t0018",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0087",
+          "turn_id": "t0020",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0093",
+          "turn_id": "t0021",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0099",
+          "turn_id": "t0023",
+          "text": "judy",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0102",
+          "turn_id": "t0025",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0105",
+          "turn_id": "t0026",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0107",
+          "turn_id": "t0027",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0113",
+          "turn_id": "t0028",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0116",
+          "turn_id": "t0029",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0122",
+          "turn_id": "t0030",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0125",
+          "turn_id": "t0031",
+          "text": "ms gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0127",
+          "turn_id": "t0031",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0137",
+          "turn_id": "t0033",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        }
+      ],
+      "ontology": null
+    },
+    {
+      "canonical_name": "clinician/doctor",
+      "entity_type": "PERSON_CLINICIAN",
+      "turn_ids": [
+        "t0001",
+        "t0002",
+        "t0003",
+        "t0009",
+        "t0013",
+        "t0015",
+        "t0016",
+        "t0017",
+        "t0021",
+        "t0023",
+        "t0025",
+        "t0028",
+        "t0031",
+        "t0032"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0002",
+          "turn_id": "t0001",
+          "text": "clinician",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0010",
+          "turn_id": "t0002",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0011",
+          "turn_id": "t0003",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0043",
+          "turn_id": "t0009",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0058",
+          "turn_id": "t0013",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0067",
+          "turn_id": "t0015",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0074",
+          "turn_id": "t0016",
+          "text": "clinic staff",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0077",
+          "turn_id": "t0017",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0092",
+          "turn_id": "t0021",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0100",
+          "turn_id": "t0023",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0101",
+          "turn_id": "t0025",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0112",
+          "turn_id": "t0028",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0126",
+          "turn_id": "t0031",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0136",
+          "turn_id": "t0032",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        }
+      ],
+      "ontology": null
+    },
+    {
+      "canonical_name": "prednisone",
+      "entity_type": "MEDICATION",
+      "turn_ids": [
+        "t0003",
+        "t0004",
+        "t0006",
+        "t0007",
+        "t0008",
+        "t0019",
+        "t0020"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0013",
+          "turn_id": "t0003",
+          "text": "last time",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0014",
+          "turn_id": "t0003",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0015",
+          "turn_id": "t0003",
+          "text": "dose",
+          "type": "DOSE_AMOUNT"
+        },
+        {
+          "mention_id": "m0017",
+          "turn_id": "t0004",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0018",
+          "turn_id": "t0004",
+          "text": "one",
+          "type": "DOSE_AMOUNT"
+        },
+        {
+          "mention_id": "m0019",
+          "turn_id": "t0004",
+          "text": "pill",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0020",
+          "turn_id": "t0006",
+          "text": "couple days",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0022",
+          "turn_id": "t0006",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0023",
+          "turn_id": "t0006",
+          "text": "extra",
+          "type": "DOSE_AMOUNT"
+        },
+        {
+          "mention_id": "m0024",
+          "turn_id": "t0006",
+          "text": "pill",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0032",
+          "turn_id": "t0007",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0033",
+          "turn_id": "t0007",
+          "text": "extra",
+          "type": "DOSE_AMOUNT"
+        },
+        {
+          "mention_id": "m0034",
+          "turn_id": "t0007",
+          "text": "pill",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0035",
+          "turn_id": "t0008",
+          "text": "extra",
+          "type": "DOSE_AMOUNT"
+        },
+        {
+          "mention_id": "m0036",
+          "turn_id": "t0008",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0037",
+          "turn_id": "t0008",
+          "text": "pill",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0038",
+          "turn_id": "t0008",
+          "text": "once a week",
+          "type": "FREQUENCY"
+        },
+        {
+          "mention_id": "m0086",
+          "turn_id": "t0019",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0088",
+          "turn_id": "t0020",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        }
+      ],
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "prednisone",
+        "cui": "C0032952",
+        "score": 0.9582095146179199,
+        "searched_term": "prednisone (current)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "prednisone",
+      "entity_type": "MEDICATION",
+      "turn_ids": [
+        "t0009",
+        "t0021",
+        "t0022",
+        "t0031"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0039",
+          "turn_id": "t0009",
+          "text": "discontinuing",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0040",
+          "turn_id": "t0009",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0041",
+          "turn_id": "t0009",
+          "text": "today",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0095",
+          "turn_id": "t0021",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0094",
+          "turn_id": "t0021",
+          "text": "discontinuing",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0097",
+          "turn_id": "t0022",
+          "text": "discontinuing",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0098",
+          "turn_id": "t0022",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0129",
+          "turn_id": "t0031",
+          "text": "stop",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0130",
+          "turn_id": "t0031",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        }
+      ],
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "prednisone",
+        "cui": "C0032952",
+        "score": 0.9744446873664856,
+        "searched_term": "prednisone (discontinued)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "methotrexate",
+      "entity_type": "MEDICATION",
+      "turn_ids": [
+        "t0009",
+        "t0010",
+        "t0012",
+        "t0014",
+        "t0015",
+        "t0031"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0045",
+          "turn_id": "t0009",
+          "text": "methotrexate",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0049",
+          "turn_id": "t0010",
+          "text": "methotrexate",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0052",
+          "turn_id": "t0010",
+          "text": "the week",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0056",
+          "turn_id": "t0012",
+          "text": "methotrexate",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0057",
+          "turn_id": "t0012",
+          "text": "a week later",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0066",
+          "turn_id": "t0014",
+          "text": "methotrexate",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0069",
+          "turn_id": "t0015",
+          "text": "methotrexate",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0070",
+          "turn_id": "t0015",
+          "text": "high-risk medication",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0131",
+          "turn_id": "t0031",
+          "text": "continue",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0132",
+          "turn_id": "t0031",
+          "text": "methotrexate",
+          "type": "MEDICATION"
+        }
+      ],
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "methotrexate",
+        "cui": "C0025677",
+        "score": 0.9849321842193604,
+        "searched_term": "methotrexate (current)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "Blood draw",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0015",
+        "t0016",
+        "t0017"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0071",
+          "turn_id": "t0015",
+          "text": "appointment",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0072",
+          "turn_id": "t0015",
+          "text": "blood drawn",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0073",
+          "turn_id": "t0015",
+          "text": "the next time",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0075",
+          "turn_id": "t0016",
+          "text": "appointment",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0076",
+          "turn_id": "t0016",
+          "text": "blood drawn",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0078",
+          "turn_id": "t0017",
+          "text": "scheduling",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0079",
+          "turn_id": "t0017",
+          "text": "appointment",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0080",
+          "turn_id": "t0017",
+          "text": "blood drawn",
+          "type": "PROCEDURE"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Blood draw",
+        "cui": "C0190979",
+        "score": 0.8159238696098328,
+        "searched_term": "blood draw appointment",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "Joint pain",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0009",
+        "t0025",
+        "t0026",
+        "t0028"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0046",
+          "turn_id": "t0009",
+          "text": "joint pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0103",
+          "turn_id": "t0025",
+          "text": "hurting",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0104",
+          "turn_id": "t0025",
+          "text": "joints",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0111",
+          "turn_id": "t0028",
+          "text": "hurt",
+          "type": "PROBLEM"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Joint pain",
+        "cui": "C0003862",
+        "score": 1.0,
+        "searched_term": "joint pain",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "Foot joint pain",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0006",
+        "t0026"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0025",
+          "turn_id": "t0006",
+          "text": "pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0026",
+          "turn_id": "t0006",
+          "text": "feet",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0030",
+          "turn_id": "t0006",
+          "text": "hurt",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0106",
+          "turn_id": "t0026",
+          "text": "feet joints",
+          "type": "PROBLEM"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Foot joint pain",
+        "cui": "C0458239",
+        "score": 1.0,
+        "searched_term": "foot joint pain",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "Nail shedding",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0029",
+        "t0030"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0119",
+          "turn_id": "t0029",
+          "text": "ridges in nails",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0120",
+          "turn_id": "t0029",
+          "text": "nails",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0123",
+          "turn_id": "t0030",
+          "text": "nails",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0124",
+          "turn_id": "t0030",
+          "text": "a long time",
+          "type": "TIME"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Nail shedding",
+        "cui": "C0423812",
+        "score": 0.863716721534729,
+        "searched_term": "nail ridging",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "COVID-19 vaccination",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0010",
+        "t0013",
+        "t0014"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0048",
+          "turn_id": "t0010",
+          "text": "covid shots",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0050",
+          "turn_id": "t0010",
+          "text": "vaccine",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0051",
+          "turn_id": "t0010",
+          "text": "reduce the efficacy",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0053",
+          "turn_id": "t0010",
+          "text": "the first shot",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0060",
+          "turn_id": "t0013",
+          "text": "the second dose",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0065",
+          "turn_id": "t0014",
+          "text": "the first shot",
+          "type": "PROCEDURE"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "COVID-19 vaccination",
+        "cui": "C5203672",
+        "score": 1.0,
+        "searched_term": "COVID-19 vaccination",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "Follow-up visit (procedure)",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0001"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0003",
+          "turn_id": "t0001",
+          "text": "follow-up visit",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0007",
+          "turn_id": "t0001",
+          "text": "office today",
+          "type": "PROCEDURE"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Follow-up visit (procedure)",
+        "cui": "C0589121",
+        "score": 0.9378477931022644,
+        "searched_term": "follow-up visit (office visit)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "Psoriatic arthritis",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0001"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0008",
+          "turn_id": "t0001",
+          "text": "psoriatic arthritis",
+          "type": "PROBLEM"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Psoriatic arthritis",
+        "cui": "C0003872",
+        "score": 1.05,
+        "searched_term": "psoriatic arthritis",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "desk job",
+      "entity_type": "ACTIVITY",
+      "turn_ids": [
+        "t0006"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0027",
+          "turn_id": "t0006",
+          "text": "desk job",
+          "type": "ACTIVITY"
+        }
+      ],
+      "ontology": null
+    },
+    {
+      "canonical_name": "moving around a lot",
+      "entity_type": "ACTIVITY",
+      "turn_ids": [
+        "t0006"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0028",
+          "turn_id": "t0006",
+          "text": "day off",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0029",
+          "turn_id": "t0006",
+          "text": "moving around a lot",
+          "type": "ACTIVITY"
+        }
+      ],
+      "ontology": null
+    },
+    {
+      "canonical_name": "Follow-up visit",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0009"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0042",
+          "turn_id": "t0009",
+          "text": "next visit",
+          "type": "PROCEDURE"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Follow-up visit",
+        "cui": "C0589121",
+        "score": 1.05,
+        "searched_term": "follow-up visit",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "felt absolutely horrible",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0012"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0055",
+          "turn_id": "t0012",
+          "text": "absolutely horrible",
+          "type": "PROBLEM"
+        }
+      ],
+      "ontology": null
+    },
+    {
+      "canonical_name": "Pain",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0014"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0064",
+          "turn_id": "t0014",
+          "text": "so much pain",
+          "type": "PROBLEM"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Pain",
+        "cui": "C0030193",
+        "score": 1.05,
+        "searched_term": "pain",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "phone call to hotline",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0014"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0062",
+          "turn_id": "t0014",
+          "text": "called",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0063",
+          "turn_id": "t0014",
+          "text": "hotline",
+          "type": "PROCEDURE"
+        }
+      ],
+      "ontology": null
+    },
+    {
+      "canonical_name": "Easy bruising",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0018",
+        "t0019",
+        "t0020",
+        "t0021"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0083",
+          "turn_id": "t0018",
+          "text": "bruises",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0085",
+          "turn_id": "t0019",
+          "text": "bruising",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0089",
+          "turn_id": "t0020",
+          "text": "bruising",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0090",
+          "turn_id": "t0020",
+          "text": "bruises",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0091",
+          "turn_id": "t0021",
+          "text": "bruising",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0096",
+          "turn_id": "t0021",
+          "text": "bruises",
+          "type": "PROBLEM"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Easy bruising",
+        "cui": "C0423798",
+        "score": 1.05,
+        "searched_term": "easy bruising",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "Bumps into things (finding)",
+      "entity_type": "ACTIVITY",
+      "turn_ids": [
+        "t0018"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0084",
+          "turn_id": "t0018",
+          "text": "bumps",
+          "type": "ACTIVITY"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Bumps into things (finding)",
+        "cui": "C0427180",
+        "score": 0.9610061049461365,
+        "searched_term": "bumping into things",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "Knee pain",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0027",
+        "t0028"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0108",
+          "turn_id": "t0027",
+          "text": "knee",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0109",
+          "turn_id": "t0028",
+          "text": "bending",
+          "type": "ACTIVITY"
+        },
+        {
+          "mention_id": "m0110",
+          "turn_id": "t0028",
+          "text": "knee",
+          "type": "PROBLEM"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Knee pain",
+        "cui": "C0231749",
+        "score": 1.0,
+        "searched_term": "knee pain",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "methotrexate",
+      "entity_type": "MEDICATION",
+      "turn_ids": [
+        "t0028"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0114",
+          "turn_id": "t0028",
+          "text": "increased",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0115",
+          "turn_id": "t0028",
+          "text": "methotrexate",
+          "type": "MEDICATION"
+        }
+      ],
+      "temporal_context": "past",
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "methotrexate",
+        "cui": "C0025677",
+        "score": 0.8992388248443604,
+        "searched_term": "methotrexate (updated)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "toe range of motion",
+      "entity_type": "LAB_TEST",
+      "turn_ids": [
+        "t0029"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0117",
+          "turn_id": "t0029",
+          "text": "toes",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0118",
+          "turn_id": "t0029",
+          "text": "range of motion",
+          "type": "LAB_TEST"
+        }
+      ],
+      "temporal_context": "current",
+      "ontology": null
+    },
+    {
+      "canonical_name": "Psoriasis",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0029"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0121",
+          "turn_id": "t0029",
+          "text": "psoriasis",
+          "type": "PROBLEM"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Psoriasis",
+        "cui": "C0033860",
+        "score": 1.05,
+        "searched_term": "psoriasis",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "Treats",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0031"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0128",
+          "turn_id": "t0031",
+          "text": "treatment",
+          "type": "PROCEDURE"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Treats",
+        "cui": "C5966192",
+        "score": 0.8823325634002686,
+        "searched_term": "Treatment",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "Blood draw",
+      "entity_type": "LAB_TEST",
+      "turn_ids": [
+        "t0031"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0133",
+          "turn_id": "t0031",
+          "text": "appointment",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0134",
+          "turn_id": "t0031",
+          "text": "blood work",
+          "type": "LAB_TEST"
+        },
+        {
+          "mention_id": "m0135",
+          "turn_id": "t0031",
+          "text": "three months",
+          "type": "TIME"
+        }
+      ],
+      "temporal_context": "future",
+      "ontology": {
+        "source": "LOINC",
+        "preferred_term": "Blood draw",
+        "cui": "C0005834",
+        "score": 0.8258486390113831,
+        "searched_term": "Blood work",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Person",
+      "entity_type": "PERSON_PATIENT",
+      "shacl_shape_id": "kgsh:PersonShape",
+      "canonical_name": "Judy Gomez",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0001",
+        "t0002",
+        "t0003",
+        "t0004",
+        "t0006",
+        "t0007",
+        "t0009",
+        "t0010",
+        "t0012",
+        "t0013",
+        "t0014",
+        "t0015",
+        "t0017",
+        "t0018",
+        "t0020",
+        "t0021",
+        "t0023",
+        "t0025",
+        "t0026",
+        "t0027",
+        "t0028",
+        "t0029",
+        "t0030",
+        "t0031",
+        "t0033"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0001",
+          "turn_id": "t0001",
+          "text": "patient",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0004",
+          "turn_id": "t0001",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0005",
+          "turn_id": "t0001",
+          "text": "mrn 869723",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0006",
+          "turn_id": "t0001",
+          "text": "5 , 7 , 1961",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0009",
+          "turn_id": "t0002",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0012",
+          "turn_id": "t0003",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0016",
+          "turn_id": "t0004",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0021",
+          "turn_id": "t0006",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0031",
+          "turn_id": "t0007",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0044",
+          "turn_id": "t0009",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0047",
+          "turn_id": "t0010",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0054",
+          "turn_id": "t0012",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0059",
+          "turn_id": "t0013",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0061",
+          "turn_id": "t0014",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0068",
+          "turn_id": "t0015",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0081",
+          "turn_id": "t0017",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0082",
+          "turn_id": "t0018",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0087",
+          "turn_id": "t0020",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0093",
+          "turn_id": "t0021",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0099",
+          "turn_id": "t0023",
+          "text": "judy",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0102",
+          "turn_id": "t0025",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0105",
+          "turn_id": "t0026",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0107",
+          "turn_id": "t0027",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0113",
+          "turn_id": "t0028",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0116",
+          "turn_id": "t0029",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0122",
+          "turn_id": "t0030",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0125",
+          "turn_id": "t0031",
+          "text": "ms gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0127",
+          "turn_id": "t0031",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0137",
+          "turn_id": "t0033",
+          "text": "judy gomez",
+          "type": "PERSON_PATIENT"
+        }
+      ],
+      "attribute_options": [
+        "name",
+        "age",
+        "gender",
+        "job",
+        "occupation",
+        "role",
+        "hobbies",
+        "location",
+        "relationship",
+        "patient_agreement",
+        "notes"
+      ],
+      "attributes": {
+        "name": "Judy Gomez",
+        "gender": "female",
+        "role": "patient",
+        "job": "desk job",
+        "patient_agreement": "agrees with discontinuing prednisone and states the plan sounds good"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Person",
+      "entity_type": "PERSON_CLINICIAN",
+      "shacl_shape_id": "kgsh:PersonShape",
+      "canonical_name": "clinician/doctor",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0001",
+        "t0002",
+        "t0003",
+        "t0009",
+        "t0013",
+        "t0015",
+        "t0016",
+        "t0017",
+        "t0021",
+        "t0023",
+        "t0025",
+        "t0028",
+        "t0031",
+        "t0032"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0002",
+          "turn_id": "t0001",
+          "text": "clinician",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0010",
+          "turn_id": "t0002",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0011",
+          "turn_id": "t0003",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0043",
+          "turn_id": "t0009",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0058",
+          "turn_id": "t0013",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0067",
+          "turn_id": "t0015",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0074",
+          "turn_id": "t0016",
+          "text": "clinic staff",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0077",
+          "turn_id": "t0017",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0092",
+          "turn_id": "t0021",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0100",
+          "turn_id": "t0023",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0101",
+          "turn_id": "t0025",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0112",
+          "turn_id": "t0028",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0126",
+          "turn_id": "t0031",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0136",
+          "turn_id": "t0032",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        }
+      ],
+      "attribute_options": [
+        "name",
+        "age",
+        "gender",
+        "job",
+        "occupation",
+        "role",
+        "hobbies",
+        "location",
+        "relationship",
+        "patient_agreement",
+        "notes"
+      ],
+      "attributes": {
+        "role": "doctor",
+        "name": "clinician/doctor"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0003",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "MedicationStatement",
+      "entity_type": "MEDICATION",
+      "shacl_shape_id": "kgsh:MedicationStatementShape",
+      "canonical_name": "prednisone",
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "prednisone",
+        "cui": "C0032952",
+        "score": 0.9582095146179199,
+        "searched_term": "prednisone (current)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0003",
+        "t0004",
+        "t0006",
+        "t0007",
+        "t0008",
+        "t0019",
+        "t0020"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0013",
+          "turn_id": "t0003",
+          "text": "last time",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0014",
+          "turn_id": "t0003",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0015",
+          "turn_id": "t0003",
+          "text": "dose",
+          "type": "DOSE_AMOUNT"
+        },
+        {
+          "mention_id": "m0017",
+          "turn_id": "t0004",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0018",
+          "turn_id": "t0004",
+          "text": "one",
+          "type": "DOSE_AMOUNT"
+        },
+        {
+          "mention_id": "m0019",
+          "turn_id": "t0004",
+          "text": "pill",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0020",
+          "turn_id": "t0006",
+          "text": "couple days",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0022",
+          "turn_id": "t0006",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0023",
+          "turn_id": "t0006",
+          "text": "extra",
+          "type": "DOSE_AMOUNT"
+        },
+        {
+          "mention_id": "m0024",
+          "turn_id": "t0006",
+          "text": "pill",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0032",
+          "turn_id": "t0007",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0033",
+          "turn_id": "t0007",
+          "text": "extra",
+          "type": "DOSE_AMOUNT"
+        },
+        {
+          "mention_id": "m0034",
+          "turn_id": "t0007",
+          "text": "pill",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0035",
+          "turn_id": "t0008",
+          "text": "extra",
+          "type": "DOSE_AMOUNT"
+        },
+        {
+          "mention_id": "m0036",
+          "turn_id": "t0008",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0037",
+          "turn_id": "t0008",
+          "text": "pill",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0038",
+          "turn_id": "t0008",
+          "text": "once a week",
+          "type": "FREQUENCY"
+        },
+        {
+          "mention_id": "m0086",
+          "turn_id": "t0019",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0088",
+          "turn_id": "t0020",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        }
+      ],
+      "attribute_options": [
+        "dose_value",
+        "dose_unit",
+        "dose_raw",
+        "frequency_text",
+        "route",
+        "status",
+        "start_date",
+        "end_date",
+        "indication",
+        "medication_status",
+        "notes"
+      ],
+      "attributes": {
+        "dose_raw": "one prednisone pill",
+        "frequency_text": "once a week (extra pill)",
+        "medication_status": "currently taking",
+        "notes": "patient reports occasional extra prednisone pill due to increased foot pain; prednisone may be contributing to bruising"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0004",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "MedicationStatement",
+      "entity_type": "MEDICATION",
+      "shacl_shape_id": "kgsh:MedicationStatementShape",
+      "canonical_name": "prednisone",
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "prednisone",
+        "cui": "C0032952",
+        "score": 0.9744446873664856,
+        "searched_term": "prednisone (discontinued)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0009",
+        "t0021",
+        "t0022",
+        "t0031"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0039",
+          "turn_id": "t0009",
+          "text": "discontinuing",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0040",
+          "turn_id": "t0009",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0041",
+          "turn_id": "t0009",
+          "text": "today",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0095",
+          "turn_id": "t0021",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0094",
+          "turn_id": "t0021",
+          "text": "discontinuing",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0097",
+          "turn_id": "t0022",
+          "text": "discontinuing",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0098",
+          "turn_id": "t0022",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0129",
+          "turn_id": "t0031",
+          "text": "stop",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0130",
+          "turn_id": "t0031",
+          "text": "prednisone",
+          "type": "MEDICATION"
+        }
+      ],
+      "attribute_options": [
+        "dose_value",
+        "dose_unit",
+        "dose_raw",
+        "frequency_text",
+        "route",
+        "status",
+        "start_date",
+        "end_date",
+        "indication",
+        "medication_status",
+        "notes"
+      ],
+      "attributes": {
+        "end_date": "today",
+        "medication_status": "is being prescribed",
+        "notes": "plan to discontinue/stop prednisone"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "MedicationStatement",
+      "entity_type": "MEDICATION",
+      "shacl_shape_id": "kgsh:MedicationStatementShape",
+      "canonical_name": "methotrexate",
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "methotrexate",
+        "cui": "C0025677",
+        "score": 0.9849321842193604,
+        "searched_term": "methotrexate (current)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0009",
+        "t0010",
+        "t0012",
+        "t0014",
+        "t0015",
+        "t0031"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0045",
+          "turn_id": "t0009",
+          "text": "methotrexate",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0049",
+          "turn_id": "t0010",
+          "text": "methotrexate",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0052",
+          "turn_id": "t0010",
+          "text": "the week",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0056",
+          "turn_id": "t0012",
+          "text": "methotrexate",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0057",
+          "turn_id": "t0012",
+          "text": "a week later",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0066",
+          "turn_id": "t0014",
+          "text": "methotrexate",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0069",
+          "turn_id": "t0015",
+          "text": "methotrexate",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0070",
+          "turn_id": "t0015",
+          "text": "high-risk medication",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0131",
+          "turn_id": "t0031",
+          "text": "continue",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0132",
+          "turn_id": "t0031",
+          "text": "methotrexate",
+          "type": "MEDICATION"
+        }
+      ],
+      "attribute_options": [
+        "dose_value",
+        "dose_unit",
+        "dose_raw",
+        "frequency_text",
+        "route",
+        "status",
+        "start_date",
+        "end_date",
+        "indication",
+        "medication_status",
+        "notes"
+      ],
+      "attributes": {
+        "medication_status": "currently taking",
+        "notes": "patient held methotrexate for the week of first COVID shot due to concern about vaccine efficacy, then resumed; described as high-risk medication requiring blood monitoring; plan is to continue methotrexate"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0006",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "Blood draw",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Blood draw",
+        "cui": "C0190979",
+        "score": 0.8159238696098328,
+        "searched_term": "blood draw appointment",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0015",
+        "t0016",
+        "t0017"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0071",
+          "turn_id": "t0015",
+          "text": "appointment",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0072",
+          "turn_id": "t0015",
+          "text": "blood drawn",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0073",
+          "turn_id": "t0015",
+          "text": "the next time",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0075",
+          "turn_id": "t0016",
+          "text": "appointment",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0076",
+          "turn_id": "t0016",
+          "text": "blood drawn",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0078",
+          "turn_id": "t0017",
+          "text": "scheduling",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0079",
+          "turn_id": "t0017",
+          "text": "appointment",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0080",
+          "turn_id": "t0017",
+          "text": "blood drawn",
+          "type": "PROCEDURE"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {
+        "procedure_type": "blood draw",
+        "procedure_subject": "judy gomez",
+        "procedure_status": "planned",
+        "procedure_intent": "diagnostic",
+        "procedure_date": "for the next time",
+        "notes": "Patient reports clinic staff did not give an appointment; doctor can schedule an appointment for blood draw."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0007",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "Joint pain",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Joint pain",
+        "cui": "C0003862",
+        "score": 1.0,
+        "searched_term": "joint pain",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0009",
+        "t0025",
+        "t0026",
+        "t0028"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0046",
+          "turn_id": "t0009",
+          "text": "joint pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0103",
+          "turn_id": "t0025",
+          "text": "hurting",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0104",
+          "turn_id": "t0025",
+          "text": "joints",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0111",
+          "turn_id": "t0028",
+          "text": "hurt",
+          "type": "PROBLEM"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "severity": "a little",
+        "body_site": "joints",
+        "course": "improving",
+        "notes": "Bending the knee hurt before methotrexate was increased; now doing pretty good."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0008",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "Foot joint pain",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Foot joint pain",
+        "cui": "C0458239",
+        "score": 1.0,
+        "searched_term": "foot joint pain",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0006",
+        "t0026"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0025",
+          "turn_id": "t0006",
+          "text": "pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0026",
+          "turn_id": "t0006",
+          "text": "feet",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0030",
+          "turn_id": "t0006",
+          "text": "hurt",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0106",
+          "turn_id": "t0026",
+          "text": "feet joints",
+          "type": "PROBLEM"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "severity": "a little",
+        "body_site": "feet joints",
+        "temporality": "intermittent",
+        "notes": "Feet tend to hurt more on days off when moving around a lot; patient took an extra prednisone pill on a couple days due to extra foot pain."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0009",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "Nail ridging",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Nail shedding",
+        "cui": "C0423812",
+        "score": 0.863716721534729,
+        "searched_term": "nail ridging",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0029",
+        "t0030"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0119",
+          "turn_id": "t0029",
+          "text": "ridges in nails",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0120",
+          "turn_id": "t0029",
+          "text": "nails",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0123",
+          "turn_id": "t0030",
+          "text": "nails",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0124",
+          "turn_id": "t0030",
+          "text": "a long time",
+          "type": "TIME"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "body_site": "nails",
+        "duration": "a long time",
+        "notes": "Doctor attributed ridges in nails to psoriasis."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0010",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "COVID-19 vaccination",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "COVID-19 vaccination",
+        "cui": "C5203672",
+        "score": 1.0,
+        "searched_term": "COVID-19 vaccination",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0010",
+        "t0013",
+        "t0014"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0048",
+          "turn_id": "t0010",
+          "text": "covid shots",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0050",
+          "turn_id": "t0010",
+          "text": "vaccine",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0051",
+          "turn_id": "t0010",
+          "text": "reduce the efficacy",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0053",
+          "turn_id": "t0010",
+          "text": "the first shot",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0060",
+          "turn_id": "t0013",
+          "text": "the second dose",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0065",
+          "turn_id": "t0014",
+          "text": "the first shot",
+          "type": "PROCEDURE"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {
+        "procedure_type": "COVID-19 vaccination",
+        "procedure_subject": "judy gomez",
+        "procedure_status": "completed",
+        "notes": "Patient got the first shot; discussed second dose. Patient held methotrexate the week of the first shot due to concern about reduced vaccine efficacy."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0011",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "Follow-up visit (procedure)",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Follow-up visit (procedure)",
+        "cui": "C0589121",
+        "score": 0.9378477931022644,
+        "searched_term": "follow-up visit (office visit)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0001"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0003",
+          "turn_id": "t0001",
+          "text": "follow-up visit",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0007",
+          "turn_id": "t0001",
+          "text": "office today",
+          "type": "PROCEDURE"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {
+        "procedure_type": "follow-up visit",
+        "procedure_subject": "the patient",
+        "procedure_status": "in progress",
+        "procedure_intent": "therapeutic",
+        "procedure_location": "office",
+        "procedure_date": "today",
+        "notes": "In office today for ongoing management of psoriatic arthritis."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0012",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "Psoriatic arthritis",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Psoriatic arthritis",
+        "cui": "C0003872",
+        "score": 1.05,
+        "searched_term": "psoriatic arthritis",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0001"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0008",
+          "turn_id": "t0001",
+          "text": "psoriatic arthritis",
+          "type": "PROBLEM"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "status": "chronic",
+        "notes": "Ongoing management."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0013",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Activity",
+      "entity_type": "ACTIVITY",
+      "shacl_shape_id": "kgsh:ActivityShape",
+      "canonical_name": "desk job",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0006"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0027",
+          "turn_id": "t0006",
+          "text": "desk job",
+          "type": "ACTIVITY"
+        }
+      ],
+      "attribute_options": [
+        "activity_type",
+        "activity_frequency",
+        "activity_amount",
+        "activity_intensity",
+        "activity_duration",
+        "activity_context",
+        "activity_status",
+        "activity_start_date",
+        "activity_end_date",
+        "notes"
+      ],
+      "attributes": {
+        "activity_type": "desk job",
+        "activity_context": "at work",
+        "activity_status": "current"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0014",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Activity",
+      "entity_type": "ACTIVITY",
+      "shacl_shape_id": "kgsh:ActivityShape",
+      "canonical_name": "moving around a lot",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0006"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0028",
+          "turn_id": "t0006",
+          "text": "day off",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0029",
+          "turn_id": "t0006",
+          "text": "moving around a lot",
+          "type": "ACTIVITY"
+        }
+      ],
+      "attribute_options": [
+        "activity_type",
+        "activity_frequency",
+        "activity_amount",
+        "activity_intensity",
+        "activity_duration",
+        "activity_context",
+        "activity_status",
+        "activity_start_date",
+        "activity_end_date",
+        "notes"
+      ],
+      "attributes": {
+        "activity_type": "moving around a lot",
+        "activity_context": "on a day off",
+        "activity_status": "current",
+        "notes": "When moving around a lot on a day off, feet tend to hurt more."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0015",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "Follow-up visit",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Follow-up visit",
+        "cui": "C0589121",
+        "score": 1.05,
+        "searched_term": "follow-up visit",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0009"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0042",
+          "turn_id": "t0009",
+          "text": "next visit",
+          "type": "PROCEDURE"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {
+        "procedure_type": "follow-up visit",
+        "procedure_subject": "the patient",
+        "procedure_status": "planned",
+        "notes": "Patient will let the doctor know how discontinuing prednisone goes on the next visit."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0016",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "felt absolutely horrible",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0012"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0055",
+          "turn_id": "t0012",
+          "text": "absolutely horrible",
+          "type": "PROBLEM"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "severity": "severe",
+        "notes": "Felt absolutely horrible until taking methotrexate again a week later."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0017",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "Pain",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Pain",
+        "cui": "C0030193",
+        "score": 1.05,
+        "searched_term": "pain",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0014"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0064",
+          "turn_id": "t0014",
+          "text": "so much pain",
+          "type": "PROBLEM"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "severity": "severe",
+        "notes": "In so much pain with the first shot."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0018",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "phone call to hotline",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0014"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0062",
+          "turn_id": "t0014",
+          "text": "called",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0063",
+          "turn_id": "t0014",
+          "text": "hotline",
+          "type": "PROCEDURE"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {
+        "procedure_type": "phone call to hotline",
+        "procedure_subject": "the patient",
+        "procedure_status": "completed",
+        "procedure_intent": "pain relief",
+        "procedure_outcome": "Hotline advised to go ahead and take methotrexate; patient did."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0019",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "Easy bruising",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Easy bruising",
+        "cui": "C0423798",
+        "score": 1.05,
+        "searched_term": "easy bruising",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0018",
+        "t0019",
+        "t0020",
+        "t0021"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0083",
+          "turn_id": "t0018",
+          "text": "bruises",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0085",
+          "turn_id": "t0019",
+          "text": "bruising",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0089",
+          "turn_id": "t0020",
+          "text": "bruising",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0090",
+          "turn_id": "t0020",
+          "text": "bruises",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0091",
+          "turn_id": "t0021",
+          "text": "bruising",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0096",
+          "turn_id": "t0021",
+          "text": "bruises",
+          "type": "PROBLEM"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "status": "active",
+        "course": "improving",
+        "notes": "Bruises show up after bumping into things; patient does not feel bruising when it happens. Clinician stated bruising is probably from prednisone and plan is to discontinue prednisone to see if bruises go away."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0020",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Activity",
+      "entity_type": "ACTIVITY",
+      "shacl_shape_id": "kgsh:ActivityShape",
+      "canonical_name": "Bumps into things (finding)",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Bumps into things (finding)",
+        "cui": "C0427180",
+        "score": 0.9610061049461365,
+        "searched_term": "bumping into things",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0018"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0084",
+          "turn_id": "t0018",
+          "text": "bumps",
+          "type": "ACTIVITY"
+        }
+      ],
+      "attribute_options": [
+        "activity_type",
+        "activity_frequency",
+        "activity_amount",
+        "activity_intensity",
+        "activity_duration",
+        "activity_context",
+        "activity_status",
+        "activity_start_date",
+        "activity_end_date",
+        "notes"
+      ],
+      "attributes": {
+        "activity_type": "bumping into things",
+        "activity_status": "current",
+        "notes": "Occurs in context of bruises appearing when the patient bumps into things."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0021",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "Knee pain",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Knee pain",
+        "cui": "C0231749",
+        "score": 1.0,
+        "searched_term": "knee pain",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0027",
+        "t0028"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0108",
+          "turn_id": "t0027",
+          "text": "knee",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0109",
+          "turn_id": "t0028",
+          "text": "bending",
+          "type": "ACTIVITY"
+        },
+        {
+          "mention_id": "m0110",
+          "turn_id": "t0028",
+          "text": "knee",
+          "type": "PROBLEM"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "body_site": "knee",
+        "course": "improving",
+        "notes": "Pain with bending the knee hurt before methotrexate was increased; bending the knee is doing pretty good now."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0022",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "MedicationStatement",
+      "entity_type": "MEDICATION",
+      "shacl_shape_id": "kgsh:MedicationStatementShape",
+      "canonical_name": "methotrexate",
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "methotrexate",
+        "cui": "C0025677",
+        "score": 0.8992388248443604,
+        "searched_term": "methotrexate (updated)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0028"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0114",
+          "turn_id": "t0028",
+          "text": "increased",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0115",
+          "turn_id": "t0028",
+          "text": "methotrexate",
+          "type": "MEDICATION"
+        }
+      ],
+      "attribute_options": [
+        "dose_value",
+        "dose_unit",
+        "dose_raw",
+        "frequency_text",
+        "route",
+        "status",
+        "start_date",
+        "end_date",
+        "indication",
+        "medication_status",
+        "notes"
+      ],
+      "attributes": {
+        "medication_status": "currently taking",
+        "notes": "Dose was increased; plan is to continue methotrexate."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0023",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "LabTest",
+      "entity_type": "LAB_TEST",
+      "shacl_shape_id": "kgsh:LabTestShape",
+      "canonical_name": "toe range of motion",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0029"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0117",
+          "turn_id": "t0029",
+          "text": "toes",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0118",
+          "turn_id": "t0029",
+          "text": "range of motion",
+          "type": "LAB_TEST"
+        }
+      ],
+      "attribute_options": [
+        "result_value",
+        "result_unit",
+        "interpretation",
+        "specimen",
+        "collection_time",
+        "status",
+        "notes"
+      ],
+      "attributes": {
+        "interpretation": "good",
+        "notes": "Provider asked patient to flex toes; noted good range of motion."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0024",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "Psoriasis",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Psoriasis",
+        "cui": "C0033860",
+        "score": 1.05,
+        "searched_term": "psoriasis",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0029"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0121",
+          "turn_id": "t0029",
+          "text": "psoriasis",
+          "type": "PROBLEM"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "body_site": "nails",
+        "notes": "Ridges in nails attributed to psoriasis; nails have been like that for a long time."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0025",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "Treatment plan",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Treats",
+        "cui": "C5966192",
+        "score": 0.8823325634002686,
+        "searched_term": "Treatment",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0031"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0128",
+          "turn_id": "t0031",
+          "text": "treatment",
+          "type": "PROCEDURE"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {
+        "procedure_status": "planned",
+        "notes": "Doctor will stop prednisone, continue methotrexate, and patient to make appointment for blood work; follow-up in three months."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_16_n0026",
+      "encounter_id": "clinicalnlp_taskB_test1_full_16",
+      "class": "LabTest",
+      "entity_type": "LAB_TEST",
+      "shacl_shape_id": "kgsh:LabTestShape",
+      "canonical_name": "Blood draw",
+      "ontology": {
+        "source": "LOINC",
+        "preferred_term": "Blood draw",
+        "cui": "C0005834",
+        "score": 0.8258486390113831,
+        "searched_term": "Blood work",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0031"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0133",
+          "turn_id": "t0031",
+          "text": "appointment",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0134",
+          "turn_id": "t0031",
+          "text": "blood work",
+          "type": "LAB_TEST"
+        },
+        {
+          "mention_id": "m0135",
+          "turn_id": "t0031",
+          "text": "three months",
+          "type": "TIME"
+        }
+      ],
+      "attribute_options": [
+        "result_value",
+        "result_unit",
+        "interpretation",
+        "specimen",
+        "collection_time",
+        "status",
+        "notes"
+      ],
+      "attributes": {
+        "specimen": "blood",
+        "collection_time": "in three months",
+        "notes": "Patient instructed to stop by the front desk to make an appointment for blood work."
+      }
+    }
+  ],
+  "relationship_candidates": [
+    {
+      "pair_id": "pn0001_n0002",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "cooccurrence_count": 31,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "clinician/doctor",
+      "llm_relation": {
+        "pair_id": "pn0001_n0002",
+        "relation": "evaluated_by",
+        "direction": "source->target",
+        "explanation": "This is a clinical encounter where the doctor is evaluating/managing the patient (exam and treatment plan discussed).",
+        "evidence_turn_ids": [
+          "t0001",
+          "t0023",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0003",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0003",
+      "cooccurrence_count": 15,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "prednisone",
+      "llm_relation": {
+        "pair_id": "pn0001_n0003",
+        "relation": "has_medication",
+        "direction": "source->target",
+        "explanation": "Patient reports she is currently taking prednisone (one pill, with occasional extra pill).",
+        "evidence_turn_ids": [
+          "t0004",
+          "t0006",
+          "t0008"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0004",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0004",
+      "cooccurrence_count": 8,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "prednisone",
+      "llm_relation": {
+        "pair_id": "pn0001_n0004",
+        "relation": "has_medication",
+        "direction": "source->target",
+        "explanation": "Prednisone is part of the patient's medication regimen in this visit context, with a plan to stop it today (still a medication statement associated with the patient).",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0005",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "cooccurrence_count": 13,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "methotrexate",
+      "llm_relation": {
+        "pair_id": "pn0001_n0005",
+        "relation": "has_medication",
+        "direction": "source->target",
+        "explanation": "Patient is taking methotrexate and discusses holding/resuming it; clinician plans to continue it.",
+        "evidence_turn_ids": [
+          "t0010",
+          "t0012",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0006",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0006",
+      "cooccurrence_count": 6,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "Blood draw",
+      "llm_relation": {
+        "pair_id": "pn0001_n0006",
+        "relation": "has_procedure",
+        "direction": "source->target",
+        "explanation": "Blood draw/appointment is being arranged/planned for the patient for monitoring.",
+        "evidence_turn_ids": [
+          "t0015",
+          "t0017"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0007",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0007",
+      "cooccurrence_count": 7,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "Joint pain",
+      "llm_relation": {
+        "pair_id": "pn0001_n0007",
+        "relation": "has_symptom",
+        "direction": "source->target",
+        "explanation": "Patient reports joint pain/hurting in joints (mild currently).",
+        "evidence_turn_ids": [
+          "t0025",
+          "t0026"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0008",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0008",
+      "cooccurrence_count": 5,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "Foot joint pain",
+      "llm_relation": {
+        "pair_id": "pn0001_n0008",
+        "relation": "has_symptom",
+        "direction": "source->target",
+        "explanation": "Patient reports pain in feet/foot joints, worse when moving around more.",
+        "evidence_turn_ids": [
+          "t0006",
+          "t0026"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0009",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0009",
+      "cooccurrence_count": 6,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "Nail ridging",
+      "llm_relation": {
+        "pair_id": "pn0001_n0009",
+        "relation": "has_condition",
+        "direction": "source->target",
+        "explanation": "Nail ridging is observed/discussed as present (patient confirms nails have been like that a long time).",
+        "evidence_turn_ids": [
+          "t0029",
+          "t0030"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0010",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0010",
+      "cooccurrence_count": 8,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "COVID-19 vaccination",
+      "llm_relation": {
+        "pair_id": "pn0001_n0010",
+        "relation": "has_procedure",
+        "direction": "source->target",
+        "explanation": "Patient reports receiving COVID shots (vaccination).",
+        "evidence_turn_ids": [
+          "t0010",
+          "t0014"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0011",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0011",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "Follow-up visit (procedure)",
+      "llm_relation": {
+        "pair_id": "pn0001_n0011",
+        "relation": "has_procedure",
+        "direction": "source->target",
+        "explanation": "Patient is in the office today for ongoing management (current visit).",
+        "evidence_turn_ids": [
+          "t0001"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0012",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0012",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "Psoriatic arthritis",
+      "llm_relation": {
+        "pair_id": "pn0001_n0012",
+        "relation": "has_condition",
+        "direction": "source->target",
+        "explanation": "Visit is for ongoing management of psoriatic arthritis, indicating the patient has this condition.",
+        "evidence_turn_ids": [
+          "t0001"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0013",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0013",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "desk job",
+      "llm_relation": {
+        "pair_id": "pn0001_n0013",
+        "relation": "has_activity",
+        "direction": "source->target",
+        "explanation": "Patient states she has a desk job.",
+        "evidence_turn_ids": [
+          "t0006"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0014",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0014",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "moving around a lot",
+      "llm_relation": {
+        "pair_id": "pn0001_n0014",
+        "relation": "has_activity",
+        "direction": "source->target",
+        "explanation": "Patient reports that on days off she is moving around a lot.",
+        "evidence_turn_ids": [
+          "t0006"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0015",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0015",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "Follow-up visit",
+      "llm_relation": {
+        "pair_id": "pn0001_n0015",
+        "relation": "has_procedure",
+        "direction": "source->target",
+        "explanation": "Clinician references the patient's next visit for follow-up on stopping prednisone, implying a planned follow-up visit.",
+        "evidence_turn_ids": [
+          "t0009"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0016",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0016",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "felt absolutely horrible",
+      "llm_relation": {
+        "pair_id": "pn0001_n0016",
+        "relation": "has_symptom",
+        "direction": "source->target",
+        "explanation": "Patient reports she felt 'absolutely horrible' when she held methotrexate.",
+        "evidence_turn_ids": [
+          "t0012"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0017",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0017",
+      "cooccurrence_count": 3,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "Pain",
+      "llm_relation": {
+        "pair_id": "pn0001_n0017",
+        "relation": "has_symptom",
+        "direction": "source->target",
+        "explanation": "Patient reports being in so much pain with the first COVID shot.",
+        "evidence_turn_ids": [
+          "t0014"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0018",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0018",
+      "cooccurrence_count": 3,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "phone call to hotline",
+      "llm_relation": {
+        "pair_id": "pn0001_n0018",
+        "relation": "has_procedure",
+        "direction": "source->target",
+        "explanation": "Patient reports she called the hotline.",
+        "evidence_turn_ids": [
+          "t0014"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0019",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0019",
+      "cooccurrence_count": 8,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "Easy bruising",
+      "llm_relation": {
+        "pair_id": "pn0001_n0019",
+        "relation": "has_symptom",
+        "direction": "source->target",
+        "explanation": "Patient reports bruises/easy bruising (bruises show up after bumps).",
+        "evidence_turn_ids": [
+          "t0018",
+          "t0020"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0020",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0020",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "Bumps into things (finding)",
+      "llm_relation": {
+        "pair_id": "pn0001_n0020",
+        "relation": "has_activity",
+        "direction": "source->target",
+        "explanation": "Patient reports bumping into things in the context of bruising.",
+        "evidence_turn_ids": [
+          "t0018"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0021",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0021",
+      "cooccurrence_count": 6,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "Knee pain",
+      "llm_relation": {
+        "pair_id": "pn0001_n0021",
+        "relation": "has_symptom",
+        "direction": "source->target",
+        "explanation": "Patient reports knee pain with bending previously, now improved but still discussed as a symptom.",
+        "evidence_turn_ids": [
+          "t0028"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0022",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0022",
+      "cooccurrence_count": 3,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "methotrexate",
+      "llm_relation": {
+        "pair_id": "pn0001_n0022",
+        "relation": "has_medication",
+        "direction": "source->target",
+        "explanation": "Patient is taking methotrexate and reports effects of holding/resuming it; clinician plans to continue it.",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0010",
+          "t0012",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0023",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0023",
+      "cooccurrence_count": 3,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "toe range of motion",
+      "llm_relation": {
+        "pair_id": "pn0001_n0023",
+        "relation": "has_lab_test",
+        "direction": "source->target",
+        "explanation": "Toe range of motion was assessed during exam (asked to flex toes; noted good range of motion), which is a measurement associated with the patient.",
+        "evidence_turn_ids": [
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0024",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0024",
+      "cooccurrence_count": 3,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "Psoriasis",
+      "llm_relation": {
+        "pair_id": "pn0001_n0024",
+        "relation": "has_condition",
+        "direction": "source->target",
+        "explanation": "Psoriasis is referenced as the cause of nail ridging and treated as an existing condition for the patient.",
+        "evidence_turn_ids": [
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0025",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0025",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "Treatment plan",
+      "llm_relation": {
+        "pair_id": "pn0001_n0025",
+        "relation": "has_procedure",
+        "direction": "source->target",
+        "explanation": "A treatment plan (stop prednisone, continue methotrexate, arrange blood work, follow up) is established for the patient.",
+        "evidence_turn_ids": [
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0026",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0026",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Judy Gomez",
+      "target_canonical_name": "Blood draw",
+      "llm_relation": {
+        "pair_id": "pn0001_n0026",
+        "relation": "has_lab_test",
+        "direction": "source->target",
+        "explanation": "Blood work/blood draw is planned/arranged for the patient as part of monitoring methotrexate.",
+        "evidence_turn_ids": [
+          "t0015",
+          "t0017",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0003",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0003",
+      "cooccurrence_count": 5,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "prednisone",
+      "llm_relation": {
+        "pair_id": "pn0002_n0003",
+        "relation": "prescribed",
+        "direction": "source->target",
+        "explanation": "Clinician discusses prednisone dosing and management in the encounter, including its role in bruising and tapering/stop plan, indicating clinician-directed medication management.",
+        "evidence_turn_ids": [
+          "t0003",
+          "t0019",
+          "t0021",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0004",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0004",
+      "cooccurrence_count": 6,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "prednisone",
+      "llm_relation": {
+        "pair_id": "pn0002_n0004",
+        "relation": "prescribed",
+        "direction": "source->target",
+        "explanation": "Clinician explicitly states they will discontinue/stop prednisone today.",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0005",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "cooccurrence_count": 9,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "methotrexate",
+      "llm_relation": {
+        "pair_id": "pn0002_n0005",
+        "relation": "prescribed",
+        "direction": "source->target",
+        "explanation": "Clinician plans to continue methotrexate and discusses monitoring it as a high-risk medication.",
+        "evidence_turn_ids": [
+          "t0015",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0006",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0006",
+      "cooccurrence_count": 7,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "Blood draw",
+      "llm_relation": {
+        "pair_id": "pn0002_n0006",
+        "relation": "recommended",
+        "direction": "source->target",
+        "explanation": "Clinician offers to schedule an appointment for the patient's blood draw (planned procedure).",
+        "evidence_turn_ids": [
+          "t0017"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0007",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0007",
+      "cooccurrence_count": 3,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "Joint pain",
+      "llm_relation": {
+        "pair_id": "pn0002_n0007",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Joint pain is discussed, but the pair is clinician->condition and the transcript does not show the clinician diagnosing/assessing joint pain as a condition; it is primarily patient-reported symptom context.",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0025",
+          "t0028"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0008",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0008",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "Foot joint pain",
+      "llm_relation": {
+        "pair_id": "pn0002_n0008",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Foot joint pain is patient-reported; no clinician diagnosis/assessment statement is made linking clinician to this condition in the allowed schema direction.",
+        "evidence_turn_ids": [
+          "t0006",
+          "t0026"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0009",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0009",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 1,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "Nail ridging",
+      "llm_relation": {
+        "pair_id": "pn0002_n0009",
+        "relation": "diagnosed",
+        "direction": "source->target",
+        "explanation": "Clinician identifies/attributes the finding 'ridges in nails' during exam (\"also ridges in nails\").",
+        "evidence_turn_ids": [
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0010",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0010",
+      "cooccurrence_count": 4,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "COVID-19 vaccination",
+      "llm_relation": {
+        "pair_id": "pn0002_n0010",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "COVID vaccination is mentioned as something the patient received; the clinician is not stated to have recommended or performed it in this encounter.",
+        "evidence_turn_ids": [
+          "t0010",
+          "t0013"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0011",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0011",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "Follow-up visit (procedure)",
+      "llm_relation": {
+        "pair_id": "pn0002_n0011",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "This is the current visit context, but the schema does not include a clinician->procedure relation like 'performed' or 'conducted'; 'recommended' does not apply.",
+        "evidence_turn_ids": [
+          "t0001"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0012",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0012",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "Psoriatic arthritis",
+      "llm_relation": {
+        "pair_id": "pn0002_n0012",
+        "relation": "diagnosed",
+        "direction": "source->target",
+        "explanation": "Clinician states the visit is for ongoing management of psoriatic arthritis, reflecting clinician-recognized diagnosis being managed in this encounter.",
+        "evidence_turn_ids": [
+          "t0001"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0015",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0015",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "Follow-up visit",
+      "llm_relation": {
+        "pair_id": "pn0002_n0015",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Next follow-up visit is referenced, but not as something the clinician recommends/orders explicitly in the provided turn where it appears.",
+        "evidence_turn_ids": [
+          "t0009"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0016",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0016",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "felt absolutely horrible",
+      "llm_relation": {
+        "pair_id": "pn0002_n0016",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Feeling 'absolutely horrible' is reported by the patient; no clinician diagnosis/assessment is made.",
+        "evidence_turn_ids": [
+          "t0012"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0017",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0017",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 1,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "Pain",
+      "llm_relation": {
+        "pair_id": "pn0002_n0017",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Severe pain is reported by the patient in relation to the first COVID shot; no clinician diagnosis/assessment is made.",
+        "evidence_turn_ids": [
+          "t0014"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0018",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0018",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 1,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "phone call to hotline",
+      "llm_relation": {
+        "pair_id": "pn0002_n0018",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "The hotline call was performed by the patient; no clinician recommendation/performance is stated.",
+        "evidence_turn_ids": [
+          "t0014"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0019",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0019",
+      "cooccurrence_count": 3,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "Easy bruising",
+      "llm_relation": {
+        "pair_id": "pn0002_n0019",
+        "relation": "diagnosed",
+        "direction": "source->target",
+        "explanation": "Clinician evaluates the bruising complaint and provides an assessment that it is probably from prednisone.",
+        "evidence_turn_ids": [
+          "t0019"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0020",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0020",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "Bumps into things (finding)",
+      "llm_relation": {
+        "pair_id": "pn0002_n0020",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "The clinician does not perform or deny the activity; the patient reports bumping into things in the context of bruising.",
+        "evidence_turn_ids": [
+          "t0018"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0021",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0021",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "Knee pain",
+      "llm_relation": {
+        "pair_id": "pn0002_n0021",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Knee pain is discussed as the patient's symptom; there is no allowed clinician->condition relation in the options that fits this pair direction.",
+        "evidence_turn_ids": [
+          "t0027",
+          "t0028"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0022",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0022",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "methotrexate",
+      "llm_relation": {
+        "pair_id": "pn0002_n0022",
+        "relation": "prescribed",
+        "direction": "source->target",
+        "explanation": "Clinician states they will continue methotrexate as part of the plan.",
+        "evidence_turn_ids": [
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0023",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0023",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "toe range of motion",
+      "llm_relation": {
+        "pair_id": "pn0002_n0023",
+        "relation": "ordered_test",
+        "direction": "source->target",
+        "explanation": "Clinician performs an exam maneuver (flex toes) to assess range of motion, corresponding to the toe range-of-motion assessment.",
+        "evidence_turn_ids": [
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0024",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0024",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "Psoriasis",
+      "llm_relation": {
+        "pair_id": "pn0002_n0024",
+        "relation": "diagnosed",
+        "direction": "source->target",
+        "explanation": "Clinician attributes nail ridging to psoriasis during the exam, indicating assessment of psoriasis in this encounter.",
+        "evidence_turn_ids": [
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0025",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0025",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "Treatment plan",
+      "llm_relation": {
+        "pair_id": "pn0002_n0025",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "The target is a Procedure ('Treatment plan'), but there is no clinician->procedure relation option that fits (e.g., recommended is limited to Activity/Medication/Procedure but is not provided as the pair target is not framed as a recommendation entity here).",
+        "evidence_turn_ids": [
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0026",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0026",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "Blood draw",
+      "llm_relation": {
+        "pair_id": "pn0002_n0026",
+        "relation": "ordered_test",
+        "direction": "source->target",
+        "explanation": "Clinician arranges/schedules blood work (blood draw) for monitoring.",
+        "evidence_turn_ids": [
+          "t0017",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0003_n0004",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0003",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0004",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 1,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "prednisone",
+      "llm_relation": {
+        "pair_id": "pn0003_n0004",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Both nodes are MedicationStatements; no medication-to-medication relation (e.g., replaces/duplicate/interacts) is supported here—this is the same medication in different status contexts.",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0003_n0005",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0003",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "methotrexate",
+      "llm_relation": {
+        "pair_id": "pn0003_n0005",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No interaction/duplication/replacement between prednisone and methotrexate is stated.",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0003_n0007",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0003",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0007",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "Joint pain",
+      "llm_relation": {
+        "pair_id": "pn0003_n0007",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No statement that prednisone treats/worsens/improves joint pain; joint pain discussion centers on methotrexate benefit.",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0025",
+          "t0028"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0003_n0008",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0003",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0008",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "Foot joint pain",
+      "llm_relation": {
+        "pair_id": "pn0003_n0008",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Patient uses extra prednisone when foot pain is worse, but no explicit claim that prednisone treats/worsens the foot pain is made.",
+        "evidence_turn_ids": [
+          "t0006"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0003_n0013",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0003",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0013",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "desk job",
+      "llm_relation": {
+        "pair_id": "pn0003_n0013",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Desk job is a patient activity; no medication-to-activity relation is available/supported.",
+        "evidence_turn_ids": [
+          "t0006"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0003_n0014",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0003",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0014",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "moving around a lot",
+      "llm_relation": {
+        "pair_id": "pn0003_n0014",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Moving around a lot is a patient activity; no medication-to-activity relation is available/supported.",
+        "evidence_turn_ids": [
+          "t0006"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0003_n0015",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0003",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0015",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "Follow-up visit",
+      "llm_relation": {
+        "pair_id": "pn0003_n0015",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Follow-up visit is planned, but there is no medication->procedure relation option to encode this link.",
+        "evidence_turn_ids": [
+          "t0009"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0003_n0019",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0003",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0019",
+      "cooccurrence_count": 6,
+      "min_turn_distance": 0,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "Easy bruising",
+      "llm_relation": {
+        "pair_id": "pn0003_n0019",
+        "relation": "causes_adverse_effect",
+        "direction": "source->target",
+        "explanation": "Clinician states bruising is probably from prednisone, indicating an adverse effect.",
+        "evidence_turn_ids": [
+          "t0019",
+          "t0021"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0003_n0020",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0003",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0020",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "Bumps into things (finding)",
+      "llm_relation": {
+        "pair_id": "pn0003_n0020",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No medication-to-activity relation is available; bumping into things is described as a context for bruising.",
+        "evidence_turn_ids": [
+          "t0018"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0005",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "cooccurrence_count": 3,
+      "min_turn_distance": 0,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "methotrexate",
+      "llm_relation": {
+        "pair_id": "pn0004_n0005",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No interaction/duplication/replacement between the planned-stop prednisone and methotrexate is stated.",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0007",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0007",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "Joint pain",
+      "llm_relation": {
+        "pair_id": "pn0004_n0007",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Stopping prednisone is planned, but no explicit statement links prednisone to joint pain improvement/worsening.",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0009",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0009",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "Nail ridging",
+      "llm_relation": {
+        "pair_id": "pn0004_n0009",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relationship is stated between prednisone discontinuation and nail ridging; nail ridging is attributed to psoriasis.",
+        "evidence_turn_ids": [
+          "t0029",
+          "t0030"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0010",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0010",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "COVID-19 vaccination",
+      "llm_relation": {
+        "pair_id": "pn0004_n0010",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "COVID-19 vaccination is discussed in relation to methotrexate holding, not prednisone.",
+        "evidence_turn_ids": [
+          "t0010",
+          "t0014"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0015",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0015",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "Follow-up visit",
+      "llm_relation": {
+        "pair_id": "pn0004_n0015",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No available relation option links a MedicationStatement (prednisone) to a Procedure (follow-up visit).",
+        "evidence_turn_ids": [
+          "t0009"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0019",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0019",
+      "cooccurrence_count": 3,
+      "min_turn_distance": 0,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "Easy bruising",
+      "llm_relation": {
+        "pair_id": "pn0004_n0019",
+        "relation": "causes_adverse_effect",
+        "direction": "source->target",
+        "explanation": "Clinician states the bruising is probably from prednisone, indicating prednisone is causing easy bruising.",
+        "evidence_turn_ids": [
+          "t0019"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0025",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0025",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "Treatment plan",
+      "llm_relation": {
+        "pair_id": "pn0004_n0025",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports linking a MedicationStatement (prednisone) to a Procedure (treatment plan).",
+        "evidence_turn_ids": [
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0026",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0026",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "prednisone",
+      "target_canonical_name": "Blood draw",
+      "llm_relation": {
+        "pair_id": "pn0004_n0026",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports linking a MedicationStatement (prednisone) to a LabTest (blood work/blood draw).",
+        "evidence_turn_ids": [
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0006",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0006",
+      "cooccurrence_count": 3,
+      "min_turn_distance": 0,
+      "source_canonical_name": "methotrexate",
+      "target_canonical_name": "Blood draw",
+      "llm_relation": {
+        "pair_id": "pn0005_n0006",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports linking a MedicationStatement (methotrexate) to a Procedure (blood draw).",
+        "evidence_turn_ids": [
+          "t0015",
+          "t0017"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0007",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0007",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "methotrexate",
+      "target_canonical_name": "Joint pain",
+      "llm_relation": {
+        "pair_id": "pn0005_n0007",
+        "relation": "improves",
+        "direction": "source->target",
+        "explanation": "Patient reports methotrexate definitely helped joint pain and symptoms improved after increasing/resuming it.",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0012",
+          "t0028"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0009",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0009",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "methotrexate",
+      "target_canonical_name": "Nail ridging",
+      "llm_relation": {
+        "pair_id": "pn0005_n0009",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Transcript does not link methotrexate to nail ridging; nail ridges are attributed to psoriasis instead.",
+        "evidence_turn_ids": [
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0010",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0010",
+      "cooccurrence_count": 6,
+      "min_turn_distance": 0,
+      "source_canonical_name": "methotrexate",
+      "target_canonical_name": "COVID-19 vaccination",
+      "llm_relation": {
+        "pair_id": "pn0005_n0010",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports linking a MedicationStatement (methotrexate) to a Procedure (COVID-19 vaccination).",
+        "evidence_turn_ids": [
+          "t0010",
+          "t0014"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0015",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0015",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "methotrexate",
+      "target_canonical_name": "Follow-up visit",
+      "llm_relation": {
+        "pair_id": "pn0005_n0015",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports linking a MedicationStatement (methotrexate) to a Procedure (follow-up visit).",
+        "evidence_turn_ids": [
+          "t0009"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0016",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0016",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "methotrexate",
+      "target_canonical_name": "felt absolutely horrible",
+      "llm_relation": {
+        "pair_id": "pn0005_n0016",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Patient felt horrible when methotrexate was held and improved after resuming; this does not support methotrexate causing the symptom, and no other medication-symptom relation fits better here.",
+        "evidence_turn_ids": [
+          "t0012"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0017",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0017",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "methotrexate",
+      "target_canonical_name": "Pain",
+      "llm_relation": {
+        "pair_id": "pn0005_n0017",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Pain is described in context of the first COVID shot/holding methotrexate, but no supported medication->pain relation (e.g., causes_adverse_effect/improves) is explicitly stated for methotrexate here.",
+        "evidence_turn_ids": [
+          "t0014"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0018",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0018",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "methotrexate",
+      "target_canonical_name": "phone call to hotline",
+      "llm_relation": {
+        "pair_id": "pn0005_n0018",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports linking a MedicationStatement (methotrexate) to a Procedure (phone call to hotline).",
+        "evidence_turn_ids": [
+          "t0014"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0025",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0025",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "methotrexate",
+      "target_canonical_name": "Treatment plan",
+      "llm_relation": {
+        "pair_id": "pn0005_n0025",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports linking a MedicationStatement (methotrexate) to a Procedure (treatment plan).",
+        "evidence_turn_ids": [
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0026",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0026",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "methotrexate",
+      "target_canonical_name": "Blood draw",
+      "llm_relation": {
+        "pair_id": "pn0005_n0026",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports linking a MedicationStatement (methotrexate) to a LabTest (blood work/blood draw).",
+        "evidence_turn_ids": [
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0006_n0010",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0006",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0010",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Blood draw",
+      "target_canonical_name": "COVID-19 vaccination",
+      "llm_relation": {
+        "pair_id": "pn0006_n0010",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports linking a Procedure (blood draw) to a Procedure (COVID-19 vaccination).",
+        "evidence_turn_ids": [
+          "t0010",
+          "t0015"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0006_n0017",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0006",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0017",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Blood draw",
+      "target_canonical_name": "Pain",
+      "llm_relation": {
+        "pair_id": "pn0006_n0017",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports linking a Procedure (blood draw) to a Condition (pain).",
+        "evidence_turn_ids": [
+          "t0014",
+          "t0015"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0006_n0018",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0006",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0018",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Blood draw",
+      "target_canonical_name": "phone call to hotline",
+      "llm_relation": {
+        "pair_id": "pn0006_n0018",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports linking a Procedure (blood draw) to another Procedure (phone call to hotline).",
+        "evidence_turn_ids": [
+          "t0014",
+          "t0015"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0006_n0019",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0006",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0019",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Blood draw",
+      "target_canonical_name": "Easy bruising",
+      "llm_relation": {
+        "pair_id": "pn0006_n0019",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports linking a Procedure (blood draw) to a Condition (easy bruising).",
+        "evidence_turn_ids": [
+          "t0018",
+          "t0019"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0006_n0020",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0006",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0020",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Blood draw",
+      "target_canonical_name": "Bumps into things (finding)",
+      "llm_relation": {
+        "pair_id": "pn0006_n0020",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports linking a Procedure (blood draw) to an Activity (bumping into things).",
+        "evidence_turn_ids": [
+          "t0018"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0007_n0008",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0007",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0008",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Joint pain",
+      "target_canonical_name": "Foot joint pain",
+      "llm_relation": {
+        "pair_id": "pn0007_n0008",
+        "relation": "associated_with",
+        "direction": "source->target",
+        "explanation": "Foot joint pain is discussed as part of the patient's overall joint pain complaints, without a clear causal direction stated.",
+        "evidence_turn_ids": [
+          "t0006",
+          "t0026"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0007_n0009",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0007",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0009",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Joint pain",
+      "target_canonical_name": "Nail ridging",
+      "llm_relation": {
+        "pair_id": "pn0007_n0009",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Both are conditions; transcript does not state any causal/associative link between joint pain and nail ridging.",
+        "evidence_turn_ids": [
+          "t0025",
+          "t0029",
+          "t0030"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0007_n0010",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0007",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0010",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Joint pain",
+      "target_canonical_name": "COVID-19 vaccination",
+      "llm_relation": {
+        "pair_id": "pn0007_n0010",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Joint pain and COVID-19 vaccination are mentioned, but no explicit relation option fits (no condition->procedure relation available).",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0010"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0007_n0015",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0007",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0015",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Joint pain",
+      "target_canonical_name": "Follow-up visit",
+      "llm_relation": {
+        "pair_id": "pn0007_n0015",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No available relation type links a condition (joint pain) to a planned follow-up visit (procedure).",
+        "evidence_turn_ids": [
+          "t0009"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0007_n0021",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0007",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0021",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Joint pain",
+      "target_canonical_name": "Knee pain",
+      "llm_relation": {
+        "pair_id": "pn0007_n0021",
+        "relation": "associated_with",
+        "direction": "source->target",
+        "explanation": "Knee pain is discussed as part of the patient's joint pain complaints (knee pain as a specific joint pain site), indicating clinical association without explicit causality.",
+        "evidence_turn_ids": [
+          "t0027",
+          "t0028"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0007_n0022",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0007",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0022",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Joint pain",
+      "target_canonical_name": "methotrexate",
+      "llm_relation": {
+        "pair_id": "pn0007_n0022",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports Condition -> MedicationStatement direction (e.g., indication is Medication -> Condition, not vice versa).",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0028"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0007_n0023",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0007",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0023",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Joint pain",
+      "target_canonical_name": "toe range of motion",
+      "llm_relation": {
+        "pair_id": "pn0007_n0023",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports Condition -> LabTest direction (lab relations are Person->LabTest or LabTest->Condition).",
+        "evidence_turn_ids": [
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0007_n0024",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0007",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0024",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Joint pain",
+      "target_canonical_name": "Psoriasis",
+      "llm_relation": {
+        "pair_id": "pn0007_n0024",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Transcript does not link joint pain to psoriasis directly in the provided turns; psoriasis is mentioned as explanation for nail ridges.",
+        "evidence_turn_ids": [
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0008_n0013",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0008",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0013",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Foot joint pain",
+      "target_canonical_name": "desk job",
+      "llm_relation": {
+        "pair_id": "pn0008_n0013",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links a condition (foot joint pain) to an activity (desk job) in this schema (would require condition->activity or activity->condition).",
+        "evidence_turn_ids": [
+          "t0006"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0008_n0014",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0008",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0014",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Foot joint pain",
+      "target_canonical_name": "moving around a lot",
+      "llm_relation": {
+        "pair_id": "pn0008_n0014",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Although foot pain worsens when moving around a lot, the schema has no condition->activity or activity->condition relation to encode this.",
+        "evidence_turn_ids": [
+          "t0006"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0008_n0021",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0008",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0021",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Foot joint pain",
+      "target_canonical_name": "Knee pain",
+      "llm_relation": {
+        "pair_id": "pn0008_n0021",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Both are conditions; transcript does not state an association between foot joint pain and knee pain.",
+        "evidence_turn_ids": [
+          "t0006",
+          "t0027",
+          "t0028"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0009_n0021",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0009",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0021",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Nail ridging",
+      "target_canonical_name": "Knee pain",
+      "llm_relation": {
+        "pair_id": "pn0009_n0021",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Both are conditions; no stated relationship between nail ridging and knee pain.",
+        "evidence_turn_ids": [
+          "t0028",
+          "t0029",
+          "t0030"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0009_n0022",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0009",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0022",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Nail ridging",
+      "target_canonical_name": "methotrexate",
+      "llm_relation": {
+        "pair_id": "pn0009_n0022",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports Condition -> MedicationStatement direction, and no medication effect on nail ridging is stated.",
+        "evidence_turn_ids": [
+          "t0028",
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0009_n0023",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0009",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0023",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Nail ridging",
+      "target_canonical_name": "toe range of motion",
+      "llm_relation": {
+        "pair_id": "pn0009_n0023",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports Condition -> LabTest direction; also no stated link between nail ridging and toe range of motion.",
+        "evidence_turn_ids": [
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0009_n0024",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0009",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0024",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Nail ridging",
+      "target_canonical_name": "Psoriasis",
+      "llm_relation": {
+        "pair_id": "pn0009_n0024",
+        "relation": "associated_with",
+        "direction": "source->target",
+        "explanation": "Clinician states nail ridges are from psoriasis, indicating a clinical association between nail ridging and psoriasis.",
+        "evidence_turn_ids": [
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0009_n0025",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0009",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0025",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Nail ridging",
+      "target_canonical_name": "Treatment plan",
+      "llm_relation": {
+        "pair_id": "pn0009_n0025",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links a condition (nail ridging) to a treatment plan (procedure).",
+        "evidence_turn_ids": [
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0009_n0026",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0009",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0026",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Nail ridging",
+      "target_canonical_name": "Blood draw",
+      "llm_relation": {
+        "pair_id": "pn0009_n0026",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links a condition (nail ridging) to a lab test/blood draw (LabTest).",
+        "evidence_turn_ids": [
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0010_n0015",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0010",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0015",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "COVID-19 vaccination",
+      "target_canonical_name": "Follow-up visit",
+      "llm_relation": {
+        "pair_id": "pn0010_n0015",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Both are procedures; transcript does not state a relationship between COVID vaccination and the follow-up visit, and no procedure->procedure relation exists in options.",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0010"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0010_n0016",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0010",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0016",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "COVID-19 vaccination",
+      "target_canonical_name": "felt absolutely horrible",
+      "llm_relation": {
+        "pair_id": "pn0010_n0016",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports Procedure -> Condition direction (e.g., adverse effect) in this schema; only MedicationStatement has adverse-effect relations.",
+        "evidence_turn_ids": [
+          "t0012"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0010_n0017",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0010",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0017",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "COVID-19 vaccination",
+      "target_canonical_name": "Pain",
+      "llm_relation": {
+        "pair_id": "pn0010_n0017",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option supports Procedure -> Condition direction; pain after the first shot is described but cannot be encoded with available relations.",
+        "evidence_turn_ids": [
+          "t0014"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0010_n0018",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0010",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0018",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "COVID-19 vaccination",
+      "target_canonical_name": "phone call to hotline",
+      "llm_relation": {
+        "pair_id": "pn0010_n0018",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Both are procedures; transcript indicates the hotline call occurred because of issues after the first shot, but no procedure->procedure relation is available.",
+        "evidence_turn_ids": [
+          "t0014"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0011_n0012",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0011",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0012",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Follow-up visit (procedure)",
+      "target_canonical_name": "Psoriatic arthritis",
+      "llm_relation": {
+        "pair_id": "pn0011_n0012",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No available relation links a Procedure (follow-up visit) to a Condition (psoriatic arthritis) in the provided relation options.",
+        "evidence_turn_ids": [
+          "t0001"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0013_n0014",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0013",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0014",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "desk job",
+      "target_canonical_name": "moving around a lot",
+      "llm_relation": {
+        "pair_id": "pn0013_n0014",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option connects Activity -> Activity.",
+        "evidence_turn_ids": [
+          "t0006"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0017_n0018",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0017",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0018",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Pain",
+      "target_canonical_name": "phone call to hotline",
+      "llm_relation": {
+        "pair_id": "pn0017_n0018",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option connects Condition (pain) -> Procedure (phone call).",
+        "evidence_turn_ids": [
+          "t0014"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0019_n0020",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0019",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0020",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Easy bruising",
+      "target_canonical_name": "Bumps into things (finding)",
+      "llm_relation": {
+        "pair_id": "pn0019_n0020",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option connects Condition (easy bruising) -> Activity (bumping into things).",
+        "evidence_turn_ids": [
+          "t0018"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0021_n0022",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0021",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0022",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Knee pain",
+      "target_canonical_name": "methotrexate",
+      "llm_relation": {
+        "pair_id": "pn0021_n0022",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option connects Condition (knee pain) -> MedicationStatement (methotrexate).",
+        "evidence_turn_ids": [
+          "t0028"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0021_n0023",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0021",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0023",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Knee pain",
+      "target_canonical_name": "toe range of motion",
+      "llm_relation": {
+        "pair_id": "pn0021_n0023",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option connects Condition (knee pain) -> LabTest (toe range of motion).",
+        "evidence_turn_ids": [
+          "t0028",
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0021_n0024",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0021",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0024",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Knee pain",
+      "target_canonical_name": "Psoriasis",
+      "llm_relation": {
+        "pair_id": "pn0021_n0024",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No transcript support for a clinical association between knee pain and psoriasis, and no appropriate relation option for this pair direction beyond generic condition-condition links (which are not stated).",
+        "evidence_turn_ids": [
+          "t0027",
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0022_n0023",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0022",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0023",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "methotrexate",
+      "target_canonical_name": "toe range of motion",
+      "llm_relation": {
+        "pair_id": "pn0022_n0023",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option connects MedicationStatement -> LabTest.",
+        "evidence_turn_ids": [
+          "t0028",
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0022_n0024",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0022",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0024",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "methotrexate",
+      "target_canonical_name": "Psoriasis",
+      "llm_relation": {
+        "pair_id": "pn0022_n0024",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No indication in the transcript that methotrexate treats/was indicated for psoriasis; methotrexate is discussed in relation to joint pain/psoriatic arthritis management.",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0029",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0023_n0024",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0023",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0024",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "toe range of motion",
+      "target_canonical_name": "Psoriasis",
+      "llm_relation": {
+        "pair_id": "pn0023_n0024",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option connects LabTest -> Condition unless it is a diagnostic support/consistency/monitoring statement, which is not present here (toe range of motion is not linked to psoriasis).",
+        "evidence_turn_ids": [
+          "t0029"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0025_n0026",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0025",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0026",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Treatment plan",
+      "target_canonical_name": "Blood draw",
+      "llm_relation": {
+        "pair_id": "pn0025_n0026",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option connects Procedure (treatment plan) -> LabTest (blood work).",
+        "evidence_turn_ids": [
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0013",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0013",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 3,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "desk job",
+      "llm_relation": {
+        "pair_id": "pn0002_n0013",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option connects Person(clinician) -> Activity (desk job).",
+        "evidence_turn_ids": [
+          "t0006"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0014",
+      "source_node_id": "clinicalnlp_taskB_test1_full_16_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_16_n0014",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 3,
+      "source_canonical_name": "clinician/doctor",
+      "target_canonical_name": "moving around a lot",
+      "llm_relation": {
+        "pair_id": "pn0002_n0014",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option connects Person(clinician) -> Activity (moving around a lot).",
+        "evidence_turn_ids": [
+          "t0006"
+        ]
+      }
+    }
+  ],
+  "shacl_shapes_ttl": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix kg: <http://example.org/kg#> .\n@prefix kgsh: <http://example.org/kg/shapes#> .\n\nkgsh:PersonShape\n    a sh:NodeShape ;\n    sh:targetClass kg:Person ;\n    sh:property         [ sh:path kg:name;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:age;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:gender;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:job;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:occupation;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:role;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:hobbies;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:location;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:relationship;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:patient_agreement;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n.\n\nkgsh:ConditionShape\n    a sh:NodeShape ;\n    sh:targetClass kg:Condition ;\n    sh:property         [ sh:path kg:status;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:onset;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:severity;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:temporality;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:negation;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:body_site;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:course;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:reaction;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:duration;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:impact;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n.\n\nkgsh:MedicationStatementShape\n    a sh:NodeShape ;\n    sh:targetClass kg:MedicationStatement ;\n    sh:property         [ sh:path kg:dose_value;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:dose_unit;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:dose_raw;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:frequency_text;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:route;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:status;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:start_date;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:end_date;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:indication;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:medication_status;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n.\n\nkgsh:LabTestShape\n    a sh:NodeShape ;\n    sh:targetClass kg:LabTest ;\n    sh:property         [ sh:path kg:result_value;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:result_unit;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:interpretation;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:specimen;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:collection_time;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:status;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n.\n\nkgsh:ProcedureShape\n    a sh:NodeShape ;\n    sh:targetClass kg:Procedure ;\n    sh:property         [ sh:path kg:procedure_type;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_subject;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_status;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_intent;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_body_site;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_approach;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_performer;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_location;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_date;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_duration;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_outcome;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n.\n\nkgsh:TimeShape\n    a sh:NodeShape ;\n    sh:targetClass kg:Time ;\n    sh:property         [ sh:path kg:time_text;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_kind;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_normalized;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_granularity;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_value;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_unit;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_start;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_end;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_anchor;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_reference;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n.\n\nkgsh:ActivityShape\n    a sh:NodeShape ;\n    sh:targetClass kg:Activity ;\n    sh:property         [ sh:path kg:activity_type;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_frequency;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_amount;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_intensity;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_duration;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_context;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_status;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_start_date;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_end_date;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n.\n\nkgsh:ObservationShape\n    a sh:NodeShape ;\n    sh:targetClass kg:Observation ;\n    sh:property         [ sh:path kg:description;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:value_text;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:context;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n."
+}

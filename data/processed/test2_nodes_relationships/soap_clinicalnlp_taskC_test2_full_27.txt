@@ -1,0 +1,28 @@
+HISTORY OF PRESENT ILLNESS  
+Christina presents for a follow-up visit for a persistent, nonhealing diabetic foot ulcer on the right foot (dorsal lateral aspect just proximal to the fifth MTP joint) that has been present for about a year. [n0001][n0004][n0009][pn0001_n0004][pn0001_n0009]  
+She reports the wound started as a blister that she picked at, which became red and infected, and she denies any trauma. [n0010][n0011][n0012][n0013][pn0001_n0010][pn0001_n0011][pn0001_n0012][pn0001_n0013]  
+She notes increased drainage from the ulcer lately and mild recent fatigue. [n0019][n0020][pn0001_n0019][pn0001_n0020]  
+She denies foot pain and reports decreased feeling in the foot, with neuropathy attributed to diabetes. [n0015][n0016][n0017][pn0001_n0015][pn0001_n0016][pn0001_n0017][pn0004_n0005]  
+She denies fever. [n0007][pn0001_n0007]  
+She previously took antibiotics including Keflex for the foot wound, which seemed to help but did not resolve the ulcer, with last use referenced as about five months ago. [n0006][n0014][pn0001_n0006][pn0001_n0014]  
+Her diabetes remains poorly controlled with reported blood sugars in the 200s and last hemoglobin A1c about 10. [n0005][n0023][n0024][pn0001_n0005][pn0001_n0023][pn0001_n0024]  
+She reports she has been wearing regular shoes and anticipates walking around at the zoo and eating out all weekend. [n0021][n0022][n0038][pn0001_n0021][pn0001_n0022][pn0001_n0038]  
+
+PHYSICAL EXAM  
+Vital signs are normal and she is afebrile. [n0030][n0007][pn0001_n0030][pn0001_n0007]  
+On right foot exam, there is an approximately 1 x 2 cm circular wound on the dorsal lateral right foot just proximal to the fifth MTP joint with yellow slough and minimal granulation tissue. [n0028][n0029][pn0001_n0028][pn0001_n0029]  
+There is no surrounding erythema/cellulitis, no odor, no necrosis, no fluid collection, and no bony exposure. [n0028][n0004][pn0001_n0028][pn0001_n0004]  
+The wound is not painful to touch, and she denies pain with palpation. [n0031][n0028][pn0001_n0031][pn0001_n0015]  
+
+RESULTS  
+Right foot x-ray performed prior to the visit shows no evidence of osteomyelitis. [n0032][n0034][pn0001_n0032][pn0032_n0034]  
+Reported glycemic data include blood glucose readings in the 200s and a last hemoglobin A1c of about 10. [n0023][n0024]  
+
+ASSESSMENT AND PLAN  
+Nonhealing diabetic foot ulcer of the right foot in the setting of type 2 diabetes mellitus. [n0004][n0005][pn0002_n0004][pn0004_n0005]  
+Order an ankle-brachial index to assess blood flow and healing potential. [n0035][pn0002_n0035][pn0001_n0035]  
+Plan in-office wound debridement and reassess at a planned follow-up visit in two weeks with possible repeat debridement. [n0036][n0040][n0041][pn0001_n0036][pn0001_n0040][pn0001_n0041]  
+Start collagenase topical ointment once daily to the wound and cover with a sterile dressing, continuing until the wound starts to shrink. [n0037][pn0002_n0037][pn0001_n0037]  
+Recommend offloading pressure with a surgical/pressure management shoe and advise minimizing pressure on the ulcer while walking. [n0008][n0039][pn0002_n0008][pn0002_n0039][pn0001_n0008]  
+Diabetic neuropathy with decreased sensation in the foot. [n0016][n0017][pn0002_n0017][pn0001_n0016]  
+Type 2 diabetes mellitus with poor control by reported home glucose and A1c values. [n0005][n0023][n0024][pn0001_n0005]

@@ -1,0 +1,29 @@
+HISTORY OF PRESENT ILLNESS  
+Larry presents for evaluation of chronic back pain that began after moving furniture one weekend and has been present for a couple of years. [n0001][n0003][n0010][pn0001_n0003][pn0001_n0010]  
+He describes the pain as sharp and stabbing and notes it sometimes radiates down the right leg to the toe/big toe. [n0003]  
+He reports associated numbness and tingling in the right leg/foot. [n0004][pn0001_n0004][pn0003_n0004]  
+He reports difficulty getting comfortable, with symptoms worse when sitting down. [n0011][n0012][pn0001_n0011][pn0001_n0012]  
+He denies any fall or accident. [n0008][n0009][pn0001_n0008][pn0001_n0009]  
+He denies weakness, loss of sensation in the genital/rectal area, and loss of bladder or bowel control. [n0013][n0014][n0015][pn0001_n0013][pn0001_n0014][pn0001_n0015]  
+He has previously tried physical therapy and has used strong pain medications temporarily when symptoms were severe. [n0016][n0017][n0018][pn0001_n0016][pn0001_n0017][pn0001_n0018]  
+He tries to remain as active as he can, but pain has made activity difficult and has contributed to weight gain over the past years and setbacks in golfing/playing golf. [n0003][n0020][n0021][n0022][n0023][pn0001_n0020][pn0001_n0021][pn0001_n0022][pn0001_n0023][pn0003_n0021]  
+He is a former smoker who quit about twenty years ago. [n0027][pn0001_n0027]  
+He cannot recall any family members with spine conditions. [n0025][n0026][pn0025_n0026]  
+
+PHYSICAL EXAM  
+Vitals were reviewed and were noted to “overall look pretty good.” [n0029][pn0001_n0029]  
+On spine exam, there was no overlying erythema or ecchymosis. [n0030][n0031][n0032][pn0001_n0030][pn0001_n0031][pn0001_n0032]  
+There was midline tenderness at the L4-L5 disc space and right-sided lumbar paravertebral tenderness. [n0030][n0033][n0034][pn0001_n0033][pn0001_n0034]  
+Lumbar flexion/extension was painful, and range of motion testing elicited pain with lumbar flexion. [n0035][n0036][n0038][pn0001_n0035][pn0001_n0036][pn0001_n0038]  
+Straight leg raise testing was positive. [n0039][pn0001_n0039]  
+Neurologic exam showed decreased sensation to light touch at the right lateral thigh (L4 dermatome) with symmetrical patellar and Achilles reflexes. [n0040][n0041][n0042][n0043][pn0001_n0040][pn0001_n0041][pn0001_n0042][pn0001_n0043]  
+
+RESULTS  
+MRI was reviewed and showed disk herniation with nerve impingement. [n0044][n0045][pn0001_n0044][pn0044_n0045]  
+
+ASSESSMENT AND PLAN  
+Assessment is chronic low back pain with L4-L5 herniated disk with radiculopathy and disk herniation with nerve impingement. [n0047][n0048][n0045][pn0001_n0047][pn0001_n0048][pn0001_n0045]  
+Plan is to initiate a therapeutic lumbar spinal corticosteroid injection under fluoroscopy, with the first injection planned for today (or to be scheduled). [n0005][n0049][n0050][n0052][pn0001_n0005][pn0001_n0049][pn0001_n0050][pn0001_n0052][pn0002_n0005][pn0002_n0049]  
+The corticosteroid injection is intended to treat inflammation contributing to his pain, and the clinician noted injections are usually not done more than four times per year. [n0005][n0049][n0051][pn0049_n0051]  
+Larry agrees to start the first spinal injection today (or be scheduled to start it). [n0001][n0052][pn0001_n0052]  
+A follow-up visit is planned. [n0007]

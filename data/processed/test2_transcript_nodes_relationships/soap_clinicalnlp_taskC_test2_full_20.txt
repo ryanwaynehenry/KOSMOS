@@ -1,0 +1,18 @@
+## HISTORY OF PRESENT ILLNESS
+Jeremy presents for evaluation of a lower back injury that occurred while moving boxes when his son was moving out of his college dorm. [0][1] The injury occurred about 4 months ago, and he is being seen now due to appointment delays and ongoing concern. [3][4][5] He tried physical therapy at his gym without improvement. [5] At the time of the initial injury, he briefly felt like he could not support his upper body and had tingling in the toes of his right foot that resolved after about an hour and has not recurred. [6][7] He reports intermittent sharp low back pain with certain movements (turning/rolling over in sleep) that can wake him up and improves with repositioning. [10] He notes possible leg difficulty/weakness only when carrying something heavy, otherwise his legs feel relatively normal, though he is nervous about lifting. [8][9] He has tried acetaminophen, ibuprofen, heat, and ice without significant relief; ibuprofen helps slightly but for a shorter period of time, and he denies stomach upset from it. [11][13][15] He previously went to urgent care where an MRI was recommended, but he deferred due to insurance concerns and initial improvement; he now wants to proceed with MRI due to persistent symptoms. [16][17] He denies bowel/bladder dysfunction or incontinence. [18][19] He denies fever or chills. [30][31] Past surgical history includes right total knee replacement about 2 years ago (spring 2020) with good recovery to ~95%. [21][23][25][27]  
+
+## PHYSICAL EXAM
+Vital signs in clinic were reassuring: afebrile, BP 117/56, HR 68, and SpO₂ 95% on room air. [32][34] Neck exam notable for bony protuberance at C5–C6 without tenderness. [36][37] Lumbar spine exam showed no midline tenderness to palpation but decreased flexion/extension, positive straight leg raise, and paraspinal muscle spasm. [38][40] Lower extremity strength was equal bilaterally. [40]  
+
+## RESULTS
+Lumbar spine x-ray showed no acute bony abnormality and no fracture. [42]  
+
+## ASSESSMENT AND PLAN
+1) **Low back pain with suspected lumbar disk herniation (symptoms ongoing ~4 months; positive SLR; no red-flag bowel/bladder symptoms).** [1][3][40][42][19]  
+- Order **lumbar spine MRI** for further evaluation of soft tissues. [44][45]  
+- **Continue physical therapy** with referral to a physical therapist within the health system. [44][45]  
+- Start **meloxicam 15 mg once daily** for pain/inflammation. [46]  
+- If MRI confirms herniated disk and symptoms persist, discussed possible **epidural steroid injection** as a future option to reduce inflammation. [50][52]  
+
+2) **Possible cervical degenerative change/arthritis (C5–C6 bony protuberance, non-tender).** [36][37][40]  
+- No specific intervention documented today beyond discussion of findings. [40]

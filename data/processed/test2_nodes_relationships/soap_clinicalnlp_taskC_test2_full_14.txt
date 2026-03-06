@@ -1,0 +1,31 @@
+HISTORY OF PRESENT ILLNESS  
+Amanda Taylor is a 72-year-old woman presenting today for follow-up of hypertension. [n0001][n0007][n0013][pn0001_n0013]  
+She has a history of myocardial infarction and mild hypercholesterolemia. [n0014][n0015][pn0001_n0014][pn0001_n0015]  
+Home blood pressure readings are elevated, ranging about 130–145/95–100 with occasional readings up to 150/100, with lower readings in the morning than evening. [n0004][pn0001_n0004]  
+She is currently taking antihypertensive medications including hydrochlorothiazide 12.5 mg daily and lisinopril 10 mg daily, but reports taking only half of the lisinopril dose due to lethargy/tiredness when taking the full dose. [n0005][n0006][n0022][n0023][n0024][pn0001_n0005][pn0001_n0006][pn0001_n0022][pn0001_n0023][pn0001_n0024]  
+After reducing lisinopril to half-dose, she reports feeling much better and denies headaches, and the prior left-ear “swooshing” sound is no longer present. [n0023][n0024][n0025][n0026][pn0001_n0025][pn0001_n0026]  
+She denies chest tightness, chest pressure, and shortness of breath. [n0028][n0029][n0008][pn0001_n0028][pn0001_n0029][pn0001_n0008]  
+She denies fever, cough, and sore throat, and reports no recent travel or known contact/exposure to coronavirus infection. [n0035][n0036][n0037][n0038][n0039][n0040][pn0001_n0035][pn0001_n0036][pn0001_n0037][pn0001_n0038][pn0001_n0039][pn0001_n0040]  
+She reports ongoing alcohol use (hard alcohol) about four to five times per week to excess, has been cutting down with last drink on Monday, and states her blood pressure will not be okay until she stops drinking. [n0003][n0021][n0027][n0054][pn0001_n0003][pn0001_n0021][pn0001_n0027][pn0001_n0054]  
+She plans to stop alcohol for good and agrees to start monthly injectable naltrexone on May 17th to help with stopping drinking and reducing urges/constant thoughts about alcohol, with follow-up planned in June (week of June 14th). [n0001][n0009][n0010][n0012][n0046][n0047][pn0001_n0009][pn0001_n0010][pn0001_n0012][pn0009_n0046][pn0009_n0047]  
+She reports no tobacco use and no substance abuse. [n0055][n0056][pn0001_n0055][pn0001_n0056]  
+She received a coronavirus vaccine on February 9th. [n0041][pn0001_n0041]  
+
+PHYSICAL EXAM  
+On exam, she is alert, pleasant, and in no acute distress. [n0058][pn0001_n0058]  
+Skin is moist. [n0057][pn0001_n0057]  
+Respiratory exam shows chest clear to percussion and auscultation with unlabored breathing. [n0062][pn0001_n0062]  
+Cardiovascular assessment is normal with regular rhythm, no murmur or gallop, and flat JVP at 90 degrees. [n0063]  
+She does not appear anxious, agitated, or depressed, and there is no tremor. [n0064][n0060][pn0001_n0064][pn0001_n0060]  
+There is no costovertebral angle tenderness. [n0061][pn0001_n0061]  
+
+RESULTS  
+Prior blood pressure measurements included 130/90 at the April 16 visit and later 150/100. [n0016][pn0001_n0016]  
+Comprehensive metabolic panel and complete blood count were essentially unremarkable. [n0019][n0020][pn0001_n0019][pn0001_n0020]  
+
+ASSESSMENT AND PLAN  
+Hypertension with elevated home blood pressure readings; continue current antihypertensive medications and ongoing home blood pressure monitoring with a target of 130–140/70–80. [n0004][n0007][n0051][n0052][pn0004_n0007][pn0001_n0051][pn0051_n0052]  
+Alcohol use disorder with ongoing heavy use; patient agrees to stop drinking, and alcohol cessation is expected to help improve blood pressure. [n0003][n0011][n0053][pn0001_n0003][pn0002_n0011][pn0003_n0007][pn0001_n0053]  
+Start monthly injectable naltrexone (shot) beginning May 17th, with follow-up planned in June (week of June 14th), and counsel that possible side effects include nausea, headache, dizziness, anxiety, tiredness, trouble sleeping, typically resolving within a few days. [n0002][n0009][n0010][n0012][n0050][pn0002_n0010][pn0002_n0048][pn0001_n0012][pn0009_n0050]  
+Vaccinations: clinician recommended upgrading influenza vaccination and Shingrix vaccination, and the patient deferred both. [n0065][n0066][pn0002_n0065][pn0002_n0066]  
+Patient agrees with the plan to stop drinking and to start the naltrexone shot on May 17th, and agrees to follow up in June. [n0001][n0012][pn0001_n0012]

@@ -1,0 +1,29 @@
+## HISTORY OF PRESENT ILLNESS
+Christopher Watson is an 86-year-old man here for first follow-up after ventriculoperitoneal shunt surgery (Medtronic Strata programmable shunt set at 2.0) performed 8/1/2020 for adult hydrocephalus. [0][1]  
+He was initially followed starting May 2020 for 8–10 years of progressive gait impairment, cognitive impairment, and decreased bladder control, with diagnosis established June 2020 prior to shunt placement. [1]  
+Since surgery (about 3 months ago), he has not been sick or hospitalized per patient and daughter. [4][5][6]  
+Post-operatively, gait has improved (now able to walk to the dining room, though he still sometimes needs help). [8][9]  
+Bladder control improved somewhat after surgery but has since leveled out, and he continues to wear diapers. [12]  
+He and family report cognitive improvement, including feeling less “lost” in conversation and being able to have a normal conversation again. [15][16][17]  
+He denies headaches or pain at the shunt site, abdominal pain, diaper-related sores, and decreased or painful urination. [13][14][18][19][20][21]  
+He asked about returning to driving; clinician advised it is unlikely currently due to movement speed to pass a driver safety evaluation, though improvement over 9–12 months is possible, and he may enroll in a driver safety program preemptively. [32][33][34]  
+
+## PHYSICAL EXAM
+Vitals: BP 124/80, HR 64, RR 18, weight 174 lb, pain 0/10. [43]  
+General: Pleasant, cooperative, converses easily; daughter provides additional details. [44]  
+Shunt site: Clean, dry, intact; shunt setting confirmed at 2. [44]  
+Neuro/cognitive testing: MMSE 26/30 (spelling) and 25/30 (calculations), with improved recall compared with prior testing. [44]  
+Gait/balance: Tinetti gait 6–8/12 and balance 12/16 (total 18–20/28), slightly improved from initial 15–17/28, tested without an assistive device. [45]  
+Cranial nerves/motor: Pupils equal, EOMI, face symmetric, no dysarthria; motor bulk/strength normal; coordination slow on finger-to-nose. [46]  
+
+## RESULTS
+CT head (10/15/2020): frontal horn span 4.6 cm at foramen of Monro and flat third ventricular contour with span 10 mm. [46]  
+Clinician notes a tiny amount of blood/fluid collection in the right parietal/right frontal region with a tiny subdermal collection, not noted by the radiologist, and believes it is not causing symptoms. [25][46]  
+CT also shows substantial small vessel ischemic change. [46]  
+
+## ASSESSMENT AND PLAN
+Adult hydrocephalus s/p VP shunt (Strata set at 2.0) with overall clinical improvement in gait and cognition and partial improvement in bladder control. [1][9][16][17][25]  
+Plan: Leave shunt setting unchanged for another 2–3 months given improvement and absence of headaches/pain, with follow-up in ~3 months. [27][28][29]  
+Tiny right-sided blood/fluid collection on CT: monitor clinically as it is not felt to be symptomatic at this time. [25][27]  
+Gait impairment, urinary incontinence/urgency, and cognitive impairment: continue monitoring trajectory; current status documented with MMSE and Tinetti testing. [42][44][45][47]  
+Driving: Not recommended at this time due to likely inability to pass driver safety evaluation; may consider driver safety program now and reassess if further improvement over 9–12 months. [33][34]

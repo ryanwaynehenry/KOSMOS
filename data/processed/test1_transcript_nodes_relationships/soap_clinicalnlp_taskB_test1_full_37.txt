@@ -1,0 +1,29 @@
+## HISTORY OF PRESENT ILLNESS
+Mr. Edwards is a 54-year-old male presenting for evaluation of right-sided facial pain. [0][3]  
+He reports a stabbing/shooting, sometimes “super hot,” pain localized to the right cheekbone/right face that has been present for about 2–3 months and has gradually worsened. [3][5]  
+Pain occurs in episodes lasting a few minutes and occasionally up to about an hour, with severity up to 10/10 during attacks. [17][21]  
+Cold temperatures and wind can trigger the pain. [10][11]  
+He has tried ibuprofen/Motrin and topical Tiger Balm without relief. [14]  
+He denies symptoms on the left side of the face. [8]  
+He initially denied numbness/tingling and denied facial weakness or vision changes. [7][9]  
+He denies history of multiple sclerosis or brain tumors. [18][19]  
+He reports occasional headaches responsive to Tylenol, which he feels are different from this facial pain, and he denies a migraine history. [19]  
+He was referred by his family doctor for neurosurgical evaluation. [3][15]  
+
+## PHYSICAL EXAM
+Extraocular movements were intact on finger-following exam. [23]  
+Facial motor exam appeared symmetric when showing teeth. [24]  
+Hearing was intact bilaterally to finger rub. [24][26][27]  
+Light touch sensation testing suggested decreased sensation on the right face compared with the left. [29][30]  
+Pinprick testing was reported as dull on the right and sharp on the left. [31][32]  
+
+## RESULTS
+MRI review showed a small blood vessel abutting and possibly pinching the trigeminal nerve. [33][35]  
+
+## ASSESSMENT AND PLAN
+Right facial pain is most consistent with trigeminal neuralgia due to vascular compression of the trigeminal nerve based on symptoms and MRI findings. [3][35][37]  
+Start medical therapy first; Tegretol (carbamazepine) was recommended as initial treatment, with discussion that dosing may require trial and error. [38][43][45]  
+Reviewed potential Tegretol adverse effects including memory loss, tingling, imbalance, and possible dermatologic/skin reaction, and discussed possible genetic testing to help ensure safety. [45][46]  
+Prescription for Tegretol will be sent to the patient’s pharmacy. [48][51]  
+If pain persists despite medication, surgical options including decompression of the nerve can be discussed, though surgery is not recommended as first-line at this time. [41][42][48]  
+Follow up in 1 month to assess response and next steps. [50][51]

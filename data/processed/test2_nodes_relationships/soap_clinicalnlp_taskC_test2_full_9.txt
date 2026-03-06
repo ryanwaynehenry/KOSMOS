@@ -1,0 +1,32 @@
+HISTORY OF PRESENT ILLNESS
+
+Christine is a 63-year-old female presenting for a routine yearly exam and follow-up. [n0001][n0009][pn0001_n0009]  
+She has hypertension with blood pressure readings that have been up and down for the past couple of weeks, and her in-office blood pressure today is a little elevated. [n0003][n0006][pn0001_n0006]  
+She reports significant work stress and working more hours recently, with diet “all over the place,” limited time for grocery shopping or cooking, and increased reliance on frozen meals. [n0016][n0017][n0015][n0018][n0019][n0020][pn0001_n0016][pn0001_n0017][pn0001_n0015][pn0001_n0018][pn0001_n0019][pn0001_n0020]  
+She reports intermittent headaches, which she attributes to looking at a computer screen all day. [n0021][pn0001_n0021]  
+She denies swelling. [n0022][pn0001_n0022]  
+Depression is improving on her current antidepressant medication and weekly therapy, and she reports sleeping a full eight hours. [n0004][n0010][n0011][n0012][pn0001_n0004][pn0001_n0010][pn0001_n0011][pn0001_n0012]  
+She denies suicidal ideation. [n0013][pn0001_n0013]  
+She reports she has been taking her medications. [n0014][pn0001_n0014]  
+She is status post right carpal tunnel release about two years ago and reports doing well, denying current hand numbness or tingling. [n0005][n0040][n0024][n0025][pn0001_n0005][pn0001_n0040][pn0001_n0024][pn0001_n0025]  
+
+PHYSICAL EXAM
+
+Physical examination was performed and was overall essentially normal. [n0026][n0032][pn0001_n0026][pn0002_n0032]  
+Lungs were clear on exam. [n0028][pn0002_n0028]  
+Cardiovascular exam showed regular rhythm without murmurs. [n0031][pn0029_n0031]  
+Neck exam showed no adenopathy, and there was no hyperthyroidism on exam. [n0029][n0030][pn0001_n0029][pn0001_n0030]  
+Neurologic exam was intact with good strength, equal grip strength, and good pulses. [n0034][n0035][n0033][n0036][n0027][pn0001_n0034][pn0001_n0035][pn0001_n0033][pn0001_n0036][pn0001_n0027]  
+
+RESULTS
+
+Blood pressure today was elevated. [n0006][pn0001_n0006]  
+Laboratory tests were essentially normal. [n0007][pn0001_n0007]  
+
+ASSESSMENT AND PLAN
+
+Hypertension with recent variability and mild elevation in clinic: increase lisinopril to 10 mg once daily. [n0003][n0006][n0038][pn0002_n0038]  
+Plan for follow-up visit in one month to reassess response to the increased lisinopril and blood pressure checks. [n0008][n0038][pn0001_n0008]  
+Depression is improving on current management, and no changes are planned at this time. [n0004][n0010][n0011][n0039][pn0001_n0004][pn0001_n0010][pn0001_n0011][pn0001_n0039]  
+Carpal tunnel syndrome status post right carpal tunnel release is doing well; patient was advised to notify the clinician if tingling or other changes return. [n0005][n0040][n0041][n0042][pn0040_n0041][pn0040_n0042]  
+Continue current medication regimen otherwise. [n0039][pn0002_n0039]

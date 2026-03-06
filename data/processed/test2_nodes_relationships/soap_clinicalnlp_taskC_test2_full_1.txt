@@ -1,0 +1,36 @@
+HISTORY OF PRESENT ILLNESS
+
+Beverly is a 24-year-old female who presents today for a yearly exam. [n0001][n0010][pn0001_n0010]  
+She has a history of type 2 diabetes mellitus that has been up and down and described as a little out of control. [n0003][pn0001_n0003][n0005][pn0001_n0005]  
+She reports her diet has been “pretty bad lately,” which she attributes to working in a bakery this summer with increased snacking during shifts and eating more desserts than usual, and she notes difficulty resisting temptation and “no willpower.” [n0011][pn0001_n0011][n0012][pn0001_n0012][n0013][pn0001_n0013][n0014][pn0001_n0014][n0016][pn0001_n0016][n0017][pn0001_n0017]  
+She reports taking her medications as prescribed and is currently taking metformin twice daily. [n0015][pn0001_n0015][n0007][pn0001_n0007]  
+She also has hypertension that is described as relatively stable, and she reports her blood pressure has been good. [n0004][pn0001_n0004][n0006][pn0001_n0006]  
+She reports sleeping well and getting a full eight hours. [n0018]  
+She denies self-harm. [n0019][pn0001_n0019]  
+
+PHYSICAL EXAM
+
+Vital signs were reviewed and noted to be fine, including good blood pressure. [n0035][n0006][pn0001_n0035]  
+Lungs are clear. [n0026][pn0001_n0026]  
+Cardiovascular exam is notable for a grade 2 systolic ejection murmur that is unchanged from prior. [n0025][pn0001_n0025]  
+Neck exam shows no carotid bruits and no thyromegaly. [n0029][pn0001_n0029][n0030][pn0001_n0030]  
+Extremities show no swelling/edema, and pulses are good. [n0024][pn0001_n0024][n0031][pn0001_n0031][n0032][pn0001_n0032]  
+Neurologic/musculoskeletal exam shows equal grip strength, intact neurovascular status, and normal light-touch sensation. [n0027][pn0001_n0027][n0028][pn0001_n0028][n0022][pn0001_n0022]  
+
+RESULTS
+
+Hemoglobin A1c is elevated. [n0034][pn0001_n0034]  
+Self-monitored blood glucose readings are reported as elevated and up and down. [n0005][pn0001_n0005]  
+Laboratory studies were reviewed during the visit. [n0033][pn0001_n0033]  
+
+ASSESSMENT AND PLAN
+
+Type 2 diabetes mellitus is assessed as a little out of control and thought to be diet related. [n0003][pn0002_n0003]  
+Continue metformin twice daily with no change to the current medication regimen at this time. [n0007][pn0001_n0007][n0037][pn0001_n0037]  
+Provide dietary counseling to cut down on snacking and additional sweets. [n0038][pn0001_n0038]  
+Patient will check morning fasting blood sugars and call in readings in about two weeks. [n0039][pn0001_n0039][pn0002_n0039]  
+If things have not straightened out, discuss adding an additional diabetes medication. [n0040]  
+Plan follow-up visit in about two months. [n0008][pn0001_n0008]  
+
+Hypertension is assessed as relatively stable. [n0004][pn0002_n0004]  
+Continue lisinopril 10 mg once daily with no changes at this point. [n0041][pn0001_n0041][pn0042_n0041]

@@ -1,0 +1,24 @@
+HISTORY OF PRESENT ILLNESS  
+Mrs. Lee is a 40-year-old female presenting for evaluation of back pain, worse on the right. [n0001][n0004][pn0001_n0004]  
+She reports the pain began after an injury at a surprise birthday party where she fell down a little stair and rammed her back into the staircase railing, with twisting/jumping movements involved. [n0006][n0009][n0010][n0011][n0012][n0013][n0014][n0015][pn0001_n0006][pn0001_n0011]  
+Her pain is worse with twisting motion and hurts a little more when lying flat. [n0004][n0014][n0016][pn0001_n0014][pn0001_n0016]  
+She denies pain shooting down the legs and denies numbness in the legs. [n0007][n0022][pn0001_n0007][pn0001_n0022]  
+She reports a prior lumbar spinal fusion. [n0017][n0018][pn0001_n0017][pn0001_n0018]  
+She has been taking ibuprofen and also reports taking medication for anxiety. [n0026][n0027][n0028][pn0001_n0026][pn0001_n0028]  
+
+PHYSICAL EXAM  
+A back-focused physical examination was performed, including assessment of pain with twisting. [n0021][pn0001_n0021]  
+Back stiffness with rotation was noted. [n0023][pn0001_n0023]  
+Straight-leg raise did not reproduce symptoms, and the clinician noted no evidence of radiculopathy. [n0007][n0024][pn0001_n0007][pn0001_n0024]  
+
+RESULTS  
+Spine x-ray was obtained and interpreted as essentially normal except for the fusion. [n0019][pn0001_n0019]  
+No compression fracture was seen on x-ray. [n0020][n0019][pn0019_n0020][pn0001_n0020]  
+Lumbar fusion was visible on x-ray. [n0018][n0019]  
+
+ASSESSMENT AND PLAN  
+Low back strain was diagnosed in the setting of recent back injury with stiffness on rotation. [n0006][n0008][n0023][pn0001_n0008][pn0008_n0023]  
+Continue Motrin 800 mg three times daily with food. [n0029][pn0002_n0029][pn0001_n0029]  
+Use alternating ice and heat therapy to the back. [n0030][pn0002_n0030][pn0001_n0030]  
+The clinician recommended walking. [n0031][pn0002_n0031][pn0001_n0031]  
+Follow up over the next week if the lower back strain is not improving or is getting worse. [n0003][n0008][pn0001_n0003]

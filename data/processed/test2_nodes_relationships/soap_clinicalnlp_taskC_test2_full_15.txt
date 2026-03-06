@@ -1,0 +1,24 @@
+HISTORY OF PRESENT ILLNESS  
+Grace Ross is a new patient evaluated by Dr. Diaz who presents requesting full spectrum STD testing due to vaginal symptoms and concern about partner infidelity. [n0001][pn0001_n0002][n0003][n0016][n0018]  
+She reports persistent right-sided vaginal pain described as soreness that has not gone away, along with vaginal discomfort. [n0004][n0010][pn0001_n0004][pn0001_n0010][pn0004_n0010]  
+She reports a change in vaginal discharge with abnormal/weird discharge starting last week and notes the smell, color, and consistency are different than usual, with associated vaginal odor. [n0017][n0011][n0012][pn0001_n0017][pn0001_n0011][pn0001_n0012]  
+She denies fever and chills. [n0013][n0014][pn0001_n0013][pn0001_n0014]  
+She recently learned her boyfriend/sexual partner has been cheating and has had sexual encounters with other people, with cheating starting about three months ago. [n0007][n0008][n0015][n0018][n0032]  
+She reports a history of an abnormal/irregular Pap smear around age 20 and also reports a normal Pap smear about six months ago. [n0006][n0005][pn0001_n0006][pn0001_n0005][pn0005_n0006]  
+
+PHYSICAL EXAM  
+A physical examination including a pelvic exam (speculum and bimanual) was completed by Dr. Diaz. [n0020][n0021]  
+Pelvic exam showed no external lesions and normal labia majora/minora. [n0020][n0021][n0022]  
+There was normal physiological discharge with normal color and smell, and the cervix and vaginal wall were normal. [n0020][n0021][n0022]  
+There was no cervical motion tenderness and no adnexal tenderness or masses. [n0020][n0021][n0022]  
+
+RESULTS  
+Pap smear about six months ago was normal. [n0005][pn0001_n0005]  
+STD testing was collected today using swabs and blood. [n0019][n0003][pn0001_n0019][pn0001_n0003]  
+
+ASSESSMENT AND PLAN  
+Assessment is STD screening in the setting of vaginal discomfort, discharge change, odor, and right-sided vaginal pain. [n0030][n0010][n0011][n0012][n0004]  
+She is assessed as at high risk of sexually transmitted infection due to her history of abnormal Pap smear and recent discovery that her sexual partner has had multiple partners. [n0031][n0006][n0032][pn0006_n0031]  
+Full spectrum STD testing was ordered/sent, including swabs for gonorrhea, chlamydia, and trichomoniasis and blood tests for syphilis, HIV, and hepatitis C. [n0019][n0023][n0024][n0025][n0026][n0027][n0028][pn0002_n0019]  
+Patient was advised to call in three days for results if not contacted. [n0019]  
+If everything is normal, follow-up is planned at her next annual checkup. [n0029][pn0001_n0029]

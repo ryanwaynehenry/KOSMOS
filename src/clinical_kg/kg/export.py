@@ -66,7 +66,7 @@ def _summarize_node(node: Dict[str, Any]) -> Dict[str, Any]:
 
 def _summarize_relationship(rel: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     meta = rel.get("llm_relation") or {}
-    relation = meta.get("relation")
+    relation = meta.get("relation") or rel.get("relation")
     if not relation or relation == "no_relation":
         return None
     return {
@@ -206,8 +206,16 @@ def _format_soap_text(soap: Dict[str, Any]) -> str:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate a SOAP note from a KG JSON file.")
     parser.add_argument("input", type=Path, help="Path to JSON containing turns, nodes, and relationship_candidates.")
-    parser.add_argument("--output-json", type=Path, help="Where to write the SOAP note JSON (default: stdout).")
-    parser.add_argument("--output-txt", type=Path, help="Where to write the SOAP note text with section headings.")
+    parser.add_argument(
+        "--output-json",
+        type=Path,
+        help="Optional override for SOAP JSON output path. Defaults to data/processed/soap_<input-stem>.json",
+    )
+    parser.add_argument(
+        "--output-txt",
+        type=Path,
+        help="Optional override for SOAP text output path. Defaults to data/processed/soap_<input-stem>.txt",
+    )
     args = parser.parse_args()
 
     data = json.loads(args.input.read_text(encoding="utf-8"))
@@ -216,19 +224,23 @@ def main() -> None:
 
     soap = generate_soap_note(nodes=nodes, relationship_candidates=relationships)
 
-    if args.output_json:
-        args.output_json.write_text(
-            json.dumps(soap, indent=2, ensure_ascii=False),
-            encoding="utf-8"
-        )
-    if args.output_txt:
-        args.output_txt.write_text(
-            _format_soap_text(soap),
-            encoding="utf-8"
-        )
+    output_dir = Path("data") / "processed"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    stem = args.input.stem
+    output_json_path = args.output_json or output_dir / f"soap_{stem}.json"
+    output_txt_path = args.output_txt or output_dir / f"soap_{stem}.txt"
 
-    if not args.output_json and not args.output_txt:
-        print(json.dumps(soap, indent=2, ensure_ascii=False))
+    output_json_path.write_text(
+        json.dumps(soap, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    output_txt_path.write_text(
+        _format_soap_text(soap),
+        encoding="utf-8",
+    )
+
+    print(f"Wrote {output_json_path}")
+    print(f"Wrote {output_txt_path}")
 
 
 

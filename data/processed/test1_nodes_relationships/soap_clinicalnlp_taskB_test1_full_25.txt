@@ -1,0 +1,29 @@
+HISTORY OF PRESENT ILLNESS  
+Jacqueline is a female who presents for evaluation after recent blood work and reports feeling really anxious about being told she has hepatitis C. [n0001][n0011][n0008][pn0001_n0011][pn0001_n0008]  
+She reports persistent fatigue lately, describing being very tired at the end of the day after working despite getting enough sleep. [n0005][n0018][pn0001_n0005][pn0001_n0018]  
+She reports being busy with work and identifies as a workaholic and is working on it. [n0018][n0022][pn0001_n0018][pn0001_n0022]  
+She reports former intravenous drug use and states she has been clean for over fifteen years. [n0012][n0014][pn0001_n0012][pn0001_n0014]  
+She reports current alcohol use of about a beer a day and notes she used to drink more in the past. [n0015][pn0001_n0015]  
+She reports current cigarette smoking and has cut down to one to two cigarettes per day. [n0016][pn0001_n0016]  
+Family history is notable for hypertension, diabetes mellitus, and depression. [n0006][n0007][n0024][pn0001_n0006][pn0001_n0007][pn0001_n0024]  
+
+PHYSICAL EXAM  
+Vital signs were reviewed and noted to look good. [n0026][n0025][pn0001_n0026][pn0001_n0025]  
+General appearance: no distress. [n0027][pn0001_n0027]  
+Skin: no jaundice. [n0028][pn0001_n0028]  
+Cardiovascular: regular rate and rhythm with a 2/6 systolic murmur unchanged from last year. [n0029][n0025][pn0001_n0029][pn0001_n0025]  
+Respiratory: lungs clear with no wheezes, rales, or rhonchi. [n0030][pn0001_n0030]  
+Abdomen: bowel sounds present, abdomen soft, and no hepatosplenomegaly appreciated. [n0031][pn0001_n0031]  
+Musculoskeletal: no gait disturbance and no edema. [n0032][pn0001_n0032]  
+
+RESULTS  
+Recent blood work showed hepatitis C virus antibody positive. [n0004][n0033][pn0001_n0004][pn0001_n0033]  
+Liver panel showed AST 39 (elevated) with ALT, albumin, and total bilirubin within normal limits. [n0034][n0035][n0036][n0037][n0038][pn0001_n0034][pn0001_n0035][pn0001_n0036][pn0001_n0037][pn0001_n0038]  
+
+ASSESSMENT AND PLAN  
+Hepatitis C is suspected based on initial labs, and the plan is to confirm the diagnosis with additional blood work including HCV RNA and HCV genotype. [n0008][n0040][n0041][n0042][pn0001_n0008][pn0001_n0040][pn0001_n0041][pn0001_n0042]  
+To assess liver disease severity and evaluate for liver fibrosis, a special liver ultrasound is planned to help guide hepatitis C treatment planning. [n0043][n0044][n0009][n0045][pn0001_n0009][pn0001_n0045][pn0043_n0044]  
+Additional blood work will be arranged during checkout. [n0052][n0051][pn0001_n0052]  
+The clinician recommended that Jacqueline’s wife and kids undergo HCV screening/testing and set up an appointment with their family doctor. [n0046][n0047][n0048][n0049][n0050][pn0002_n0048][pn0046_n0048][pn0047_n0048][pn0046_n0049][pn0047_n0049][pn0046_n0050][pn0047_n0050]  
+Fatigue is an active issue and was the only concern discussed at a prior physical examination with her primary care provider. [n0005][n0017][pn0001_n0005][pn0001_n0017]  
+Anxiety is present in the setting of concern about hepatitis C. [n0011][n0008][pn0008_n0011]

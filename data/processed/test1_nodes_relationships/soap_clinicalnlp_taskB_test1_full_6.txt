@@ -1,0 +1,25 @@
+HISTORY OF PRESENT ILLNESS  
+Ms. James is a 42-year-old female evaluated by Dr. Cooper for right index finger pain after a skiing accident this past weekend. [n0001][pn0001_n0002][n0007][n0014][n0010][pn0001_n0007][pn0001_n0014][pn0001_n0010]  
+She reports jamming her index finger while skiing, including going downhill on double black diamonds, and is unsure what the finger hit. [n0009][n0004][pn0001_n0009][pn0001_n0004]  
+Her right index finger pain began about five days ago and is rated 7/10 in severity. [n0007][pn0001_n0007]  
+She tried ibuprofen for the pain but it did not really help. [n0011][pn0001_n0011]  
+She has not iced the right index finger prior to the visit. [n0012]  
+She denies any other injuries besides the right index finger injury. [n0013][pn0001_n0013]  
+Past history includes chronic constipation treated with polyethylene glycol 3350. [n0016][n0018][pn0001_n0016][pn0001_n0018]  
+Past surgical history includes appendectomy at age seven. [n0020][pn0001_n0020]  
+
+PHYSICAL EXAM  
+Examination of the right index finger was performed. [n0029][pn0001_n0029]  
+There is tenderness/pain at the right index finger joint when pressed and with squeezing/palpation over the distal interphalangeal (DIP) joint region. [n0026][n0027][n0030][pn0001_n0026][pn0001_n0027][pn0001_n0030]  
+
+RESULTS  
+Right hand X-ray (XR Hand - right Views) was reviewed and interpreted as normal with joints and bones in the right places. [n0005][n0021][n0023][n0024][pn0001_n0005]  
+The X-ray shows no fractures. [n0005][n0025][pn0005_n0025][pn0001_n0025]  
+
+ASSESSMENT AND PLAN  
+Assessment is sprain of the ligament of the interphalangeal joint of the right index finger (DIP joint). [n0028][pn0001_n0028][pn0002_n0028]  
+Plan includes splinting the right index finger at the DIP joint. [n0006][pn0001_n0006][pn0002_n0006]  
+Start Mobic (meloxicam) 15 mg by mouth once daily (14 tablets) for the finger sprain. [n0031][pn0001_n0031][pn0002_n0031]  
+Follow up in two weeks to ensure the right index finger is healed and to determine if hand therapy is needed. [n0003][n0032][pn0001_n0003][pn0001_n0032]  
+Hand therapy is planned/contingent at the two-week follow-up if needed. [n0032][pn0001_n0032]  
+Continue management of chronic constipation with polyethylene glycol 3350. [n0016][n0018][pn0001_n0016][pn0001_n0018]

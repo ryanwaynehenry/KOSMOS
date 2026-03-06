@@ -1,0 +1,33 @@
+## HISTORY OF PRESENT ILLNESS
+Andrea is a 52-year-old female with a past medical history of rheumatoid arthritis, atrial fibrillation, and reflux who presents for an annual exam (last visit ~1 year ago). [4]  
+For rheumatoid arthritis, she reports she has been walking, exercising, and doing yoga, which has helped significantly, and she has not had any joint pain recently. [5]  
+She denies stiffness, pain, or flare-ups over the last year. [6][7]  
+She is taking methotrexate once weekly and reports no issues with it. [8][9][10][11]  
+For atrial fibrillation, she continues to have palpitations, most recently about a week ago, and notes stress triggers flares despite trying meditation and running with her dog. [12][13]  
+She previously called last month and completed an event monitor, which was to be reviewed at this visit. [14][15]  
+For reflux, she reports improvement after cutting out soda and taking Protonix, with no flare-ups for about five months. [16][17]  
+Review of systems is notable for palpitations and nasal congestion attributed to allergies, and she denies chest pain, shortness of breath, nausea, or vomiting. [18][19]  
+
+## PHYSICAL EXAM
+Vitals in the office showed a well-controlled heart rate. [22]  
+Cardiac exam: regular rate and rhythm with a slight 2/6 systolic ejection murmur (previously noted). [24]  
+Pulmonary exam: lungs clear to auscultation. [24]  
+MSK: right elbow with edema and erythema and pain to palpation. [24][25][26]  
+Extremities: no lower extremity edema. [26]  
+
+## RESULTS
+Event monitor showed intermittent atrial fibrillation with a “conversion pause” (in AF, pauses, then returns to regular rhythm). [28]  
+Autoimmune panel was reassuring and consistent with rheumatoid arthritis being well controlled on methotrexate. [30]  
+
+## ASSESSMENT AND PLAN
+1) **Rheumatoid arthritis, stable/well controlled**: Continue methotrexate 2.5 mg once weekly. [30][32]  
+Methotrexate refill was requested and ordered. [33][34]  
+Rheumatology referral to be considered if needed, though symptoms appear stable currently. [32]  
+
+2) **Atrial fibrillation with symptomatic palpitations; intermittent AF on event monitor with conversion pause**: Refer to cardiology for consideration of cardiac ablation to maintain normal sinus rhythm. [28][34][36]  
+Cardiology referral was ordered. [34][36]  
+
+3) **Reflux/GERD, improved**: Continue Protonix 40 mg daily and continue dietary modifications (avoid coffee and spicy foods). [36]  
+Patient advised to report any recurrent issues. [36]  
+
+4) **Nasal congestion/allergies**: Symptom acknowledged; no additional workup or treatment changes documented. [18][19]

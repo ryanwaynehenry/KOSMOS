@@ -1,0 +1,32 @@
+HISTORY OF PRESENT ILLNESS  
+Jose James is a new patient presenting today for evaluation of persistent left shoulder and left elbow pain that began about five months ago after a fall on icy stairs in which he fell on his left side. [n0001][n0003][n0004][n0005][n0010][pn0001_n0003][pn0001_n0004][pn0001_n0005]  
+He describes the pain as constant and “pretty bad at times,” and notes it is tender to pressing. [n0012][n0004][n0005][n0023]  
+He reports the pain is worse with lifting weights and he has not been able to lift more than about 15–20 pounds. [n0004][n0013]  
+He stopped going to the gym over the past 1–2 weeks because the pain was not worth it, and stopping exercise has helped a bit. [n0013][n0021][n0017]  
+He has tried icing the shoulder with some benefit and was advised to continue icing. [n0008][pn0001_n0008][pn0002_n0008]  
+He has not taken any medication for the pain. [n0020]  
+He also reports wrist pain since the fall, which was discussed as related to the shoulder problem. [n0006][pn0001_n0006][pn0006_n0009]  
+He denies numbness and tingling. [n0018][n0019][pn0001_n0018][pn0001_n0019]  
+He is retired from an office job last year and walks about 30 minutes almost every day with his wife. [n0016][n0014][n0015][pn0001_n0016][pn0001_n0014]  
+
+PHYSICAL EXAM  
+On palpation during the exam, pressing hurts at the left shoulder and elbow. [n0023][pn0001_n0023]  
+Left shoulder exam shows subacromial space tenderness without warmth, erythema, or deformity. [n0024][n0025][pn0001_n0024][pn0001_n0025]  
+Left shoulder abduction range of motion is to 90 degrees. [n0030][pn0001_n0030]  
+Hawkins-Kennedy and Neer tests are positive. [n0026][n0027][pn0001_n0026][pn0001_n0027]  
+Empty can testing is normal, and proximal/distal upper extremity strength is normal with intact median/radial/ulnar sensation. [n0031][n0028][n0029][pn0001_n0031][pn0001_n0028][pn0001_n0029]  
+
+RESULTS  
+Hawkins-Kennedy test is positive. [n0026]  
+Neer test is positive. [n0027]  
+Abduction range of motion is 90 degrees. [n0030]  
+Empty can test is normal. [n0031]  
+Upper extremity strength is normal and sensation is intact in the median, radial, and ulnar distributions. [n0028][n0029]  
+
+ASSESSMENT AND PLAN  
+Left shoulder impingement syndrome is diagnosed based on exam findings including positive Hawkins-Kennedy and Neer tests with subacromial space tenderness. [n0009][n0026][n0027][n0024][pn0001_n0009][pn0009_n0024]  
+Plan is to start physical therapy for the left shoulder, with scheduling through the physical therapy office and a referral requested for Dr. Martha Rivera. [n0007][n0039][n0040][pn0001_n0007][pn0001_n0039][pn0007_n0040]  
+Recommend rest as much as possible and continue icing, especially the shoulder. [n0034][n0008][pn0002_n0034][pn0002_n0008]  
+If pain does not improve with physical therapy, cortisone injection can be considered, and the patient agrees to try physical therapy first. [n0033][n0001][pn0002_n0033]  
+He was instructed to call or email Dr. Isabella’s office if symptoms worsen or do not improve with therapy. [n0035][n0036][n0037][pn0002_n0035]  
+The care plan was discussed with the patient. [n0038][pn0001_n0038]

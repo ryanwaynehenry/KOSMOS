@@ -1,0 +1,29 @@
+## HISTORY OF PRESENT ILLNESS
+Christopher Watson is an 86-year-old male returning for follow-up of adult hydrocephalus, his first visit since VP shunt surgery on 8/1/2020 (Medtronic Strata programmable shunt, setting 2.0). [0][1]  
+He was initially evaluated in May 2020 after 8–10 years of progressive gait impairment, cognitive impairment, and decreased bladder control, and adult hydrocephalus was diagnosed in June 2020 via a spino-catheter protocol. [1]  
+Since shunt surgery ~3 months ago, he has not been sick or hospitalized. [4][5][6]  
+Post-operatively, gait has improved and he is now able to walk to the dining room, though he still sometimes needs assistance. [8][9]  
+Bladder control improved somewhat after surgery but has now leveled off, and he continues to wear diapers. [12]  
+He reports improved cognition, stating he no longer feels lost in conversation, and family notes they can have a normal conversation with him again. [16][17]  
+He denies headaches or pain at the shunt site and denies abdominal pain. [18][19][20][21]  
+He asked whether he will be able to drive again, and the clinician discussed that it is unlikely at this time due to movement speed, though improvement over 9–12 months could make passing a driver safety evaluation possible. [32][33]  
+
+## PHYSICAL EXAM
+Vitals: BP 124/80, HR 64, RR 18, weight 174 lb, pain 0/10. [43]  
+General: Pleasant, cooperative, converses easily; daughter provides additional details. [44]  
+Shunt site: Clean, dry, intact; shunt setting confirmed at 2. [44]  
+Cognition testing: MMSE 26/30 (spelling) and 25/30 (calculations), slightly improved from prior testing. [44]  
+Gait/balance: Tinetti gait 6–8/12 and balance 12/16 (total 18–20/28), slightly improved from initial 15–17/28, tested without an assistive device. [45]  
+Neuro: Pupils equal, EOMI, face symmetric, no dysarthria; motor bulk/strength normal; coordination slow on finger-to-nose. [46]  
+
+## RESULTS
+CT head (10/15/2020): frontal horn span 4.6 cm at foramen of Monro; third ventricle contour flat with span 10 mm. [46]  
+Clinician noted a tiny amount of blood/fluid collection in the right parietal/right frontal region with a tiny subdermal collection, not noted by the radiologist, and felt it was not causing symptoms. [25][46]  
+CT also showed substantial small vessel ischemic change. [46]  
+
+## ASSESSMENT AND PLAN
+Adult hydrocephalus s/p VP shunt (Strata programmable, setting 2.0) with overall clinical improvement in gait and cognition since surgery, and partial improvement in bladder control with ongoing incontinence requiring diapers. [0][1][9][12][16][17][25]  
+Given the small asymptomatic blood/fluid collection seen on CT, plan is to keep the shunt setting unchanged for another 2–3 months before considering adjustment. [25][27]  
+Follow up in 3 months. [28][29][39]  
+Driving: currently unlikely to pass driver safety evaluation due to movement speed, but may improve over 9–12 months; patient may enroll in a driver safety program preemptively. [33][34]  
+ROS documented: impaired ability to carry out daily functions; urinary incontinence/diaper use without sores and without painful/decreased urination; continued gait and cognitive impairment; no headaches, recent falls, hallucinations, fever, unintentional weight loss, depression, excessive worrying, or mood swings. [42]

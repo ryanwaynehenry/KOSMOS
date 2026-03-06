@@ -1,0 +1,25 @@
+HISTORY OF PRESENT ILLNESS  
+Sharon presents with moderate right shoulder pain that began about three weeks ago and is present with some constant pain and some intermittent pain. [n0001][n0004][pn0001_n0004]  
+The pain is worse with lifting overhead/raising her arm overhead. [n0004][n0017][pn0001_n0017]  
+She reports the pain is about 6/10 without medication and improves to about 4/10 with ibuprofen. [n0004][n0018][n0022][pn0001_n0018][pn0001_n0022]  
+She has been remodeling her house and was painting up on a ladder when she fell and braced herself, with the event associated with her shoulder pain. [n0005][n0008][n0010][n0013][pn0001_n0005][pn0001_n0008][pn0001_n0010][pn0001_n0013][pn0004_n0008]  
+She iced her arm and has been taking Advil/ibuprofen, which helps take the edge off so she can move around a little bit. [n0014][n0015][n0016][n0018][n0023][pn0001_n0014][pn0001_n0015][pn0001_n0016][pn0001_n0018][pn0001_n0023]  
+She is not currently having numbness or tingling in the arm or hand, though it occurred initially when she hurt the right shoulder. [n0029][pn0001_n0029][pn0004_n0029]  
+She states she cannot wait to get some relief. [n0044][pn0001_n0044]  
+
+PHYSICAL EXAM  
+Vitals today look good. [n0031][pn0001_n0031]  
+Right shoulder exam shows limited active and passive range of motion with tenderness to the greater tuberosity of the humerus and no tenderness at the sternoclavicular joint. [n0032][pn0001_n0032]  
+Bilateral hand grips are good and strong. [n0033][pn0001_n0033]  
+Neurovascular exam of the right arm is good with brisk capillary refill of less than three seconds and equal/bilateral response to sensation and touch. [n0034][pn0001_n0034]  
+
+RESULTS  
+Right shoulder x-ray today shows no fracture or bony abnormality. [n0035][pn0001_n0035]  
+
+ASSESSMENT AND PLAN  
+Right shoulder pain is assessed as most likely due to rotator cuff tendinopathy, with possible direct trauma after the fall. [n0004][n0009][n0036][pn0004_n0009][pn0001_n0036][pn0002_n0036]  
+Order MRI of the right shoulder to ensure nothing else is going on. [n0037][pn0001_n0037][pn0002_n0037]  
+Refer to physical therapy for the right shoulder for a planned six to eight week course, with reassessment planned in two weeks. [n0006][n0043][pn0001_n0006][pn0001_n0043]  
+Continue an NSAID if tolerated and start Tylenol for pain if she can tolerate it. [n0039][n0040][pn0001_n0039][pn0001_n0040][pn0039_n0041][pn0040_n0041]  
+Consider a steroid injection to the right shoulder depending on response to physical therapy. [n0038][pn0001_n0038]  
+Sharon agrees with the treatment plan and will follow up in two weeks. [n0001][n0043][pn0001_n0043]

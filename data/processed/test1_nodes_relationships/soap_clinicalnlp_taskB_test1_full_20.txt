@@ -1,0 +1,27 @@
+HISTORY OF PRESENT ILLNESS  
+Gregory presents for a follow-up visit for a nonhealing right foot ulcer that began about two months ago and has been getting worse. [n0001][n0013][n0004][pn0001_n0004]  
+He reports the ulcer has recently become red and is intermittently draining, which he has not had before. [n0006][pn0001_n0006]  
+He notes intermittent throbbing associated with the ulcer. [n0023][pn0001_n0023][pn0004_n0023]  
+He thinks the problem may have started after walking barefoot on the beach (Dewey Beach). [n0015][n0009][n0021][pn0001_n0015][pn0001_n0009][pn0001_n0021]  
+He has diabetes mellitus and reports his last hemoglobin A1c was around 10. [n0007][n0008][pn0001_n0007][pn0001_n0008]  
+He reports taking diabetes medication but does not check his blood sugar all the time. [n0025][n0026][pn0001_n0025][pn0001_n0026]  
+His PCP prescribed an antibiotic, but he has not yet picked it up from the pharmacy and does not recall the name. [n0017][n0018][n0019][pn0001_n0017][pn0001_n0018][pn0001_n0019]  
+
+PHYSICAL EXAM  
+Vital signs today are normal and he is afebrile. [n0030][n0012][pn0001_n0030][pn0001_n0012]  
+Right foot exam shows a 1 x 2 inch circular wound on the dorsal lateral right foot just proximal to the fifth MTP joint with redness, drainage, edema, and fluid present. [n0028][n0029][n0031][pn0001_n0028][pn0001_n0029][pn0001_n0031]  
+No necrosis, odor, or bony exposure is appreciated, and infection is suspected. [n0028][n0031][n0032][pn0001_n0028][pn0001_n0031][pn0031_n0032]  
+He reports increased pressure at the wound site rather than distinct pain. [n0033][n0031][pn0001_n0033][pn0031_n0033]  
+
+RESULTS  
+Right foot X-ray (performed prior to this visit) shows no evidence of osteomyelitis. [n0034][n0035][pn0001_n0034][pn0034_n0035]  
+
+ASSESSMENT AND PLAN  
+Diabetic foot ulcer/nonhealing right lateral dorsal foot wound with associated skin infection (redness and drainage) and no radiographic evidence of osteomyelitis. [n0005][n0004][n0031][n0036][n0006][n0034][n0035][pn0001_n0005][pn0001_n0004][pn0001_n0031][pn0001_n0036][pn0001_n0035]  
+Start clindamycin 400 mg by mouth twice daily for 7 days for infection. [n0039][pn0001_n0039][pn0002_n0039]  
+Order an ankle-brachial index to assess blood supply to the foot to help determine healing potential. [n0037][pn0001_n0037][pn0002_n0037]  
+Plan debridement of the right foot ulcer, with possible repeat debridement in two weeks to reassess tissue. [n0038][n0042][pn0001_n0038][pn0001_n0042]  
+Provide a surgical shoe for offloading, as regular shoes can put pressure on the foot and irritate the ulcer, and plan for use over the next month. [n0011][n0040][n0041][pn0001_n0011][pn0002_n0011]  
+Diabetes mellitus with poor control (A1c around 10) likely contributing to impaired wound healing; patient should return to PCP for a diabetes management plan. [n0007][n0008][n0027][pn0004_n0007][pn0007_n0031]  
+Return precautions: call the office for any issues, and go to urgent care or the ER if symptoms suggest an emergency such as fever/feeling unwell or the foot turning black. [n0044][n0047][n0048][n0012][n0049][pn0001_n0044][pn0001_n0047][pn0001_n0048]  
+Patient agrees with the plan. [n0001]

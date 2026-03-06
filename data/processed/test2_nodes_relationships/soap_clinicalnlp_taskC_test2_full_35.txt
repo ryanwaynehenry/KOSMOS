@@ -1,0 +1,27 @@
+HISTORY OF PRESENT ILLNESS  
+Julie Cruz is a 17-year-old non-binary emancipated minor who lives on their own and presents to clinic for evaluation of newly diagnosed hypercholesterolemia. [n0001][n0005][n0009][pn0001_n0005][pn0001_n0009]  
+They report cholesterol was checked at an annual checkup last year via finger-prick testing and were told the result was elevated/high. [n0006][n0010][pn0001_n0006][pn0001_n0010]  
+They are worried/anxious about the cholesterol finding because it was previously not concerning and is now described as “high.” [n0021][pn0001_n0021]  
+They report trying to eat a “clean” diet most days and cooking pretty much everything fresh, but also eating chocolate chip cookies. [n0012][n0013][pn0001_n0012][pn0001_n0013]  
+They report being physically active, including frequent bicycle riding and outdoor activity, and they went for a bike ride with friends over the weekend. [n0007][n0011][n0014][n0061][pn0001_n0007][pn0001_n0011][pn0001_n0014][pn0001_n0061]  
+They report no current tobacco smoke exposure in their apartment and state that friends who come over do not smoke, though their parents smoked when the patient lived with them. [n0034][n0035][n0029][n0030][pn0001_n0034][pn0001_n0035][pn0029_n0034][pn0030_n0034]  
+Family history is notable for a cousin who died at age 44–45, and the grandparents thought it was a heart attack. [n0033][n0036][n0037][n0051][pn0001_n0036][pn0001_n0037]  
+
+PHYSICAL EXAM  
+Vital signs were reviewed and blood pressure was noted to look good. [n0040][n0041][pn0001_n0040][pn0001_n0041]  
+Cardiovascular exam showed no murmur, rubs, or gallops appreciated. [n0042][n0060][pn0001_n0042][pn0001_n0060]  
+Respiratory exam showed lungs clear. [n0043][n0060][pn0001_n0043][pn0001_n0060]  
+Eye exam showed no xanthomas appreciated. [n0044][pn0001_n0044]  
+Neck exam showed no thyromegaly. [n0045][pn0001_n0045]  
+Abdominal exam showed no hepatomegaly or splenomegaly appreciated. [n0046][n0060][pn0001_n0046][pn0001_n0060]  
+
+RESULTS  
+Cholesterol measurement was 210 and interpreted as elevated/high. [n0047][n0005][pn0001_n0047]  
+
+ASSESSMENT AND PLAN  
+Hypercholesterolemia with total cholesterol 210; clinician discussed that high cholesterol is linked to premature heart attacks. [n0005][n0047][n0051][pn0005_n0051]  
+Plan to obtain additional laboratory evaluation including a full cholesterol and triglyceride panel, glucose, basic metabolic panel, thyroid studies, liver panels, and molecular genetic testing. [n0052][n0053][n0054][n0055][n0056][n0057][n0058][pn0001_n0052]  
+Recommend a well balanced diet with foods lower in saturated fat and sugars, with referral/plan to meet with a nutritionist and institute dietary changes. [n0003][n0059][n0063][pn0001_n0003][pn0001_n0059][pn0001_n0063]  
+Encourage continuation of exercise/being active (bike riding). [n0061][n0007][pn0001_n0061][pn0001_n0007]  
+Plan repeat cholesterol measurement and clinic follow-up in 3 to 6 months after dietary changes. [n0004][n0062][pn0001_n0004][pn0001_n0062]  
+Patient agrees to follow a well balanced diet, meet with a nutritionist, continue exercise, and follow up for repeat cholesterol testing in 3 to 6 months. [n0001]

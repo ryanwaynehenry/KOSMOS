@@ -1,0 +1,14 @@
+## HISTORY OF PRESENT ILLNESS
+Melissa Sanchez (DOB 9/23/1962) presents for an office follow-up visit status post mitral valve repair performed 8/3/2020. [0] At her prior follow-up on 9/17, she was doing well from a cardiac standpoint and was advised to continue the same medications. [0] She reports she is feeling “pretty good” and overall better since surgery after having a rough time preoperatively. [4] She denies any new symptoms but continues to have intermittent chest pain with episodes of shallow breathing, typically with exertion, which improve when she slows down and paces her activity. [5][6] Episodes last a few minutes and then resolve, with symptom-free intervals lasting a couple of weeks, occurring a couple times per month. [7][8][10][11][12] She reports taking her medications regularly using a reminder app and confirms she is on Coumadin, Lasix, and atenolol. [13][14][15][16] She denies significant medication side effects, noting initial irritability with atenolol that has improved. [17][18] Past history noted includes mitral regurgitation, atrial fibrillation, diabetes, asthma, and recurrent chest discomfort with prior negative cardiac workup for coronary artery disease. [0]
+
+## PHYSICAL EXAM
+Neck: No JVD. [23] Lungs: Reduced breath sounds; auscultation and percussion clear. [23] Cardiovascular: Irregularly irregular rhythm; S1 slightly accentuated; no S3. [23][29] Abdomen: Nontender to palpation. [29][30] Extremities: Trace peripheral edema. [33]
+
+## RESULTS
+ECG dated 12/26/2020 showed atrial fibrillation with controlled ventricular response and anterior T-wave inversion, with no significant change compared with the prior study. [0] ECG reviewed at today’s visit again showed atrial fibrillation that was well controlled with medication. [35]
+
+## ASSESSMENT AND PLAN
+1) **Status post mitral valve repair (8/3/2020), recovering well.** Heart valves appear to be working well and recovery is progressing nicely. [0][33] Continue current medications. [39] Encourage continued activity as tolerated with pacing when symptomatic. [6][39][40]  
+2) **Atrial fibrillation, controlled.** Exam and ECG demonstrate atrial fibrillation with controlled ventricular response. [0][23][35] Continue Coumadin 4 mg daily and atenolol 50 mg daily as currently taking. [35][36]  
+3) **Intermittent chest pain and episodic shallow breathing with exertion (recurrent; prior negative CAD workup per history).** Symptoms are brief, self-resolving, and improved with reduced exertion. [0][6][7][8][10] Continue current regimen and activity pacing. [39][10]  
+4) **Follow-up.** Return to cardiology clinic in 6–9 months. [43]

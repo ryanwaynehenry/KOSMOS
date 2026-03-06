@@ -1,0 +1,32 @@
+HISTORY OF PRESENT ILLNESS  
+Betty presents for evaluation of asthma symptoms that have been ongoing for the past six months and are described as moderate and intermittent. [n0001][n0004][n0054][pn0001_n0004][pn0001_n0054]  
+She reports persistent wheezing and coughing almost every day, which has made her feel frustrated and requires her to be careful with hiking/outdoor walking. [n0001][n0005][n0006][n0015][pn0001_n0005][pn0001_n0006][pn0001_n0015]  
+She reports waking up a couple times per week needing to use her inhaler and then getting enough relief to go back to sleep. [n0004][n0006][n0013][n0023][pn0001_n0013][pn0001_n0023]  
+She describes episodic breathing problems occurring every month or every other month over the past six months, often leading to urgent care or primary care visits and including one emergency department visit for a severe flare. [n0007][n0008][n0011][n0012][pn0001_n0007][pn0001_n0008][pn0001_n0011][pn0001_n0012]  
+Her last asthma exacerbation was about a month ago, and she notes flares are triggered by getting sick such as with a common cold. [n0007][n0016][n0017][pn0001_n0007][pn0001_n0016][pn0001_n0017]  
+She reports one flare after visiting her aunt’s house that she believes was due to cat exposure, and she now tries to avoid going there. [n0009][n0010][n0018][pn0001_n0009][pn0001_n0010][pn0001_n0018]  
+She reports having had several ER/urgent care visits in the past year and states these visits almost always result in starting prednisone, sometimes as a taper, and she has also sometimes been given antibiotics or steroids. [n0011][n0012][n0019][n0020][n0026][n0027][n0028][pn0001_n0011][pn0001_n0012][pn0001_n0026][pn0001_n0027][pn0001_n0028]  
+She is currently using a Ventolin (albuterol) inhaler (two puffs every 4–6 hours as needed) and reports using it almost every day and sometimes at night. [n0013][pn0001_n0013]  
+She reports having two inhalers but mainly uses the blue inhaler that helps, while the other inhaler does not work. [n0021][n0022][pn0001_n0021][pn0001_n0022]  
+She denies a history of seasonal allergies. [n0029][pn0001_n0029]  
+She denies tobacco use, vaping/e-cigarette use, and marijuana use. [n0030][n0031][n0032][n0033][n0034][pn0001_n0030][pn0001_n0031][pn0001_n0032][pn0001_n0033][pn0001_n0034]  
+She reports sometimes going to bars with friends where secondhand smoke/airborne particulates can irritate her, and she is trying not to go to bars often. [n0035][n0036][n0038][n0039][pn0001_n0035][pn0001_n0036][pn0001_n0038][pn0001_n0039]  
+She reports a remote asthma-related hospitalization around age 8 with no hospitalizations since then. [n0024][n0025][pn0001_n0024][pn0001_n0025]  
+
+PHYSICAL EXAM  
+Vital signs today include blood pressure 128/82 mmHg, respiratory rate 16, and oxygen saturation 99% on room air. [n0041][n0042][n0043][n0044][pn0001_n0041][pn0001_n0042][pn0001_n0043][pn0001_n0044]  
+Cardiac exam shows regular rate and rhythm with no ectopic beats and no rubs, murmurs, or gallops. [n0045][pn0001_n0045]  
+Neck exam shows a supple neck with trachea midline and no lymphadenopathy or carotid bruit. [n0047][pn0001_n0047]  
+Lung exam shows diminished lung sounds throughout bilaterally with occasional slight expiratory wheeze. [n0046][n0006][pn0001_n0046][pn0001_n0006]  
+Peripheral vascular/hand exam shows strong bilateral pulses, no clubbing on fingertips, and brisk capillary refill. [n0048][pn0001_n0048]  
+
+RESULTS  
+Pulmonary function tests performed today are interpreted as consistent with asthma. [n0049][pn0001_n0049]  
+
+ASSESSMENT AND PLAN  
+Asthma (moderate intermittent) with frequent symptoms and recurrent exacerbations over the past six months. [n0004][n0007][n0054][pn0001_n0004][pn0001_n0007][pn0001_n0054]  
+Start inhaled corticosteroid controller therapy with Flovent 110 mcg, 1 puff twice per day. [n0050][n0053][n0055][pn0001_n0050][pn0001_n0053][pn0001_n0055]  
+Continue Ventolin (albuterol) 2 puffs every 4–6 hours as needed. [n0013][n0053][pn0002_n0013]  
+Create an asthma action plan to guide management based on symptoms and triggers (e.g., cats, dust). [n0014][pn0001_n0014][pn0002_n0014]  
+Follow up in 1 month, with instructions to follow up sooner if symptoms worsen. [n0003][n0053][pn0001_n0003][pn0002_n0003]  
+Patient agrees with the plan and follow-up in a month. [n0001]

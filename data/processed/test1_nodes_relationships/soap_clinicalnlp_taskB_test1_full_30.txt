@@ -1,0 +1,30 @@
+HISTORY OF PRESENT ILLNESS  
+Angela presents today for a follow-up visit. [n0001][n0016][pn0001_n0016]  
+She was recently evaluated for a suspected kidney stone and went to the emergency department last week for pain. [n0018][n0019][n0021][pn0001_n0018][pn0001_n0019][pn0001_n0021]  
+She reports this was likely her seventh or eighth kidney stone, and she passed the stone about three days ago with pain now resolved. [n0004][n0008][pn0001_n0004][pn0001_n0008]  
+She reports no more blood in her urine. [n0020][pn0001_n0020]  
+She has a history of recurrent kidney stones and has not seen a urologist in a while (last visit maybe a year ago), and she requests urology referral (specifically to Doctor Harris). [n0005][n0027][n0023][n0003][pn0001_n0005][pn0001_n0027][pn0001_n0023][pn0001_n0003]  
+She has chronic hypertension and is taking Norvasc 2.5 regularly; home blood pressure readings are reported around 130-140/60-70. [n0006][n0010][n0028][pn0001_n0006][pn0001_n0010][pn0001_n0028]  
+She has type 2 diabetes diagnosed about a year ago, is taking metformin 500 mg daily, and reports her blood sugars have been pretty good though she does not check them very often. [n0007][n0011][n0012][pn0001_n0007][pn0001_n0011][pn0001_n0012]  
+She reports dietary challenges including difficulty giving up fast food and issues with cakes and cookies. [n0013][n0031][n0032][n0033][pn0001_n0013][pn0001_n0031]  
+She reports intermittent insomnia, sometimes staying awake worrying, and notes meditation apps help; she does not want to take sleeping pills and has tried melatonin previously with limited benefit. [n0015][n0054][n0059][n0058][pn0001_n0015][pn0001_n0054][pn0001_n0058]  
+
+PHYSICAL EXAM  
+Blood pressure today in clinic is 150/90 mmHg. [n0025][n0026][pn0001_n0025][pn0001_n0026]  
+Lungs are clear bilaterally without crackles. [n0042][pn0001_n0042]  
+Cardiac exam is notable for a previously known grade 2/6 systolic ejection murmur that has not worsened. [n0043][pn0001_n0043]  
+Abdominal exam is non-tender to palpation. [n0044][n0046][pn0001_n0044][pn0001_n0046]  
+There is no right-sided CVA tenderness. [n0046][pn0001_n0046]  
+
+RESULTS  
+Hemoglobin A1c after the last visit was 6.7 (high). [n0038][pn0001_n0038]  
+No additional lab results are documented today, though urinalysis and urine culture are planned to ensure the kidney stone episode is cleared up. [n0047][n0048][pn0001_n0047][pn0001_n0048]  
+
+ASSESSMENT AND PLAN  
+Nephrolithiasis, improving/resolved after passing the stone, in the setting of recurrent kidney stones: plan referral to urology for further evaluation/management. [n0004][n0005][n0009][pn0001_n0004][pn0004_n0005][pn0001_n0009]  
+Obtain labs including urinalysis and urine culture. [n0024][n0047][n0048][pn0001_n0024][pn0001_n0047][pn0001_n0048]  
+Hypertension with elevated in-office BP and possible white coat syndrome: continue Norvasc 2.5 with refills provided and plan for home BP monitoring using a cuff about 2–3 times per week. [n0006][n0010][n0025][n0028][n0029][n0030][n0049][pn0001_n0006][pn0001_n0010][pn0001_n0029][pn0001_n0028][pn0001_n0049]  
+Type 2 diabetes mellitus with A1c 6.7: continue metformin 500 mg daily and start checking blood sugar readings before every meal. [n0007][n0011][n0038][n0053][pn0001_n0007][pn0001_n0011][pn0001_n0053]  
+Dietary counseling: continue nutrition counseling with recommendation to limit sodium intake to 2300 mg or less per day, and place a nutrition consult. [n0034][n0037][n0051][pn0001_n0034][pn0002_n0037][pn0001_n0051]  
+Insomnia: counsel on sleep hygiene (including reducing electronics/phone disruptions) and start melatonin 10 mg as needed; patient declines sleeping pills. [n0014][n0057][n0060][n0059][pn0001_n0014][pn0002_n0060]  
+Patient agrees with the plan including melatonin as needed, blood sugar checks before every meal, and follow-up in three months. [n0001]

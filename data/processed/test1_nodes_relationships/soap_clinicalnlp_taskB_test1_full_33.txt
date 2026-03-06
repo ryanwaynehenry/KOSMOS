@@ -1,0 +1,36 @@
+HISTORY OF PRESENT ILLNESS  
+Kenneth presents for evaluation after a water skiing injury last weekend (about five days ago) with subsequent right knee pain. [n0001][n0003][n0004][pn0001_n0003][pn0001_n0004][pn0003_n0004]  
+He describes a twisting mechanism while skiing (did a jump and twisted when landing) and reports it felt like something stretched in the right knee. [n0015][n0017][n0019][pn0001_n0015][pn0001_n0017][pn0001_n0019][pn0003_n0015][pn0003_n0019]  
+He denies hearing or feeling a pop at the time of injury. [n0016][pn0001_n0016]  
+He reports right knee swelling after the injury. [n0005][pn0001_n0005][pn0003_n0005]  
+He reports the knee is very sore with climbing, squatting, and bending. [n0004][n0018][n0021][n0022][n0023][pn0001_n0004][pn0001_n0018][pn0001_n0021][pn0001_n0022][pn0001_n0023]  
+He denies numbness or tingling in the foot. [n0035][pn0001_n0035]  
+He has been taking over-the-counter Aleve twice daily and reports a cold pack to the right knee helped a fair amount. [n0036][n0037][pn0001_n0036][pn0001_n0037]  
+He reports this is the first time he has injured the right knee. [n0024][pn0001_n0024]  
+He has a history of hypertension treated with lisinopril 20 mg daily, with home blood pressures around 125/80 most days and no reported side effects. [n0008][n0013][n0032][n0033][n0034][pn0001_n0008][pn0001_n0013][pn0001_n0032][pn0001_n0033][pn0001_n0034][pn0008_n0013]  
+
+PHYSICAL EXAM  
+Vital signs in the office today included blood pressure 120/77. [n0041][n0042][n0043][pn0001_n0041][pn0001_n0042][pn0001_n0043]  
+Neck exam showed no lymphadenopathy appreciated. [n0045][n0046][pn0001_n0045][pn0001_n0046]  
+Heart exam showed regular rate and rhythm with no murmur appreciated. [n0047][n0048][pn0001_n0047][pn0001_n0048]  
+Lungs were clear to auscultation bilaterally. [n0049][pn0001_n0049][pn0002_n0049]  
+Right knee exam showed ecchymosis and edema with a small effusion/fluid and inflammation, and the knee was sore with pressing including pain to palpation at the right medial knee. [n0050][n0005][n0053][n0054][n0044][n0056][pn0001_n0050][pn0001_n0005][pn0001_n0053][pn0001_n0054][pn0001_n0044][pn0001_n0056]  
+Right knee range of motion was decreased on exam. [n0051][n0057][pn0001_n0051][pn0001_n0057]  
+Right knee stability tests were normal (negative varus/valgus and negative Lachman). [n0058][pn0001_n0058]  
+Pedal pulses (dorsalis pedis and posterior tibial) were palpable. [n0059][pn0001_n0059]  
+There was no lower extremity edema. [n0052][pn0001_n0052]  
+
+RESULTS  
+No imaging results are available yet, and a plain x-ray of the right knee has been ordered to ensure no fracture is missed. [n0010][n0055][pn0001_n0010][pn0001_n0055]  
+A lipid panel has been ordered. [n0011][pn0001_n0011][pn0002_n0011]  
+
+ASSESSMENT AND PLAN  
+Right knee pain and swelling after water skiing injury with exam showing effusion and decreased range of motion, assessed as a medial collateral ligament strain. [n0003][n0004][n0005][n0051][n0053][n0007][pn0001_n0003][pn0001_n0004][pn0001_n0005][pn0001_n0051][pn0001_n0053][pn0001_n0007][pn0002_n0007]  
+Start meloxicam 15 mg once daily to help with swelling and right knee pain. [n0009][n0054][pn0001_n0009][pn0002_n0009][pn0009_n0054]  
+Obtain a plain x-ray of the right knee. [n0010][pn0001_n0010]  
+Recommend resting the right knee for a little while at least until x-ray results are available to reduce risk of reinjury if he goes skiing again and falls. [n0063][n0062][n0064][pn0001_n0063][pn0002_n0063]  
+Plan referral to physical therapy to strengthen muscles around the right knee to help prevent another injury. [n0061][pn0001_n0061]  
+Hypertension: continue lisinopril 20 mg daily. [n0013][n0008][pn0001_n0013][pn0001_n0008][pn0008_n0013]  
+Health maintenance: patient is due for a tetanus shot, which will be ordered and given. [n0012][n0067][n0069][pn0001_n0012][pn0001_n0067][pn0001_n0069]  
+Order lipid panel as part of routine evaluation. [n0011][pn0001_n0011][pn0002_n0011]  
+Patient agrees with the care plan. [n0001][n0068][pn0001_n0068]

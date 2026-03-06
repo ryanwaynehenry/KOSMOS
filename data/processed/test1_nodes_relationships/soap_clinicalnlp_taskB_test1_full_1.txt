@@ -1,0 +1,34 @@
+HISTORY OF PRESENT ILLNESS  
+Andrea is a 52-year-old female presenting today for an annual exam/office visit. [n0001][n0003][n0040][pn0001_n0003][pn0001_n0040]  
+Her chronic rheumatoid arthritis is stable and well controlled, and she reports no joint pain recently and no stiffness, pain, or flare-ups over the last year. [n0004][n0020][n0024][n0025][n0026][pn0001_n0004][pn0001_n0020][pn0001_n0024][pn0001_n0025][pn0001_n0026]  
+She reports that walking, exercising, and yoga have helped her arthritis. [n0019][n0021][n0022][n0023][pn0001_n0019][pn0001_n0021][pn0001_n0022][pn0001_n0023]  
+She is currently taking methotrexate once weekly and reports no issues with it, and she needs a refill. [n0027][n0052][pn0001_n0027][pn0001_n0052]  
+She has intermittent atrial fibrillation over the past year and reports ongoing palpitations, with a flare starting about a week ago that worsens with stress. [n0005][n0007][n0028][pn0001_n0005][pn0001_n0007][pn0001_n0028]  
+She has tried meditation and running with her dog to relieve stress, but these have not been effective. [n0029][n0030][n0031][pn0001_n0029][pn0001_n0030][pn0001_n0031]  
+She denies chest pain and shortness of breath. [n0010][n0011][pn0001_n0010][pn0001_n0011]  
+Her gastroesophageal reflux disease has been improving without a flare for over five months, and she reports Protonix has been helping. [n0006][n0008][pn0001_n0006][pn0001_n0008]  
+She has cut out soda and is continuing dietary modifications for reflux. [n0009][n0034][pn0001_n0009][pn0001_n0034]  
+She denies nausea and vomiting. [n0012][n0013][pn0001_n0012][pn0001_n0013]  
+She reports nasal congestion attributed to allergies. [n0014][n0037][pn0001_n0014][pn0001_n0037][pn0014_n0037]  
+
+PHYSICAL EXAM  
+Vital signs today are normal, and heart rate is described as really good and controlled. [n0039][n0041][pn0001_n0039][pn0001_n0041]  
+Cardiovascular exam shows a slight 2/6 systolic ejection murmur with regular rate and rhythm. [n0038][n0042][pn0001_n0038][pn0001_n0042]  
+Respiratory exam shows lungs are clear. [n0038][n0043][pn0001_n0038][pn0001_n0043]  
+Right elbow exam shows edema and erythema with pain to palpation. [n0015][n0038][pn0001_n0015][pn0001_n0038]  
+There is no lower extremity edema. [n0044][pn0001_n0044]  
+
+RESULTS  
+Autoimmune panel was reviewed and interpreted as looking good. [n0049][pn0001_n0049]  
+Event monitor results show the patient is in and out of atrial fibrillation with a conversion pause and then return to a regular rhythm. [n0046][n0005][n0047][n0048][pn0001_n0046][pn0046_n0047][pn0047_n0048]  
+
+ASSESSMENT AND PLAN  
+Rheumatoid arthritis is stable and well controlled on methotrexate. [n0004][n0049][n0051][n0052][pn0001_n0004][pn0001_n0049][pn0001_n0051][pn0001_n0052]  
+Continue methotrexate 2.5 mg once weekly and provide a refill/prescription. [n0052][n0054][pn0001_n0052][pn0001_n0054][pn0002_n0054]  
+Referral back to rheumatology is planned if needed given current stability. [n0053][n0004][pn0001_n0004][pn0001_n0053]  
+
+Intermittent atrial fibrillation with ongoing palpitations and event monitor showing conversion pause. [n0005][n0007][n0046][n0047][pn0001_n0005][pn0001_n0007][pn0001_n0046][pn0001_n0047]  
+Place referral to cardiology for consideration of cardiac ablation to maintain normal sinus rhythm. [n0055][n0056][pn0001_n0055][pn0001_n0056][pn0002_n0056]  
+
+GERD is improving on Protonix and dietary modifications. [n0006][n0008][n0009][pn0001_n0006][pn0001_n0008][pn0001_n0009]  
+Continue Protonix 40 mg daily and continue dietary modifications including avoiding soda, coffee, and spicy foods. [n0008][n0009][n0034][pn0001_n0008][pn0001_n0009][pn0001_n0034]

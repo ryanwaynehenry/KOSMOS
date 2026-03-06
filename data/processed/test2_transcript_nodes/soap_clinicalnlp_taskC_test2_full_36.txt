@@ -1,0 +1,35 @@
+## HISTORY OF PRESENT ILLNESS
+Elizabeth is a 53-year-old woman with a history of diabetes and reported history of elevated blood pressure who presents with exertional chest pain. [0][20][22]  
+For ~3 months, she has had intermittent dull, pressure-like chest pain that occurs mainly with walking and has limited her ability to keep up with walking. [5][7][9]  
+Pain does not radiate. [10][11]  
+She is not having chest pain currently and denies shortness of breath, sweats, or clamminess at the time of the visit. [2][3][12][13]  
+Regarding diabetes, she reports her blood sugars have been a little higher because she has not been able to be as active, and she is trying to improve her diet but struggles with soda intake. [15]  
+She has an ophthalmology appointment scheduled in two weeks for an eye exam. [16][17]  
+She denies nausea, vomiting, diarrhea, or side effects from metformin. [18][19]  
+She was unaware of having high blood pressure, though the clinician notes a trend of elevated readings documented by other clinicians. [20][21][22]  
+
+## PHYSICAL EXAM
+Neck: No JVD and no carotid bruits. [28]  
+Lungs: Clear to auscultation without crackles or rhonchi. [28]  
+Cardiac: Regular rate and rhythm with a 2/6 systolic ejection murmur (present in the past). [28]  
+Abdomen: Soft, non-tender, no guarding, and no palpable masses. [28]  
+Extremities: 1+ nonpitting edema/swelling in the lower legs/ankles; no calf tenderness; pulses equal. [28]  
+
+## RESULTS
+EKG performed in the office was reviewed and showed no signs of a heart attack. [14][28]  
+Most recent hemoglobin A1c was 7.0. [16]  
+
+## ASSESSMENT AND PLAN
+**1) Chest pain, concern for unstable angina (exertional pressure) in setting of diabetes and suspected hypertension (and noted family history of heart disease).** [28]  
+EKG today is reassuring with no evidence of acute MI, but clinician is concerned for possible coronary blockage and will refer to cardiology with plan for stress testing next week. [14][28]  
+Start aspirin 81 mg PO daily. [28]  
+Prescribe sublingual nitroglycerin: if chest pain does not resolve after stopping activity, take 1 tablet; may repeat every 5 minutes up to 3 tablets total, and if not resolved, call 911/go to the hospital for urgent evaluation. [28][30][32]  
+
+**2) Type 2 diabetes mellitus.** [0][14]  
+Continue metformin 500 mg PO twice daily. [36]  
+Order hemoglobin A1c today and follow up in ~2 weeks to review and adjust therapy if needed. [36]  
+Continue planned ophthalmology visit in 2 weeks for diabetic eye exam, and continue diet efforts (reduce soda/sweets) with goal to resume exercise after cardiac evaluation. [16][17][36]  
+
+**3) Elevated blood pressure / suspected hypertension with lower-extremity swelling.** [22][28][38]  
+Start low-dose hydrochlorothiazide and begin home BP monitoring with a cuff, logging daily morning readings in Epic MyChart for review at follow-up in 2 weeks. [38]  
+Counseled on potential side effects of hydrochlorothiazide including increased urination and possible cross-reaction with sulfa medications; a side-effect handout will be provided. [40]

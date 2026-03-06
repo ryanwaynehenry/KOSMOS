@@ -1,0 +1,26 @@
+HISTORY OF PRESENT ILLNESS  
+Jack presents for a follow-up visit for evaluation of neck pain after a motor vehicle accident about a week ago. [n0001][n0008][pn0001_n0008][n0004][pn0001_n0004][n0003][pn0001_n0003]  
+He reports the collision was a rear impact in which his neck and head moved forward quickly. [n0009][pn0001_n0009][n0010][pn0001_n0010][n0011][pn0001_n0011][pn0009_n0010][pn0009_n0011][pn0010_n0011]  
+His neck pain is located at the back of the neck, is intermittent and worse with head movement, has been staying the same, and is rated 7/10. [n0003][pn0001_n0003]  
+He tried ibuprofen with only slight relief. [n0012][pn0001_n0012][n0003]  
+He reports intermittent headaches, including a couple early on and also lately. [n0005][pn0001_n0005]  
+He did not go to the emergency room after the accident due to cost. [n0006]  
+He denies hearing problems and visual disturbances. [n0013][pn0001_n0013][n0014][pn0001_n0014][pn0013_n0014]  
+He reports having played football years ago and denies prior neck issues at that time. [n0017][pn0001_n0017][n0015][pn0001_n0015][n0018][pn0001_n0018]  
+
+PHYSICAL EXAM  
+A focused physical examination of the neck was performed. [n0021][pn0001_n0021]  
+There is pain to palpation of the soft tissues of the neck. [n0022][pn0001_n0022]  
+Neck range of motion elicits pain with flexion, extension (worse), rotation, and lateral bending, and he is unable to touch his ear to his shoulder. [n0026][pn0001_n0026][n0037][n0038]  
+He reports no pain when the clinician presses on his back or shoulders. [n0023][pn0001_n0023][n0024][pn0001_n0024][pn0023_n0024]  
+He denies bruising/contusion of the neck. [n0020][pn0001_n0020][pn0019_n0020]  
+
+RESULTS  
+X-ray showed no signs of fracture or bony abnormalities. [n0027][n0028][n0029][pn0027_n0028][pn0027_n0029][pn0001_n0027][pn0001_n0028][pn0001_n0029]  
+
+ASSESSMENT AND PLAN  
+Neck strain (whiplash) after motor vehicle accident. [n0030][pn0001_n0030][pn0002_n0030][n0004][pn0001_n0004]  
+Start Motrin 600 mg every 6–8 hours for neck pain. [n0031][pn0001_n0031][pn0002_n0031]  
+Start Flexeril 10 mg every 12 hours as needed for neck pain. [n0032][pn0001_n0032][pn0002_n0032]  
+Order an MRI to help rule out concussion and nerve impingement. [n0033][pn0001_n0033][pn0002_n0033][n0034][n0035][pn0033_n0034][pn0033_n0035]  
+Plan referral to physical rehabilitation/physical therapy (or chiropractor) once MRI results are available. [n0007][pn0001_n0007][pn0002_n0007]

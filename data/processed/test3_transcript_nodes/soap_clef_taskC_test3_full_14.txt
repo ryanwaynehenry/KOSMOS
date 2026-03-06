@@ -1,0 +1,30 @@
+## HISTORY OF PRESENT ILLNESS
+Michelle King is a 39-year-old female with quadriplegia due to prior spinal cord injury who presents for follow-up after hospitalization (admitted 06/29/2021, discharged 07/02/2021). [0]  
+During that hospitalization she had increasing spasms and lightheadedness, significant constipation, and diaphoresis, and in the ED she was febrile with WBC 23,000 with concern for UTI and was treated with IV antibiotics; she also had labile blood pressure with headache and vomiting and gradually improved prior to discharge. [0]  
+She has a suprapubic catheter. [0]  
+Today she reports she does not think the episode was a UTI and believes constipation (and dysreflexia related to quadriplegia) contributed to her very high blood pressure, noting she had minimal bowel movements in the hospital but had a large bowel movement at home and then felt much better. [3][7][98]  
+She asked whether autonomic dysreflexia can elevate the white blood cell count, and the clinician advised it typically does not, though inflammation (e.g., being “backed up and inflamed”) could contribute. [9][10][16]  
+The clinician reviewed the hospital urine cultures and noted they were “not very impressive,” and also noted her WBC has sometimes been mildly elevated in the past (normal last year). [12][14]  
+She states she feels back to her normal self now and denies any current pain or discomfort. [18][31]  
+She reports she went to the hospital because her blood pressure was “out of control,” causing headache and vomiting, and she felt she could not manage it at home. [19][21]  
+She reports chronic constipation despite taking Miralax daily and doubling the dose when she does not have a bowel movement, and she has lactulose available as a rescue medication (takes ~2 days to work and is difficult for her). [47][49][53]  
+She is unvaccinated for COVID-19 and is concerned about unknown side effects and reports of “vaccine injury,” believing she is young/healthy enough to recover even with limited respiratory function and that vitamins/supplements may be sufficient. [59][61][63][65][67]  
+The clinician recommended COVID-19 vaccination, stating she is high risk and that COVID can cause severe illness or death, while acknowledging vaccine side effects can occur but are rare. [68][70][72][74][86]  
+
+## PHYSICAL EXAM
+Lung exam performed with deep breathing instructions; no abnormal findings were reported during the visit. [28][30][32]  
+Patient denied pain or discomfort anywhere. [31]  
+
+## RESULTS
+During the recent hospitalization/ED evaluation, she was febrile with leukocytosis (WBC 23,000). [0]  
+Urine cultures from the hospitalization were reviewed in follow-up and were described as “not very impressive.” [12]  
+Hospital evaluation included x-rays (no CT scan). [7][18]  
+
+## ASSESSMENT AND PLAN
+**1) Acute on chronic constipation with possible contribution to autonomic dysreflexia / BP lability; recent leukocytosis**: Patient believes constipation/dysreflexia rather than UTI drove her hospitalization symptoms and reports improvement after a large bowel movement at home. [7][98]  
+Plan is to return in ~2–3 weeks (or next 3–4 weeks per clinician summary) for fasting labs including repeat CBC to ensure WBC trends down and a cholesterol panel since she is due. [38][40][42][44][96][99]  
+Counseled that hot/humid weather and even mild dehydration can worsen constipation, and to continue her bowel regimen (Miralax daily, doubling when needed; lactulose as rescue). [36][47][49][50][54][98]  
+
+**2) Quadriplegia with suprapubic catheter**: Chronic condition noted; no acute issues reported today and patient feels back to baseline. [0][18][26]  
+
+**3) COVID-19 vaccine counseling / unvaccinated**: Discussed concerns about side effects and “vaccine injury,” and clinician recommended vaccination as prevention given her higher risk status. [59][60][63][68][92][99]

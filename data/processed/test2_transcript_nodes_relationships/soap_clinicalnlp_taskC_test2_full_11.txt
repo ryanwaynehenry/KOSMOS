@@ -1,0 +1,29 @@
+## HISTORY OF PRESENT ILLNESS
+Jordan Roberts is a 49-year-old new patient with a history of hypertension and a prior episode of palpitations who presents for evaluation/management of elevated blood pressure. [0][3]  
+He reports an emergency room visit in March for high blood pressure and palpitations, which he believes was more likely a panic attack related to having a few cups of coffee and no breakfast that day. [3][4]  
+He has not had recurrent palpitations since that episode. [5][6]  
+He reports having issues with high blood pressure since he was young and notes a strong family history of hypertension. [8][10]  
+He recently started a new combination blood pressure medication about a month ago (Benicar HCT 40/25, which he refers to as a “water pill”) and is also taking amlodipine 10 mg daily. [12][14][15][16][17][18]  
+He checks his blood pressure at home every morning, with recent readings around 146–155 mmHg, and is not yet in the 120s. [20][22][23][24]  
+He is trying to reduce dietary salt intake and reports walking on a treadmill when he can. [25][26][29][30]  
+
+## PHYSICAL EXAM
+Cardiopulmonary exam: heart and lungs sound good. [35][37]  
+Extremities: ankles/feet without swelling on exam. [41][43]  
+Patient reports no pain with palpation during the exam. [39][40]  
+
+## RESULTS
+Potassium was 4.0 one week prior to the visit and has not been rechecked since. [43][44]  
+
+## ASSESSMENT AND PLAN
+**1) Resistant hypertension / uncontrolled hypertension despite multiple agents**: Home BPs remain ~146–155 despite being on three medications at maximal doses per clinician assessment. [22][43][75]  
+Start spironolactone to help lower blood pressure in case of a hormonal driver (e.g., hyperaldosteronism) contributing to resistant hypertension. [45][47][48]  
+Counseled on medication risks including electrolyte imbalance and dehydration; advised to maintain hydration and monitor for dizziness when standing. [49]  
+Counseled that spironolactone can rarely raise potassium and can also contribute to low sodium when combined with hydrochlorothiazide, so labs are required. [49][51]  
+Reviewed rare risk of gynecomastia (tenderness/swollen/enlarged breasts); patient instructed to stop the medication and notify clinician if this occurs. [53][54]  
+Lifestyle counseling: continue salt reduction; provided DASH diet guidance and recommended heart.org as an education resource. [27][59][61]  
+Encouraged regular treadmill exercise (about 30 minutes most days) as it may lower BP by ~7–10 points. [59]  
+Follow up in 2 weeks for blood pressure check and metabolic panel/electrolytes (including sodium and potassium). [51][63][69][75]  
+If not controlled on spironolactone, next steps include consideration of carvedilol (discussed with concern for erectile dysfunction) and/or referral to a resistant hypertension clinic for evaluation of secondary causes and possible procedural options (e.g., renal denervation). [63][65][67][75]  
+
+**2) Palpitations, resolved**: No recurrence since the March ER episode. [5][6]

@@ -1,0 +1,46 @@
+## HISTORY OF PRESENT ILLNESS
+Jose presents for cardiology follow-up about 3–4 months after his last visit, with history of myocardial infarction ~6 months ago status post stent placement to the left anterior descending (LAD) artery. [0][2]  
+He reports he is doing okay and feels the medications are helping, though he is concerned about the number of medications he is taking. [1][2]  
+He confirms he is taking aspirin, Brilinta, and fish oil. [2][3]  
+He reports dizziness when standing up quickly, and is unsure if this is from the heart attack or medications. [5]  
+The clinician discussed that this may be related to metoprolol 50 mg daily and that standing up too quickly can cause dizziness while adjusting to the beta-blocker. [6]  
+He asked about the coronary stents, and the clinician explained stents are permanent, aspirin is lifelong, and Brilinta will be continued for another 6 months to help prevent stent “clogging.” [9][10]  
+The clinician advised that stents can narrow again and to report recurrent symptoms such as chest pain or shortness of breath with exertion, which may prompt further testing. [12]  
+He reports diabetes and that he was supposed to follow up with a dietitian/diabetic education but may need a new order. [13][15]  
+He reports fasting glucose around 130 mg/dL and that his A1c was not where he wanted, stating he thought it was “close to sixty.” [17][19][21]  
+He reports he completed a blood test and asked about results. [23]  
+The clinician reviewed kidney function (creatinine) after contrast exposure and stated it was stable. [24]  
+He has not seen his nephrologist in about a year and acknowledges he has been a “bad patient.” [27]  
+Given CKD, the clinician asked about NSAID avoidance, and the patient reports he threw out Motrin/Advil. [28][29]  
+He asked what pain medication he can take for headaches since he cannot take Motrin, and was advised to use Tylenol. [33][34]  
+He requests refills on his medications. [41]  
+He reports feeling “down” since his heart attack and asked about medication to feel less sad; he denies thoughts of harming himself or others and reports limited support system, living only with his dog and feeling lonely. [53][55][59]  
+
+## PHYSICAL EXAM
+Vital signs were reviewed and described as quite good, with blood pressure about 127/80. [42]  
+Neck exam: no jugular venous distention and no carotid bruits appreciated. [42]  
+Cardiac exam: slight 3/6 systolic ejection murmur at the left base (previously heard). [42]  
+Extremities: 1+ nonpitting edema/puffiness in the legs, with clinician noting no evidence of fluid retention. [42][43]  
+
+## RESULTS
+Recent bloodwork showed stable kidney function/creatinine after contrast exposure. [24]  
+Patient-reported diabetes metrics include fasting glucose ~130 mg/dL and A1c reported by patient as “close to sixty,” which the clinician interpreted as very high (goal ~6). [17][19][21][22]  
+
+## ASSESSMENT AND PLAN
+**1) Coronary artery disease / s/p MI with LAD stent (~6 months ago):** Continue secondary prevention and stent patency regimen; aspirin lifelong and continue Brilinta for another 6 months. [2][10]  
+Refer to cardiac rehabilitation to improve activity level and confidence with exercise. [44]  
+Refill metoprolol, Crestor 40 mg daily, and aspirin. [44]  
+No stress test planned at this time; patient instructed to report symptoms (e.g., chest pain or exertional shortness of breath) which may prompt further testing. [12][44]  
+
+**2) Postural dizziness (likely medication-related):** Discussed that dizziness with standing quickly can occur with metoprolol and may improve as the body adjusts; advised to avoid standing up too quickly. [5][6]  
+
+**3) Chronic kidney disease stage 3:** Kidney function currently stable, but patient overdue for nephrology follow-up; clinician will reach out to Dr. Miller to arrange an appointment. [24][27][28][48]  
+Continue to avoid NSAIDs (Motrin/Advil); Tylenol is acceptable for headaches. [28][29][34]  
+
+**4) Diabetes mellitus (suboptimally controlled by report):** Place referral for dietitian/diabetic education and order repeat hemoglobin A1c. [16][50]  
+Clinician will discuss the patient’s insulin regimen with his primary care physician. [50]  
+
+**5) Depressed mood / difficulty adjusting after MI, possible mild depression:** Patient denies suicidal/homicidal ideation. [54][55]  
+Referral to psychiatry placed for support and counseling regarding adjustment after heart attack and mood symptoms. [60][62]  
+
+**6) Medication refills:** Clinician will send refills electronically to the patient’s preferred pharmacy. [41][66]

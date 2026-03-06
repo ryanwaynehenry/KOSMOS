@@ -1,0 +1,22 @@
+HISTORY OF PRESENT ILLNESS  
+Judy Gomez is a female who presents in the office today for follow-up and ongoing management of psoriatic arthritis. [n0001][n0011][n0012][pn0001_n0011][pn0001_n0012]  
+She is currently taking methotrexate, which was previously increased, and she reports her joint symptoms are doing “pretty good” with improvement in joint and knee pain. [n0005][n0007][n0021][n0022][pn0001_n0005][pn0001_n0022][pn0005_n0007]  
+She reports intermittent mild foot joint pain that is worse on days off when she is moving around a lot, and she has taken an occasional extra prednisone pill about once weekly for increased foot pain. [n0003][n0008][n0014][pn0001_n0003][pn0001_n0008][pn0001_n0014]  
+She reports easy bruising that occurs after bumping into things and notes she does not feel the bruising when it happens, with overall improvement in the bruising. [n0019][n0020][pn0001_n0019][pn0001_n0020]  
+She received her first COVID-19 vaccination and held methotrexate for the week of the first shot due to concern about vaccine efficacy, then felt absolutely horrible and in severe pain and resumed methotrexate after calling a hotline. [n0010][n0005][n0016][n0017][n0018][pn0001_n0010][pn0001_n0005][pn0001_n0016][pn0001_n0017][pn0001_n0018]  
+She works a desk job. [n0001][n0013][pn0001_n0013]  
+
+PHYSICAL EXAM  
+Toe range of motion is good on exam. [n0023][pn0001_n0023][pn0002_n0023]  
+Nails show ridging, which has been present for a long time and was attributed to psoriasis. [n0009][n0024][pn0001_n0009][pn0009_n0024]  
+
+RESULTS  
+Toe range-of-motion testing was interpreted as good. [n0023]  
+A blood draw is planned for monitoring, with instructions to make an appointment for blood work. [n0006][n0026][pn0001_n0006][pn0001_n0026]  
+
+ASSESSMENT AND PLAN  
+Psoriatic arthritis: continue methotrexate, recognizing it as a high-risk medication requiring blood monitoring. [n0012][n0005][n0022][pn0002_n0005][pn0002_n0022]  
+Glucocorticoid use with easy bruising likely related to prednisone: discontinue prednisone today and reassess whether bruising resolves. [n0004][n0019][pn0002_n0004][pn0004_n0019]  
+Arrange blood work/blood draw for the next time and again in three months as part of ongoing monitoring. [n0006][n0026][pn0002_n0006][pn0002_n0026]  
+Follow up in three months, and the patient will update the clinician at the next visit on how discontinuing prednisone goes. [n0015][n0025][pn0001_n0015]  
+Patient agrees with discontinuing prednisone and states the plan sounds good. [n0001]

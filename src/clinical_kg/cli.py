@@ -88,6 +88,7 @@ def main():
             output_stem = base_name
             resolved_encounter = encounter_id or base_name
 
+            output_path = None
             try:
                 output_path = save_processed_transcript(
                     transcript_path=None,
@@ -98,8 +99,9 @@ def main():
                 )
                 output_paths.append(output_path)
                 print(f"Wrote {output_path}")
-            except:
-                print(f"Failed to create {output_path}")
+            except Exception as exc:
+                target = output_path or output_stem
+                print(f"Failed to create {target}: {exc}")
                 continue
     else:
         output_path = save_processed_transcript(

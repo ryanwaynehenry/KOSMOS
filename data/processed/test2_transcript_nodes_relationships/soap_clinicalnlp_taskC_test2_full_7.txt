@@ -1,0 +1,31 @@
+## HISTORY OF PRESENT ILLNESS
+Hannah is a 52-year-old female presenting for evaluation/follow-up of high blood sugar after a recent emergency room visit. [5][6]  
+She reports eating “a ton of sweets” over the holidays (at work and while visiting family), and after a couple of weeks developed lightheadedness, seeing spots, and significant dizziness, prompting the ER visit where she was told her blood sugar was high. [6]  
+In the ER she received IV fluids and was advised to cut out extra sweets and return to her normal routine/diet, but she is still staying with family (mom and grandmother bake frequently) and is concerned it will be hard to get back into a routine and wants to address this early. [7][8]  
+She denies fever/chills, chest pain, shortness of breath, abdominal pain, dysuria, and any new/unusual joint pain or muscle aches (notes baseline osteoarthritis symptoms are unchanged). [9][10][11][12][13][14][15][16][17][18][20][22]  
+She has a history of atrial fibrillation and reports feeling her heart “pumping a little bit” only when very anxious, without other recent episodes of heart racing. [23][24]  
+Her reflux is well controlled on her prescribed medication. [25][26]  
+
+## PHYSICAL EXAM
+General: Appears in no distress. [31]  
+Neck: Thyroid mildly enlarged and non-tender; no carotid bruits. [31]  
+Cardiovascular: Irregular rate and rhythm. [31]  
+Respiratory: Lungs clear. [31]  
+Abdomen: Soft. [31]  
+Extremities: No lower extremity edema. [31]  
+
+## RESULTS
+Blood glucose and hemoglobin A1c are elevated, suggesting blood sugars have likely been high for a few months. [33]  
+
+## ASSESSMENT AND PLAN
+**1) Diabetes / hyperglycemia (new diagnosis; type I vs type II unclear):** Elevated blood glucose and A1c with clinician impression of diabetes. [33]  
+Plan: Order additional workup including a complete metabolic panel and autoimmune labs to help determine diabetes type. [33][35]  
+Start metformin 500 mg by mouth twice daily. [33][35]  
+If autoimmune testing suggests type 1 diabetes, plan to start insulin, but will hold until results return. [35]  
+Counseling/education: Avoid foods high in sugar; nurse to provide a glucometer and teach home blood sugar testing. [37]  
+
+**2) Atrial fibrillation:** Patient is in atrial fibrillation today but with a good rate. [39]  
+Continue metoprolol 25 mg twice daily and provide refill. [39][40][41]  
+
+**3) GERD/reflux:** Symptoms controlled on current therapy. [26][27][30]  
+Continue Protonix 40 mg once daily. [27][41]

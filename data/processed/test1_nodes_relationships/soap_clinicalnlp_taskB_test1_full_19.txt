@@ -1,0 +1,27 @@
+HISTORY OF PRESENT ILLNESS  
+Bryan presents for an office visit today for evaluation of acute low back pain. [n0001][n0003][pn0001_n0003][n0005][pn0001_n0005]  
+He reports the pain began yesterday about two hours after raking leaves/doing yard work. [n0004][pn0001_n0004][n0013][pn0001_n0013][n0005][pn0001_n0005]  
+He describes pain in the low back that has lasted about six hours and is worse with bending over and with palpation around L5. [n0005][n0016][pn0001_n0016][n0017][pn0001_n0017]  
+He notes the pain feels a little better when sitting. [n0011][pn0001_n0011][n0005]  
+He tried a hot shower which helped, and he applied ice. [n0012][pn0001_n0012][n0009][pn0001_n0009]  
+He took two Advils for pain without relief. [n0010][pn0001_n0010][n0005]  
+He reports mild tingling/pins-and-needles in the right leg and right foot associated with this episode. [n0007][pn0001_n0007][n0008][pn0001_n0008][pn0005_n0007][pn0005_n0008]  
+His partner was present at the visit, and Bryan identifies their relationship status as partners. [n0006][n0020][pn0001_n0020][pn0006_n0020]  
+
+PHYSICAL EXAM  
+Lumbar spine palpation around L5 elicits some pain. [n0017][pn0001_n0017]  
+Spine range of motion shows no pain on extension and some pain on flexion, with pain described as worse when standing up than when bending over. [n0018][pn0001_n0018]  
+Lower extremity strength testing was performed. [n0023][pn0001_n0023][pn0002_n0023]  
+Forced dorsiflexion is normal. [n0024][pn0001_n0024]  
+Pulses are equal in all extremities. [n0025][pn0001_n0025]  
+
+RESULTS  
+Lumbar spine x-ray is normal. [n0026][pn0001_n0026]  
+
+ASSESSMENT AND PLAN  
+Assessment is lumbar back sprain associated with low back pain after raking leaves. [n0027][pn0001_n0027][n0005][pn0005_n0027][n0004][pn0001_n0004]  
+Plan includes rest for the low back sprain. [n0028][pn0001_n0028][pn0002_n0028]  
+Start meloxicam for back pain. [n0029][pn0001_n0029][pn0002_n0029]  
+Refer for physical therapy with stretches and exercises. [n0030][pn0001_n0030][pn0002_n0030]  
+If symptoms are not improving, patient should send a message via the patient portal and call back in about two weeks, and an MRI/MR lumbar spine is planned if still not improving. [n0032][pn0001_n0032][n0035][pn0001_n0035][n0031][pn0001_n0031][pn0002_n0031][n0033][pn0001_n0033][pn0002_n0033]  
+Patient agrees that the plan sounds reasonable. [n0001]

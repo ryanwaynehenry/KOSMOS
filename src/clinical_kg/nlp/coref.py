@@ -562,6 +562,19 @@ def _apply_merge_sets(entities: List[dict], merge_sets: List[dict]) -> List[dict
     return result
 
 
+def _prune_empty_entities(entities: List[dict]) -> List[dict]:
+    """
+    Drop any entities that have no mentions after grouping/merging.
+    """
+    pruned: List[dict] = []
+    for ent in entities:
+        mentions = ent.get("mentions") or []
+        if not mentions:
+            continue
+        pruned.append(ent)
+    return pruned
+
+
 def add_coref_clusters(
     mentions: List[Mention],
     turns: List[Turn],
@@ -609,5 +622,6 @@ def add_coref_clusters(
 
     merge_sets = _suggest_merges(batch_entities, cfg, transcript_payload=transcript_payload)
     merged_entities = _apply_merge_sets(batch_entities, merge_sets) if merge_sets else batch_entities
+    merged_entities = _prune_empty_entities(merged_entities)
 
     return merged_entities

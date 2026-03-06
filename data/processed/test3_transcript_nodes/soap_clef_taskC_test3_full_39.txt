@@ -1,0 +1,42 @@
+## HISTORY OF PRESENT ILLNESS
+Frank presents with shortness of breath for about 1 week. [0][3]  
+He reports a similar episode about 6 months ago that improved after his Lasix dose was changed. [5]  
+He has a history of coronary artery disease with prior MI in 2018 treated with a stent to the right coronary artery, and he was previously told his ejection fraction was about 35%. [6]  
+He reports dietary indiscretion over the last couple of weeks during the holidays/family gatherings despite generally trying to watch salt intake. [6][7]  
+He endorses leg swelling and reports taking Lasix 40 mg once daily every day. [8][9][10][11]  
+He denies decreased urine output but notes nocturia at least once and sometimes twice nightly, more than before. [12][13][15]  
+Dyspnea is mainly exertional (walking, stairs, walking quickly) rather than at rest. [16][17]  
+He reports worsening orthopnea, now needing two pillows, and denies paroxysmal nocturnal dyspnea this episode (though it occurred 6 months ago). [18][19][20][21]  
+He last saw his nephrologist about a month ago and has known stage 3 kidney dysfunction. [22][23][24]  
+He generally avoids NSAIDs but took Motrin for a recent episode of foot pain about a week ago and stopped as soon as he could; he finds Tylenol less effective. [24][25][26][27]  
+He has not previously received counseling on potassium restriction and asked for guidance. [30][31][33]  
+
+## PHYSICAL EXAM
+Vital signs: BP ~135/80 in office. [46]  
+Neck: jugular venous distention to ~9 cm; no carotid bruits. [46]  
+Lungs: bibasilar crackles with occasional rhonchi that clear with cough. [46]  
+Cardiac: 3/6 systolic ejection murmur at the left base. [46]  
+Extremities: 1–2+ pitting edema bilaterally. [46]  
+
+## RESULTS
+No diagnostic test results were reviewed during the visit; chest x-ray, echocardiogram, CMP, and uric acid were ordered/planned. [50][60]  
+
+## ASSESSMENT AND PLAN
+**1) Shortness of breath—acute heart failure exacerbation with volume overload.** [46]  
+Increase Lasix from 40 mg daily to 80 mg daily and have patient call in 2 days with weight update. [46]  
+If worsening shortness of breath occurs before then, patient should call as he may need hospital admission for IV diuretics. [46]  
+Dosing instructions: start the increased dose in the morning; if needed, a second dose may be added around 4 PM, avoiding late-night dosing. [47][48]  
+Order chest x-ray to ensure no other process is being missed. [50]  
+Counsel to closely monitor salt intake, as dietary indiscretion may have contributed, and place dietitian referral for diet control. [64][38][39]  
+
+**2) Coronary artery disease / prior MI with reduced EF and murmur.** [6][50]  
+Order echocardiogram to evaluate murmur and confirm stable pumping function. [50]  
+Clinician will contact Doctor White to arrange follow-up evaluation. [50]  
+
+**3) Stage 3 chronic kidney disease.** [24][50]  
+Avoid further NSAID use (Motrin/Advil) and use Tylenol instead; if pain remains significant, patient should call to discuss alternative options. [28][50]  
+Order a complete metabolic panel to assess kidney function stability. [50]  
+Provide potassium-diet counseling (avoid high-potassium foods such as bananas, oranges, and potatoes) and reinforce dietitian referral. [34][38]  
+
+**4) Recent foot pain—possible gout flare (podagra pattern).** [53][57][60]  
+Order uric acid level and discuss kidney-safe alternative medication options if gout is confirmed/suspected. [60]

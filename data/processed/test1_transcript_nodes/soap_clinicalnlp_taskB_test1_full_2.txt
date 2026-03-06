@@ -1,0 +1,30 @@
+## HISTORY OF PRESENT ILLNESS
+Albert is a 62-year-old male with a history of depression, type 2 diabetes, and kidney transplant presenting for emergency room follow-up after an episode of hyperglycemia. [4][6][7][9]  
+He reports he had not been staying on top of his blood sugar checks and felt “woozy” over the weekend, prompting the ER visit. [7]  
+He was not admitted to the hospital. [10][11]  
+He attributes the elevated sugars to poor diet while his mother was hospitalized after a fall requiring hip replacement, leading to frequent cafeteria/fast-food meals and less monitoring of what he was eating. [13]  
+He felt better after returning home from the ER visit and has been following his diet closely since then, though he notes his diet is generally less consistent on weekends. [15][16][17][21]  
+Regarding his kidney transplant, he reports being diligent with his immunotherapy/immunosuppression medications and states his recent visit with Dr. Reyes (~3 weeks ago) was fine with good kidney function. [26][27][29][30][31][32][33]  
+Regarding depression, he describes the past ~1.5 years as tough but manageable with relaxation, and he prefers to avoid medication and therapy for now in favor of meditation started recently with his wife. [35][36][40][41]  
+He denies chest pain, shortness of breath, lightheadedness, and dizziness at today’s visit. [44][45][46][47]  
+
+## PHYSICAL EXAM
+Vital signs were reviewed and described as “great,” with normal pulse oximetry, blood pressure, and heart rate. [50][51]  
+General: No distress noted. [55]  
+Neck: No carotid bruits appreciated. [55]  
+Cardiac: Slight 2/6 systolic ejection murmur, previously known. [55]  
+Pulmonary: Lungs clear to auscultation. [57]  
+Extremities: 1+ lower extremity edema. [57]  
+
+## RESULTS
+Point-of-care blood glucose was ~162, and the patient reported he had not eaten prior to the visit. [62][63]  
+Hemoglobin A1c was ~8, noted to be a little high, suggesting sugars have been elevated beyond the single ER episode. [65][67]  
+
+## ASSESSMENT AND PLAN
+**1) Hyperglycemia / Type 2 diabetes (suboptimally controlled):** Increase Lantus to 20 units nightly. [72]  
+Continue home blood sugar monitoring and report values, as further adjustment may be needed. [72]  
+Repeat hemoglobin A1c in a couple months (ordered). [74]  
+
+**2) Depression:** Continue current meditation/relaxation strategies; hold off on medication or therapy for now, and patient will call if he needs anything. [75][41]  
+
+**3) Kidney transplant (stable):** Kidney function appears stable, and patient will follow with Dr. Reyes for immunosuppression management. [77][30][32]

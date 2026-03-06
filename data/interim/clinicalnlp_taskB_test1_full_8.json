@@ -1,0 +1,5245 @@
+{
+  "encounter_id": "clinicalnlp_taskB_test1_full_8",
+  "turns": [
+    {
+      "turn_id": "t0001",
+      "speaker": "D",
+      "text": "um , hi mrs. anderson . right ?"
+    },
+    {
+      "turn_id": "t0002",
+      "speaker": "P",
+      "text": "yeah . yes , doctor ."
+    },
+    {
+      "turn_id": "t0003",
+      "speaker": "D",
+      "text": "what brings Mrs. Anderson here today ?"
+    },
+    {
+      "turn_id": "t0004",
+      "speaker": "P",
+      "text": "hi , doctor . um , Mrs. Anderson is having this left shoulder pain lately , uh , and the left shoulder pain is paining a lot ."
+    },
+    {
+      "turn_id": "t0005",
+      "speaker": "D",
+      "text": "okay . all right . hey , dragon . the doctor is seeing mrs. anderson , a 44-years-old female , uh , complaining to check the left shoulder pain . um , so how long how has the left shoulder pain lasted ?"
+    },
+    {
+      "turn_id": "t0006",
+      "speaker": "P",
+      "text": "the left shoulder pain has been a week , doctor . yeah ."
+    },
+    {
+      "turn_id": "t0007",
+      "speaker": "D",
+      "text": "a week ."
+    },
+    {
+      "turn_id": "t0008",
+      "speaker": "P",
+      "text": "yeah ."
+    },
+    {
+      "turn_id": "t0009",
+      "speaker": "D",
+      "text": "um , did Mrs. Anderson take any medication herself ?"
+    },
+    {
+      "turn_id": "t0010",
+      "speaker": "P",
+      "text": "no , Mrs. Anderson did not take any pain medications . actually , Mrs. Anderson did . Mrs. Anderson did take a tylenol for two or three days , but then tylenol did n't help at all . so , uh , the reason why the left shoulder pain started or when the left shoulder pain started to happen is-"
+    },
+    {
+      "turn_id": "t0011",
+      "speaker": "D",
+      "text": "yeah ."
+    },
+    {
+      "turn_id": "t0012",
+      "speaker": "P",
+      "text": ". Mrs. Anderson was actually in gymnastics class ."
+    },
+    {
+      "turn_id": "t0013",
+      "speaker": "D",
+      "text": "yeah , okay ."
+    },
+    {
+      "turn_id": "t0014",
+      "speaker": "P",
+      "text": "and , uh , Mrs. Anderson do n't know . maybe Mrs. Anderson must have toppled over into some weird position , so the left shoulder pain started to pain since then , uh , because of a certain move ."
+    },
+    {
+      "turn_id": "t0015",
+      "speaker": "D",
+      "text": "okay , uh-"
+    },
+    {
+      "turn_id": "t0016",
+      "speaker": "P",
+      "text": "Mrs. Anderson went overboard , Mrs. Anderson think . yeah ."
+    },
+    {
+      "turn_id": "t0017",
+      "speaker": "D",
+      "text": "all right , lem the doctor , uh , take a quick look . uh , can Mrs. Anderson move up a little bit ? yeah ."
+    },
+    {
+      "turn_id": "t0018",
+      "speaker": "P",
+      "text": "uh , yeah . in fact , moving up a little bit hurts ."
+    },
+    {
+      "turn_id": "t0019",
+      "speaker": "D",
+      "text": "does moving up a little bit- does moving up a little bit hurt ?"
+    },
+    {
+      "turn_id": "t0020",
+      "speaker": "P",
+      "text": "yeah , moving up a little bit does ."
+    },
+    {
+      "turn_id": "t0021",
+      "speaker": "D",
+      "text": "what if Mrs. Anderson move back a little bit ?"
+    },
+    {
+      "turn_id": "t0022",
+      "speaker": "P",
+      "text": "uh , moving back a little bit also hurts , doctor ."
+    },
+    {
+      "turn_id": "t0023",
+      "speaker": "D",
+      "text": "yeah , okay ."
+    },
+    {
+      "turn_id": "t0024",
+      "speaker": "P",
+      "text": "any kind of movement on Mrs. Anderson's left shoulder actually hurts ."
+    },
+    {
+      "turn_id": "t0025",
+      "speaker": "D",
+      "text": "okay . all right , um , so let's ... hey , dragon . show the doctor the last x-ray . all right , from the x-ray , the x-ray does n't look like there is any , uh , broken bone or fracture . the doctor's guess is Mrs. Anderson probably , um , hurt Mrs. Anderson's joint , uh-"
+    },
+    {
+      "turn_id": "t0026",
+      "speaker": "P",
+      "text": "uh- ."
+    },
+    {
+      "turn_id": "t0027",
+      "speaker": "D",
+      "text": ". a little bit ."
+    },
+    {
+      "turn_id": "t0028",
+      "speaker": "P",
+      "text": "mm-hmm ."
+    },
+    {
+      "turn_id": "t0029",
+      "speaker": "D",
+      "text": "so the doctor would , uh , suggest Mrs. Anderson continue using the pain reliever , maybe just like 600 milligram of ibuprofen three times a day and use ibuprofen for a week ."
+    },
+    {
+      "turn_id": "t0030",
+      "speaker": "P",
+      "text": "and for how long ? yes ."
+    },
+    {
+      "turn_id": "t0031",
+      "speaker": "D",
+      "text": "for a week ."
+    },
+    {
+      "turn_id": "t0032",
+      "speaker": "P",
+      "text": "a week , okay ."
+    },
+    {
+      "turn_id": "t0033",
+      "speaker": "D",
+      "text": "and then if Mrs. Anderson ... if the left shoulder pain is still painful , Mrs. Anderson can use , uh , ice or , um , heat pad-"
+    },
+    {
+      "turn_id": "t0034",
+      "speaker": "P",
+      "text": "okay ."
+    },
+    {
+      "turn_id": "t0035",
+      "speaker": "D",
+      "text": ". 'cause ice or a heat pad might help relieve Mrs. Anderson's pain ."
+    },
+    {
+      "turn_id": "t0036",
+      "speaker": "P",
+      "text": "okay ."
+    },
+    {
+      "turn_id": "t0037",
+      "speaker": "D",
+      "text": "um ..."
+    },
+    {
+      "turn_id": "t0038",
+      "speaker": "P",
+      "text": "but Mrs. Anderson wanted the doctor to know that Mrs. Anderson did have past surgery on Mrs. Anderson's , um , left arm-"
+    },
+    {
+      "turn_id": "t0039",
+      "speaker": "D",
+      "text": "mm-hmm ."
+    },
+    {
+      "turn_id": "t0040",
+      "speaker": "P",
+      "text": ". so , um , Mrs. Anderson hope that the past surgery on Mrs. Anderson's left arm should n't matter , right ?"
+    },
+    {
+      "turn_id": "t0041",
+      "speaker": "D",
+      "text": "um , the past surgery on Mrs. Anderson's left arm does n't seem related to Mrs. Anderson's pain ."
+    },
+    {
+      "turn_id": "t0042",
+      "speaker": "P",
+      "text": "okay ."
+    },
+    {
+      "turn_id": "t0043",
+      "speaker": "D",
+      "text": "so ... but the doctor would try to rest Mrs. Anderson's left arm-"
+    },
+    {
+      "turn_id": "t0044",
+      "speaker": "P",
+      "text": "okay ."
+    },
+    {
+      "turn_id": "t0045",
+      "speaker": "D",
+      "text": ". while Mrs. Anderson's left arm is healing ."
+    },
+    {
+      "turn_id": "t0046",
+      "speaker": "P",
+      "text": "okay ."
+    },
+    {
+      "turn_id": "t0047",
+      "speaker": "D",
+      "text": "so , um-"
+    },
+    {
+      "turn_id": "t0048",
+      "speaker": "P",
+      "text": "can Mrs. Anderson , uh , carry any heavy weights or-"
+    },
+    {
+      "turn_id": "t0049",
+      "speaker": "D",
+      "text": "no , no . definitely not ."
+    },
+    {
+      "turn_id": "t0050",
+      "speaker": "P",
+      "text": ". anything like that ?"
+    },
+    {
+      "turn_id": "t0051",
+      "speaker": "D",
+      "text": "definitely not ."
+    },
+    {
+      "turn_id": "t0052",
+      "speaker": "P",
+      "text": "okay . okay ."
+    },
+    {
+      "turn_id": "t0053",
+      "speaker": "D",
+      "text": "yeah , use , um , right hand-"
+    },
+    {
+      "turn_id": "t0054",
+      "speaker": "P",
+      "text": "okay ."
+    },
+    {
+      "turn_id": "t0055",
+      "speaker": "D",
+      "text": ". instead-"
+    },
+    {
+      "turn_id": "t0056",
+      "speaker": "P",
+      "text": "mm-hmm ."
+    },
+    {
+      "turn_id": "t0057",
+      "speaker": "D",
+      "text": ". for the next , uh , at least just three to four weeks ."
+    },
+    {
+      "turn_id": "t0058",
+      "speaker": "P",
+      "text": "mm-hmm ."
+    },
+    {
+      "turn_id": "t0059",
+      "speaker": "D",
+      "text": "uh , come back to see the doctor if the pain , you know , still there after maybe three weeks-"
+    },
+    {
+      "turn_id": "t0060",
+      "speaker": "P",
+      "text": "sure ."
+    },
+    {
+      "turn_id": "t0061",
+      "speaker": "D",
+      "text": ". so the doctor can take a further look ."
+    },
+    {
+      "turn_id": "t0062",
+      "speaker": "P",
+      "text": "okay . sure ."
+    },
+    {
+      "turn_id": "t0063",
+      "speaker": "D",
+      "text": "but Mrs. Anderson should be fine-"
+    },
+    {
+      "turn_id": "t0064",
+      "speaker": "P",
+      "text": "yeah ."
+    },
+    {
+      "turn_id": "t0065",
+      "speaker": "D",
+      "text": ". after just resting and regular pain reliever ."
+    },
+    {
+      "turn_id": "t0066",
+      "speaker": "P",
+      "text": "okay . all right ."
+    },
+    {
+      "turn_id": "t0067",
+      "speaker": "D",
+      "text": "um-"
+    },
+    {
+      "turn_id": "t0068",
+      "speaker": "P",
+      "text": "should Mrs. Anderson take another x-ray when Mrs. Anderson come back , if the pain does n't improve ?"
+    },
+    {
+      "turn_id": "t0069",
+      "speaker": "D",
+      "text": "um , maybe . let's see how Mrs. Anderson is doing in the next three weeks ."
+    },
+    {
+      "turn_id": "t0070",
+      "speaker": "P",
+      "text": "uh ."
+    },
+    {
+      "turn_id": "t0071",
+      "speaker": "D",
+      "text": "hey , dragon . um , order medications and procedures as discussed . all right ."
+    },
+    {
+      "turn_id": "t0072",
+      "speaker": "P",
+      "text": "okay ."
+    },
+    {
+      "turn_id": "t0073",
+      "speaker": "D",
+      "text": "um , the doctor think that's good for today . hope Mrs. Anderson feel better soon ."
+    },
+    {
+      "turn_id": "t0074",
+      "speaker": "P",
+      "text": "okay . thank you , doctor ."
+    },
+    {
+      "turn_id": "t0075",
+      "speaker": "D",
+      "text": "yeah ."
+    },
+    {
+      "turn_id": "t0076",
+      "speaker": "P",
+      "text": "hopefully , the pain reliever , uh , ibuprofen actually helps ."
+    },
+    {
+      "turn_id": "t0077",
+      "speaker": "D",
+      "text": "yeah ."
+    },
+    {
+      "turn_id": "t0078",
+      "speaker": "P",
+      "text": "yeah , and if Mrs. Anderson have more pain , can Mrs. Anderson call the doctor ? can Mrs. Anderson fix up another appointment earlier than three weeks ?"
+    },
+    {
+      "turn_id": "t0079",
+      "speaker": "D",
+      "text": "um , Mrs. Anderson can also try advil ."
+    },
+    {
+      "turn_id": "t0080",
+      "speaker": "P",
+      "text": "okay ."
+    },
+    {
+      "turn_id": "t0081",
+      "speaker": "D",
+      "text": "yeah , so , um ..."
+    },
+    {
+      "turn_id": "t0082",
+      "speaker": "P",
+      "text": "yeah ."
+    },
+    {
+      "turn_id": "t0083",
+      "speaker": "D",
+      "text": "ale- , aleve . the doctor mean , aleve ."
+    },
+    {
+      "turn_id": "t0084",
+      "speaker": "P",
+      "text": "Mrs. Anderson see . okay , thank you , doctor ."
+    },
+    {
+      "turn_id": "t0085",
+      "speaker": "D",
+      "text": "thank you ."
+    }
+  ],
+  "mentions": [
+    {
+      "canonical_name": "Mrs. Anderson (patient)",
+      "entity_type": "PERSON_PATIENT",
+      "turn_ids": [
+        "t0001",
+        "t0002",
+        "t0003",
+        "t0004",
+        "t0005",
+        "t0009",
+        "t0010",
+        "t0012",
+        "t0014",
+        "t0016",
+        "t0017",
+        "t0021",
+        "t0024",
+        "t0038",
+        "t0045",
+        "t0048",
+        "t0068",
+        "t0069",
+        "t0073",
+        "t0078",
+        "t0079",
+        "t0084"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0001",
+          "turn_id": "t0001",
+          "text": "patient",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0004",
+          "turn_id": "t0001",
+          "text": "mrs. anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0006",
+          "turn_id": "t0003",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0008",
+          "turn_id": "t0004",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0012",
+          "turn_id": "t0005",
+          "text": "mrs. anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0013",
+          "turn_id": "t0005",
+          "text": "44-years-old",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0014",
+          "turn_id": "t0005",
+          "text": "female",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0019",
+          "turn_id": "t0009",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0020",
+          "turn_id": "t0010",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0025",
+          "turn_id": "t0012",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0027",
+          "turn_id": "t0014",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0029",
+          "turn_id": "t0016",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0031",
+          "turn_id": "t0017",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0035",
+          "turn_id": "t0021",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0039",
+          "turn_id": "t0024",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0060",
+          "turn_id": "t0038",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0071",
+          "turn_id": "t0045",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0074",
+          "turn_id": "t0048",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0085",
+          "turn_id": "t0068",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0090",
+          "turn_id": "t0069",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0096",
+          "turn_id": "t0073",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0099",
+          "turn_id": "t0078",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0106",
+          "turn_id": "t0079",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0110",
+          "turn_id": "t0084",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        }
+      ],
+      "ontology": null
+    },
+    {
+      "canonical_name": "clinician",
+      "entity_type": "PERSON_CLINICIAN",
+      "turn_ids": [
+        "t0001",
+        "t0002",
+        "t0004",
+        "t0005",
+        "t0006",
+        "t0017",
+        "t0022",
+        "t0025",
+        "t0043",
+        "t0059",
+        "t0073",
+        "t0078",
+        "t0083",
+        "t0084"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0002",
+          "turn_id": "t0001",
+          "text": "clinician",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0005",
+          "turn_id": "t0002",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0007",
+          "turn_id": "t0004",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0011",
+          "turn_id": "t0005",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0018",
+          "turn_id": "t0006",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0030",
+          "turn_id": "t0017",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0037",
+          "turn_id": "t0022",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0043",
+          "turn_id": "t0025",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0068",
+          "turn_id": "t0043",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0080",
+          "turn_id": "t0059",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0095",
+          "turn_id": "t0073",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0102",
+          "turn_id": "t0078",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0109",
+          "turn_id": "t0083",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0111",
+          "turn_id": "t0084",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        }
+      ],
+      "ontology": null
+    },
+    {
+      "canonical_name": "Dragon (voice assistant/system)",
+      "entity_type": "OTHER",
+      "turn_ids": [
+        "t0005",
+        "t0025"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0010",
+          "turn_id": "t0005",
+          "text": "dragon",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0042",
+          "turn_id": "t0025",
+          "text": "dragon",
+          "type": "OTHER"
+        }
+      ],
+      "ontology": null
+    },
+    {
+      "canonical_name": "Left shoulder pain",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0004",
+        "t0005",
+        "t0006",
+        "t0010",
+        "t0014",
+        "t0018",
+        "t0022",
+        "t0024",
+        "t0033"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0009",
+          "turn_id": "t0004",
+          "text": "left shoulder pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0015",
+          "turn_id": "t0005",
+          "text": "left shoulder pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0016",
+          "turn_id": "t0006",
+          "text": "left shoulder pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0017",
+          "turn_id": "t0006",
+          "text": "a week",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0024",
+          "turn_id": "t0010",
+          "text": "left shoulder pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0028",
+          "turn_id": "t0014",
+          "text": "left shoulder pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0033",
+          "turn_id": "t0018",
+          "text": "hurts",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0036",
+          "turn_id": "t0022",
+          "text": "hurts",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0040",
+          "turn_id": "t0024",
+          "text": "left shoulder",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0041",
+          "turn_id": "t0024",
+          "text": "hurts",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0054",
+          "turn_id": "t0033",
+          "text": "left shoulder pain",
+          "type": "PROBLEM"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Left shoulder pain",
+        "cui": "C5700073",
+        "score": 1.0,
+        "searched_term": "left shoulder pain",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "Pain",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0035",
+        "t0041",
+        "t0059",
+        "t0068"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0059",
+          "turn_id": "t0035",
+          "text": "pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0067",
+          "turn_id": "t0041",
+          "text": "pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0081",
+          "turn_id": "t0059",
+          "text": "pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0088",
+          "turn_id": "t0068",
+          "text": "pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0089",
+          "turn_id": "t0068",
+          "text": "improve",
+          "type": "OBS_VALUE"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Pain",
+        "cui": "C0030193",
+        "score": 1.05,
+        "searched_term": "pain",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "ibuprofen",
+      "entity_type": "MEDICATION",
+      "turn_ids": [
+        "t0029",
+        "t0031",
+        "t0076"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0048",
+          "turn_id": "t0029",
+          "text": "pain reliever",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0049",
+          "turn_id": "t0029",
+          "text": "600 milligram",
+          "type": "DOSE_AMOUNT"
+        },
+        {
+          "mention_id": "m0050",
+          "turn_id": "t0029",
+          "text": "ibuprofen",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0051",
+          "turn_id": "t0029",
+          "text": "three times a day",
+          "type": "FREQUENCY"
+        },
+        {
+          "mention_id": "m0052",
+          "turn_id": "t0029",
+          "text": "a week",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0053",
+          "turn_id": "t0031",
+          "text": "a week",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0097",
+          "turn_id": "t0076",
+          "text": "pain reliever",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0098",
+          "turn_id": "t0076",
+          "text": "ibuprofen",
+          "type": "MEDICATION"
+        }
+      ],
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "ibuprofen",
+        "cui": "C0020740",
+        "score": 0.9567254185676575,
+        "searched_term": "ibuprofen (new)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "Follow-up visit",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0001"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0003",
+          "turn_id": "t0001",
+          "text": "follow-up visit",
+          "type": "PROCEDURE"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Follow-up visit",
+        "cui": "C0589121",
+        "score": 1.05,
+        "searched_term": "follow-up visit",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "pain medications (current)",
+      "entity_type": "MEDICATION",
+      "turn_ids": [
+        "t0010"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0021",
+          "turn_id": "t0010",
+          "text": "pain medications",
+          "type": "MEDICATION"
+        }
+      ],
+      "temporal_context": "past",
+      "ontology": null
+    },
+    {
+      "canonical_name": "Tylenol",
+      "entity_type": "MEDICATION",
+      "turn_ids": [
+        "t0010"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0022",
+          "turn_id": "t0010",
+          "text": "tylenol",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0023",
+          "turn_id": "t0010",
+          "text": "two or three days",
+          "type": "TIME"
+        }
+      ],
+      "temporal_context": "past",
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "Tylenol",
+        "cui": "C0699142",
+        "score": 0.9782122373580933,
+        "searched_term": "Tylenol (current)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "Pain of left shoulder joint",
+      "entity_type": "ACTIVITY",
+      "turn_ids": [
+        "t0018",
+        "t0020",
+        "t0024"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0032",
+          "turn_id": "t0018",
+          "text": "moving up a little bit",
+          "type": "ACTIVITY"
+        },
+        {
+          "mention_id": "m0034",
+          "turn_id": "t0020",
+          "text": "moving up a little bit",
+          "type": "ACTIVITY"
+        },
+        {
+          "mention_id": "m0038",
+          "turn_id": "t0024",
+          "text": "movement",
+          "type": "ACTIVITY"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Pain of left shoulder joint",
+        "cui": "C0241039",
+        "score": 0.9221000671386719,
+        "searched_term": "pain with left shoulder movement",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "gymnastics class",
+      "entity_type": "ACTIVITY",
+      "turn_ids": [
+        "t0012"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0026",
+          "turn_id": "t0012",
+          "text": "gymnastics class",
+          "type": "ACTIVITY"
+        }
+      ],
+      "ontology": null
+    },
+    {
+      "canonical_name": "X-ray",
+      "entity_type": "LAB_TEST",
+      "turn_ids": [
+        "t0025"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0044",
+          "turn_id": "t0025",
+          "text": "x-ray",
+          "type": "LAB_TEST"
+        }
+      ],
+      "temporal_context": "past",
+      "ontology": {
+        "source": "LOINC",
+        "preferred_term": "X-ray",
+        "cui": "C1962945",
+        "score": 1.0,
+        "searched_term": "x-ray",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "Simple fracture",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0025"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0045",
+          "turn_id": "t0025",
+          "text": "broken bone",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0046",
+          "turn_id": "t0025",
+          "text": "fracture",
+          "type": "PROBLEM"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Simple fracture",
+        "cui": "C3874305",
+        "score": 0.8141255378723145,
+        "searched_term": "fracture (ruled out on x-ray)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "Injury of left shoulder (disorder)",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0025"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0047",
+          "turn_id": "t0025",
+          "text": "joint",
+          "type": "PROBLEM"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Injury of left shoulder (disorder)",
+        "cui": "C3648600",
+        "score": 0.9473893642425537,
+        "searched_term": "left shoulder joint injury",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "Application of ice",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0033",
+        "t0035"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0055",
+          "turn_id": "t0033",
+          "text": "ice",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0057",
+          "turn_id": "t0035",
+          "text": "ice",
+          "type": "PROCEDURE"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Application of ice",
+        "cui": "C0204767",
+        "score": 0.977724015712738,
+        "searched_term": "ice application",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "Heat pad treatment (procedure)",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0033",
+        "t0035"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0056",
+          "turn_id": "t0033",
+          "text": "heat pad",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0058",
+          "turn_id": "t0035",
+          "text": "heat pad",
+          "type": "PROCEDURE"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Heat pad treatment (procedure)",
+        "cui": "C0556908",
+        "score": 0.9071481823921204,
+        "searched_term": "heat pad application",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "left arm surgery (past)",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0038",
+        "t0040",
+        "t0041"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0061",
+          "turn_id": "t0038",
+          "text": "past surgery",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0062",
+          "turn_id": "t0038",
+          "text": "left arm",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0063",
+          "turn_id": "t0040",
+          "text": "past surgery",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0064",
+          "turn_id": "t0040",
+          "text": "left arm",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0065",
+          "turn_id": "t0041",
+          "text": "past surgery",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0066",
+          "turn_id": "t0041",
+          "text": "left arm",
+          "type": "OTHER"
+        }
+      ],
+      "ontology": null
+    },
+    {
+      "canonical_name": "Left arm",
+      "entity_type": "OTHER",
+      "turn_ids": [
+        "t0043",
+        "t0045"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0070",
+          "turn_id": "t0043",
+          "text": "left arm",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0072",
+          "turn_id": "t0045",
+          "text": "left arm",
+          "type": "OTHER"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Left arm",
+        "cui": "C0230347",
+        "score": 1.0,
+        "searched_term": "left arm",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "rest (left arm)",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0043",
+        "t0065"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0069",
+          "turn_id": "t0043",
+          "text": "rest",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0083",
+          "turn_id": "t0065",
+          "text": "resting",
+          "type": "PROCEDURE"
+        }
+      ],
+      "ontology": null
+    },
+    {
+      "canonical_name": "Healing",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0045"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0073",
+          "turn_id": "t0045",
+          "text": "healing",
+          "type": "PROBLEM"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Healing",
+        "cui": "C0043240",
+        "score": 1.0,
+        "searched_term": "healing",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "Heavy (weight)",
+      "entity_type": "ACTIVITY",
+      "turn_ids": [
+        "t0048"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0075",
+          "turn_id": "t0048",
+          "text": "carry",
+          "type": "ACTIVITY"
+        },
+        {
+          "mention_id": "m0076",
+          "turn_id": "t0048",
+          "text": "heavy weights",
+          "type": "ACTIVITY"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Heavy (weight)",
+        "cui": "C0439539",
+        "score": 0.8192425966262817,
+        "searched_term": "carrying heavy weights",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "Right hand",
+      "entity_type": "OTHER",
+      "turn_ids": [
+        "t0053",
+        "t0057"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0077",
+          "turn_id": "t0053",
+          "text": "right hand",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0078",
+          "turn_id": "t0057",
+          "text": "three to four weeks",
+          "type": "TIME"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Right hand",
+        "cui": "C0230370",
+        "score": 1.0,
+        "searched_term": "right hand",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "Follow-up visit",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0059",
+        "t0068"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0079",
+          "turn_id": "t0059",
+          "text": "come back",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0082",
+          "turn_id": "t0059",
+          "text": "three weeks",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0087",
+          "turn_id": "t0068",
+          "text": "come back",
+          "type": "PROCEDURE"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Follow-up visit",
+        "cui": "C0589121",
+        "score": 0.8487118482589722,
+        "searched_term": "follow-up visit (come back)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "CounterAct Pain",
+      "entity_type": "MEDICATION",
+      "turn_ids": [
+        "t0065"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0084",
+          "turn_id": "t0065",
+          "text": "pain reliever",
+          "type": "MEDICATION"
+        }
+      ],
+      "temporal_context": "future",
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "CounterAct Pain",
+        "cui": "C3153730",
+        "score": 0.8059331178665161,
+        "searched_term": "pain reliever (new)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "x-ray (future/considered)",
+      "entity_type": "LAB_TEST",
+      "turn_ids": [
+        "t0068"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0086",
+          "turn_id": "t0068",
+          "text": "x-ray",
+          "type": "LAB_TEST"
+        }
+      ],
+      "temporal_context": "future",
+      "ontology": null
+    },
+    {
+      "canonical_name": "naproxen",
+      "entity_type": "MEDICATION",
+      "turn_ids": [
+        "t0079",
+        "t0083"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0107",
+          "turn_id": "t0079",
+          "text": "advil",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0108",
+          "turn_id": "t0083",
+          "text": "aleve",
+          "type": "MEDICATION"
+        }
+      ],
+      "temporal_context": "future",
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "naproxen",
+        "cui": "C0027396",
+        "score": 0.9767904877662659,
+        "searched_term": "naproxen (new)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    },
+    {
+      "canonical_name": "Left shoulder pain",
+      "entity_type": "PROBLEM",
+      "turn_ids": [
+        "t0069",
+        "t0078"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0091",
+          "turn_id": "t0069",
+          "text": "next three weeks",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0100",
+          "turn_id": "t0078",
+          "text": "pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0104",
+          "turn_id": "t0078",
+          "text": "earlier",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0105",
+          "turn_id": "t0078",
+          "text": "three weeks",
+          "type": "TIME"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Left shoulder pain",
+        "cui": "C5700073",
+        "score": 1.0,
+        "searched_term": "left shoulder pain",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial"
+    },
+    {
+      "canonical_name": "order medications and procedures",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0071"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0092",
+          "turn_id": "t0071",
+          "text": "order",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0094",
+          "turn_id": "t0071",
+          "text": "procedures",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0093",
+          "turn_id": "t0071",
+          "text": "medications",
+          "type": "MEDICATION"
+        }
+      ],
+      "ontology": null
+    },
+    {
+      "canonical_name": "call doctor",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0078"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0101",
+          "turn_id": "t0078",
+          "text": "call",
+          "type": "PROCEDURE"
+        }
+      ],
+      "ontology": null
+    },
+    {
+      "canonical_name": "Appointment status",
+      "entity_type": "PROCEDURE",
+      "turn_ids": [
+        "t0078"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0103",
+          "turn_id": "t0078",
+          "text": "appointment",
+          "type": "PROCEDURE"
+        }
+      ],
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Appointment status",
+        "cui": "C0586344",
+        "score": 0.8883394002914429,
+        "searched_term": "appointment",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Person",
+      "entity_type": "PERSON_PATIENT",
+      "shacl_shape_id": "kgsh:PersonShape",
+      "canonical_name": "Mrs. Anderson",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0001",
+        "t0002",
+        "t0003",
+        "t0004",
+        "t0005",
+        "t0009",
+        "t0010",
+        "t0012",
+        "t0014",
+        "t0016",
+        "t0017",
+        "t0021",
+        "t0024",
+        "t0038",
+        "t0045",
+        "t0048",
+        "t0068",
+        "t0069",
+        "t0073",
+        "t0078",
+        "t0079",
+        "t0084"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0001",
+          "turn_id": "t0001",
+          "text": "patient",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0004",
+          "turn_id": "t0001",
+          "text": "mrs. anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0006",
+          "turn_id": "t0003",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0008",
+          "turn_id": "t0004",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0012",
+          "turn_id": "t0005",
+          "text": "mrs. anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0013",
+          "turn_id": "t0005",
+          "text": "44-years-old",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0014",
+          "turn_id": "t0005",
+          "text": "female",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0019",
+          "turn_id": "t0009",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0020",
+          "turn_id": "t0010",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0025",
+          "turn_id": "t0012",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0027",
+          "turn_id": "t0014",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0029",
+          "turn_id": "t0016",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0031",
+          "turn_id": "t0017",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0035",
+          "turn_id": "t0021",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0039",
+          "turn_id": "t0024",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0060",
+          "turn_id": "t0038",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0071",
+          "turn_id": "t0045",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0074",
+          "turn_id": "t0048",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0085",
+          "turn_id": "t0068",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0090",
+          "turn_id": "t0069",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0096",
+          "turn_id": "t0073",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0099",
+          "turn_id": "t0078",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0106",
+          "turn_id": "t0079",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        },
+        {
+          "mention_id": "m0110",
+          "turn_id": "t0084",
+          "text": "Mrs. Anderson",
+          "type": "PERSON_PATIENT"
+        }
+      ],
+      "attribute_options": [
+        "name",
+        "age",
+        "gender",
+        "job",
+        "occupation",
+        "role",
+        "hobbies",
+        "location",
+        "relationship",
+        "patient_agreement",
+        "notes"
+      ],
+      "attributes": {
+        "name": "Mrs. Anderson",
+        "age": "44-years-old",
+        "gender": "female",
+        "role": "patient"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Person",
+      "entity_type": "PERSON_CLINICIAN",
+      "shacl_shape_id": "kgsh:PersonShape",
+      "canonical_name": "clinician",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0001",
+        "t0002",
+        "t0004",
+        "t0005",
+        "t0006",
+        "t0017",
+        "t0022",
+        "t0025",
+        "t0043",
+        "t0059",
+        "t0073",
+        "t0078",
+        "t0083",
+        "t0084"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0002",
+          "turn_id": "t0001",
+          "text": "clinician",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0005",
+          "turn_id": "t0002",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0007",
+          "turn_id": "t0004",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0011",
+          "turn_id": "t0005",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0018",
+          "turn_id": "t0006",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0030",
+          "turn_id": "t0017",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0037",
+          "turn_id": "t0022",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0043",
+          "turn_id": "t0025",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0068",
+          "turn_id": "t0043",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0080",
+          "turn_id": "t0059",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0095",
+          "turn_id": "t0073",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0102",
+          "turn_id": "t0078",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0109",
+          "turn_id": "t0083",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        },
+        {
+          "mention_id": "m0111",
+          "turn_id": "t0084",
+          "text": "doctor",
+          "type": "PERSON_CLINICIAN"
+        }
+      ],
+      "attribute_options": [
+        "name",
+        "age",
+        "gender",
+        "job",
+        "occupation",
+        "role",
+        "hobbies",
+        "location",
+        "relationship",
+        "patient_agreement",
+        "notes"
+      ],
+      "attributes": {
+        "role": "doctor",
+        "name": "clinician"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0003",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Observation",
+      "entity_type": "OTHER",
+      "shacl_shape_id": "kgsh:ObservationShape",
+      "canonical_name": "Dragon (voice assistant/system)",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0005",
+        "t0025"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0010",
+          "turn_id": "t0005",
+          "text": "dragon",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0042",
+          "turn_id": "t0025",
+          "text": "dragon",
+          "type": "OTHER"
+        }
+      ],
+      "attribute_options": [
+        "description",
+        "value_text",
+        "context",
+        "notes"
+      ],
+      "attributes": {
+        "description": "voice assistant/system used during visit",
+        "context": "during visit"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0004",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "Left shoulder pain",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Left shoulder pain",
+        "cui": "C5700073",
+        "score": 1.0,
+        "searched_term": "left shoulder pain",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0004",
+        "t0005",
+        "t0006",
+        "t0010",
+        "t0014",
+        "t0018",
+        "t0022",
+        "t0024",
+        "t0033"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0009",
+          "turn_id": "t0004",
+          "text": "left shoulder pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0015",
+          "turn_id": "t0005",
+          "text": "left shoulder pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0016",
+          "turn_id": "t0006",
+          "text": "left shoulder pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0017",
+          "turn_id": "t0006",
+          "text": "a week",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0024",
+          "turn_id": "t0010",
+          "text": "left shoulder pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0028",
+          "turn_id": "t0014",
+          "text": "left shoulder pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0033",
+          "turn_id": "t0018",
+          "text": "hurts",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0036",
+          "turn_id": "t0022",
+          "text": "hurts",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0040",
+          "turn_id": "t0024",
+          "text": "left shoulder",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0041",
+          "turn_id": "t0024",
+          "text": "hurts",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0054",
+          "turn_id": "t0033",
+          "text": "left shoulder pain",
+          "type": "PROBLEM"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "status": "active",
+        "duration": "a week",
+        "body_site": "left shoulder",
+        "impact": "any kind of movement on the left shoulder hurts"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0005",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "Pain",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Pain",
+        "cui": "C0030193",
+        "score": 1.05,
+        "searched_term": "pain",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0035",
+        "t0041",
+        "t0059",
+        "t0068"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0059",
+          "turn_id": "t0035",
+          "text": "pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0067",
+          "turn_id": "t0041",
+          "text": "pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0081",
+          "turn_id": "t0059",
+          "text": "pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0088",
+          "turn_id": "t0068",
+          "text": "pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0089",
+          "turn_id": "t0068",
+          "text": "improve",
+          "type": "OBS_VALUE"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "status": "active"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0006",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "MedicationStatement",
+      "entity_type": "MEDICATION",
+      "shacl_shape_id": "kgsh:MedicationStatementShape",
+      "canonical_name": "ibuprofen",
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "ibuprofen",
+        "cui": "C0020740",
+        "score": 0.9567254185676575,
+        "searched_term": "ibuprofen (new)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0029",
+        "t0031",
+        "t0076"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0048",
+          "turn_id": "t0029",
+          "text": "pain reliever",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0049",
+          "turn_id": "t0029",
+          "text": "600 milligram",
+          "type": "DOSE_AMOUNT"
+        },
+        {
+          "mention_id": "m0050",
+          "turn_id": "t0029",
+          "text": "ibuprofen",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0051",
+          "turn_id": "t0029",
+          "text": "three times a day",
+          "type": "FREQUENCY"
+        },
+        {
+          "mention_id": "m0052",
+          "turn_id": "t0029",
+          "text": "a week",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0053",
+          "turn_id": "t0031",
+          "text": "a week",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0097",
+          "turn_id": "t0076",
+          "text": "pain reliever",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0098",
+          "turn_id": "t0076",
+          "text": "ibuprofen",
+          "type": "MEDICATION"
+        }
+      ],
+      "attribute_options": [
+        "dose_value",
+        "dose_unit",
+        "dose_raw",
+        "frequency_text",
+        "route",
+        "status",
+        "start_date",
+        "end_date",
+        "indication",
+        "medication_status",
+        "notes"
+      ],
+      "attributes": {
+        "dose_value": "600",
+        "dose_unit": "mg",
+        "dose_raw": "600 milligram of ibuprofen three times a day",
+        "frequency_text": "three times a day",
+        "end_date": "for a week",
+        "medication_status": "about to start",
+        "notes": "Doctor suggested continuing pain reliever/ibuprofen; patient later hopes ibuprofen helps."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0007",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "Follow-up visit",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Follow-up visit",
+        "cui": "C0589121",
+        "score": 1.05,
+        "searched_term": "follow-up visit",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0001"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0003",
+          "turn_id": "t0001",
+          "text": "follow-up visit",
+          "type": "PROCEDURE"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {}
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0008",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "MedicationStatement",
+      "entity_type": "MEDICATION",
+      "shacl_shape_id": "kgsh:MedicationStatementShape",
+      "canonical_name": "pain medications",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0010"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0021",
+          "turn_id": "t0010",
+          "text": "pain medications",
+          "type": "MEDICATION"
+        }
+      ],
+      "attribute_options": [
+        "dose_value",
+        "dose_unit",
+        "dose_raw",
+        "frequency_text",
+        "route",
+        "status",
+        "start_date",
+        "end_date",
+        "indication",
+        "medication_status",
+        "notes"
+      ],
+      "attributes": {
+        "medication_status": "none",
+        "notes": "Patient initially states no pain medications; then clarifies Tylenol was taken for two or three days but did not help."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0009",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "MedicationStatement",
+      "entity_type": "MEDICATION",
+      "shacl_shape_id": "kgsh:MedicationStatementShape",
+      "canonical_name": "Tylenol",
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "Tylenol",
+        "cui": "C0699142",
+        "score": 0.9782122373580933,
+        "searched_term": "Tylenol (current)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0010"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0022",
+          "turn_id": "t0010",
+          "text": "tylenol",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0023",
+          "turn_id": "t0010",
+          "text": "two or three days",
+          "type": "TIME"
+        }
+      ],
+      "attribute_options": [
+        "dose_value",
+        "dose_unit",
+        "dose_raw",
+        "frequency_text",
+        "route",
+        "status",
+        "start_date",
+        "end_date",
+        "indication",
+        "medication_status",
+        "notes"
+      ],
+      "attributes": {
+        "end_date": "two or three days",
+        "medication_status": "used to take",
+        "notes": "Tylenol did not help at all."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0010",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Activity",
+      "entity_type": "ACTIVITY",
+      "shacl_shape_id": "kgsh:ActivityShape",
+      "canonical_name": "Pain of left shoulder joint",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Pain of left shoulder joint",
+        "cui": "C0241039",
+        "score": 0.9221000671386719,
+        "searched_term": "pain with left shoulder movement",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0018",
+        "t0020",
+        "t0024"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0032",
+          "turn_id": "t0018",
+          "text": "moving up a little bit",
+          "type": "ACTIVITY"
+        },
+        {
+          "mention_id": "m0034",
+          "turn_id": "t0020",
+          "text": "moving up a little bit",
+          "type": "ACTIVITY"
+        },
+        {
+          "mention_id": "m0038",
+          "turn_id": "t0024",
+          "text": "movement",
+          "type": "ACTIVITY"
+        }
+      ],
+      "attribute_options": [
+        "activity_type",
+        "activity_frequency",
+        "activity_amount",
+        "activity_intensity",
+        "activity_duration",
+        "activity_context",
+        "activity_status",
+        "activity_start_date",
+        "activity_end_date",
+        "notes"
+      ],
+      "attributes": {
+        "activity_type": "left shoulder movement",
+        "notes": "Moving up a little bit hurts; any kind of movement on the left shoulder hurts."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0011",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Activity",
+      "entity_type": "ACTIVITY",
+      "shacl_shape_id": "kgsh:ActivityShape",
+      "canonical_name": "gymnastics class",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0012"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0026",
+          "turn_id": "t0012",
+          "text": "gymnastics class",
+          "type": "ACTIVITY"
+        }
+      ],
+      "attribute_options": [
+        "activity_type",
+        "activity_frequency",
+        "activity_amount",
+        "activity_intensity",
+        "activity_duration",
+        "activity_context",
+        "activity_status",
+        "activity_start_date",
+        "activity_end_date",
+        "notes"
+      ],
+      "attributes": {
+        "activity_type": "gymnastics class"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0012",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "LabTest",
+      "entity_type": "LAB_TEST",
+      "shacl_shape_id": "kgsh:LabTestShape",
+      "canonical_name": "X-ray",
+      "ontology": {
+        "source": "LOINC",
+        "preferred_term": "X-ray",
+        "cui": "C1962945",
+        "score": 1.0,
+        "searched_term": "x-ray",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0025"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0044",
+          "turn_id": "t0025",
+          "text": "x-ray",
+          "type": "LAB_TEST"
+        }
+      ],
+      "attribute_options": [
+        "result_value",
+        "result_unit",
+        "interpretation",
+        "specimen",
+        "collection_time",
+        "status",
+        "notes"
+      ],
+      "attributes": {
+        "collection_time": "last",
+        "interpretation": "doesn't look like there is any broken bone or fracture",
+        "notes": "Doctor reviewed the last x-ray."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0013",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "Simple fracture",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Simple fracture",
+        "cui": "C3874305",
+        "score": 0.8141255378723145,
+        "searched_term": "fracture (ruled out on x-ray)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0025"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0045",
+          "turn_id": "t0025",
+          "text": "broken bone",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0046",
+          "turn_id": "t0025",
+          "text": "fracture",
+          "type": "PROBLEM"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "negation": "negated",
+        "notes": "X-ray does not show any broken bone or fracture."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0014",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "Injury of left shoulder (disorder)",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Injury of left shoulder (disorder)",
+        "cui": "C3648600",
+        "score": 0.9473893642425537,
+        "searched_term": "left shoulder joint injury",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0025"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0047",
+          "turn_id": "t0025",
+          "text": "joint",
+          "type": "PROBLEM"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "body_site": "left shoulder",
+        "notes": "Doctor's guess is Mrs. Anderson probably hurt the joint."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0015",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "Application of ice",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Application of ice",
+        "cui": "C0204767",
+        "score": 0.977724015712738,
+        "searched_term": "ice application",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0033",
+        "t0035"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0055",
+          "turn_id": "t0033",
+          "text": "ice",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0057",
+          "turn_id": "t0035",
+          "text": "ice",
+          "type": "PROCEDURE"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {
+        "procedure_type": "ice",
+        "procedure_status": "planned",
+        "procedure_intent": "pain relief",
+        "procedure_body_site": "left shoulder",
+        "notes": "Recommended along with heat pad to help relieve pain if left shoulder pain persists."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0016",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "Heat pad treatment (procedure)",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Heat pad treatment (procedure)",
+        "cui": "C0556908",
+        "score": 0.9071481823921204,
+        "searched_term": "heat pad application",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0033",
+        "t0035"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0056",
+          "turn_id": "t0033",
+          "text": "heat pad",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0058",
+          "turn_id": "t0035",
+          "text": "heat pad",
+          "type": "PROCEDURE"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {
+        "procedure_type": "heat pad",
+        "procedure_subject": "Mrs. Anderson",
+        "procedure_status": "planned",
+        "procedure_intent": "pain relief",
+        "procedure_body_site": "left shoulder",
+        "notes": "Recommended along with ice if left shoulder pain is still painful; might help relieve pain."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0017",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "Past surgery on left arm",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0038",
+        "t0040",
+        "t0041"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0061",
+          "turn_id": "t0038",
+          "text": "past surgery",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0062",
+          "turn_id": "t0038",
+          "text": "left arm",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0063",
+          "turn_id": "t0040",
+          "text": "past surgery",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0064",
+          "turn_id": "t0040",
+          "text": "left arm",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0065",
+          "turn_id": "t0041",
+          "text": "past surgery",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0066",
+          "turn_id": "t0041",
+          "text": "left arm",
+          "type": "OTHER"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {
+        "procedure_type": "past surgery",
+        "procedure_subject": "Mrs. Anderson",
+        "procedure_status": "completed",
+        "procedure_body_site": "left arm",
+        "notes": "Doctor stated the past surgery on the left arm does not seem related to Mrs. Anderson's pain."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0018",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Observation",
+      "entity_type": "OTHER",
+      "shacl_shape_id": "kgsh:ObservationShape",
+      "canonical_name": "Left arm",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Left arm",
+        "cui": "C0230347",
+        "score": 1.0,
+        "searched_term": "left arm",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0043",
+        "t0045"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0070",
+          "turn_id": "t0043",
+          "text": "left arm",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0072",
+          "turn_id": "t0045",
+          "text": "left arm",
+          "type": "OTHER"
+        }
+      ],
+      "attribute_options": [
+        "description",
+        "value_text",
+        "context",
+        "notes"
+      ],
+      "attributes": {
+        "context": "while healing",
+        "notes": "Doctor would try to rest Mrs. Anderson's left arm."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0019",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "Rest (left arm)",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0043",
+        "t0065"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0069",
+          "turn_id": "t0043",
+          "text": "rest",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0083",
+          "turn_id": "t0065",
+          "text": "resting",
+          "type": "PROCEDURE"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {
+        "procedure_type": "rest",
+        "procedure_subject": "Mrs. Anderson",
+        "procedure_status": "planned",
+        "procedure_intent": "therapeutic",
+        "procedure_body_site": "left arm",
+        "notes": "Mentioned as part of management along with regular pain reliever."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0020",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "Healing",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Healing",
+        "cui": "C0043240",
+        "score": 1.0,
+        "searched_term": "healing",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0045"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0073",
+          "turn_id": "t0045",
+          "text": "healing",
+          "type": "PROBLEM"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "status": "active",
+        "body_site": "left arm"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0021",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Activity",
+      "entity_type": "ACTIVITY",
+      "shacl_shape_id": "kgsh:ActivityShape",
+      "canonical_name": "Carrying heavy weights",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Heavy (weight)",
+        "cui": "C0439539",
+        "score": 0.8192425966262817,
+        "searched_term": "carrying heavy weights",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0048"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0075",
+          "turn_id": "t0048",
+          "text": "carry",
+          "type": "ACTIVITY"
+        },
+        {
+          "mention_id": "m0076",
+          "turn_id": "t0048",
+          "text": "heavy weights",
+          "type": "ACTIVITY"
+        }
+      ],
+      "attribute_options": [
+        "activity_type",
+        "activity_frequency",
+        "activity_amount",
+        "activity_intensity",
+        "activity_duration",
+        "activity_context",
+        "activity_status",
+        "activity_start_date",
+        "activity_end_date",
+        "notes"
+      ],
+      "attributes": {
+        "activity_type": "carrying heavy weights",
+        "activity_status": "never",
+        "notes": "Doctor advised: \"no, no. definitely not.\""
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0022",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Observation",
+      "entity_type": "OTHER",
+      "shacl_shape_id": "kgsh:ObservationShape",
+      "canonical_name": "Right hand",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Right hand",
+        "cui": "C0230370",
+        "score": 1.0,
+        "searched_term": "right hand",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0053",
+        "t0057"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0077",
+          "turn_id": "t0053",
+          "text": "right hand",
+          "type": "OTHER"
+        },
+        {
+          "mention_id": "m0078",
+          "turn_id": "t0057",
+          "text": "three to four weeks",
+          "type": "TIME"
+        }
+      ],
+      "attribute_options": [
+        "description",
+        "value_text",
+        "context",
+        "notes"
+      ],
+      "attributes": {
+        "description": "use right hand",
+        "context": "for the next at least three to four weeks"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0023",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "Follow-up visit",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Follow-up visit",
+        "cui": "C0589121",
+        "score": 0.8487118482589722,
+        "searched_term": "follow-up visit (come back)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0059",
+        "t0068"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0079",
+          "turn_id": "t0059",
+          "text": "come back",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0082",
+          "turn_id": "t0059",
+          "text": "three weeks",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0087",
+          "turn_id": "t0068",
+          "text": "come back",
+          "type": "PROCEDURE"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {
+        "procedure_type": "follow-up visit (come back to see the doctor)",
+        "procedure_status": "planned",
+        "procedure_intent": "diagnostic",
+        "procedure_date": "after maybe three weeks (if pain still there)",
+        "notes": "Re-evaluate in the next three weeks; consider another x-ray if pain does not improve."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0024",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "MedicationStatement",
+      "entity_type": "MEDICATION",
+      "shacl_shape_id": "kgsh:MedicationStatementShape",
+      "canonical_name": "CounterAct Pain",
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "CounterAct Pain",
+        "cui": "C3153730",
+        "score": 0.8059331178665161,
+        "searched_term": "pain reliever (new)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0065"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0084",
+          "turn_id": "t0065",
+          "text": "pain reliever",
+          "type": "MEDICATION"
+        }
+      ],
+      "attribute_options": [
+        "dose_value",
+        "dose_unit",
+        "dose_raw",
+        "frequency_text",
+        "route",
+        "status",
+        "start_date",
+        "end_date",
+        "indication",
+        "medication_status",
+        "notes"
+      ],
+      "attributes": {
+        "medication_status": "none",
+        "notes": "Mentioned as \"regular pain reliever\" in context of resting."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0025",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "LabTest",
+      "entity_type": "LAB_TEST",
+      "shacl_shape_id": "kgsh:LabTestShape",
+      "canonical_name": "x-ray (future/considered)",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0068"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0086",
+          "turn_id": "t0068",
+          "text": "x-ray",
+          "type": "LAB_TEST"
+        }
+      ],
+      "attribute_options": [
+        "result_value",
+        "result_unit",
+        "interpretation",
+        "specimen",
+        "collection_time",
+        "status",
+        "notes"
+      ],
+      "attributes": {
+        "notes": "Patient asked about taking another x-ray at follow-up if pain does not improve; doctor said \"maybe\" and to see how she is doing in the next three weeks."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0026",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "MedicationStatement",
+      "entity_type": "MEDICATION",
+      "shacl_shape_id": "kgsh:MedicationStatementShape",
+      "canonical_name": "naproxen",
+      "ontology": {
+        "source": "RXNORM",
+        "preferred_term": "naproxen",
+        "cui": "C0027396",
+        "score": 0.9767904877662659,
+        "searched_term": "naproxen (new)",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0079",
+        "t0083"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0107",
+          "turn_id": "t0079",
+          "text": "advil",
+          "type": "MEDICATION"
+        },
+        {
+          "mention_id": "m0108",
+          "turn_id": "t0083",
+          "text": "aleve",
+          "type": "MEDICATION"
+        }
+      ],
+      "attribute_options": [
+        "dose_value",
+        "dose_unit",
+        "dose_raw",
+        "frequency_text",
+        "route",
+        "status",
+        "start_date",
+        "end_date",
+        "indication",
+        "medication_status",
+        "notes"
+      ],
+      "attributes": {
+        "medication_status": "about to start",
+        "notes": "Doctor suggested trying Advil; also clarified Aleve."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0027",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Condition",
+      "entity_type": "PROBLEM",
+      "shacl_shape_id": "kgsh:ConditionShape",
+      "canonical_name": "Left shoulder pain",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Left shoulder pain",
+        "cui": "C5700073",
+        "score": 1.0,
+        "searched_term": "left shoulder pain",
+        "method": "initial"
+      },
+      "ontology_strategy": "initial",
+      "turn_ids": [
+        "t0069",
+        "t0078"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0091",
+          "turn_id": "t0069",
+          "text": "next three weeks",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0100",
+          "turn_id": "t0078",
+          "text": "pain",
+          "type": "PROBLEM"
+        },
+        {
+          "mention_id": "m0104",
+          "turn_id": "t0078",
+          "text": "earlier",
+          "type": "TIME"
+        },
+        {
+          "mention_id": "m0105",
+          "turn_id": "t0078",
+          "text": "three weeks",
+          "type": "TIME"
+        }
+      ],
+      "attribute_options": [
+        "status",
+        "onset",
+        "severity",
+        "temporality",
+        "negation",
+        "body_site",
+        "course",
+        "reaction",
+        "duration",
+        "impact",
+        "notes"
+      ],
+      "attributes": {
+        "status": "active",
+        "notes": "Patient asked about calling the doctor if pain worsens and about an earlier appointment than three weeks."
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0028",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "order medications and procedures",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0071"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0092",
+          "turn_id": "t0071",
+          "text": "order",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0094",
+          "turn_id": "t0071",
+          "text": "procedures",
+          "type": "PROCEDURE"
+        },
+        {
+          "mention_id": "m0093",
+          "turn_id": "t0071",
+          "text": "medications",
+          "type": "MEDICATION"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {
+        "procedure_type": "order medications and procedures",
+        "procedure_status": "planned",
+        "notes": "Clinician voice command: \"order medications and procedures as discussed.\""
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0029",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "call doctor",
+      "ontology": null,
+      "ontology_strategy": null,
+      "turn_ids": [
+        "t0078"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0101",
+          "turn_id": "t0078",
+          "text": "call",
+          "type": "PROCEDURE"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {
+        "procedure_type": "call the doctor",
+        "procedure_status": "planned",
+        "procedure_intent": "for more pain"
+      }
+    },
+    {
+      "id": "clinicalnlp_taskB_test1_full_8_n0030",
+      "encounter_id": "clinicalnlp_taskB_test1_full_8",
+      "class": "Procedure",
+      "entity_type": "PROCEDURE",
+      "shacl_shape_id": "kgsh:ProcedureShape",
+      "canonical_name": "Appointment",
+      "ontology": {
+        "source": "SNOMEDCT",
+        "preferred_term": "Appointment status",
+        "cui": "C0586344",
+        "score": 0.8883394002914429,
+        "searched_term": "appointment",
+        "method": "faiss"
+      },
+      "ontology_strategy": "faiss",
+      "turn_ids": [
+        "t0078"
+      ],
+      "mentions": [
+        {
+          "mention_id": "m0103",
+          "turn_id": "t0078",
+          "text": "appointment",
+          "type": "PROCEDURE"
+        }
+      ],
+      "attribute_options": [
+        "procedure_type",
+        "procedure_subject",
+        "procedure_status",
+        "procedure_intent",
+        "procedure_body_site",
+        "procedure_approach",
+        "procedure_performer",
+        "procedure_location",
+        "procedure_date",
+        "procedure_duration",
+        "procedure_outcome",
+        "notes"
+      ],
+      "attributes": {
+        "procedure_type": "appointment",
+        "procedure_status": "planned",
+        "procedure_date": "earlier than three weeks",
+        "notes": "Patient asked about scheduling an earlier appointment if pain increases."
+      }
+    }
+  ],
+  "relationship_candidates": [
+    {
+      "pair_id": "pn0001_n0002",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "cooccurrence_count": 18,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "clinician",
+      "llm_relation": {
+        "pair_id": "pn0001_n0002",
+        "relation": "evaluated_by",
+        "direction": "source->target",
+        "explanation": "The clinician is conducting the visit (history/exam and plan) for Mrs. Anderson.",
+        "evidence_turn_ids": [
+          "t0003",
+          "t0005",
+          "t0017",
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0003",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0003",
+      "cooccurrence_count": 3,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Dragon (voice assistant/system)",
+      "llm_relation": {
+        "pair_id": "pn0001_n0003",
+        "relation": "has_observation",
+        "direction": "source->target",
+        "explanation": "Dragon (voice assistant/system) is used in the encounter in relation to the patient's visit.",
+        "evidence_turn_ids": [
+          "t0005",
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0004",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0004",
+      "cooccurrence_count": 12,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Left shoulder pain",
+      "llm_relation": {
+        "pair_id": "pn0001_n0004",
+        "relation": "has_symptom",
+        "direction": "source->target",
+        "explanation": "Patient reports left shoulder pain as the presenting complaint.",
+        "evidence_turn_ids": [
+          "t0004",
+          "t0006"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0005",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0005",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Pain",
+      "llm_relation": {
+        "pair_id": "pn0001_n0005",
+        "relation": "has_symptom",
+        "direction": "source->target",
+        "explanation": "Pain is discussed as an active complaint in the context of her shoulder problem.",
+        "evidence_turn_ids": [
+          "t0035",
+          "t0059"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0007",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0007",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Follow-up visit",
+      "llm_relation": {
+        "pair_id": "pn0001_n0007",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Although 'follow-up visit' is mentioned, the transcript does not clearly state Mrs. Anderson underwent or is scheduled for that specific procedure at that moment.",
+        "evidence_turn_ids": [
+          "t0001"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0008",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0008",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "pain medications",
+      "llm_relation": {
+        "pair_id": "pn0001_n0008",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "The patient denies taking pain medications but then clarifies she did take Tylenol; this makes the generic 'pain medications' statement ambiguous for a single relation.",
+        "evidence_turn_ids": [
+          "t0010"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0009",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0009",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Tylenol",
+      "llm_relation": {
+        "pair_id": "pn0001_n0009",
+        "relation": "has_medication",
+        "direction": "source->target",
+        "explanation": "Patient reports taking Tylenol for two or three days.",
+        "evidence_turn_ids": [
+          "t0010"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0010",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0010",
+      "cooccurrence_count": 3,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Pain of left shoulder joint",
+      "llm_relation": {
+        "pair_id": "pn0001_n0010",
+        "relation": "has_activity",
+        "direction": "source->target",
+        "explanation": "Patient describes shoulder movement (moving up/movement) during exam maneuvers.",
+        "evidence_turn_ids": [
+          "t0018",
+          "t0020",
+          "t0024"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0011",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0011",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "gymnastics class",
+      "llm_relation": {
+        "pair_id": "pn0001_n0011",
+        "relation": "has_activity",
+        "direction": "source->target",
+        "explanation": "Patient reports being in gymnastics class when the shoulder pain started.",
+        "evidence_turn_ids": [
+          "t0012"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0012",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0012",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "X-ray",
+      "llm_relation": {
+        "pair_id": "pn0001_n0012",
+        "relation": "has_lab_test",
+        "direction": "source->target",
+        "explanation": "An x-ray is referenced/reviewed for the patient during the encounter.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0013",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0013",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Simple fracture",
+      "llm_relation": {
+        "pair_id": "pn0001_n0013",
+        "relation": "denies_condition",
+        "direction": "source->target",
+        "explanation": "Clinician states the x-ray does not show a broken bone or fracture, implying absence of fracture.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0014",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0014",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Injury of left shoulder (disorder)",
+      "llm_relation": {
+        "pair_id": "pn0001_n0014",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Clinician suggests a possible joint injury, but does not clearly diagnose a specific 'injury of left shoulder' condition for the patient in a definitive way.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0017",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0017",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Past surgery on left arm",
+      "llm_relation": {
+        "pair_id": "pn0001_n0017",
+        "relation": "has_procedure",
+        "direction": "source->target",
+        "explanation": "Patient reports a past surgery on her left arm.",
+        "evidence_turn_ids": [
+          "t0038"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0018",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0018",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Left arm",
+      "llm_relation": {
+        "pair_id": "pn0001_n0018",
+        "relation": "has_observation",
+        "direction": "source->target",
+        "explanation": "Left arm is referenced as the limb to rest while healing, an observation associated with the patient.",
+        "evidence_turn_ids": [
+          "t0043",
+          "t0045"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0020",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0020",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Healing",
+      "llm_relation": {
+        "pair_id": "pn0001_n0020",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "'Healing' is mentioned as a general process; it is not clearly stated as a distinct condition the patient has (it is used as context for resting the arm).",
+        "evidence_turn_ids": [
+          "t0045"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0021",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0021",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Carrying heavy weights",
+      "llm_relation": {
+        "pair_id": "pn0001_n0021",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "The clinician advises not to carry heavy weights, but the patient does not explicitly deny doing this activity; it's a recommendation/avoidance instruction rather than a denial by the patient.",
+        "evidence_turn_ids": [
+          "t0048",
+          "t0049"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0023",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0023",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Follow-up visit",
+      "llm_relation": {
+        "pair_id": "pn0001_n0023",
+        "relation": "has_procedure",
+        "direction": "source->target",
+        "explanation": "Clinician instructs the patient to come back for follow-up if pain persists after about three weeks (planned follow-up visit).",
+        "evidence_turn_ids": [
+          "t0059"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0025",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0025",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "x-ray (future/considered)",
+      "llm_relation": {
+        "pair_id": "pn0001_n0025",
+        "relation": "has_lab_test",
+        "direction": "source->target",
+        "explanation": "A possible future repeat x-ray is discussed for the patient if pain does not improve.",
+        "evidence_turn_ids": [
+          "t0068",
+          "t0069"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0026",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0026",
+      "cooccurrence_count": 3,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "naproxen",
+      "llm_relation": {
+        "pair_id": "pn0001_n0026",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "The clinician suggests trying Advil/Aleve, but this is a recommendation/prescribing action by the clinician; the patient is not documented as taking it yet.",
+        "evidence_turn_ids": [
+          "t0079",
+          "t0083"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0027",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0027",
+      "cooccurrence_count": 4,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Left shoulder pain",
+      "llm_relation": {
+        "pair_id": "pn0001_n0027",
+        "relation": "has_symptom",
+        "direction": "source->target",
+        "explanation": "Patient discusses ongoing pain and follow-up timing in relation to her left shoulder pain.",
+        "evidence_turn_ids": [
+          "t0078"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0029",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0029",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "call doctor",
+      "llm_relation": {
+        "pair_id": "pn0001_n0029",
+        "relation": "has_procedure",
+        "direction": "source->target",
+        "explanation": "Patient asks about calling the doctor if she has more pain, indicating a planned action/procedure for the patient.",
+        "evidence_turn_ids": [
+          "t0078"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0030",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0030",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Appointment",
+      "llm_relation": {
+        "pair_id": "pn0001_n0030",
+        "relation": "has_procedure",
+        "direction": "source->target",
+        "explanation": "Patient asks about setting up another appointment earlier than three weeks, indicating a planned appointment procedure for the patient.",
+        "evidence_turn_ids": [
+          "t0078"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0003",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0003",
+      "cooccurrence_count": 4,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Dragon (voice assistant/system)",
+      "llm_relation": {
+        "pair_id": "pn0002_n0003",
+        "relation": "has_observation",
+        "direction": "source->target",
+        "explanation": "Clinician invokes/uses the Dragon system during the visit, linking the clinician to this encounter observation/context.",
+        "evidence_turn_ids": [
+          "t0005",
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0004",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0004",
+      "cooccurrence_count": 10,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Left shoulder pain",
+      "llm_relation": {
+        "pair_id": "pn0002_n0004",
+        "relation": "diagnosed",
+        "direction": "source->target",
+        "explanation": "Clinician is evaluating the complaint in this encounter (reviewing x-ray, examining movement/pain) and managing the left shoulder pain.",
+        "evidence_turn_ids": [
+          "t0005",
+          "t0025",
+          "t0033"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0005",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0005",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Pain",
+      "llm_relation": {
+        "pair_id": "pn0002_n0005",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Pain is mentioned generally, but no clear clinician diagnosis/assessment is made specifically for the generic 'Pain' entity beyond the shoulder complaint already captured.",
+        "evidence_turn_ids": [
+          "t0035",
+          "t0041",
+          "t0059",
+          "t0068"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0007",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0007",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Follow-up visit",
+      "llm_relation": {
+        "pair_id": "pn0002_n0007",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "The 'Follow-up visit' mention here is not clearly tied to a specific clinician action toward this procedure in the transcript context provided.",
+        "evidence_turn_ids": [
+          "t0001"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0010",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0010",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 1,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Pain of left shoulder joint",
+      "llm_relation": {
+        "pair_id": "pn0002_n0010",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No allowed relation links a clinician to an Activity here; the transcript describes the patient's painful movement but not as a clinician-associated activity relation.",
+        "evidence_turn_ids": [
+          "t0018",
+          "t0020",
+          "t0024"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0012",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0012",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "X-ray",
+      "llm_relation": {
+        "pair_id": "pn0002_n0012",
+        "relation": "ordered_test",
+        "direction": "source->target",
+        "explanation": "Clinician reviews/requests the last x-ray during the encounter ('show the doctor the last x-ray'), consistent with clinician-directed imaging evaluation.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0013",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0013",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Simple fracture",
+      "llm_relation": {
+        "pair_id": "pn0002_n0013",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Although fracture is stated as absent, the available relations do not support clinician->condition negation; thus no relation is assigned for this pair direction/type.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0014",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0014",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Injury of left shoulder (disorder)",
+      "llm_relation": {
+        "pair_id": "pn0002_n0014",
+        "relation": "diagnosed",
+        "direction": "source->target",
+        "explanation": "Clinician states an assessment/guess that the patient likely hurt the shoulder joint, which is a clinician assessment in this encounter.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0018",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0018",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Left arm",
+      "llm_relation": {
+        "pair_id": "pn0002_n0018",
+        "relation": "has_observation",
+        "direction": "source->target",
+        "explanation": "Clinician discusses the patient's left arm in the context of resting/healing, associating this observation (left arm) with the clinician's encounter notes.",
+        "evidence_turn_ids": [
+          "t0043",
+          "t0045"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0019",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0019",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Rest (left arm)",
+      "llm_relation": {
+        "pair_id": "pn0002_n0019",
+        "relation": "recommended",
+        "direction": "source->target",
+        "explanation": "Clinician advises resting the left arm while it is healing ('try to rest Mrs. Anderson's left arm').",
+        "evidence_turn_ids": [
+          "t0043",
+          "t0045",
+          "t0065"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0023",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0023",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Follow-up visit",
+      "llm_relation": {
+        "pair_id": "pn0002_n0023",
+        "relation": "recommended",
+        "direction": "source->target",
+        "explanation": "Clinician instructs the patient to come back to see the doctor if pain persists after about three weeks, i.e., recommends a follow-up visit.",
+        "evidence_turn_ids": [
+          "t0059",
+          "t0069"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0026",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0026",
+      "cooccurrence_count": 3,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "naproxen",
+      "llm_relation": {
+        "pair_id": "pn0002_n0026",
+        "relation": "recommended",
+        "direction": "source->target",
+        "explanation": "Clinician suggests trying Advil/Aleve for pain relief.",
+        "evidence_turn_ids": [
+          "t0079",
+          "t0083"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0027",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0027",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Left shoulder pain",
+      "llm_relation": {
+        "pair_id": "pn0002_n0027",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "This pair is clinician->condition, but the pain is discussed as the patient's complaint rather than a distinct clinician diagnosis/assessment in these turns beyond what is already captured elsewhere.",
+        "evidence_turn_ids": [
+          "t0078"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0029",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0029",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "call doctor",
+      "llm_relation": {
+        "pair_id": "pn0002_n0029",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "The call-doctor action is initiated/asked by the patient; no clinician recommendation to call is explicitly made.",
+        "evidence_turn_ids": [
+          "t0078"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0030",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0030",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Appointment",
+      "llm_relation": {
+        "pair_id": "pn0002_n0030",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "The earlier appointment is asked by the patient; the clinician does not explicitly recommend or schedule it in the provided turns.",
+        "evidence_turn_ids": [
+          "t0078"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0003_n0004",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0003",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0004",
+      "cooccurrence_count": 4,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Dragon (voice assistant/system)",
+      "target_canonical_name": "Left shoulder pain",
+      "llm_relation": {
+        "pair_id": "pn0003_n0004",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No allowed relation links an Observation (Dragon system) to a Condition (left shoulder pain) in the provided schema.",
+        "evidence_turn_ids": [
+          "t0005",
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0003_n0010",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0003",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0010",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Dragon (voice assistant/system)",
+      "target_canonical_name": "Pain of left shoulder joint",
+      "llm_relation": {
+        "pair_id": "pn0003_n0010",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No allowed relation links an Observation (Dragon system) to an Activity in the provided schema.",
+        "evidence_turn_ids": [
+          "t0018",
+          "t0020",
+          "t0024"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0003_n0012",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0003",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0012",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Dragon (voice assistant/system)",
+      "target_canonical_name": "X-ray",
+      "llm_relation": {
+        "pair_id": "pn0003_n0012",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No allowed relation links an Observation (Dragon system) to a LabTest in the provided schema.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0003_n0013",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0003",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0013",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Dragon (voice assistant/system)",
+      "target_canonical_name": "Simple fracture",
+      "llm_relation": {
+        "pair_id": "pn0003_n0013",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Source is an Observation (Dragon system), but available relations do not support Observation->Condition links.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0003_n0014",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0003",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0014",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Dragon (voice assistant/system)",
+      "target_canonical_name": "Injury of left shoulder (disorder)",
+      "llm_relation": {
+        "pair_id": "pn0003_n0014",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Source is an Observation (Dragon system), but available relations do not support Observation->Condition links.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0008",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0008",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Left shoulder pain",
+      "target_canonical_name": "pain medications",
+      "llm_relation": {
+        "pair_id": "pn0004_n0008",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links Condition (left shoulder pain) to a MedicationStatement; schema only allows Medication->Condition (e.g., treats) or Person->Medication.",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0010"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0009",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0009",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Left shoulder pain",
+      "target_canonical_name": "Tylenol",
+      "llm_relation": {
+        "pair_id": "pn0004_n0009",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links Condition (left shoulder pain) to a MedicationStatement (Tylenol) in this direction; schema would require Person->Medication or Medication->Condition.",
+        "evidence_turn_ids": [
+          "t0010"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0010",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0010",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Left shoulder pain",
+      "target_canonical_name": "Pain of left shoulder joint",
+      "llm_relation": {
+        "pair_id": "pn0004_n0010",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links Condition to Activity; available activity relations require Person(patient) as source.",
+        "evidence_turn_ids": [
+          "t0018",
+          "t0024"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0012",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0012",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Left shoulder pain",
+      "target_canonical_name": "X-ray",
+      "llm_relation": {
+        "pair_id": "pn0004_n0012",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links Condition to LabTest; available lab relations require Person->LabTest or LabTest->Condition.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0013",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0013",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Left shoulder pain",
+      "target_canonical_name": "Simple fracture",
+      "llm_relation": {
+        "pair_id": "pn0004_n0013",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links one Condition (left shoulder pain) to another Condition (fracture) in this schema.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0014",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0014",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Left shoulder pain",
+      "target_canonical_name": "Injury of left shoulder (disorder)",
+      "llm_relation": {
+        "pair_id": "pn0004_n0014",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links one Condition (left shoulder pain) to another Condition (shoulder injury) in this schema.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0015",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0015",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Left shoulder pain",
+      "target_canonical_name": "Application of ice",
+      "llm_relation": {
+        "pair_id": "pn0004_n0015",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links Condition to Procedure; available procedure relations require Person(patient) as source or clinician recommendation.",
+        "evidence_turn_ids": [
+          "t0033",
+          "t0035"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0004_n0016",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0004",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0016",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Left shoulder pain",
+      "target_canonical_name": "Heat pad treatment (procedure)",
+      "llm_relation": {
+        "pair_id": "pn0004_n0016",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links Condition to Procedure; available procedure relations require Person(patient) as source or clinician recommendation.",
+        "evidence_turn_ids": [
+          "t0033",
+          "t0035"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0015",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0015",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Pain",
+      "target_canonical_name": "Application of ice",
+      "llm_relation": {
+        "pair_id": "pn0005_n0015",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links Condition (pain) to Procedure (ice); procedure relations require Person(patient) as source or clinician recommendation.",
+        "evidence_turn_ids": [
+          "t0033",
+          "t0035"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0016",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0016",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Pain",
+      "target_canonical_name": "Heat pad treatment (procedure)",
+      "llm_relation": {
+        "pair_id": "pn0005_n0016",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links Condition (pain) to Procedure (heat pad); procedure relations require Person(patient) as source or clinician recommendation.",
+        "evidence_turn_ids": [
+          "t0033",
+          "t0035"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0017",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0017",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Pain",
+      "target_canonical_name": "Past surgery on left arm",
+      "llm_relation": {
+        "pair_id": "pn0005_n0017",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links Condition (pain) to Procedure (past surgery); procedure relations require Person(patient) as source.",
+        "evidence_turn_ids": [
+          "t0038",
+          "t0041"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0023",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0023",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Pain",
+      "target_canonical_name": "Follow-up visit",
+      "llm_relation": {
+        "pair_id": "pn0005_n0023",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links Condition (pain) to Procedure (follow-up visit); procedure relations require Person(patient) as source or clinician recommendation.",
+        "evidence_turn_ids": [
+          "t0059"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0025",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0025",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Pain",
+      "target_canonical_name": "x-ray (future/considered)",
+      "llm_relation": {
+        "pair_id": "pn0005_n0025",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links Condition (pain) to LabTest (future x-ray); lab relations require Person->LabTest or clinician ordered_test.",
+        "evidence_turn_ids": [
+          "t0068",
+          "t0069"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0005_n0027",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0005",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0027",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Pain",
+      "target_canonical_name": "Left shoulder pain",
+      "llm_relation": {
+        "pair_id": "pn0005_n0027",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links one Condition (pain) to another Condition (left shoulder pain) in this schema.",
+        "evidence_turn_ids": [
+          "t0078"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0008_n0009",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0008",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0009",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "pain medications",
+      "target_canonical_name": "Tylenol",
+      "llm_relation": {
+        "pair_id": "pn0008_n0009",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links MedicationStatement to MedicationStatement except interacts_with/duplicate_therapy_with/replaces, none of which are supported; 'pain medications' is a general category and Tylenol is an example, but that relation is not available.",
+        "evidence_turn_ids": [
+          "t0010"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0010_n0012",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0010",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0012",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Pain of left shoulder joint",
+      "target_canonical_name": "X-ray",
+      "llm_relation": {
+        "pair_id": "pn0010_n0012",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links Activity to LabTest in this schema.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0010_n0013",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0010",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0013",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Pain of left shoulder joint",
+      "target_canonical_name": "Simple fracture",
+      "llm_relation": {
+        "pair_id": "pn0010_n0013",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links Activity to Condition in this schema.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0010_n0014",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0010",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0014",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Pain of left shoulder joint",
+      "target_canonical_name": "Injury of left shoulder (disorder)",
+      "llm_relation": {
+        "pair_id": "pn0010_n0014",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links Activity to Condition in this schema.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0012_n0013",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0012",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0013",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "X-ray",
+      "target_canonical_name": "Simple fracture",
+      "llm_relation": {
+        "pair_id": "pn0012_n0013",
+        "relation": "rules_out",
+        "direction": "source->target",
+        "explanation": "Clinician states the x-ray does not show any broken bone or fracture, arguing against fracture.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0012_n0014",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0012",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0014",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "X-ray",
+      "target_canonical_name": "Injury of left shoulder (disorder)",
+      "llm_relation": {
+        "pair_id": "pn0012_n0014",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "X-ray is used to rule out fracture; it is not stated that the x-ray result is consistent with or supports a left shoulder joint injury.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0013_n0014",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0013",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0014",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Simple fracture",
+      "target_canonical_name": "Injury of left shoulder (disorder)",
+      "llm_relation": {
+        "pair_id": "pn0013_n0014",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No explicit clinical relationship stated between (negated) fracture and left shoulder injury beyond being alternative considerations.",
+        "evidence_turn_ids": [
+          "t0025"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0015_n0016",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0015",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0016",
+      "cooccurrence_count": 2,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Application of ice",
+      "target_canonical_name": "Heat pad treatment (procedure)",
+      "llm_relation": {
+        "pair_id": "pn0015_n0016",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Ice and heat pad are mentioned as options, but no defined relation option links one procedure to another.",
+        "evidence_turn_ids": [
+          "t0033",
+          "t0035"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0018_n0019",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0018",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0019",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Left arm",
+      "target_canonical_name": "Rest (left arm)",
+      "llm_relation": {
+        "pair_id": "pn0018_n0019",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No available relation option links an Observation (left arm) to a Procedure (rest).",
+        "evidence_turn_ids": [
+          "t0043",
+          "t0045"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0018_n0020",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0018",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0020",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Left arm",
+      "target_canonical_name": "Healing",
+      "llm_relation": {
+        "pair_id": "pn0018_n0020",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No available relation option links an Observation (left arm) to a Condition (healing).",
+        "evidence_turn_ids": [
+          "t0045"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0019_n0024",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0019",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0024",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Rest (left arm)",
+      "target_canonical_name": "CounterAct Pain",
+      "llm_relation": {
+        "pair_id": "pn0019_n0024",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links a Procedure (rest) to a MedicationStatement (pain reliever).",
+        "evidence_turn_ids": [
+          "t0065"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0023_n0025",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0023",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0025",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Follow-up visit",
+      "target_canonical_name": "x-ray (future/considered)",
+      "llm_relation": {
+        "pair_id": "pn0023_n0025",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links a Procedure (follow-up visit) to a LabTest (future x-ray).",
+        "evidence_turn_ids": [
+          "t0059",
+          "t0068",
+          "t0069"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0023_n0027",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0023",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0027",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "Follow-up visit",
+      "target_canonical_name": "Left shoulder pain",
+      "llm_relation": {
+        "pair_id": "pn0023_n0027",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links a Procedure (follow-up visit) to a Condition (left shoulder pain).",
+        "evidence_turn_ids": [
+          "t0059"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0025_n0027",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0025",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0027",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "x-ray (future/considered)",
+      "target_canonical_name": "Left shoulder pain",
+      "llm_relation": {
+        "pair_id": "pn0025_n0027",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No statement that the (future/considered) x-ray would monitor or be consistent with the pain; it is only discussed as a possible repeat test.",
+        "evidence_turn_ids": [
+          "t0068",
+          "t0069"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0026_n0027",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0026",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0027",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "naproxen",
+      "target_canonical_name": "Left shoulder pain",
+      "llm_relation": {
+        "pair_id": "pn0026_n0027",
+        "relation": "treats",
+        "direction": "source->target",
+        "explanation": "Clinician suggests Aleve/Advil as pain relievers to help with the patient's pain, implying treatment of left shoulder pain.",
+        "evidence_turn_ids": [
+          "t0079",
+          "t0083"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0026_n0029",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0026",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0029",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "naproxen",
+      "target_canonical_name": "call doctor",
+      "llm_relation": {
+        "pair_id": "pn0026_n0029",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links a MedicationStatement to a Procedure (call doctor).",
+        "evidence_turn_ids": [
+          "t0078",
+          "t0079"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0026_n0030",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0026",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0030",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 1,
+      "source_canonical_name": "naproxen",
+      "target_canonical_name": "Appointment",
+      "llm_relation": {
+        "pair_id": "pn0026_n0030",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links a MedicationStatement to a Procedure (appointment).",
+        "evidence_turn_ids": [
+          "t0078",
+          "t0079"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0027_n0029",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0027",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0029",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Left shoulder pain",
+      "target_canonical_name": "call doctor",
+      "llm_relation": {
+        "pair_id": "pn0027_n0029",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links a Condition (pain) to a Procedure (call doctor).",
+        "evidence_turn_ids": [
+          "t0078"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0027_n0030",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0027",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0030",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "Left shoulder pain",
+      "target_canonical_name": "Appointment",
+      "llm_relation": {
+        "pair_id": "pn0027_n0030",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links a Condition (pain) to a Procedure (appointment).",
+        "evidence_turn_ids": [
+          "t0078"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0029_n0030",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0029",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0030",
+      "cooccurrence_count": 1,
+      "min_turn_distance": 0,
+      "source_canonical_name": "call doctor",
+      "target_canonical_name": "Appointment",
+      "llm_relation": {
+        "pair_id": "pn0029_n0030",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "No relation option links one Procedure (call doctor) to another Procedure (appointment).",
+        "evidence_turn_ids": [
+          "t0078"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0006",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0006",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 2,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "ibuprofen",
+      "llm_relation": {
+        "pair_id": "pn0001_n0006",
+        "relation": "has_medication",
+        "direction": "source->target",
+        "explanation": "Clinician recommends ibuprofen regimen for the patient to use for a week, indicating the patient is to take it.",
+        "evidence_turn_ids": [
+          "t0029",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0015",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0015",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 3,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Application of ice",
+      "llm_relation": {
+        "pair_id": "pn0001_n0015",
+        "relation": "has_procedure",
+        "direction": "source->target",
+        "explanation": "Clinician advises the patient can use ice to help relieve pain (planned self-care intervention).",
+        "evidence_turn_ids": [
+          "t0033",
+          "t0035"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0016",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0016",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 3,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Heat pad treatment (procedure)",
+      "llm_relation": {
+        "pair_id": "pn0001_n0016",
+        "relation": "has_procedure",
+        "direction": "source->target",
+        "explanation": "Clinician advises the patient can use a heat pad to help relieve pain (planned self-care intervention).",
+        "evidence_turn_ids": [
+          "t0033",
+          "t0035"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0019",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0019",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 2,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Rest (left arm)",
+      "llm_relation": {
+        "pair_id": "pn0001_n0019",
+        "relation": "has_procedure",
+        "direction": "source->target",
+        "explanation": "Clinician instructs the patient to rest the left arm while it is healing.",
+        "evidence_turn_ids": [
+          "t0043",
+          "t0045",
+          "t0065"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0022",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0022",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 5,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "Right hand",
+      "llm_relation": {
+        "pair_id": "pn0001_n0022",
+        "relation": "has_observation",
+        "direction": "source->target",
+        "explanation": "Clinician instructs the patient to use the right hand for the next 3–4 weeks, associating this observation/instruction with Mrs. Anderson.",
+        "evidence_turn_ids": [
+          "t0053",
+          "t0057"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0024",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0024",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 3,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "CounterAct Pain",
+      "llm_relation": {
+        "pair_id": "pn0001_n0024",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "The transcript mentions a generic 'pain reliever' but does not clearly establish Mrs. Anderson taking the specific medication statement labeled 'CounterAct Pain.'",
+        "evidence_turn_ids": [
+          "t0065"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0001_n0028",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0001",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0028",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 2,
+      "source_canonical_name": "Mrs. Anderson",
+      "target_canonical_name": "order medications and procedures",
+      "llm_relation": {
+        "pair_id": "pn0001_n0028",
+        "relation": "has_procedure",
+        "direction": "source->target",
+        "explanation": "Clinician issues a command to order medications and procedures as discussed, implying a planned ordering procedure for the patient.",
+        "evidence_turn_ids": [
+          "t0071"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0006",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0006",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 2,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "ibuprofen",
+      "llm_relation": {
+        "pair_id": "pn0002_n0006",
+        "relation": "prescribed",
+        "direction": "source->target",
+        "explanation": "Clinician suggests/initiates ibuprofen 600 mg three times daily for a week.",
+        "evidence_turn_ids": [
+          "t0029",
+          "t0031"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0008",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0008",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 4,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "pain medications",
+      "llm_relation": {
+        "pair_id": "pn0002_n0008",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Pain medications are discussed, but the clinician is not stated to prescribe them; the patient reports prior use/avoidance.",
+        "evidence_turn_ids": [
+          "t0009",
+          "t0010"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0009",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0009",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 4,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Tylenol",
+      "llm_relation": {
+        "pair_id": "pn0002_n0009",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Tylenol use is reported by the patient, not prescribed by the clinician in this encounter.",
+        "evidence_turn_ids": [
+          "t0010"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0011",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0011",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 5,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "gymnastics class",
+      "llm_relation": {
+        "pair_id": "pn0002_n0011",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Gymnastics class is mentioned by the patient as context for injury, but this pair is clinician->activity and no clinician recommendation/participation is stated.",
+        "evidence_turn_ids": [
+          "t0012"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0015",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0015",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 8,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Application of ice",
+      "llm_relation": {
+        "pair_id": "pn0002_n0015",
+        "relation": "recommended",
+        "direction": "source->target",
+        "explanation": "Clinician recommends using ice if pain persists.",
+        "evidence_turn_ids": [
+          "t0033",
+          "t0035"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0016",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0016",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 8,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Heat pad treatment (procedure)",
+      "llm_relation": {
+        "pair_id": "pn0002_n0016",
+        "relation": "recommended",
+        "direction": "source->target",
+        "explanation": "Clinician recommends using a heat pad if pain persists.",
+        "evidence_turn_ids": [
+          "t0033",
+          "t0035"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0017",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0017",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 2,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Past surgery on left arm",
+      "llm_relation": {
+        "pair_id": "pn0002_n0017",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Past left arm surgery is reported/discussed, but the pair is clinician->procedure and there is no statement that the clinician performed or ordered that past surgery.",
+        "evidence_turn_ids": [
+          "t0038",
+          "t0041"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0020",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0020",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 2,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Healing",
+      "llm_relation": {
+        "pair_id": "pn0002_n0020",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "‘Healing’ is mentioned as a general process while resting the arm; the clinician does not diagnose a specific condition labeled 'Healing.'",
+        "evidence_turn_ids": [
+          "t0045"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0021",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0021",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 5,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Carrying heavy weights",
+      "llm_relation": {
+        "pair_id": "pn0002_n0021",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "Clinician advises against carrying heavy weights, but available relations do not include clinician->activity prohibition; 'recommended' does not apply because it is not a recommendation to do the activity.",
+        "evidence_turn_ids": [
+          "t0048",
+          "t0049"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0022",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0022",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 2,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "Right hand",
+      "llm_relation": {
+        "pair_id": "pn0002_n0022",
+        "relation": "has_observation",
+        "direction": "source->target",
+        "explanation": "Clinician instructs use of the right hand for the next 3–4 weeks, documenting this observation/instruction.",
+        "evidence_turn_ids": [
+          "t0053",
+          "t0057"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0024",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0024",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 6,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "CounterAct Pain",
+      "llm_relation": {
+        "pair_id": "pn0002_n0024",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "The clinician references 'regular pain reliever' generally, but does not specify or prescribe the medication statement labeled 'CounterAct Pain.'",
+        "evidence_turn_ids": [
+          "t0065"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0025",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0025",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 5,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "x-ray (future/considered)",
+      "llm_relation": {
+        "pair_id": "pn0002_n0025",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "A future x-ray is discussed as a possibility ('maybe') but not clearly ordered by the clinician.",
+        "evidence_turn_ids": [
+          "t0068",
+          "t0069"
+        ]
+      }
+    },
+    {
+      "pair_id": "pn0002_n0028",
+      "source_node_id": "clinicalnlp_taskB_test1_full_8_n0002",
+      "target_node_id": "clinicalnlp_taskB_test1_full_8_n0028",
+      "cooccurrence_count": 0,
+      "min_turn_distance": 2,
+      "source_canonical_name": "clinician",
+      "target_canonical_name": "order medications and procedures",
+      "llm_relation": {
+        "pair_id": "pn0002_n0028",
+        "relation": "no_relation",
+        "direction": "source->target",
+        "explanation": "The utterance is a voice command to place orders, but it does not explicitly state the clinician performed a procedure on the patient; it is an administrative ordering action not captured by available clinician->procedure relations beyond 'recommended' (not applicable).",
+        "evidence_turn_ids": [
+          "t0071"
+        ]
+      }
+    }
+  ],
+  "shacl_shapes_ttl": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix kg: <http://example.org/kg#> .\n@prefix kgsh: <http://example.org/kg/shapes#> .\n\nkgsh:PersonShape\n    a sh:NodeShape ;\n    sh:targetClass kg:Person ;\n    sh:property         [ sh:path kg:name;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:age;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:gender;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:job;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:occupation;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:role;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:hobbies;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:location;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:relationship;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:patient_agreement;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n.\n\nkgsh:ConditionShape\n    a sh:NodeShape ;\n    sh:targetClass kg:Condition ;\n    sh:property         [ sh:path kg:status;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:onset;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:severity;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:temporality;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:negation;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:body_site;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:course;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:reaction;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:duration;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:impact;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n.\n\nkgsh:MedicationStatementShape\n    a sh:NodeShape ;\n    sh:targetClass kg:MedicationStatement ;\n    sh:property         [ sh:path kg:dose_value;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:dose_unit;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:dose_raw;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:frequency_text;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:route;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:status;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:start_date;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:end_date;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:indication;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:medication_status;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n.\n\nkgsh:LabTestShape\n    a sh:NodeShape ;\n    sh:targetClass kg:LabTest ;\n    sh:property         [ sh:path kg:result_value;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:result_unit;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:interpretation;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:specimen;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:collection_time;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:status;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n.\n\nkgsh:ProcedureShape\n    a sh:NodeShape ;\n    sh:targetClass kg:Procedure ;\n    sh:property         [ sh:path kg:procedure_type;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_subject;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_status;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_intent;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_body_site;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_approach;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_performer;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_location;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_date;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_duration;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:procedure_outcome;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n.\n\nkgsh:TimeShape\n    a sh:NodeShape ;\n    sh:targetClass kg:Time ;\n    sh:property         [ sh:path kg:time_text;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_kind;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_normalized;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_granularity;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_value;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_unit;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_start;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_end;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_anchor;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:time_reference;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n.\n\nkgsh:ActivityShape\n    a sh:NodeShape ;\n    sh:targetClass kg:Activity ;\n    sh:property         [ sh:path kg:activity_type;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_frequency;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_amount;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_intensity;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_duration;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_context;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_status;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_start_date;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:activity_end_date;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n.\n\nkgsh:ObservationShape\n    a sh:NodeShape ;\n    sh:targetClass kg:Observation ;\n    sh:property         [ sh:path kg:description;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:value_text;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:context;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ] ;\n    sh:property         [ sh:path kg:notes;\n                sh:datatype xsd:string;\n                sh:maxCount 1\n        ]\n."
+}

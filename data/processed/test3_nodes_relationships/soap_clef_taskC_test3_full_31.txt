@@ -1,0 +1,38 @@
+HISTORY OF PRESENT ILLNESS  
+Billy is a 74-year-old teacher who presents for evaluation of cough and right knee pain after a fall. [n0001][n0003][n0011][pn0001_n0003][pn0001_n0011]  
+He reports a productive cough with yellow sputum that started about a week ago and has been getting worse over the last two days, with partial relief from OTC cough/cold medications. [n0003][n0033][pn0001_n0003][pn0001_n0033]  
+He reports nasal congestion with postnasal drip and a little sinus pain/pressure. [n0005][n0020][n0021][pn0001_n0005][pn0001_n0020][pn0001_n0021]  
+He denies fever and chills and denies shortness of breath, though he feels a little achy at times. [n0004][n0015][n0016][n0017][pn0001_n0004][pn0001_n0015][pn0001_n0016][pn0001_n0017]  
+He reports no one else is sick in the household. [n0022][pn0001_n0022]  
+This morning, he fell down about four or five stairs while coughing and twisted/injured his right knee with pain mostly on the inside and a slight limp. [n0011][n0028][n0031][pn0001_n0011][pn0001_n0028][pn0001_n0031]  
+He reports he is still able to walk and can bend and straighten the knee, and he denies knee instability. [n0029][n0030][n0032][pn0001_n0029][pn0001_n0030][pn0001_n0032]  
+His past medical problems include hypertension and diabetes mellitus, and he reports taking lisinopril and metformin. [n0007][n0008][n0009][n0010][pn0001_n0007][pn0001_n0008][pn0001_n0009][pn0001_n0010]  
+He reports he is not watching his diet/salt intake and is not monitoring sugar intake or checking blood sugars. [n0025][n0035][n0036][n0078][pn0001_n0025][pn0001_n0035][pn0001_n0036][pn0001_n0078]  
+
+PHYSICAL EXAM  
+Vital signs in the office were reassuring, including temperature 98.4, blood pressure 125/62, heart rate in the eighties, and oxygen saturation 97% on room air. [n0046][n0047][n0006][n0048][n0049][pn0001_n0046][pn0001_n0047][pn0001_n0006][pn0001_n0048][pn0001_n0049]  
+Facial exam demonstrated bilateral maxillary sinus tenderness. [n0050][n0051][pn0001_n0050][pn0001_n0051]  
+Nasal exam showed erythema and edema of the nasal turbinates bilaterally with yellow discharge. [n0053][pn0001_n0053]  
+Throat exam showed uvula midline with no erythema, edema, or exudate in the peritonsillar space. [n0054][pn0001_n0054]  
+Neck exam demonstrated bilateral cervical lymphadenopathy. [n0055][pn0001_n0055]  
+Lung exam revealed coarse rhonchi bilaterally that cleared with cough. [n0056][pn0001_n0056]  
+Cardiovascular exam showed regular rate and rhythm with no murmur appreciated. [n0057][pn0001_n0057]  
+Right knee exam was notable for pain to palpation and with movement with decreased flexion and extension and ecchymosis over the right medial knee, without evidence of effusion. [n0058][n0059][pn0001_n0058][pn0001_n0059]  
+
+RESULTS  
+A lipid panel was ordered. [n0012][pn0001_n0012]  
+Hemoglobin A1c was ordered to assess diabetes control and guide potential metformin adjustments. [n0013][n0010][n0077][pn0001_n0013][pn0010_n0013]  
+Right knee x-ray (right views) was ordered to evaluate for bony injury after the fall. [n0076][n0028][pn0001_n0076][pn0001_n0028]  
+A chest x-ray may be considered if symptoms worsen to help rule out pneumonia. [n0069][n0070][n0071][pn0001_n0069][pn0001_n0070][pn0070_n0071]  
+
+ASSESSMENT AND PLAN  
+Cough with upper respiratory infection/viral syndrome and probable mild bronchitis with pulmonary congestion. [n0003][n0060][n0061][n0062][n0063][pn0001_n0060][pn0001_n0061][pn0001_n0062][pn0001_n0063]  
+Plan for respiratory symptoms: supportive care and continue OTC medications, and start guaifenesin 600 mg twice daily to help with phlegm. [n0064][n0065][n0066][pn0001_n0064][pn0001_n0065][pn0001_n0066]  
+No antibiotics are recommended at this time, and the patient should call if symptoms worsen. [n0067][n0068][pn0001_n0068]  
+
+Right knee injury after fall, assessed as right medial collateral ligament strain with right knee pain. [n0011][n0072][n0059][n0073][pn0001_n0011][pn0001_n0072][pn0001_n0073]  
+Plan for knee: start meloxicam 15 mg once daily, obtain right knee x-ray, and refer to physical therapy. [n0074][n0075][n0076][pn0001_n0074][pn0001_n0075][pn0001_n0076]  
+
+Hypertension with normal office blood pressure; continue lisinopril 20 mg daily and obtain a lipid panel. [n0009][n0006][n0007][n0012][pn0001_n0009][pn0001_n0006][pn0001_n0007][pn0001_n0012]  
+Diabetes mellitus with poor self-monitoring; order hemoglobin A1c, counsel to monitor sugar intake and report blood sugars through the patient portal, and continue metformin pending results. [n0010][n0036][n0013][n0078][n0079][n0077][pn0001_n0010][pn0001_n0036][pn0001_n0013][pn0002_n0078][pn0001_n0079][pn0001_n0077]  
+The patient agrees with the plan and will try to monitor sugar intake and report blood sugars through the patient portal. [n0001]

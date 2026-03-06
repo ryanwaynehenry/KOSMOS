@@ -1,0 +1,28 @@
+HISTORY OF PRESENT ILLNESS  
+Cheryl is a 34-year-old female who presents for evaluation of back pain. [n0001][n0004][pn0001_n0004]  
+Her back pain started about six days ago when her back “seized up/clenched” all of a sudden while walking. [n0004][n0005][n0009][pn0001_n0004][pn0001_n0005][pn0001_n0009]  
+Pain is located in the lower back/lumbar spine and is on both sides equally. [n0004]  
+She reports she has been walking a lot lately (30 minutes to an hour daily) and may have been walking a little faster when the pain started. [n0009][n0010][pn0001_n0009][pn0001_n0010]  
+She reports lifting more (around three times per week) and did deadlifts that day before going for a walk, though she is unsure if this contributed. [n0019][n0020][n0018][pn0001_n0019][pn0001_n0020][pn0001_n0018]  
+She has tried ibuprofen and heat therapy but remains pretty stiff. [n0011][n0012][n0013][pn0001_n0011][pn0001_n0012][pn0001_n0013]  
+She denies numbness/tingling in the legs/feet and denies lower extremity weakness. [n0021][n0022][pn0001_n0021][pn0001_n0022]  
+On review of systems, she reports a little bit of nasal congestion attributed to seasonal allergies and denies fever, chills, cough, chest pain, and shortness of breath. [n0030][n0034][n0035][n0028][n0029][n0031][n0032][n0033][pn0001_n0030][pn0001_n0034][pn0001_n0035]  
+She has chronic hypertension and reports home blood pressure readings have been looking great using a blood pressure cuff obtained after the last visit. [n0003][n0006][n0023][n0024][pn0001_n0003][pn0001_n0006][pn0001_n0023]  
+She is currently taking lisinopril 10 mg daily for high blood pressure. [n0007][n0063][pn0001_n0007][pn0001_n0063]  
+
+PHYSICAL EXAM  
+In-office vital signs were reviewed and were noted to look great with blood pressure really well controlled. [n0037][n0006][n0038][pn0002_n0038]  
+Cardiac exam revealed a slight 2/6 systolic ejection murmur that appears stable and has been present previously. [n0043][n0044][pn0001_n0043][pn0001_n0044][pn0002_n0044]  
+Back exam showed pain to palpation on the right lateral aspect of the lumbar spine and pain with flexion and extension, with a negative straight leg raise. [n0045][n0046][n0004][pn0001_n0045][pn0001_n0046]  
+
+RESULTS  
+Lumbar spine x-ray showed good bony alignment with no obvious fracture and was interpreted as normal. [n0047][pn0001_n0047]  
+Laboratory testing done prior to the visit was normal, including a white blood cell count that was not elevated, with no signs of infection. [n0050][n0051][n0052][pn0001_n0050][pn0001_n0051][pn0001_n0052]  
+
+ASSESSMENT AND PLAN  
+Lumbar strain causing acute low back pain and stiffness, possibly related to lifting or exercise. [n0053][n0004][n0011][n0059][n0060][pn0001_n0053][pn0002_n0053]  
+Start meloxicam 15 mg once daily for lumbar strain/back pain. [n0054][pn0001_n0054][pn0002_n0054][pn0053_n0054]  
+Recommend ice application and intermittent heat therapy for symptom relief. [n0055][n0056][pn0002_n0055][pn0002_n0056]  
+Refer to physical therapy for back strengthening exercises to support continued workouts/exercise. [n0057][n0058][n0061][pn0002_n0057][pn0002_n0058]  
+Hypertension is stable and well controlled by home and office readings. [n0003][n0006][n0037][pn0001_n0003]  
+Continue lisinopril 10 mg PO daily and provide a refill. [n0007][n0062][n0063][pn0002_n0007][pn0002_n0063]

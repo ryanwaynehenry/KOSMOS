@@ -1,0 +1,39 @@
+HISTORY OF PRESENT ILLNESS  
+Hannah presents for follow-up with an active cough that began about three days ago, initially gradual and now productive of green phlegm. [n0001][n0004][pn0001_n0004]  
+She reports the cough started after being around her sister who was sick with similar symptoms. [n0004][n0005][n0006][pn0004_n0006][pn0005_n0006]  
+Associated symptoms include a little sore throat and a little nasal congestion. [n0013][n0014][pn0001_n0013][pn0001_n0014]  
+She denies shortness of breath and denies fever. [n0003][n0015][pn0001_n0003][pn0001_n0015]  
+She denies generalized body aches, nausea, vomiting, and diarrhea. [n0021][n0022][n0023][n0027][pn0001_n0021][pn0001_n0022][pn0001_n0023][pn0001_n0027]  
+She has been drinking lots of water and has tried over-the-counter cough medication without benefit. [n0016][n0017][pn0001_n0016][pn0001_n0017]  
+She reports seasonal allergy symptoms around springtime with a little sneezing and runny nose. [n0018][n0019][n0020][pn0001_n0018][pn0001_n0019][pn0001_n0020]  
+She was on vacation last week, felt okay during the vacation, and started to feel poorly after getting back. [n0033][n0034][n0038][pn0001_n0033][pn0001_n0034][pn0001_n0038]  
+Regarding chronic conditions, she has type 2 diabetes mellitus and reports blood sugars running around 120. [n0010][n0007][pn0001_n0010][pn0001_n0007]  
+She is currently taking metformin 500 mg and reports no problems tolerating it. [n0025][n0026][pn0001_n0025][pn0001_n0026]  
+She has hypertension with blood pressure reported in the 140s/70s and has been taking hydrochlorothiazide every day. [n0008][n0009][n0028][pn0001_n0008][pn0001_n0009][pn0001_n0028]  
+She has been trying to stay away from salty foods but reports some trouble with sugar intake, and the clinician notes she is making good progress with dietary changes. [n0030][n0031][n0032][pn0001_n0030][pn0001_n0031][pn0001_n0032]  
+
+PHYSICAL EXAM  
+Vital signs were reviewed and were overall pretty good, with blood pressure elevated at 144/72 mmHg. [n0036][n0008][n0035]  
+Sinus exam showed no frontal sinus tenderness and mild bilateral maxillary sinus tenderness. [n0039][n0040][n0037][pn0001_n0039][pn0001_n0040]  
+Oropharyngeal exam showed pharyngeal erythema with symmetrical tonsils and no tonsillar exudates. [n0041][n0042][n0043][pn0001_n0041][pn0001_n0042][pn0001_n0043]  
+Neck exam showed anterior cervical lymphadenopathy. [n0044][pn0001_n0044]  
+Cardiovascular exam showed regular rate and rhythm with a 2/6 systolic ejection murmur at the left base. [n0045][n0046][pn0001_n0045][pn0001_n0046]  
+Respiratory exam showed lungs clear to auscultation without wheezes, rales, or rhonchi. [n0047][pn0001_n0047]  
+Lower extremity exam showed no edema. [n0048][pn0001_n0048]  
+
+RESULTS  
+Blood pressure was 144/72 mmHg (elevated). [n0008][n0036]  
+Patient-reported blood glucose has been around 120. [n0007][pn0001_n0007]  
+COVID-19 testing is planned/collected today, with results pending. [n0052][n0053][pn0001_n0052][pn0001_n0053]  
+Blood work was obtained at the last visit. [n0055][pn0001_n0055]  
+
+ASSESSMENT AND PLAN  
+Cough assessed as an upper respiratory infection, most likely viral. [n0004][n0049][pn0001_n0049][pn0004_n0049]  
+Plan to check for COVID-19 today, and patient is okay with checking for COVID. [n0011][n0052][n0053][n0001][pn0001_n0052][pn0001_n0053]  
+Symptomatic management: continue cough medicine and consider Coricidin HBP, with caution given blood pressure and diabetes. [n0050][n0051][pn0001_n0050][pn0002_n0051][n0009][n0010]  
+
+Hypertension with elevated blood pressure; increase hydrochlorothiazide to 25 mg once daily and take it in the morning. [n0009][n0057][n0036][pn0002_n0057][pn0002_n0009]  
+Counsel that hydrochlorothiazide can cause increased urination. [n0057][n0058][pn0057_n0058]  
+Continue checking blood pressure a few times a week at different times of day. [n0059][pn0001_n0059][pn0002_n0059]  
+
+Type 2 diabetes mellitus: continue metformin 500 mg (daily or twice a day as directed) and monitor with hemoglobin A1c at the next visit. [n0010][n0054][n0056][pn0001_n0054][pn0001_n0056][pn0002_n0056]

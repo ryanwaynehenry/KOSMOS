@@ -1,0 +1,28 @@
+HISTORY OF PRESENT ILLNESS  
+Emily presents for a follow-up visit for sudden-onset, persistent visual distortion and blurred vision with decreased vision when reading. [n0001][n0008][n0004][n0005][n0003][pn0001_n0004][pn0001_n0005][pn0001_n0003]  
+She describes metamorphopsia with straight lines and door frames appearing crooked. [n0006][n0012][n0004][pn0001_n0006][pn0001_n0012]  
+She also reports difficulty adjusting to dim lights, such as when taking her husband out to a nice restaurant. [n0007][n0014][pn0001_n0007]  
+She is currently smoking about a pack of cigarettes per day and has found it hard to stop completely. [n0016][n0001][pn0001_n0016]  
+She checks her blood pressure when she can remember. [n0017][n0001][pn0001_n0017]  
+She agrees with the plan for monthly Lucentis injections. [n0001][n0032][n0031][pn0001_n0032][pn0001_n0031]  
+
+PHYSICAL EXAM  
+A diagnostic eye examination (anterior segment, fundus, and posterior segment exam) was completed by the doctor. [n0019][pn0001_n0019][pn0001_n0002]  
+Anterior segment exam shows posterior chamber intraocular lenses present in both eyes. [n0020][pn0001_n0020]  
+Right eye exam findings include drusen in the macula with retinal thickening, subretinal fluid, exudates, and hemorrhage, with retina attached 360 degrees without tears or holes. [n0021][pn0001_n0021]  
+Left eye exam findings include cup-to-disc 0.3 with no hemorrhage or subretinal fluid and an attached retina. [n0023][n0022][pn0002_n0023][pn0001_n0022]  
+Cup-to-disc ratio is documented as 0.2 in the right eye and 0.3 in the left eye. [n0022]  
+
+RESULTS  
+Optical coherence tomography shows drusen deposit with subretinal fluid accumulation and a visualized choroidal neovascular membrane. [n0025][pn0025_n0027]  
+Fluorescein angiography shows focal areas of leakage in the right eye consistent with neovascular age-related macular degeneration. [n0026][n0027][pn0026_n0027]  
+Overall diagnostic measures reviewed (including OCT and fluorescein angiography) are consistent with neovascular age-related macular degeneration in the right eye. [n0024][n0027][pn0024_n0027]  
+
+ASSESSMENT AND PLAN  
+Neovascular (wet) age-related macular degeneration of the right eye is diagnosed based on exam and diagnostic testing. [n0027][n0021][n0024][pn0001_n0027][pn0021_n0027][pn0024_n0027]  
+Discussed that wet AMD is due to abnormal blood vessels growing beneath the retina that can leak fluid and blood and can lead to severe vision loss and a central scotoma. [n0027][n0029][n0030][n0028][pn0027_n0029][pn0027_n0030][pn0027_n0028]  
+Plan is to start Lucentis via intravitreal injection once a month, given regularly over time. [n0032][n0031][pn0002_n0032][pn0002_n0031]  
+Blood pressure monitoring was discussed, and the patient was advised to check it regularly and keep a log. [n0017][pn0002_n0017]  
+The clinician discussed the patient’s blood pressure medication in the context of keeping up with it. [n0018][pn0002_n0018]  
+Smoking status was reviewed, noting she continues to smoke about one pack per day and has difficulty stopping. [n0016][n0001][pn0001_n0016]  
+Patient agrees with the treatment plan for monthly Lucentis injections. [n0001][n0032][pn0001_n0032]

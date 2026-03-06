@@ -1,0 +1,35 @@
+HISTORY OF PRESENT ILLNESS  
+Christopher Watson is an 86-year-old male presenting for his first follow-up visit since ventriculoperitoneal shunt surgery on August 1, 2020 for adult hydrocephalus. [n0001][n0004][n0016][pn0001_n0004][pn0001_n0016][pn0001_n0005]  
+His adult hydrocephalus was associated with progressive gait impairment, cognitive impairment, and decreased bladder control over the prior 8–10 years, with onset noted in May 2020. [n0005][n0020][pn0001_n0005][pn0001_n0020]  
+Since shunt placement, he reports overall clinical improvement and is very pleased with the degree of improvement. [n0011][pn0001_n0011][pn0002_n0011]  
+His gait has improved such that he can now walk to the dining room, though he still sometimes needs help. [n0006][n0011][n0020][pn0001_n0006][pn0001_n0011]  
+Cognitively, he reports he no longer feels lost when talking to someone, and family reports he can have a normal conversation again. [n0007][n0013][pn0001_n0007]  
+Urinary incontinence persists and he is wearing diapers, with some improvement after surgery that has leveled out. [n0008][n0021][n0043][pn0001_n0008][pn0001_n0021][pn0001_n0043]  
+He denies headaches, pain at the shunt site, abdominal pain, and pain in general. [n0009][n0023][n0024][n0029][pn0001_n0009][pn0001_n0023][pn0001_n0024][pn0001_n0029]  
+He denies decreased urine output, painful urination, and skin sores from diaper use. [n0014][n0015][n0022][pn0001_n0014][pn0001_n0015][pn0001_n0022]  
+He denies having been sick since the shunt surgery. [n0018][pn0001_n0018]  
+On review of systems, he denies fever, unintentional weight loss, recent falls, hallucinations, depression, worrying, mood swings, and genital sores, but reports difficulty performing activities of daily living. [n0040][n0041][n0042][n0044][n0045][n0046][n0047][n0048][n0049][pn0001_n0040][pn0001_n0041]  
+He asked about resuming driving and expressed a desire to be safe, including for tasks such as running to the store. [n0031][n0032][n0038][n0039][pn0001_n0031][pn0001_n0032][pn0001_n0038][pn0001_n0039]  
+
+PHYSICAL EXAM  
+Vital signs include BP 124/80, HR 64 bpm, RR 18, weight 174 lb, and pain score 0/10. [n0050][n0051][n0052][n0053][n0054][pn0001_n0050][pn0001_n0051]  
+Shunt site exam shows the site is clean, dry, and intact, and the shunt setting is confirmed at 2. [n0055][n0004][pn0001_n0055]  
+Neurologic exam shows pupils equal, extraocular movements intact, face symmetric, no dysarthria, normal motor bulk and strength, and slow coordination on finger-to-nose testing. [n0058][pn0001_n0058]  
+
+RESULTS  
+CT head from 10/15/2020 was abnormal and showed a tiny blood/fluid collection in the right parietal region and a tiny subdermal collection with blood in the right frontal region, which was not documented by the radiologist. [n0010][n0026][n0061][pn0001_n0010][pn0001_n0026][pn0001_n0061]  
+The tiny blood/fluid collection was noted to be not causing symptoms. [n0026][n0027][pn0002_n0026]  
+CT measurements included a frontal horn span of 4.6 cm and a flat third ventricular contour with span 10 mm. [n0059][n0060][n0010][pn0001_n0059][pn0001_n0060]  
+The radiology read stated there were no extra-axial fluid collections. [n0062][pn0001_n0062]  
+CT also showed substantial small vessel ischemic change consistent with cerebral small vessel disease. [n0063][n0010][pn0001_n0063][pn0010_n0063]  
+MMSE was 26/30 (spelling) and 25/30 (calculations), slightly improved from prior 24/30 and 23/30, respectively. [n0056][n0007][pn0001_n0056]  
+Tinetti gait/balance testing (without an assistive device) showed gait 6–8/12, balance 12/16, total 18–20/28, slightly improved from prior total 15–17/28. [n0057][n0006][pn0001_n0057]  
+
+ASSESSMENT AND PLAN  
+Adult hydrocephalus status post ventriculoperitoneal programmable shunt (Medtronic Strata) placed 8/1/2020, with overall clinical improvement at this follow-up. [n0005][n0004][n0003][n0011][pn0001_n0005][pn0001_n0004][pn0001_n0011]  
+Gait difficulty is improving but persists, and cognitive impairment is improving with slight improvement on MMSE. [n0006][n0007][n0056][n0057][pn0001_n0006][pn0001_n0007]  
+Urinary incontinence and urinary urgency persist, and he continues to use diapers. [n0008][n0064][n0021][pn0001_n0008][pn0001_n0064][pn0001_n0021]  
+CT head shows tiny right parietal blood/fluid collection and tiny right frontal subdermal blood collection without symptoms, and substantial small vessel ischemic change. [n0010][n0026][n0061][n0063][pn0001_n0010][pn0001_n0026][pn0001_n0061][pn0001_n0063]  
+Shunt management: plan is to leave the shunt setting unchanged for another 2–3 months before considering a setting change. [n0028][pn0001_n0028][pn0002_n0028]  
+Follow-up is planned in three months, with scheduling arranged at the front desk. [n0030][n0037][pn0001_n0030][pn0001_n0037]  
+Driving: due to slow movement speed, the clinician stated it is unlikely he would pass a driver safety evaluation at this point, though he may improve over 9–12 months, and the clinician recommended considering enrollment in a driver safety program. [n0033][n0034][n0035][pn0001_n0033][pn0002_n0035]

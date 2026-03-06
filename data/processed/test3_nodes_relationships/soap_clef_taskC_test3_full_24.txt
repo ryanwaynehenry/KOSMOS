@@ -1,0 +1,37 @@
+HISTORY OF PRESENT ILLNESS  
+Karen is a 34-year-old female who presents with abdominal pain. [n0001][n0003][pn0001_n0003]  
+The pain began about 10 days ago, is located on the right side/right upper quadrant, waxes and wanes, and has been getting worse over the last couple of days. [n0003]  
+Pain severity is generally 4–5/10 and can reach 7–8/10 at worst. [n0003]  
+The pain is worse after meals, is not too bad in the morning before eating, may radiate a little to the left, and is tender with pressing and certain positions. [n0003][n0017][pn0001_n0017]  
+She reports some nausea, mild reduced appetite over the last week, mild fatigue over the last week, and a little bit of heartburn. [n0018][n0027][n0029][n0020]  
+She reports chills but no documented fevers and no fever today. [n0054][n0005][pn0001_n0005]  
+She denies vomiting, urinary symptoms (including dysuria and hematuria), diarrhea, blood in stool, and any change in bowel habits. [n0019][n0023][n0021][n0022][n0024][n0025][n0026]  
+She reports no unusual travel or other exposures and notes her only travel was back to Wisconsin. [n0035][n0036][pn0001_n0036]  
+She reports she did not watch the Super Bowl and has not eaten anything unusual, including no junk food consumption in that context. [n0030][n0034][n0031][pn0001_n0031]  
+Past history includes chronic migraines with rare recent episodes and chronic hypertension that has seemed stable. [n0055][n0010][pn0001_n0010]  
+For migraines, she uses Excedrin Migraine as needed and sumatriptan as needed for breakthrough migraine pain, and she requested a refill of sumatriptan. [n0008][n0007][n0061][pn0001_n0007]  
+For hypertension, she takes lisinopril 20 mg daily and requested a refill because she is running low. [n0009][n0040][n0060][pn0001_n0009]  
+
+PHYSICAL EXAM  
+A physical examination was performed and was overall pretty normal and unremarkable for the most part. [n0041][pn0001_n0041]  
+Cardiovascular exam revealed a stable grade 3/6 systolic ejection murmur unchanged from prior exam. [n0042][n0043][pn0001_n0043]  
+Abdominal exam showed mild to moderate right upper quadrant tenderness with an equivocal Murphy sign (pain with deep breath and palpation). [n0044][n0004][pn0001_n0004]  
+The rest of the abdomen was soft with no significant tenderness, with no right lower quadrant tenderness on deep palpation and no CVA tenderness. [n0045][n0046][n0047]  
+
+RESULTS  
+CBC, Chem 12 (comprehensive metabolic panel), urinalysis, pregnancy test, and a right upper quadrant ultrasound were ordered today/right away, with a plan to follow up on results today before letting her go. [n0011][n0012][n0013][n0014][n0015]  
+Home blood pressure readings are usually systolic in the 120s to low 130s and diastolic in the 70s, and blood pressure was noted to be a little elevated today. [n0039]  
+
+ASSESSMENT AND PLAN  
+Acute right upper quadrant abdominal pain with mild to moderate tenderness and an equivocal Murphy sign, with concern for gallstones and possible gallbladder infection. [n0003][n0004][n0048][n0049][pn0002_n0048][pn0002_n0049]  
+Proceed with the ordered CBC, Chem 12, urinalysis, pregnancy test, and right upper quadrant ultrasound and review results today prior to disposition. [n0011][n0012][n0013][n0014][n0015][n0062]  
+She was instructed to remain NPO (not eat anything) right now in case something is found that might require surgery. [n0052][n0053][pn0002_n0052]  
+Depending on test results, she may need transfer/referral to the emergency department today. [n0051]  
+Plan for follow-up visit in about four weeks. [n0016][pn0001_n0016]  
+
+Hypertension assessed as under adequate control; continue lisinopril 20 mg daily and provide refill prescription sent to the pharmacy. [n0010][n0009][n0060][pn0002_n0009]  
+She was advised to continue checking blood pressures daily. [n0059]  
+
+Chronic migraine with rare recent episodes; continue Excedrin as needed and provide sumatriptan refill prescription for breakthrough migraine pain. [n0055][n0008][n0007][n0061]  
+Lifestyle counseling for migraine prevention included continuing to avoid alcohol binges and caffeine binges and trying to get enough sleep. [n0056][n0057][n0058]  
+The patient agrees that the plan sounds good. [n0001]

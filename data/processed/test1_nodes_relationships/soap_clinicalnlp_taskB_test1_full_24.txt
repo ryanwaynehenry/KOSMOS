@@ -1,0 +1,34 @@
+HISTORY OF PRESENT ILLNESS
+
+Matthew presents for evaluation of back pain and leg pain after referral from his primary care provider. [n0001][n0010][pn0001_n0010][pn0001_n0003]  
+He reports longstanding low back pain that became “real bad” about a month ago. [n0004][n0019][pn0001_n0004][pn0003_n0019]  
+He describes pain radiating from the back into the hip and down the leg to the side of the calf and the big toe, consistent with left-sided sciatica symptoms. [n0005][n0008][n0029][n0035][n0037][n0038][pn0001_n0005][pn0001_n0008][pn0001_n0029]  
+Pain severity has been reported as 8/10, and he also reports it is currently 6/10 with episodes up to 13/10 when severe. [n0005][n0008][n0034][pn0001_n0008][pn0001_n0034]  
+Sitting worsens his symptoms, including worsening after sitting in the waiting room for 30 minutes. [n0011][n0050][pn0001_n0011][pn0001_n0050]  
+Standing makes his back pain worse, and he reports functional limitation including being unable to tie his shoes and being bedridden. [n0004][n0013][n0014][n0016][pn0001_n0004][pn0001_n0013][pn0001_n0014][pn0001_n0016]  
+He reports that coughing and sneezing worsen his symptoms and that lying down makes symptoms better. [n0005][n0030][n0031][pn0001_n0030][pn0001_n0031]  
+He reports leg weakness and intermittent foot drag when walking and has been using a cane. [n0025][n0039][n0040][n0041][pn0001_n0025][pn0001_n0039][pn0001_n0040][pn0001_n0041]  
+He has tried NSAIDs in the past without relief and reports he did not take his usual medications prior to today’s visit so the clinician could evaluate him “as he is.” [n0020][n0057][pn0001_n0020][pn0001_n0057]  
+He reports a remote fall from a roof about 30 years ago with possible lumbar fracture and subsequent inability to play football. [n0017][n0018][pn0001_n0018][pn0004_n0017]  
+
+PHYSICAL EXAM
+
+Vital signs were reviewed and noted to “look good.” [n0044][pn0001_n0044]  
+Back exam showed no bony abnormalities, no redness, and no bruising. [n0045][pn0001_n0045]  
+There was pain to palpation at the L4 vertebra. [n0046][n0048][pn0001_n0046][pn0001_n0048]  
+He had pain with lumbar flexion and extension. [n0049][pn0001_n0049]  
+Lower extremity strength testing showed 4/5 strength on the left and 5/5 on the right. [n0051][pn0001_n0051]  
+Lower extremity reflexes were brisk. [n0052][pn0001_n0052]  
+Lower extremity motor and sensory exams were intact. [n0053][n0054][pn0001_n0053][pn0001_n0054]  
+
+RESULTS
+
+Lumbar spine MRI showed a disc herniation at L4-L5 with some nerve root impingement. [n0006][pn0001_n0006]  
+
+ASSESSMENT AND PLAN
+
+Assessment is acute lumbar disc herniation at L4-L5 with associated nerve root compression syndrome causing low back pain with left-sided radicular symptoms. [n0004][n0005][n0055][n0056][pn0001_n0055][pn0001_n0056][pn0004_n0055][pn0055_n0056]  
+Plan is epidural steroid injection today with anti-inflammatory medication placed at the spot of inflammation, with expectation that full effect may take 2–3 weeks. [n0007][n0059][n0060][pn0001_n0007][pn0001_n0059][pn0001_n0060][pn0059_n0060]  
+After the injection, the plan is to refer back to physical therapy to strengthen the area and follow up again in about a month. [n0009][n0058][pn0001_n0009][pn0002_n0058]  
+A nurse will prepare the patient for the procedure. [n0061][n0062][pn0001_n0061][pn0001_n0062]  
+The patient agrees with the treatment plan (epidural steroid injection today, then physical therapy, with follow-up in about a month). [n0001][n0009][pn0001_n0009]

@@ -1,0 +1,24 @@
+## HISTORY OF PRESENT ILLNESS
+Alexis presents with numbness and tingling in the right hand associated with prolonged keyboard use. [0][1]  
+Symptoms have been present on and off for about 6 months and have become more persistent over the last month. [2][3]  
+She reports some right-hand pain, mostly while typing, and also with mouse use. [5][7][13][17]  
+She states the numbness and tingling are now constant. [9]  
+Symptoms do not wake her at night and are not affecting sleep. [18][19][21]  
+Ibuprofen helps, and avoiding typing/resting the hand helps the most. [10][11]  
+
+## PHYSICAL EXAM
+Right wrist has pain with bending, including both flexion and extension. [24][25][26][27]  
+Sensory symptoms are primarily in the right thumb, index finger, and middle finger. [28][29]  
+Grip strength is mildly decreased on the right. [32]  
+Tapping over the inside of the wrist/forearm reproduces shooting pain with a positive Tinel’s sign. [32]  
+
+## RESULTS
+No diagnostic test results were available during this visit; an outpatient EMG/nerve conduction study was ordered. [36][38]  
+
+## ASSESSMENT AND PLAN
+Right carpal tunnel syndrome suspected based on symptom distribution, decreased right grip strength, and positive Tinel’s sign in the setting of repetitive keyboard/mouse use. [1][9][13][32][34]  
+Start conservative management with a wrist splint to be worn at night. [34][38]  
+Continue ibuprofen and increase dose to 600 mg four times daily for pain control. [11][34]  
+Order outpatient EMG/nerve conduction study to further evaluate median nerve compression and guide next steps. [36][38]  
+Depending on EMG results, consider adding physical therapy and, if positive and symptoms persist despite conservative care, discuss possible outpatient carpal tunnel release surgery at a follow-up visit. [36][38]  
+Patient agrees with the plan and prefers trying therapy/conservative measures before considering surgery. [37][39]
